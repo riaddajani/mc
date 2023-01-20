@@ -1,0 +1,89 @@
+{
+	id: "351023B042C700E9"
+	group: "7DDA60A5DB5F9F6C"
+	order_index: 0
+	filename: "i_spy_with_my_little_eye"
+	title: "I Spy with my Little Eye"
+	icon: "minecraft:spyglass"
+	subtitle: ["All about Exploring"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit The Better Stronghold"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "It's Better"
+			description: ["You can find lots here, including Arcanus spell books in the libraries"]
+			id: "21789090F6D9D027"
+			tasks: [{
+				id: "57420B926B45C780"
+				type: "structure"
+				icon: {
+					id: "mythicmetals:midas_gold_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "betterstrongholds:stronghold"
+			}]
+			rewards: [{
+				id: "5F5E6E269AEB71D6"
+				type: "item"
+				item: "gofish:golden_crate"
+			}]
+		}
+		{
+			title: "Visit Forgotten Forest"
+			x: -0.5d
+			y: 0.5d
+			subtitle: "It's beautiful at night"
+			id: "6DA08A9E3135D056"
+			tasks: [{
+				id: "4CE2F4F1A310D4FF"
+				type: "biome"
+				icon: "byg:green_enchanted_leaves"
+				biome: "byg:forgotten_forest"
+			}]
+			rewards: [
+				{
+					id: "3D13A29DAD0DD607"
+					type: "item"
+					item: "byg:pink_cherry_sapling"
+				}
+				{
+					id: "697EAF2EE13DB926"
+					type: "item"
+					item: "byg:blue_enchanted_sapling"
+				}
+				{
+					id: "41E3FF201C1D9438"
+					type: "item"
+					item: "byg:green_enchanted_sapling"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			subtitle: "An improved desert temple thanks to Better Desert Temples"
+			description: ["This gigantic new structure has traps, loots, and scary mobs. Can you loot it all?"]
+			id: "2B4A869598C3C703"
+			tasks: [{
+				id: "13B875DFDC0817BE"
+				type: "structure"
+				title: "Find Desert Temple"
+				icon: "prefab:item_magic_temple"
+				structure: "betterdeserttemples:desert_temple"
+			}]
+			rewards: [{
+				id: "672CCDBC107B9B83"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+	]
+	quest_links: [ ]
+}
