@@ -1,0 +1,25 @@
+{
+	"type": "doom:gun_table",
+	"pattern": "abcd",
+	"key": {
+		"a": {
+			"item": "doom:argent_plate",
+			"count": 5
+		},
+		"b": {
+			"item": "gobber2:dragon_star",
+			"count": 6
+		},
+		"c": {
+			"item": "gobber2:gobber2_links_end",
+			"count": 4
+		},
+		"d": {
+			"item": "kubejs:demon_pearl",
+			"count": 1
+		}
+	},
+	"result": {
+		"item": "doom:darklordcrucible"
+	}
+}

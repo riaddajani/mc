@@ -1,0 +1,15 @@
+{
+	id: "da36b0a2-15bb-4110-b588-8c574922f455"
+	type: "player"
+	player_name: "TheGreenB4stard"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "TheGreenB4stard"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59BFFF"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

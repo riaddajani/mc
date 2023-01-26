@@ -1,0 +1,15 @@
+{
+	id: "2f4f4bc8-91af-4ffb-b7d2-4f3c23b27307"
+	type: "player"
+	player_name: "Mean_Bao"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Mean_Bao"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59EF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

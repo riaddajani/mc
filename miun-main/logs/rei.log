@@ -1,0 +1,744 @@
+[00:14:39] [main/INFO] [REI] Registered plugin provider REIServerIntegration [artis] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider ConjuringCommonPlugin [conjuring] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider AdAstraReiCommonPlugin [ad_astra] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider AdornReiServer [adorn] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider AlloyForgeryCommonPlugin [alloy_forgery] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider REICommonIntegration [spectrum] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider REIServerIntegration [artis] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider ConjuringCommonPlugin [conjuring] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider AdAstraReiCommonPlugin [ad_astra] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider AdornReiServer [adorn] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider AlloyForgeryCommonPlugin [alloy_forgery] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider REICommonIntegration [spectrum] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider ReiCompat [travelersbackpack] for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[00:14:39] [main/INFO] [REI] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[00:15:28] [Worker-Main-3/DEBUG] [REI] Processed 0 tags in 134.0 μs for minecraft:worldgen/world_preset
+[00:15:28] [Worker-Main-4/DEBUG] [REI] Processed 0 tags in 17.31 μs for minecraft:worldgen/structure_set
+[00:15:28] [Worker-Main-4/DEBUG] [REI] Processed 0 tags in 11.66 μs for minecraft:dimension_type
+[00:15:28] [Worker-Main-4/DEBUG] [REI] Processed 0 tags in 14.75 μs for minecraft:worldgen/flat_level_generator_preset
+[00:15:28] [Worker-Main-2/DEBUG] [REI] Processed 5 tags in 12.54 ms for minecraft:game_event
+[00:15:28] [Worker-Main-3/DEBUG] [REI] Processed 0 tags in 172.0 μs for minecraft:worldgen/structure
+[00:15:28] [Worker-Main-3/DEBUG] [REI] Processed 2 tags in 169.4 μs for minecraft:mob_effect
+[00:15:28] [Worker-Main-2/DEBUG] [REI] Processed 36 tags in 272.5 μs for minecraft:fluid
+[00:15:28] [Worker-Main-2/DEBUG] [REI] Processed 9 tags in 260.1 μs for minecraft:enchantment
+[00:15:28] [Worker-Main-2/DEBUG] [REI] Processed 85 tags in 2.635 ms for minecraft:entity_type
+[00:15:28] [Worker-Main-4/DEBUG] [REI] Processed 0 tags in 284.8 μs for minecraft:worldgen/biome
+[00:15:28] [Worker-Main-4/DEBUG] [REI] Processed 1 tags in 122.3 μs for minecraft:painting_variant
+[00:15:29] [Worker-Main-4/DEBUG] [REI] Processed 4 tags in 96.86 μs for minecraft:point_of_interest_type
+[00:15:29] [Worker-Main-4/DEBUG] [REI] Processed 2 tags in 49.64 μs for minecraft:cat_variant
+[00:15:29] [Worker-Main-4/DEBUG] [REI] Processed 19 tags in 92.02 μs for minecraft:banner_pattern
+[00:15:29] [Worker-Main-4/DEBUG] [REI] Processed 3 tags in 42.77 μs for minecraft:instrument
+[00:15:30] [Worker-Main-3/DEBUG] [REI] Processed 1676 tags in 91.02 ms for minecraft:block
+[00:15:31] [Worker-Main-2/DEBUG] [REI] Processed 3229 tags in 41.42 ms for minecraft:item
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 3.463 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 27.99 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 17.94 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 12.94 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 14.52 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 12.51 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/" done in 12.45 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 11.56 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 17.78 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/" done in 12.69 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/" done in 36.80 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 15.76 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 23.82 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 14.02 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 15.19 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 13.37 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 35.72 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/" done in 32.43 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 13.84 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 14.68 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/" done in 15.46 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "pre-register/" done in 2.363 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 537.0 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 15.66 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/RecipeManagerContextImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/RecipeManagerContextImpl/" done in 9.767 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 55.42 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 12.65 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 8.696 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/FluidSupportProviderImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 31.13 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/" done in 1.884 ms
+[00:17:07] [main/INFO] [REI] Reloading Plugin Manager [REIPlugin] stage [START], registered 10 plugins: REIServerIntegration of REIServerIntegration [artis], ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring], AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra], AdornReiServer of AdornReiServer [adorn], AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery], DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], REICommonIntegration of REICommonIntegration [spectrum], ReiCompat of ReiCompat [travelersbackpack], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 427.2 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 25.07 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 17.12 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 15.52 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 15.11 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 62.95 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 23.74 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 19.56 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 17.20 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 17.34 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 18.72 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 17.22 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 23.79 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 17.26 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 14.93 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 15.53 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 18.38 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 14.47 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 14.14 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 106.2 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 17.51 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 1.848 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 20.09 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/" done in 17.71 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 30.14 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 22.28 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 18.76 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 17.74 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdornReiServer of AdornReiServer [adorn]/" done in 22.51 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 22.90 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 21.24 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 21.34 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/" done in 2.345 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 1.840 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 26.33 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 16.29 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 17.87 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 21.84 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 18.27 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 37.46 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 18.58 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 15.32 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 18.81 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 3.590 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 127.6 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 18.36 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 22.79 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 21.67 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 22.97 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 18.81 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 51.66 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 35.57 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 18.11 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 19.55 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 2.180 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 18.64 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 18.51 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 17.36 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 28.77 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 17.11 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 17.83 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 18.84 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 17.34 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 20.32 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 17.34 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 1.976 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 2.329 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 390.9 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 35.00 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 19.49 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 15.35 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 14.13 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdornReiServer of AdornReiServer [adorn]/" done in 13.43 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 16.73 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 13.90 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 15.44 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 4.239 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 61.08 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 11.70 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/RecipeManagerContextImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/RecipeManagerContextImpl/" done in 9.641 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 11.95 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 9.910 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 8.913 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/FluidSupportProviderImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 8.934 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/" done in 1.260 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/MenuInfoRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/MenuInfoRegistryImpl/" done in 10.96 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "start-reload/" done in 180.8 μs
+[00:17:07] [main/INFO] [REI] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 10 plugins: REIServerIntegration of REIServerIntegration [artis], ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring], AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra], AdornReiServer of AdornReiServer [adorn], AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery], DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], REICommonIntegration of REICommonIntegration [spectrum], ReiCompat of ReiCompat [travelersbackpack], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 23.41 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/" done in 114.8 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 13.98 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 642.8 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 34.36 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 11.36 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 10.24 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 22.71 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 18.96 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 17.47 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/" done in 4.398 ms
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/MenuInfoRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/MenuInfoRegistryImpl/" done in 12.23 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "end-reload/" done in 128.4 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 269.4 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 11.76 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 16.70 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 9.998 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.225 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 7.611 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/" done in 17.09 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 10.71 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 11.58 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/" done in 11.36 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/" done in 2.546 ms
+[00:17:07] [main/INFO] [REI] Reloaded Plugin Manager [REIPlugin] with 10 plugins in 95.27 ms.
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 13.73 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 8.891 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 11.81 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 11.14 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 14.96 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 12.52 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/" done in 7.769 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 10.91 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 10.47 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/" done in 17.32 μs
+[00:17:07] [main/TRACE] [REI] [START] Reloading Section: "post-register/" done in 1.929 ms
+[00:17:07] [main/INFO] [REI] Reloaded Plugin Manager [REIServerPlugin] with 10 plugins in 14.22 ms.
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 15.21 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 10.75 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 11.98 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 8.002 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.550 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 7.300 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/" done in 7.531 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 12.68 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 17.93 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/" done in 13.04 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/" done in 2.270 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 16.06 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 11.09 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 17.47 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 17.72 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 15.32 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 22.65 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdornReiServer of AdornReiServer [adorn]/" done in 35.74 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 50.97 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 27.23 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/REIServerIntegration of REIServerIntegration [artis]/" done in 17.03 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "pre-register/" done in 11.54 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 12.61 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 60.87 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/RecipeManagerContextImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/RecipeManagerContextImpl/" done in 16.72 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 6.422 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 5.345 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 21.56 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/FluidSupportProviderImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 6.335 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "start-reload/" done in 720.1 μs
+[00:17:07] [main/INFO] [REI] Reloading Plugin Manager [REIPlugin] stage [END], registered 10 plugins: REIServerIntegration of REIServerIntegration [artis], ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring], AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra], AdornReiServer of AdornReiServer [adorn], AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery], DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], REICommonIntegration of REICommonIntegration [spectrum], ReiCompat of ReiCompat [travelersbackpack], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 34.74 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 26.01 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 12.95 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 12.91 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 18.15 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 15.12 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 12.08 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 12.04 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 12.16 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 12.87 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 1.300 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 38.76 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 16.36 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 13.16 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 15.11 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 19.15 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 16.23 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 13.60 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 13.46 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 12.47 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 12.28 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 1.171 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 16.62 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/" done in 12.82 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 12.16 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 12.26 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 25.79 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 14.29 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdornReiServer of AdornReiServer [adorn]/" done in 13.06 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 12.29 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 12.08 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 12.95 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/" done in 7.427 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 24.90 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 11.74 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 15.48 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 18.53 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 11.22 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 9.790 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 10.03 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 10.84 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 10.91 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 11.18 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 1.045 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 10.40 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 20.75 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 13.38 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 12.26 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 15.70 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 12.63 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 12.85 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 113.8 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 14.49 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 12.19 μs
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 1.255 ms
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
+[00:17:07] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 71.65 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 40.73 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 14.08 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 14.14 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 12.29 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 1.600 ms
+[00:17:08] [main/ERROR] [REI] AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery] plugin failed to reloadable-plugin/DisplaySerializerRegistryImpl/!
+java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.registry.display.DisplayCategory in environment type SERVER
+	at net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:59)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:462)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:415)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.defineClassFwd(KnotClassLoader.java:153)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:355)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at wraith.alloyforgery.compat.rei.AlloyForgeryCommonPlugin.registerDisplaySerializer(AlloyForgeryCommonPlugin.java:18)
+	at me.shedaniel.rei.impl.common.display.DisplaySerializerRegistryImpl.acceptPlugin(DisplaySerializerRegistryImpl.java:75)
+	at me.shedaniel.rei.api.common.registry.Reloadable.acceptPlugin(Reloadable.java:72)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$startReload$9(PluginManagerImpl.java:340)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$pluginSection$4(PluginManagerImpl.java:198)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$startReload$10(PluginManagerImpl.java:330)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.pluginSection(PluginManagerImpl.java:196)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.startReload(PluginManagerImpl.java:328)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:123)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:114)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$3(RoughlyEnoughItemsCore.java:144)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_4014.method_18365(class_4014.java:69)
+	at net.minecraft.class_156.method_43498(class_156.java:958)
+	at net.minecraft.class_156.method_43499(class_156.java:946)
+	at net.minecraft.server.Main.main(Main.java:156)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 1.304 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 7.473 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 1.023 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 2.103 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 91.89 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 20.34 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 17.61 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 11.06 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 19.48 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 11.44 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 14.69 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdornReiServer of AdornReiServer [adorn]/" done in 15.42 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 13.19 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 12.41 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 12.14 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 932.9 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 8.132 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 5.208 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/RecipeManagerContextImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/RecipeManagerContextImpl/" done in 25.11 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 6.231 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 5.191 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 5.230 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/FluidSupportProviderImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 5.167 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/" done in 473.8 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "start-reload/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "start-reload/MenuInfoRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "start-reload/MenuInfoRegistryImpl/" done in 34.20 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "start-reload/" done in 89.72 μs
+[00:17:08] [main/INFO] [REI] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 10 plugins: REIServerIntegration of REIServerIntegration [artis], ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring], AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra], AdornReiServer of AdornReiServer [adorn], AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery], DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems], REICommonIntegration of REICommonIntegration [spectrum], ReiCompat of ReiCompat [travelersbackpack], FabricFluidAPISupportPlugin, DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:08] [main/DEBUG] [REI] Added menu info for class net.minecraft.class_1714 [minecraft:plugins/crafting]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@4bef87c1
+[00:17:08] [main/DEBUG] [REI] Added menu info for class net.minecraft.class_1723 [minecraft:plugins/crafting]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@16ee6c4
+[00:17:08] [main/DEBUG] [REI] Added menu info for class net.minecraft.class_3858 [minecraft:plugins/smelting]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@777cd954
+[00:17:08] [main/DEBUG] [REI] Added menu info for class net.minecraft.class_3706 [minecraft:plugins/smoking]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@111c7e3d
+[00:17:08] [main/DEBUG] [REI] Added menu info for class net.minecraft.class_3705 [minecraft:plugins/blasting]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@7385f240
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 8.577 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/" done in 29.63 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:08] [main/DEBUG] [REI] Added menu info for class com.tiviacz.travelersbackpack.inventory.screen.TravelersBackpackBaseScreenHandler [minecraft:plugins/crafting]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@75dda81f
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ReiCompat of ReiCompat [travelersbackpack]/" done in 4.347 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REICommonIntegration of REICommonIntegration [spectrum]/" done in 37.43 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 13.00 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 1.587 ms
+[00:17:08] [main/ERROR] [REI] AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery] plugin failed to reloadable-plugin/MenuInfoRegistryImpl/!
+java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.registry.display.DisplayCategory in environment type SERVER
+	at net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:59)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:462)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:415)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.defineClassFwd(KnotClassLoader.java:153)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:355)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at wraith.alloyforgery.compat.rei.AlloyForgeryCommonPlugin.registerMenuInfo(AlloyForgeryCommonPlugin.java:13)
+	at me.shedaniel.rei.impl.common.transfer.MenuInfoRegistryImpl.acceptPlugin(MenuInfoRegistryImpl.java:149)
+	at me.shedaniel.rei.impl.common.transfer.MenuInfoRegistryImpl.acceptPlugin(MenuInfoRegistryImpl.java:48)
+	at me.shedaniel.rei.api.common.registry.Reloadable.acceptPlugin(Reloadable.java:72)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$startReload$9(PluginManagerImpl.java:340)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$pluginSection$4(PluginManagerImpl.java:198)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$startReload$10(PluginManagerImpl.java:330)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.pluginSection(PluginManagerImpl.java:196)
+	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.startReload(PluginManagerImpl.java:328)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:123)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:114)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$3(RoughlyEnoughItemsCore.java:144)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at net.minecraft.class_4014.method_18365(class_4014.java:69)
+	at net.minecraft.class_156.method_43498(class_156.java:958)
+	at net.minecraft.class_156.method_43499(class_156.java:946)
+	at net.minecraft.server.Main.main(Main.java:156)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdornReiServer of AdornReiServer [adorn]/" done in 31.39 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:08] [main/DEBUG] [REI] Added menu info for class earth.terrarium.ad_astra.common.screen.menu.CompressorMenu [ad_astra:compressor]: earth.terrarium.ad_astra.common.compat.rei.AdAstraReiCommonPlugin$$Lambda$27924/0x00000008043b0e48@3ece1f78
+[00:17:08] [main/DEBUG] [REI] Added menu info for class earth.terrarium.ad_astra.common.screen.menu.NasaWorkbenchMenu [ad_astra:nasa_workbench]: earth.terrarium.ad_astra.common.compat.rei.AdAstraReiCommonPlugin$$Lambda$27924/0x00000008043b0e48@2c25c2d4
+[00:17:08] [main/DEBUG] [REI] Added menu info for class earth.terrarium.ad_astra.common.screen.menu.CryoFreezerMenu [ad_astra:cryo_freezer_conversion]: earth.terrarium.ad_astra.common.compat.rei.AdAstraReiCommonPlugin$$Lambda$27924/0x00000008043b0e48@734dba3f
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 1.517 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:08] [main/DEBUG] [REI] Added menu info for class com.glisco.conjuring.util.SoulfireForgeScreenHandler [conjuring:soulfire_forge]: me.shedaniel.rei.api.common.transfer.info.simple.SimpleMenuInfoProvider$$Lambda$27914/0x00000008043aecb8@7a9505fd
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 2.059 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/REIServerIntegration of REIServerIntegration [artis]/" done in 22.06 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/" done in 22.89 ms
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/MenuInfoRegistryImpl/"
+[00:17:08] [main/DEBUG] [REI] Registered 8 menu infos
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/MenuInfoRegistryImpl/" done in 51.51 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "end-reload/" done in 147.3 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 14.18 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 8.329 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 7.139 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 6.364 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 12.14 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 7.849 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/" done in 6.666 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 6.495 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 10.69 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/" done in 9.664 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/" done in 839.7 μs
+[00:17:08] [main/INFO] [REI] Reloaded Plugin Manager [REIPlugin] with 10 plugins in 112.8 ms.
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 12.01 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 6.550 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ReiCompat of ReiCompat [travelersbackpack]/" done in 6.717 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REICommonIntegration of REICommonIntegration [spectrum]/" done in 6.567 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 6.631 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery]/" done in 8.629 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdornReiServer of AdornReiServer [adorn]/" done in 10.94 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/AdAstraReiCommonPlugin of AdAstraReiCommonPlugin [ad_astra]/" done in 14.06 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/ConjuringCommonPlugin of ConjuringCommonPlugin [conjuring]/" done in 10.06 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/"
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/REIServerIntegration of REIServerIntegration [artis]/" done in 8.574 μs
+[00:17:08] [main/TRACE] [REI] [END] Reloading Section: "post-register/" done in 701.8 μs
+[00:17:08] [main/INFO] [REI] Reloaded Plugin Manager [REIServerPlugin] with 10 plugins in 36.77 ms.

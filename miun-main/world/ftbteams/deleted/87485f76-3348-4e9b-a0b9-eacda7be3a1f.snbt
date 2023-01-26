@@ -1,0 +1,18 @@
+{
+	id: "87485f76-3348-4e9b-a0b9-eacda7be3a1f"
+	type: "party"
+	owner: "da36b0a2-15bb-4110-b588-8c574922f455"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "party"
+		"ftbteams:description": "none"
+		"ftbteams:color": "#59BFFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1674196278978L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"TheGreenB4stard\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1674196311366L, text: "{\"color\":\"gold\",\"translate\":\"ftbteams.message.left_party\",\"with\":[{\"color\":\"yellow\",\"text\":\"TheGreenB4stard\"}]}" }
+	]
+	extra: { }
+}

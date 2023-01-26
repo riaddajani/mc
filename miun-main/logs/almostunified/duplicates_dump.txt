@@ -1,0 +1,423 @@
+# Last execution: 26-01-2023 00:15:34
+minecraft:blasting {
+	bewitchment:silver_ingot_from_blasting_deepslate_silver_ore
+		- bewitchment:silver_ingot_from_blasting_deepslate_silver_ore
+		- bewitchment:silver_ingot_from_blasting_silver_ore
+
+	galosphere:silver_ingot_from_blasting_deepslate_silver_ore
+		- galosphere:silver_ingot_from_blasting_deepslate_silver_ore
+		- galosphere:silver_ingot_from_blasting_silver_ore
+		- indrev:blasting/silver_ingot_from_ore
+		- mythicmetals:blasting/blast_silver_ingot_from_ores
+		- techreborn:blasting/silver_ingot_from_c_silver_ores
+
+	galosphere:silver_ingot_from_blasting_raw_silver
+		- galosphere:silver_ingot_from_blasting_raw_silver
+		- indrev:blasting/silver_ingot_from_raw_ores
+		- modern_industrialization:materials/silver/smelting/raw_metal_to_ingot_blasting
+		- mythicmetals:blasting/blast_silver_ingot_from_raw_ore
+		- techreborn:blasting/silver_ingot_from_c_raw_silver_ores
+
+	minecraft:copper_ingot_from_blasting_sculk_stone_copper_ore
+		- minecraft:copper_ingot_from_blasting_copper_ore
+		- minecraft:copper_ingot_from_blasting_sculk_stone_copper_ore
+
+	minecraft:diamond_from_blasting_sculk_stone_diamond_ore
+		- minecraft:diamond_from_blasting_diamond_ore
+		- minecraft:diamond_from_blasting_sculk_stone_diamond_ore
+
+	minecraft:emerald_from_blasting_sculk_stone_emerald_ore
+		- minecraft:emerald_from_blasting_emerald_ore
+		- minecraft:emerald_from_blasting_sculk_stone_emerald_ore
+
+	minecraft:gold_ingot_from_blasting_sculk_stone_gold_ore
+		- ad_astra:recipes/gold_ingot_from_blasting_venus_gold_ore
+		- minecraft:gold_ingot_from_blasting_sculk_stone_gold_ore
+
+	minecraft:iron_ingot_from_blasting_sculk_stone_iron_ore
+		- minecraft:iron_ingot_from_blasting_iron_ore
+		- minecraft:iron_ingot_from_blasting_sculk_stone_iron_ore
+
+	minecraft:lapis_lazuli_from_blasting_sculk_stone_lapis_ore
+		- minecraft:lapis_lazuli_from_blasting_lapis_ore
+		- minecraft:lapis_lazuli_from_blasting_sculk_stone_lapis_ore
+
+	modern_industrialization:materials/bronze/smelting/dust_to_ingot_blasting
+		- indrev:blasting/bronze_ingot_from_smelting
+		- modern_industrialization:materials/bronze/smelting/dust_to_ingot_blasting
+		- techreborn:blasting/bronze_ingot_from_c_bronze_dusts
+
+	modern_industrialization:materials/electrum/smelting/dust_to_ingot_blasting
+		- indrev:blasting/electrum_ingot_from_smelting
+		- modern_industrialization:materials/electrum/smelting/dust_to_ingot_blasting
+		- techreborn:blasting/electrum_ingot_from_c_electrum_dusts
+
+	modern_industrialization:materials/invar/smelting/dust_to_ingot_blasting
+		- modern_industrialization:materials/invar/smelting/dust_to_ingot_blasting
+		- techreborn:blasting/invar_ingot_from_c_invar_dusts
+
+	modern_industrialization:materials/iridium/smelting/ore_deepslate_to_ingot_blasting
+		- modern_industrialization:materials/iridium/smelting/ore_deepslate_to_ingot_blasting
+		- modern_industrialization:materials/iridium/smelting/ore_to_ingot_blasting
+
+	modern_industrialization:materials/lead/smelting/dust_to_ingot_blasting
+		- indrev:blasting/lead_ingot_from_smelting
+		- modern_industrialization:materials/lead/smelting/dust_to_ingot_blasting
+
+	modern_industrialization:materials/lead/smelting/ore_deepslate_to_ingot_blasting
+		- indrev:blasting/lead_ingot_from_ore
+		- modern_industrialization:materials/lead/smelting/ore_deepslate_to_ingot_blasting
+		- modern_industrialization:materials/lead/smelting/ore_to_ingot_blasting
+		- techreborn:blasting/lead_ingot_from_c_lead_ores
+
+	modern_industrialization:materials/lead/smelting/raw_metal_to_ingot_blasting
+		- indrev:blasting/lead_ingot_from_raw_ore
+		- modern_industrialization:materials/lead/smelting/raw_metal_to_ingot_blasting
+		- techreborn:blasting/lead_ingot_from_c_raw_lead_ores
+
+	modern_industrialization:materials/nickel/smelting/dust_to_ingot_blasting
+		- modern_industrialization:materials/nickel/smelting/dust_to_ingot_blasting
+		- techreborn:blasting/nickel_ingot_from_c_nickel_dusts
+
+	modern_industrialization:materials/nickel/smelting/ore_deepslate_to_ingot_blasting
+		- modern_industrialization:materials/nickel/smelting/ore_deepslate_to_ingot_blasting
+		- modern_industrialization:materials/nickel/smelting/ore_to_ingot_blasting
+
+	modern_industrialization:materials/silver/smelting/dust_to_ingot_blasting
+		- indrev:blasting/silver_ingot_from_smelting
+		- modern_industrialization:materials/silver/smelting/dust_to_ingot_blasting
+
+	modern_industrialization:materials/steel/smelting/dust_to_ingot_blasting
+		- indrev:blasting/steel_ingot
+		- modern_industrialization:materials/steel/smelting/dust_to_ingot_blasting
+
+	modern_industrialization:materials/tin/smelting/ore_deepslate_to_ingot_blasting
+		- indrev:blasting/tin_ingot_from_ore
+		- modern_industrialization:materials/tin/smelting/ore_deepslate_to_ingot_blasting
+		- modern_industrialization:materials/tin/smelting/ore_to_ingot_blasting
+		- mythicmetals:blasting/blast_tin_ingot_from_ores
+		- techreborn:blasting/tin_ingot_from_c_tin_ores
+
+	modern_industrialization:materials/tin/smelting/raw_metal_to_ingot_blasting
+		- indrev:blasting/tin_ingot_from_raw_ores
+		- modern_industrialization:materials/tin/smelting/raw_metal_to_ingot_blasting
+		- mythicmetals:blasting/blast_tin_ingot_from_raw_ore
+		- techreborn:blasting/tin_ingot_from_c_raw_tin_ores
+
+	resourceful_tools:blasting_copper_powder
+		- indrev:blasting/copper_ingot_from_smelting
+		- modern_industrialization:materials/copper/smelting/dust_to_ingot_blasting
+		- resourceful_tools:blasting_copper_powder
+
+	resourceful_tools:blasting_gold_powder
+		- indrev:blasting/gold_ingot
+		- modern_industrialization:materials/gold/smelting/dust_to_ingot_blasting
+		- resourceful_tools:blasting_gold_powder
+
+	resourceful_tools:blasting_iron_powder
+		- indrev:blasting/iron_ingot_from_dust
+		- modern_industrialization:materials/iron/smelting/dust_to_ingot_blasting
+		- resourceful_tools:blasting_iron_powder
+
+}
+
+minecraft:crafting_shaped {
+	ad_astra:recipes/steel_block
+		- ad_astra:recipes/steel_block
+		- indrev:shaped/steel_block
+
+	ad_astra:recipes/steel_ingot_from_nuggets
+		- ad_astra:recipes/steel_ingot_from_nuggets
+		- indrev:shaped/steel_ingot_from_nuggets
+
+	bewitchment:silver_block
+		- bewitchment:silver_block
+		- galosphere:silver_block
+		- indrev:shaped/silver_block
+
+	bewitchment:silver_ingot_from_nuggets
+		- bewitchment:silver_ingot_from_nuggets
+		- galosphere:silver_ingot_from_nuggets
+		- indrev:shaped/silver_ingot_from_nuggets
+
+	mcdw:crossbow_heavy
+		- mcdw:crossbow_heavy
+		- mcdw:crossbow_slayer
+
+	modern_industrialization:materials/bronze/craft/block_from_ingot
+		- modern_industrialization:materials/bronze/craft/block_from_ingot
+		- mythicmetals:blocks/bronze_block
+
+	modern_industrialization:materials/copper/craft/ingot_from_nugget
+		- modern_industrialization:materials/copper/craft/ingot_from_nugget
+		- resourceful_tools:copper_nugget_to_ingot
+
+	modern_industrialization:materials/platinum/craft/block_from_ingot
+		- modern_industrialization:materials/platinum/craft/block_from_ingot
+		- mythicmetals:blocks/platinum_block
+
+	modern_industrialization:materials/platinum/craft/raw_metal_block_from_raw_metal
+		- modern_industrialization:materials/platinum/craft/raw_metal_block_from_raw_metal
+		- mythicmetals:blocks/raw_platinum_block
+
+	modern_industrialization:materials/silver/craft/block_from_ingot
+		- modern_industrialization:materials/silver/craft/block_from_ingot
+		- mythicmetals:blocks/silver_block
+
+	modern_industrialization:materials/silver/craft/raw_metal_block_from_raw_metal
+		- modern_industrialization:materials/silver/craft/raw_metal_block_from_raw_metal
+		- mythicmetals:blocks/raw_silver_block
+
+	modern_industrialization:materials/steel/craft/block_from_ingot
+		- modern_industrialization:materials/steel/craft/block_from_ingot
+		- mythicmetals:blocks/steel_block
+
+	modern_industrialization:materials/tin/craft/block_from_ingot
+		- modern_industrialization:materials/tin/craft/block_from_ingot
+		- mythicmetals:blocks/tin_block
+
+	modern_industrialization:materials/tin/craft/raw_metal_block_from_raw_metal
+		- modern_industrialization:materials/tin/craft/raw_metal_block_from_raw_metal
+		- mythicmetals:blocks/raw_tin_block
+
+}
+
+minecraft:crafting_shapeless {
+	ad_astra:recipes/steel_ingot
+		- ad_astra:recipes/steel_ingot
+		- indrev:shapeless/steel_ingot_from_block
+		- mythicmetals:ingots/steel_ingot_from_block
+		- techreborn:crafting_table/ingot/steel_ingot_from_block
+
+	ad_astra:recipes/steel_nugget
+		- ad_astra:recipes/steel_nugget
+		- indrev:shapeless/steel_nugget
+		- techreborn:crafting_table/nugget/steel_nugget
+
+	bewitchment:silver_ingot_from_silver_block
+		- bewitchment:silver_ingot_from_silver_block
+		- galosphere:silver_ingot
+		- indrev:shapeless/silver_ingot_from_block
+		- mythicmetals:ingots/silver_ingot_from_block
+		- techreborn:crafting_table/ingot/silver_ingot_from_block
+
+	bewitchment:silver_nugget
+		- bewitchment:silver_nugget
+		- galosphere:silver_nugget
+		- indrev:shapeless/silver_nugget
+		- techreborn:crafting_table/nugget/silver_nugget
+
+	create:crafting/materials/brass_ingot_from_decompacting
+		- create:crafting/materials/brass_ingot_from_decompacting
+		- techreborn:crafting_table/ingot/brass_ingot_from_block
+
+	create:crafting/materials/brass_nugget_from_decompacting
+		- create:crafting/materials/brass_nugget_from_decompacting
+		- techreborn:crafting_table/nugget/brass_nugget
+
+	create:crafting/materials/copper_nugget
+		- create:crafting/materials/copper_nugget
+		- resourceful_tools:copper_nugget_from_ingot
+		- techreborn:crafting_table/nugget/copper_nugget
+
+	create:crafting/materials/zinc_ingot_from_decompacting
+		- create:crafting/materials/zinc_ingot_from_decompacting
+		- techreborn:crafting_table/ingot/zinc_ingot_from_block
+
+	create:crafting/materials/zinc_nugget_from_decompacting
+		- create:crafting/materials/zinc_nugget_from_decompacting
+		- techreborn:crafting_table/nugget/zinc_nugget
+
+	galosphere:raw_silver
+		- galosphere:raw_silver
+		- mythicmetals:crafting/raw_silver_from_block
+		- techreborn:crafting_table/raw/raw_silver_from_block
+
+	indrev:shapeless/bronze_ingot_from_block
+		- indrev:shapeless/bronze_ingot_from_block
+		- mythicmetals:ingots/bronze_ingot_from_block
+		- techreborn:crafting_table/ingot/bronze_ingot_from_block
+
+	indrev:shapeless/bronze_nugget
+		- indrev:shapeless/bronze_nugget
+		- techreborn:crafting_table/nugget/bronze_nugget
+
+	indrev:shapeless/electrum_ingot_from_block
+		- indrev:shapeless/electrum_ingot_from_block
+		- techreborn:crafting_table/ingot/electrum_ingot_from_block
+
+	indrev:shapeless/electrum_nugget
+		- indrev:shapeless/electrum_nugget
+		- techreborn:crafting_table/nugget/electrum_nugget
+
+	indrev:shapeless/lead_ingot_from_block
+		- indrev:shapeless/lead_ingot_from_block
+		- techreborn:crafting_table/ingot/lead_ingot_from_block
+
+	indrev:shapeless/lead_nugget
+		- indrev:shapeless/lead_nugget
+		- techreborn:crafting_table/nugget/lead_nugget
+
+	indrev:shapeless/tin_ingot_from_block
+		- indrev:shapeless/tin_ingot_from_block
+		- mythicmetals:ingots/tin_ingot_from_block
+		- techreborn:crafting_table/ingot/tin_ingot_from_block
+
+	indrev:shapeless/tin_nugget
+		- indrev:shapeless/tin_nugget
+		- techreborn:crafting_table/nugget/tin_nugget
+
+	indrev:shapeless/tungsten_ingot_from_block
+		- indrev:shapeless/tungsten_ingot_from_block
+		- techreborn:crafting_table/ingot/tungsten_ingot_from_block
+
+	indrev:shapeless/tungsten_nugget
+		- indrev:shapeless/tungsten_nugget
+		- techreborn:crafting_table/nugget/tungsten_nugget
+
+	mythicmetals:crafting/raw_tin_from_block
+		- mythicmetals:crafting/raw_tin_from_block
+		- techreborn:crafting_table/raw/raw_tin_from_block
+
+	mythicmetals:ingots/platinum_ingot_from_block
+		- mythicmetals:ingots/platinum_ingot_from_block
+		- techreborn:crafting_table/ingot/platinum_ingot_from_block
+
+}
+
+minecraft:smelting {
+	bewitchment:silver_ingot_from_smelting_deepslate_silver_ore
+		- bewitchment:silver_ingot_from_smelting_deepslate_silver_ore
+		- bewitchment:silver_ingot_from_smelting_silver_ore
+
+	galosphere:silver_ingot_from_smelting_deepslate_silver_ore
+		- galosphere:silver_ingot_from_smelting_deepslate_silver_ore
+		- galosphere:silver_ingot_from_smelting_silver_ore
+		- indrev:smelting/silver_ingot_from_ore
+		- mythicmetals:smelting/silver_ingot_from_ores
+		- techreborn:smelting/silver_ingot_from_c_silver_ores
+
+	galosphere:silver_ingot_from_smelting_raw_silver
+		- galosphere:silver_ingot_from_smelting_raw_silver
+		- indrev:smelting/silver_ingot_from_raw_ores
+		- modern_industrialization:materials/silver/smelting/raw_metal_to_ingot_smelting
+		- mythicmetals:smelting/silver_ingot_from_raw_ore
+		- techreborn:smelting/silver_ingot_from_c_raw_silver_ores
+
+	minecraft:copper_ingot_from_smelting_sculk_stone_copper_ore
+		- minecraft:copper_ingot_from_smelting_copper_ore
+		- minecraft:copper_ingot_from_smelting_sculk_stone_copper_ore
+
+	minecraft:diamond_from_smelting_sculk_stone_diamond_ore
+		- minecraft:diamond_from_smelting_diamond_ore
+		- minecraft:diamond_from_smelting_sculk_stone_diamond_ore
+
+	minecraft:emerald_from_smelting_sculk_stone_emerald_ore
+		- minecraft:emerald_from_smelting_emerald_ore
+		- minecraft:emerald_from_smelting_sculk_stone_emerald_ore
+
+	minecraft:gold_ingot_from_smelting_sculk_stone_gold_ore
+		- ad_astra:recipes/gold_ingot_from_smelting_venus_gold_ore
+		- minecraft:gold_ingot_from_smelting_sculk_stone_gold_ore
+
+	minecraft:iron_ingot_from_smelting_sculk_stone_iron_ore
+		- minecraft:iron_ingot_from_smelting_iron_ore
+		- minecraft:iron_ingot_from_smelting_sculk_stone_iron_ore
+
+	minecraft:lapis_lazuli_from_smelting_sculk_stone_lapis_ore
+		- minecraft:lapis_lazuli_from_smelting_lapis_ore
+		- minecraft:lapis_lazuli_from_smelting_sculk_stone_lapis_ore
+
+	modern_industrialization:materials/bronze/smelting/dust_to_ingot_smelting
+		- indrev:smelting/bronze_ingot_from_smelting
+		- modern_industrialization:materials/bronze/smelting/dust_to_ingot_smelting
+		- techreborn:smelting/bronze_ingot_from_bronze_dust
+		- techreborn:smelting/bronze_ingot_from_c_bronze_dusts
+
+	modern_industrialization:materials/copper/smelting/dust_to_ingot_smelting
+		- indrev:smelting/copper_ingot_from_smelting
+		- modern_industrialization:materials/copper/smelting/dust_to_ingot_smelting
+		- resourceful_tools:smelting_copper_powder
+
+	modern_industrialization:materials/electrum/smelting/dust_to_ingot_smelting
+		- indrev:smelting/electrum_ingot_from_smelting
+		- modern_industrialization:materials/electrum/smelting/dust_to_ingot_smelting
+		- techreborn:smelting/electrum_ingot_from_c_electrum_dusts
+
+	modern_industrialization:materials/gold/smelting/dust_to_ingot_smelting
+		- indrev:smelting/gold_ingot
+		- modern_industrialization:materials/gold/smelting/dust_to_ingot_smelting
+		- resourceful_tools:smelting_gold_powder
+
+	modern_industrialization:materials/invar/smelting/dust_to_ingot_smelting
+		- modern_industrialization:materials/invar/smelting/dust_to_ingot_smelting
+		- techreborn:smelting/invar_ingot_from_c_invar_dusts
+		- techreborn:smelting/invar_ingot_from_invar_dust
+
+	modern_industrialization:materials/iridium/smelting/ore_deepslate_to_ingot_smelting
+		- modern_industrialization:materials/iridium/smelting/ore_deepslate_to_ingot_smelting
+		- modern_industrialization:materials/iridium/smelting/ore_to_ingot_smelting
+
+	modern_industrialization:materials/iron/smelting/dust_to_ingot_smelting
+		- indrev:smelting/iron_ingot_from_dust
+		- modern_industrialization:materials/iron/smelting/dust_to_ingot_smelting
+		- resourceful_tools:smelting_iron_powder
+
+	modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting
+		- indrev:smelting/lead_ingot_from_smelting
+		- modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting
+
+	modern_industrialization:materials/lead/smelting/ore_deepslate_to_ingot_smelting
+		- indrev:smelting/lead_ingot_from_ore
+		- modern_industrialization:materials/lead/smelting/ore_deepslate_to_ingot_smelting
+		- modern_industrialization:materials/lead/smelting/ore_to_ingot_smelting
+		- techreborn:smelting/lead_ingot_from_c_lead_ores
+
+	modern_industrialization:materials/lead/smelting/raw_metal_to_ingot_smelting
+		- indrev:smelting/lead_ingot_from_raw_ore
+		- modern_industrialization:materials/lead/smelting/raw_metal_to_ingot_smelting
+		- techreborn:smelting/lead_ingot_from_c_raw_lead_ores
+
+	modern_industrialization:materials/nickel/smelting/dust_to_ingot_smelting
+		- modern_industrialization:materials/nickel/smelting/dust_to_ingot_smelting
+		- techreborn:smelting/nickel_ingot_from_c_nickel_dusts
+		- techreborn:smelting/nickel_ingot_from_nickel_dust
+
+	modern_industrialization:materials/nickel/smelting/ore_deepslate_to_ingot_smelting
+		- modern_industrialization:materials/nickel/smelting/ore_deepslate_to_ingot_smelting
+		- modern_industrialization:materials/nickel/smelting/ore_to_ingot_smelting
+
+	modern_industrialization:materials/silver/smelting/dust_to_ingot_smelting
+		- indrev:smelting/silver_ingot_from_smelting
+		- modern_industrialization:materials/silver/smelting/dust_to_ingot_smelting
+
+	modern_industrialization:materials/steel/smelting/dust_to_ingot_smelting
+		- indrev:smelting/steel_ingot
+		- modern_industrialization:materials/steel/smelting/dust_to_ingot_smelting
+
+	modern_industrialization:materials/tin/smelting/ore_deepslate_to_ingot_smelting
+		- indrev:smelting/tin_ingot_from_ore
+		- modern_industrialization:materials/tin/smelting/ore_deepslate_to_ingot_smelting
+		- modern_industrialization:materials/tin/smelting/ore_to_ingot_smelting
+		- mythicmetals:smelting/tin_ingot_from_ores
+		- techreborn:smelting/tin_ingot_from_c_tin_ores
+
+	modern_industrialization:materials/tin/smelting/raw_metal_to_ingot_smelting
+		- indrev:smelting/tin_ingot_from_raw_ores
+		- modern_industrialization:materials/tin/smelting/raw_metal_to_ingot_smelting
+		- mythicmetals:smelting/tin_ingot_from_raw_ore
+		- techreborn:smelting/tin_ingot_from_c_raw_tin_ores
+
+	techreborn:smelting/refined_iron_block
+		- techreborn:smelting/refined_iron_block
+		- techreborn:smelting/refined_rion_block
+
+}
+
+modern_industrialization:assembler {
+	modern_industrialization:steam_age/steel/assembler/steam_quarry
+		- modern_industrialization:assembler_generated/steam_age/steel/quarry
+		- modern_industrialization:steam_age/steel/assembler/steam_quarry
+
+}
+
