@@ -1,190 +1,190 @@
-[00:14:52] [INFO ] Loaded script server_scripts:tags.js in 0.021 s
-[00:14:52] [INFO ] Loaded script server_scripts:mcdw/mcdw.js in 0.01 s
-[00:14:52] [INFO ] Loaded script server_scripts:advancedreborn/advancedreborn.js in 0.002 s
-[00:14:52] [INFO ] Loaded script server_scripts:darkutilities/balance.js in 0.0 s
-[00:14:52] [INFO ] Loaded script server_scripts:balance.js in 0.03 s
-[00:14:52] [INFO ] Loaded script server_scripts:quests.js in 0.004 s
-[00:14:52] [INFO ] Loaded script server_scripts:modern_industrialization/macerator.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:modern_industrialization/crafting.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:modern_industrialization/assembler.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:gobber/constants.js in 0.002 s
-[00:14:52] [INFO ] Loaded script server_scripts:conflicts.js in 0.003 s
-[00:14:52] [INFO ] Loaded script server_scripts:farmersdelight/recipes.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:doom/doom.js in 0.0 s
-[00:14:52] [INFO ] Loaded script server_scripts:techreborn/utility.js in 0.0 s
-[00:14:52] [INFO ] Loaded script server_scripts:consistencyplus/remove.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:botania/botania.js in 0.0 s
-[00:14:52] [INFO ] Loaded script server_scripts:remove.js in 0.005 s
-[00:14:52] [INFO ] Loaded script server_scripts:food_unification.js in 0.033 s
-[00:14:52] [INFO ] Loaded script server_scripts:indrev/indrev.js in 0.003 s
-[00:14:52] [INFO ] server_scripts:lootjs/loot.js:56: Loaded Java class 'net.minecraft.world.entity.EquipmentSlot'
-[00:14:52] [INFO ] Loaded script server_scripts:lootjs/loot.js in 0.018 s
-[00:14:52] [INFO ] Loaded script server_scripts:misc/ultimate.js in 0.003 s
-[00:14:52] [INFO ] Loaded script server_scripts:misc/startingitems.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:misc/attributes.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:misc/stoptoad.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:misc/unplaceable_blocks.js in 0.001 s
-[00:14:52] [INFO ] Loaded script server_scripts:croparia/seeds.js in 0.004 s
-[00:14:52] [INFO ] Loaded script server_scripts:archon/balance.js in 0.002 s
-[00:14:52] [INFO ] Loaded 27/27 KubeJS server scripts in 0.188 s
-[00:14:52] [INFO ] Scripts loaded
-[00:14:52] [INFO ] Scanning recipes...
-[00:15:29] [INFO ] [minecraft:block] Found 1655 tags, added 7 objects, removed 0 objects
-[00:15:31] [INFO ] [minecraft:item] Found 3244 tags, added 682 objects, removed 2 objects
-[00:16:41] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_door[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_door[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe 'croparia:fruit_steel[croparia:shapeless_tag]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: croparia:shapeless_tag
-[00:16:41] [WARN ] Failed to parse recipe croparia:fruit_steel[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'croparia:shapeless_tag'
-[00:16:41] [WARN ] Failed to parse recipe 'botania:blood_pendant[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing key, expected to find a JsonObject
-[00:16:41] [WARN ] Failed to parse recipe botania:blood_pendant[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Missing key, expected to find a JsonObject
-[00:16:41] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/stripped_mangrove_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
-[00:16:41] [WARN ] Failed to parse recipe create:cutting/compat/byg/stripped_mangrove_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
-[00:16:41] [WARN ] Failed to parse recipe 'supplementaries:candle_holders/candle_holder_soul[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'buzzier_bees:soul_candle'
-[00:16:41] [WARN ] Failed to parse recipe supplementaries:candle_holders/candle_holder_soul[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:candle_holders/candle_holder_soul as its conditions were not met
-[00:16:41] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_glass_pane[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_glass_pane'
-[00:16:41] [WARN ] Failed to parse recipe supplementaries:soap/dirty_glass_pane[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_glass_pane as its conditions were not met
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/constructors_staff[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/constructors_staff[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe 'supplementaries:stool_from_feather_block[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:white_stool'
-[00:16:41] [WARN ] Failed to parse recipe supplementaries:stool_from_feather_block[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:stool_from_feather_block as its conditions were not met
-[00:16:41] [WARN ] Failed to parse recipe 'croparia:seed_crop_copper[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Pattern references symbol 'I' but it's not defined in the key
-[00:16:41] [WARN ] Failed to parse recipe croparia:seed_crop_copper[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Pattern references symbol 'I' but it's not defined in the key
-[00:16:41] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_glass[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_glass'
-[00:16:41] [WARN ] Failed to parse recipe supplementaries:soap/dirty_glass[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_glass as its conditions were not met
-[00:16:41] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_trapdoor[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_trapdoor[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe 'create:sequenced_assembly/filling/certus_crystal_seed[create:sequenced_assembly]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
-[00:16:41] [WARN ] Failed to parse recipe create:sequenced_assembly/filling/certus_crystal_seed[create:sequenced_assembly]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
-[00:16:41] [WARN ] Failed to parse recipe 'supplementaries:sconce_ender[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'endergetic:ender_torch'
-[00:16:41] [WARN ] Failed to parse recipe supplementaries:sconce_ender[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_ender as its conditions were not met
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:fusion_shrine/trinkets/ashen_circlet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe spectrum:fusion_shrine/trinkets/ashen_circlet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe 'create:crushing/ores/deepslate/quartz_ore[create:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
-[00:16:41] [WARN ] Failed to parse recipe create:crushing/ores/deepslate/quartz_ore[create:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
-[00:16:41] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/stripped_mangrove_wood[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
-[00:16:41] [WARN ] Failed to parse recipe create:cutting/compat/byg/stripped_mangrove_wood[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
-[00:16:41] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log'
-[00:16:41] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log'
-[00:16:41] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_log_stripped[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log_stripped'
-[00:16:41] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_log_stripped[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log_stripped'
-[00:16:41] [WARN ] Failed to parse recipe 'botania:brew/healing[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:41] [WARN ] Failed to parse recipe botania:brew/healing[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:41] [WARN ] Failed to parse recipe 'supplementaries:copper_lantern_2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alexsmobs:fish_oil'
-[00:16:41] [WARN ] Failed to parse recipe supplementaries:copper_lantern_2[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:copper_lantern_2 as its conditions were not met
-[00:16:41] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_log[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_log[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe 'create:cutting/log/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
-[00:16:41] [WARN ] Failed to parse recipe create:cutting/log/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:mod_integration/ae2/cinderhearth/pure_certus_quartz[spectrum:cinderhearth]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
-[00:16:41] [WARN ] Failed to parse recipe spectrum:mod_integration/ae2/cinderhearth/pure_certus_quartz[spectrum:cinderhearth]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
-[00:16:41] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_sign[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_sign[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_looting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_looting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe 'create:cutting/stripped_log/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
-[00:16:41] [WARN ] Failed to parse recipe create:cutting/stripped_log/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
-[00:16:41] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/sharpness[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:41] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/sharpness[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_fire_protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_fire_protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'hexcasting:pride_colorizer_pansexual[minecraft:crafting_shaped]'! Falling back to vanilla: java.lang.StackOverflowError
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/fire_protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/fire_protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_power[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_power[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'supplementaries:planter_rich_soul[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'nethers_delight:rich_soul_soil'
-[00:16:42] [WARN ] Failed to parse recipe supplementaries:planter_rich_soul[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:planter_rich_soul as its conditions were not met
-[00:16:42] [WARN ] Failed to parse recipe 'botania:brew/invisibility[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:42] [WARN ] Failed to parse recipe botania:brew/invisibility[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:42] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_shard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_shard'
-[00:16:42] [WARN ] Failed to parse recipe supplementaries:soap/dirty_shard[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_shard as its conditions were not met
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/exchange_staff_silk_touch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/exchange_staff_silk_touch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'create:crushing/lignite_ore[create:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:lignite_ore'
-[00:16:42] [WARN ] Failed to parse recipe create:crushing/lignite_ore[create:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'byg:lignite_ore'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/block_flooder[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/block_flooder[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/exchange_staff_fortune[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/exchange_staff_fortune[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'croparia:fruit_grass1[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
-[00:16:42] [WARN ] Failed to parse recipe croparia:fruit_grass1[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
-[00:16:42] [WARN ] Failed to parse recipe 'mcdw:sword_the_starless_night[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcdw:sword_the_starless_night'
-[00:16:42] [WARN ] Failed to parse recipe mcdw:sword_the_starless_night[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcdw:sword_the_starless_night'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/multitool[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/multitool[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/mangrove_wood[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
-[00:16:42] [WARN ] Failed to parse recipe create:cutting/compat/byg/mangrove_wood[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
-[00:16:42] [WARN ] Failed to parse recipe 'create:cutting/stripped_wood/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
-[00:16:42] [WARN ] Failed to parse recipe create:cutting/stripped_wood/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
-[00:16:42] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_wood[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:42] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_wood[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
-[00:16:42] [WARN ] Failed to parse recipe 'botania:brew/regeneration[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:42] [WARN ] Failed to parse recipe botania:brew/regeneration[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_sharpness[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_sharpness[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:mod_integration/ae2/cinderhearth/pure_fluix[spectrum:cinderhearth]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
-[00:16:42] [WARN ] Failed to parse recipe spectrum:mod_integration/ae2/cinderhearth/pure_fluix[spectrum:cinderhearth]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
-[00:16:42] [WARN ] Failed to parse recipe 'botania:brew/night_vision[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:42] [WARN ] Failed to parse recipe botania:brew/night_vision[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
-[00:16:42] [WARN ] Failed to parse recipe 'supplementaries:sconce_glow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'infernalexp:glow_torch'
-[00:16:42] [WARN ] Failed to parse recipe supplementaries:sconce_glow[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_glow as its conditions were not met
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/unbreaking[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/unbreaking[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_unbreaking[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_unbreaking[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/voiding_pickaxe[spectrum:pedestal]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'spectrum:voiding_pickaxe'
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/voiding_pickaxe[spectrum:pedestal]: com.google.gson.JsonSyntaxException: Unknown item 'spectrum:voiding_pickaxe'
-[00:16:42] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/mangrove_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
-[00:16:42] [WARN ] Failed to parse recipe create:cutting/compat/byg/mangrove_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
-[00:16:42] [WARN ] Failed to parse recipe 'genesis:orb_of_origin[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe genesis:orb_of_origin[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/fortune[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/fortune[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_wood_stripped[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood_stripped'
-[00:16:42] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_wood_stripped[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood_stripped'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier3/ender_splice[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier3/ender_splice[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'croparia:seed_crop_grass1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
-[00:16:42] [WARN ] Failed to parse recipe croparia:seed_crop_grass1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
-[00:16:42] [WARN ] Failed to parse recipe 'create:crushing/ores/stone/quartz_ore[create:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
-[00:16:42] [WARN ] Failed to parse recipe create:crushing/ores/stone/quartz_ore[create:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
-[00:16:42] [WARN ] Failed to parse recipe 'create:sequenced_assembly/filling/fluix_crystal_seed[create:sequenced_assembly]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
-[00:16:42] [WARN ] Failed to parse recipe create:sequenced_assembly/filling/fluix_crystal_seed[create:sequenced_assembly]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier4/exchange_staff[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:pedestal/tier4/exchange_staff[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'lightestlamp:krypton_small_dust[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
-[00:16:42] [WARN ] Failed to parse recipe lightestlamp:krypton_small_dust[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
-[00:16:42] [WARN ] Failed to parse recipe 'croparia:fruit_tin[croparia:shapeless_tag]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: croparia:shapeless_tag
-[00:16:42] [WARN ] Failed to parse recipe croparia:fruit_tin[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'croparia:shapeless_tag'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:stonecutting/smooth_basalt_slab_from_smooth_basalt_stonecutting[minecraft:stonecutting]': "spectrum:basalt_slab" is not a valid result!
-[00:16:42] [WARN ] Failed to parse recipe 'supplementaries:ash_soot[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'immersive_weathering:soot'
-[00:16:42] [WARN ] Failed to parse recipe supplementaries:ash_soot[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:ash_soot as its conditions were not met
-[00:16:42] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_wood[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood'
-[00:16:42] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_wood[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_mending[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_mending[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe 'lightestlamp:krypton_dust[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
-[00:16:42] [WARN ] Failed to parse recipe lightestlamp:krypton_dust[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
-[00:16:42] [WARN ] Failed to parse recipe 'create:cutting/wood/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
-[00:16:42] [WARN ] Failed to parse recipe create:cutting/wood/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
-[00:16:42] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/looting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/looting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[00:16:42] [INFO ] Found 30342 recipes and 1 failed recipes in 1.824 s
-[00:16:59] [INFO ] Posted recipe events in 17.00 s
-[00:17:00] [INFO ] Modified & removed recipes in 699.7 ms
-[00:17:00] [INFO ] Added recipes in 37.28 ms
-[00:17:00] [INFO ] Added 105 recipes, removed 647 recipes, modified 84 recipes, with 0 failed recipes and 0 fall-backed recipes
-[00:17:06] [WARN ] server_scripts:lootjs/loot.js:65: LootJS: Invalid ingredient for filter: travelersbackpack:crepper
-! [00:17:06] [ERR] #87: Error occurred while handling event 'LootJS.modifiers': TypeError: Cannot call method "limitCount" of undefined (server_scripts:lootjs/loot.js#87)
+[02:07:06] [INFO ] Loaded script server_scripts:tags.js in 0.017 s
+[02:07:06] [INFO ] Loaded script server_scripts:mcdw/mcdw.js in 0.008 s
+[02:07:06] [INFO ] Loaded script server_scripts:advancedreborn/advancedreborn.js in 0.002 s
+[02:07:06] [INFO ] Loaded script server_scripts:darkutilities/balance.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:balance.js in 0.023 s
+[02:07:06] [INFO ] Loaded script server_scripts:quests.js in 0.004 s
+[02:07:06] [INFO ] Loaded script server_scripts:modern_industrialization/macerator.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:modern_industrialization/crafting.js in 0.0 s
+[02:07:06] [INFO ] Loaded script server_scripts:modern_industrialization/assembler.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:gobber/constants.js in 0.002 s
+[02:07:06] [INFO ] Loaded script server_scripts:conflicts.js in 0.004 s
+[02:07:06] [INFO ] Loaded script server_scripts:farmersdelight/recipes.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:doom/doom.js in 0.0 s
+[02:07:06] [INFO ] Loaded script server_scripts:techreborn/utility.js in 0.0 s
+[02:07:06] [INFO ] Loaded script server_scripts:consistencyplus/remove.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:botania/botania.js in 0.0 s
+[02:07:06] [INFO ] Loaded script server_scripts:remove.js in 0.006 s
+[02:07:06] [INFO ] Loaded script server_scripts:food_unification.js in 0.029 s
+[02:07:06] [INFO ] Loaded script server_scripts:indrev/indrev.js in 0.003 s
+[02:07:06] [INFO ] server_scripts:lootjs/loot.js:56: Loaded Java class 'net.minecraft.world.entity.EquipmentSlot'
+[02:07:06] [INFO ] Loaded script server_scripts:lootjs/loot.js in 0.015 s
+[02:07:06] [INFO ] Loaded script server_scripts:misc/ultimate.js in 0.004 s
+[02:07:06] [INFO ] Loaded script server_scripts:misc/startingitems.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:misc/attributes.js in 0.0 s
+[02:07:06] [INFO ] Loaded script server_scripts:misc/stoptoad.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:misc/unplaceable_blocks.js in 0.001 s
+[02:07:06] [INFO ] Loaded script server_scripts:croparia/seeds.js in 0.005 s
+[02:07:06] [INFO ] Loaded script server_scripts:archon/balance.js in 0.002 s
+[02:07:06] [INFO ] Loaded 27/27 KubeJS server scripts in 0.158 s
+[02:07:06] [INFO ] Scripts loaded
+[02:07:06] [INFO ] Scanning recipes...
+[02:07:36] [INFO ] [minecraft:block] Found 1655 tags, added 7 objects, removed 0 objects
+[02:07:37] [INFO ] [minecraft:item] Found 3244 tags, added 682 objects, removed 2 objects
+[02:08:29] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_door[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_door[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'croparia:fruit_steel[croparia:shapeless_tag]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: croparia:shapeless_tag
+[02:08:29] [WARN ] Failed to parse recipe croparia:fruit_steel[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'croparia:shapeless_tag'
+[02:08:29] [WARN ] Failed to parse recipe 'botania:blood_pendant[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing key, expected to find a JsonObject
+[02:08:29] [WARN ] Failed to parse recipe botania:blood_pendant[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Missing key, expected to find a JsonObject
+[02:08:29] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/stripped_mangrove_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
+[02:08:29] [WARN ] Failed to parse recipe create:cutting/compat/byg/stripped_mangrove_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:candle_holders/candle_holder_soul[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'buzzier_bees:soul_candle'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:candle_holders/candle_holder_soul[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:candle_holders/candle_holder_soul as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_glass_pane[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_glass_pane'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:soap/dirty_glass_pane[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_glass_pane as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/constructors_staff[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/constructors_staff[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:stool_from_feather_block[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:white_stool'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:stool_from_feather_block[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:stool_from_feather_block as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'croparia:seed_crop_copper[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Pattern references symbol 'I' but it's not defined in the key
+[02:08:29] [WARN ] Failed to parse recipe croparia:seed_crop_copper[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Pattern references symbol 'I' but it's not defined in the key
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_glass[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_glass'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:soap/dirty_glass[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_glass as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_trapdoor[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_trapdoor[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe 'create:sequenced_assembly/filling/certus_crystal_seed[create:sequenced_assembly]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
+[02:08:29] [WARN ] Failed to parse recipe create:sequenced_assembly/filling/certus_crystal_seed[create:sequenced_assembly]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:sconce_ender[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'endergetic:ender_torch'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:sconce_ender[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_ender as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:fusion_shrine/trinkets/ashen_circlet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:fusion_shrine/trinkets/ashen_circlet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'create:crushing/ores/deepslate/quartz_ore[create:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
+[02:08:29] [WARN ] Failed to parse recipe create:crushing/ores/deepslate/quartz_ore[create:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
+[02:08:29] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/stripped_mangrove_wood[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
+[02:08:29] [WARN ] Failed to parse recipe create:cutting/compat/byg/stripped_mangrove_wood[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
+[02:08:29] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log'
+[02:08:29] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log'
+[02:08:29] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_log_stripped[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log_stripped'
+[02:08:29] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_log_stripped[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_log_stripped'
+[02:08:29] [WARN ] Failed to parse recipe 'botania:brew/healing[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:29] [WARN ] Failed to parse recipe botania:brew/healing[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:copper_lantern_2[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'alexsmobs:fish_oil'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:copper_lantern_2[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:copper_lantern_2 as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_log[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_log[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe 'create:cutting/log/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
+[02:08:29] [WARN ] Failed to parse recipe create:cutting/log/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:mod_integration/ae2/cinderhearth/pure_certus_quartz[spectrum:cinderhearth]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
+[02:08:29] [WARN ] Failed to parse recipe spectrum:mod_integration/ae2/cinderhearth/pure_certus_quartz[spectrum:cinderhearth]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:certus_crystal_seed'
+[02:08:29] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_sign[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_sign[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_looting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_looting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'create:cutting/stripped_log/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
+[02:08:29] [WARN ] Failed to parse recipe create:cutting/stripped_log/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_log'
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/sharpness[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/sharpness[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_fire_protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_fire_protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/emergency_armor/emergency_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/emergency_armor/emergency_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'hexcasting:pride_colorizer_pansexual[minecraft:crafting_shaped]'! Falling back to vanilla: java.lang.StackOverflowError
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/fire_protection[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/fire_protection[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_power[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_power[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:planter_rich_soul[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'nethers_delight:rich_soul_soil'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:planter_rich_soul[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:planter_rich_soul as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'botania:brew/invisibility[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:29] [WARN ] Failed to parse recipe botania:brew/invisibility[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:29] [WARN ] Failed to parse recipe 'supplementaries:soap/dirty_shard[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'quark:dirty_shard'
+[02:08:29] [WARN ] Failed to parse recipe supplementaries:soap/dirty_shard[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:soap/dirty_shard as its conditions were not met
+[02:08:29] [WARN ] Failed to parse recipe 'spectrum:enchanter/exchange_staff_silk_touch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:29] [WARN ] Failed to parse recipe spectrum:enchanter/exchange_staff_silk_touch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'create:crushing/lignite_ore[create:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:lignite_ore'
+[02:08:30] [WARN ] Failed to parse recipe create:crushing/lignite_ore[create:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'byg:lignite_ore'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/block_flooder[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/block_flooder[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchanter/exchange_staff_fortune[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchanter/exchange_staff_fortune[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'croparia:fruit_grass1[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
+[02:08:30] [WARN ] Failed to parse recipe croparia:fruit_grass1[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:fruit_grass1'
+[02:08:30] [WARN ] Failed to parse recipe 'mcdw:sword_the_starless_night[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mcdw:sword_the_starless_night'
+[02:08:30] [WARN ] Failed to parse recipe mcdw:sword_the_starless_night[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'mcdw:sword_the_starless_night'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/multitool[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/multitool[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/mangrove_wood[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
+[02:08:30] [WARN ] Failed to parse recipe create:cutting/compat/byg/mangrove_wood[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
+[02:08:30] [WARN ] Failed to parse recipe 'create:cutting/stripped_wood/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
+[02:08:30] [WARN ] Failed to parse recipe create:cutting/stripped_wood/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:stripped_mangrove_wood'
+[02:08:30] [WARN ] Failed to parse recipe 'farmersdelight:cutting/echo_wood[farmersdelight:cutting]'! Falling back to vanilla: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:30] [WARN ] Failed to parse recipe farmersdelight:cutting/echo_wood[farmersdelight:cutting]: com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+[02:08:30] [WARN ] Failed to parse recipe 'botania:brew/regeneration[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:30] [WARN ] Failed to parse recipe botania:brew/regeneration[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_sharpness[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_sharpness[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:mod_integration/ae2/cinderhearth/pure_fluix[spectrum:cinderhearth]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
+[02:08:30] [WARN ] Failed to parse recipe spectrum:mod_integration/ae2/cinderhearth/pure_fluix[spectrum:cinderhearth]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
+[02:08:30] [WARN ] Failed to parse recipe 'botania:brew/night_vision[botania:brew]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:30] [WARN ] Failed to parse recipe botania:brew/night_vision[botania:brew]: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[02:08:30] [WARN ] Failed to parse recipe 'supplementaries:sconce_glow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'infernalexp:glow_torch'
+[02:08:30] [WARN ] Failed to parse recipe supplementaries:sconce_glow[minecraft:crafting_shaped]: java.lang.IllegalArgumentException: Skipping supplementaries:sconce_glow as its conditions were not met
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/unbreaking[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/unbreaking[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_unbreaking[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_unbreaking[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier2/voiding_pickaxe[spectrum:pedestal]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'spectrum:voiding_pickaxe'
+[02:08:30] [WARN ] Failed to parse recipe spectrum:pedestal/tier2/voiding_pickaxe[spectrum:pedestal]: com.google.gson.JsonSyntaxException: Unknown item 'spectrum:voiding_pickaxe'
+[02:08:30] [WARN ] Failed to parse recipe 'create:cutting/compat/byg/mangrove_log[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
+[02:08:30] [WARN ] Failed to parse recipe create:cutting/compat/byg/mangrove_log[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_log'
+[02:08:30] [WARN ] Failed to parse recipe 'genesis:orb_of_origin[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe genesis:orb_of_origin[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/fortune[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/fortune[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_wood_stripped[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood_stripped'
+[02:08:30] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_wood_stripped[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood_stripped'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier3/ender_splice[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:pedestal/tier3/ender_splice[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'croparia:seed_crop_grass1[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
+[02:08:30] [WARN ] Failed to parse recipe croparia:seed_crop_grass1[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'croparia:seed_crop_grass1'
+[02:08:30] [WARN ] Failed to parse recipe 'create:crushing/ores/stone/quartz_ore[create:crushing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
+[02:08:30] [WARN ] Failed to parse recipe create:crushing/ores/stone/quartz_ore[create:crushing]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
+[02:08:30] [WARN ] Failed to parse recipe 'create:sequenced_assembly/filling/fluix_crystal_seed[create:sequenced_assembly]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
+[02:08:30] [WARN ] Failed to parse recipe create:sequenced_assembly/filling/fluix_crystal_seed[create:sequenced_assembly]: com.google.gson.JsonSyntaxException: Unknown item 'ae2:fluix_crystal_seed'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:pedestal/tier4/exchange_staff[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:pedestal/tier4/exchange_staff[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'lightestlamp:krypton_small_dust[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
+[02:08:30] [WARN ] Failed to parse recipe lightestlamp:krypton_small_dust[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
+[02:08:30] [WARN ] Failed to parse recipe 'croparia:fruit_tin[croparia:shapeless_tag]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: croparia:shapeless_tag
+[02:08:30] [WARN ] Failed to parse recipe croparia:fruit_tin[croparia:shapeless_tag]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'croparia:shapeless_tag'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:stonecutting/smooth_basalt_slab_from_smooth_basalt_stonecutting[minecraft:stonecutting]': "spectrum:basalt_slab" is not a valid result!
+[02:08:30] [WARN ] Failed to parse recipe 'supplementaries:ash_soot[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'immersive_weathering:soot'
+[02:08:30] [WARN ] Failed to parse recipe supplementaries:ash_soot[minecraft:crafting_shapeless]: java.lang.IllegalArgumentException: Skipping supplementaries:ash_soot as its conditions were not met
+[02:08:30] [WARN ] Failed to parse recipe 'create:cutting/compat/hexcasting/akashic_wood[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood'
+[02:08:30] [WARN ] Failed to parse recipe create:cutting/compat/hexcasting/akashic_wood[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'hexcasting:akashic_wood'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchanter/vanilla_books/book_mending[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchanter/vanilla_books/book_mending[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe 'lightestlamp:krypton_dust[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
+[02:08:30] [WARN ] Failed to parse recipe lightestlamp:krypton_dust[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'lightestlamp:krypton_small_dust'
+[02:08:30] [WARN ] Failed to parse recipe 'create:cutting/wood/mangrove[create:cutting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
+[02:08:30] [WARN ] Failed to parse recipe create:cutting/wood/mangrove[create:cutting]: com.google.gson.JsonSyntaxException: Unknown item 'byg:mangrove_wood'
+[02:08:30] [WARN ] Failed to parse recipe 'spectrum:enchantment_upgrade/vanilla/looting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [WARN ] Failed to parse recipe spectrum:enchantment_upgrade/vanilla/looting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[02:08:30] [INFO ] Found 30342 recipes and 1 failed recipes in 1.706 s
+[02:08:45] [INFO ] Posted recipe events in 14.79 s
+[02:08:45] [INFO ] Modified & removed recipes in 671.5 ms
+[02:08:45] [INFO ] Added recipes in 32.53 ms
+[02:08:45] [INFO ] Added 105 recipes, removed 647 recipes, modified 84 recipes, with 0 failed recipes and 0 fall-backed recipes
+[02:08:50] [WARN ] server_scripts:lootjs/loot.js:65: LootJS: Invalid ingredient for filter: travelersbackpack:crepper
+! [02:08:50] [ERR] #87: Error occurred while handling event 'LootJS.modifiers': TypeError: Cannot call method "limitCount" of undefined (server_scripts:lootjs/loot.js#87)
