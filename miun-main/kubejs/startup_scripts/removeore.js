@@ -1,8 +1,6 @@
 WorldgenEvents.remove(event => {
   event.removeOres(ores => {
     ores.blocks = [ 
-      'betternether:nether_lapis_ore',
-      'betternether:nether_redstone_ore',
       'blockus:viridite',
       'byg:lignite_ore',
       'croparia:deepslate_elematilius_ore',
@@ -26,7 +24,12 @@ WorldgenEvents.remove(event => {
       'techreborn:ruby_ore',
       'croptopia:salt_ore',
       'galosphere:silver_ore',
-      'galosphere:deepslate_silver_ore'
+      'galosphere:deepslate_silver_ore',
+      "soulsweapons:moonstone_ore",
+      "soulsweapons:moonstone_ore_deepslate",
+      "soulsweapons:verglas_ore_deepslate",
+      "soulsweapons:verglas_ore",
+      "rocks:seashell"
       ]
   })
 

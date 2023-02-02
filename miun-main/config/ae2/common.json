@@ -55,8 +55,8 @@
     "matterCannon": 200000
   },
   "worldGen": {
-    "spawnPressesInMeteorites": false,
-    "generateMeteorites": false
+    "spawnPressesInMeteorites": true,
+    "generateMeteorites": true
   },
   "wireless": {
     "wirelessBaseCost": 8.0,
@@ -94,7 +94,7 @@
     "InscriberMin": 1,
     "InscriberMax": 1,
     "ChargerMin": 10,
-    "ChargerMax": 10,
+    "ChargerMax": 20,
     "IOPortMin": 1,
     "IOPortMax": 5,
     "VibrationChamberMin": 10,

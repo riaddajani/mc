@@ -19,7 +19,7 @@ Recommended Maximum Ram: 6-8gb -
 
 Common Issues ----------------------------
 
-Cannot start server locally (only if you want to host server on your computer) - if the start script doesn't download server.jar for you, download it and put it in the same folder as start scripts https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
+1. Cannot start server locally (start.ps file) (only if you want to host server on your computer) - You need to enable a setting in powershell. Open Powershell with Admin Privileges -> Enter command: Set-ExecutionPolicy Unrestricted -> Re-open start.ps 
 -------------------------------------------
 
 

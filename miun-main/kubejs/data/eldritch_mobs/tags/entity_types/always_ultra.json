@@ -3,6 +3,8 @@
     "minecraft:ender_dragon",
     "minecraft:wither",
     "minecraft:warden",
-    "minecells:conjunctivius"
+    "minecells:conjunctivius",
+    "soulsweapons:night_prowler",
+    "soulsweapons:day_stalker"
   ]
 }

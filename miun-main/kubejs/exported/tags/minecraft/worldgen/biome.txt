@@ -43,7 +43,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:rocky_jungle (from Terralith)
 
 #repurposed_structures:has_structure/wells/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #dungeons_arise:has_structure/giant_mushroom_biomes
 - minecraft:plains (from When Dungeons Arise)
@@ -60,7 +60,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #byg:is_dense
 
 #repurposed_structures:has_structure/dungeons/ocean
-- #repurposed_structures:collections/oceans (from Repurposed Structures)
+- #repurposed_structures:collections/oceans 
 
 #minecells:valid_portal_biomes
 - #c:forest (from Mine Cells)
@@ -76,7 +76,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_nether (from Twigs)
 
 #repurposed_structures:has_structure/mineshafts/dark_forest
-- #repurposed_structures:collections/spooky_forests (from Repurposed Structures)
+- #repurposed_structures:collections/spooky_forests 
 
 #croptopia:has_crop/basil
 - minecraft:jungle (from Croptopia)
@@ -195,7 +195,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:yosemite_lowlands (from Terralith)
 
 #repurposed_structures:has_structure/monuments/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #c:end_islands
 
@@ -217,7 +217,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:meadow (from Porting Lib Tags)
 
 #repurposed_structures:has_structure/shipwrecks/warped
-- #repurposed_structures:collections/nether_warped_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_warped_forests 
 
 #mythicmetals:prometheum_biomes
 - minecraft:lush_caves (from Mythic Metals)
@@ -229,13 +229,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:gravel_desert (from Terralith)
 
 #repurposed_structures:has_structure/mineshafts/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #repurposed_structures:has_structure/mansions/taiga
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
+- #repurposed_structures:collections/taigas 
 
 #repurposed_structures:has_structure/outposts/nether_brick
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #c:in_overworld
 - #byg:is_overworld (from Oh The Biomes You'll Go)
@@ -308,7 +308,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:plains (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/outposts/birch
-- #repurposed_structures:collections/birch_forests (from Repurposed Structures)
+- #repurposed_structures:collections/birch_forests 
 
 #bettermineshafts:has_structure/better_mineshaft_oak
 - minecraft:plains (from YUNG's Better Mineshafts)
@@ -341,10 +341,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - projectvibrantjourneys:verdant_sands? (from YUNG's Better Desert Temples)
 
 #repurposed_structures:has_structure/wells/mushroom
-- #repurposed_structures:collections/mushrooms (from Repurposed Structures)
+- #repurposed_structures:collections/mushrooms 
 
 #repurposed_structures:has_structure/witch_huts/dark_forest
-- #repurposed_structures:collections/spooky_forests (from Repurposed Structures)
+- #repurposed_structures:collections/spooky_forests 
 
 #forge:is_rare
 - terralith:alpha_islands (from Terralith)
@@ -363,7 +363,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:yellowstone (from Terralith)
 
 #repurposed_structures:has_structure/dungeons/desert
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
+- #repurposed_structures:collections/deserts 
 
 #c:river
 - #byg:is_river (from Oh The Biomes You'll Go)
@@ -394,9 +394,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:warped_forest (from Terralith)
 
 #repurposed_structures:collections/beaches
-- #minecraft:is_beach (from Repurposed Structures)
-- #forge:is_beach? (from Repurposed Structures)
-- #c:beach? (from Repurposed Structures)
+- #minecraft:is_beach 
+- #forge:is_beach? 
+- #c:beach? 
 
 #bettermineshafts:has_structure/better_mineshaft_mushroom
 - minecraft:mushroom_fields (from YUNG's Better Mineshafts)
@@ -477,23 +477,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:white_mangrove_marshes? (from Croptopia)
 
 #repurposed_structures:collections/badlands
-- #minecraft:is_badlands (from Repurposed Structures)
-- terralith:savanna_badlands? (from Repurposed Structures)
-- byg:atacama_desert? (from Repurposed Structures)
-- #forge:is_mesa? (from Repurposed Structures)
-- #c:in_mesa? (from Repurposed Structures)
-- #forge:is_badlands? (from Repurposed Structures)
-- #c:badlands? (from Repurposed Structures)
+- #minecraft:is_badlands 
+- terralith:savanna_badlands? 
+- byg:atacama_desert? 
+- #forge:is_mesa? 
+- #c:in_mesa? 
+- #forge:is_badlands? 
+- #c:badlands? 
 
 #repurposed_structures:collections/savannas
-- #minecraft:is_savanna (from Repurposed Structures)
-- terralith:arid_highlands? (from Repurposed Structures)
-- terralith:hot_shrubland? (from Repurposed Structures)
-- terralith:sakura_grove? (from Repurposed Structures)
-- terralith:sakura_valley? (from Repurposed Structures)
-- projectvibrantjourneys:baobab_fields? (from Repurposed Structures)
-- #forge:is_savanna? (from Repurposed Structures)
-- #c:savanna? (from Repurposed Structures)
+- #minecraft:is_savanna 
+- terralith:arid_highlands? 
+- terralith:hot_shrubland? 
+- terralith:sakura_grove? 
+- terralith:sakura_valley? 
+- projectvibrantjourneys:baobab_fields? 
+- #forge:is_savanna? 
+- #c:savanna? 
 
 #byg:is_spooky
 - byg:weeping_witch_forest (from Oh The Biomes You'll Go)
@@ -504,7 +504,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:white_mangrove_marshes (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/dungeons/swamp
-- #repurposed_structures:collections/swamps (from Repurposed Structures)
+- #repurposed_structures:collections/swamps 
 
 #croptopia:has_crop/ginger
 - minecraft:savanna (from Croptopia)
@@ -530,9 +530,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:firecracker_shrubland? (from Croptopia)
 
 #repurposed_structures:collections/hills
-- #minecraft:is_hill (from Repurposed Structures)
-- #forge:is_hills? (from Repurposed Structures)
-- #c:extreme_hills? (from Repurposed Structures)
+- #minecraft:is_hill 
+- #forge:is_hills? 
+- #c:extreme_hills? 
 
 #c:is_snowy
 - minecraft:frozen_ocean (from Porting Lib Tags)
@@ -947,7 +947,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:deep_frozen_ocean (from Default)
 
 #repurposed_structures:has_structure/temples/nether_wasteland
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #croptopia:has_crop/honeydew
 - minecraft:jungle (from Croptopia)
@@ -998,7 +998,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:lush_caves (from YUNG's Better Strongholds)
 
 #repurposed_structures:has_structure/mineshafts/warped
-- #repurposed_structures:collections/nether_warped_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_warped_forests 
 
 #spelunkery:has_desert_noise
 - minecraft:desert (from Spelunkery)
@@ -1039,20 +1039,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:frozen_ocean (from Bosses of Mass Destruction (Beta))
 
 #repurposed_structures:collections/floral
-- minecraft:flower_forest (from Repurposed Structures)
-- #c:floral? (from Repurposed Structures)
-- #c:flower_forests? (from Repurposed Structures)
-- terralith:blooming_plateau? (from Repurposed Structures)
-- terralith:blooming_valley? (from Repurposed Structures)
-- terralith:moonlight_grove? (from Repurposed Structures)
-- terralith:moonlight_valley? (from Repurposed Structures)
-- terralith:sakura_grove? (from Repurposed Structures)
-- terralith:sakura_valley? (from Repurposed Structures)
-- #byg:is_floral? (from Repurposed Structures)
-- biomesoplenty:cherry_blossom_grove? (from Repurposed Structures)
-- biomesoplenty:lavender_field? (from Repurposed Structures)
-- biomesoplenty:lavender_forest? (from Repurposed Structures)
-- projectvibrantjourneys:blossoming_fields? (from Repurposed Structures)
+- minecraft:flower_forest 
+- #c:floral? 
+- #c:flower_forests? 
+- terralith:blooming_plateau? 
+- terralith:blooming_valley? 
+- terralith:moonlight_grove? 
+- terralith:moonlight_valley? 
+- terralith:sakura_grove? 
+- terralith:sakura_valley? 
+- #byg:is_floral? 
+- biomesoplenty:cherry_blossom_grove? 
+- biomesoplenty:lavender_field? 
+- biomesoplenty:lavender_forest? 
+- projectvibrantjourneys:blossoming_fields? 
 
 #croptopia:has_crop/mustard
 - minecraft:plains (from Croptopia)
@@ -1096,10 +1096,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:warm_river (from Terralith)
 
 #repurposed_structures:has_structure/witch_huts/mangrove
-- #repurposed_structures:collections/mangroves (from Repurposed Structures)
+- #repurposed_structures:collections/mangroves 
 
 #repurposed_structures:has_structure/cities/overworld
-- #repurposed_structures:collections/giant_trees (from Repurposed Structures)
+- #repurposed_structures:collections/giant_trees 
 
 #minecraft:only_allows_snow_and_gold_rabbits
 - minecraft:desert (from Default)
@@ -1159,10 +1159,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - galosphere:lichen_caves (from Galosphere)
 
 #repurposed_structures:has_structure/ruins/land_icy
-- #repurposed_structures:collections/snowy_mountains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
-- #repurposed_structures:collections/icy (from Repurposed Structures)
+- #repurposed_structures:collections/snowy_mountains 
+- #repurposed_structures:collections/snowy_plains 
+- #repurposed_structures:collections/snowy_forests 
+- #repurposed_structures:collections/icy 
 
 #minecraft:is_beach
 - minecraft:beach (from Default)
@@ -1172,16 +1172,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:gravel_beach (from Terralith)
 
 #repurposed_structures:has_structure/mineshafts/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #repurposed_structures:collections/deserts
-- minecraft:desert (from Repurposed Structures)
-- terralith:lush_desert? (from Repurposed Structures)
-- biomesoplenty:lush_desert? (from Repurposed Structures)
-- projectvibrantjourneys:desert_shrubland? (from Repurposed Structures)
-- projectvibrantjourneys:verdant_sands? (from Repurposed Structures)
-- #forge:is_desert? (from Repurposed Structures)
-- #c:desert? (from Repurposed Structures)
+- minecraft:desert 
+- terralith:lush_desert? 
+- biomesoplenty:lush_desert? 
+- projectvibrantjourneys:desert_shrubland? 
+- projectvibrantjourneys:verdant_sands? 
+- #forge:is_desert? 
+- #c:desert? 
 
 #forge:is_swamp
 - terralith:ice_marsh (from Terralith)
@@ -1221,7 +1221,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:volcanic_peaks (from Terralith)
 
 #repurposed_structures:has_structure/mansions/mangrove
-- #repurposed_structures:collections/mangroves (from Repurposed Structures)
+- #repurposed_structures:collections/mangroves 
 
 #dungeons_arise:has_structure/bandit_village_biomes
 - #minecraft:is_badlands (from When Dungeons Arise)
@@ -1231,10 +1231,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_nether (from Bosses of Mass Destruction (Beta))
 
 #repurposed_structures:has_structure/villages/warped
-- #repurposed_structures:collections/nether_warped_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_warped_forests 
 
 #repurposed_structures:has_structure/pyramids/icy
-- #repurposed_structures:collections/icy (from Repurposed Structures)
+- #repurposed_structures:collections/icy 
 
 #apoli:category/none
 - minecraft:the_void (from Apoli)
@@ -1265,11 +1265,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:end_midlands (from Towers of the Wild: Additions)
 
 #repurposed_structures:collections/plains
-- minecraft:plains (from Repurposed Structures)
-- minecraft:sunflower_plains (from Repurposed Structures)
-- terralith:brushland? (from Repurposed Structures)
-- projectvibrantjourneys:prairie? (from Repurposed Structures)
-- #c:plains? (from Repurposed Structures)
+- minecraft:plains 
+- minecraft:sunflower_plains 
+- terralith:brushland? 
+- projectvibrantjourneys:prairie? 
+- #c:plains? 
 
 #byg:is_overworld
 - byg:allium_fields (from Oh The Biomes You'll Go)
@@ -1328,31 +1328,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:zelkova_forest (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/witch_huts/oak
-- #repurposed_structures:collections/regular_forests (from Repurposed Structures)
+- #repurposed_structures:collections/regular_forests 
 
 #repurposed_structures:collections/regular_forests
-- minecraft:forest (from Repurposed Structures)
-- byg:red_oak_forest? (from Repurposed Structures)
-- byg:temperate_rainforest? (from Repurposed Structures)
-- byg:orchard? (from Repurposed Structures)
-- byg:autumnal_forest? (from Repurposed Structures)
-- byg:cherry_blossom_forest? (from Repurposed Structures)
-- biomesoplenty:cherry_blossom_grove? (from Repurposed Structures)
-- biomesoplenty:orchard? (from Repurposed Structures)
-- biomesoplenty:seasonal_forest? (from Repurposed Structures)
-- biomesoplenty:woodland? (from Repurposed Structures)
-- biomesoplenty:old_growth_woodland? (from Repurposed Structures)
-- magicalforest:magical_forest? (from Repurposed Structures)
-- wythers:ancient_copper_beech_forest? (from Repurposed Structures)
-- wythers:ancient_emerald_beech_forest? (from Repurposed Structures)
-- wythers:ancient_golden_beech_forest? (from Repurposed Structures)
-- wythers:autumnal_forest? (from Repurposed Structures)
-- wythers:cool_forest? (from Repurposed Structures)
-- wythers:flowering_pantanal? (from Repurposed Structures)
-- wythers:spring_flower_forest? (from Repurposed Structures)
-- wythers:autumnal_flower_forest? (from Repurposed Structures)
-- wythers:sakura_forest? (from Repurposed Structures)
-- wythers:wistman_woods? (from Repurposed Structures)
+- minecraft:forest 
+- byg:red_oak_forest? 
+- byg:temperate_rainforest? 
+- byg:orchard? 
+- byg:autumnal_forest? 
+- byg:cherry_blossom_forest? 
+- biomesoplenty:cherry_blossom_grove? 
+- biomesoplenty:orchard? 
+- biomesoplenty:seasonal_forest? 
+- biomesoplenty:woodland? 
+- biomesoplenty:old_growth_woodland? 
+- magicalforest:magical_forest? 
+- wythers:ancient_copper_beech_forest? 
+- wythers:ancient_emerald_beech_forest? 
+- wythers:ancient_golden_beech_forest? 
+- wythers:autumnal_forest? 
+- wythers:cool_forest? 
+- wythers:flowering_pantanal? 
+- wythers:spring_flower_forest? 
+- wythers:autumnal_flower_forest? 
+- wythers:sakura_forest? 
+- wythers:wistman_woods? 
 
 #dungeons_arise:has_structure/heavenly_conqueror_biomes
 - #minecraft:is_jungle (from When Dungeons Arise)
@@ -1375,7 +1375,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:end_highlands (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/dungeons/deep
-- #repurposed_structures:collections/overworld (from Repurposed Structures)
+- #repurposed_structures:collections/overworld 
 
 #c:is_sparse
 - #c:is_sparse/overworld (from Porting Lib Tags)
@@ -1415,9 +1415,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:cave/ice_caves (from Terralith)
 
 #repurposed_structures:has_structure/igloos/grassy
-- #repurposed_structures:collections/regular_forests (from Repurposed Structures)
-- #repurposed_structures:collections/meadows (from Repurposed Structures)
-- #repurposed_structures:collections/plains (from Repurposed Structures)
+- #repurposed_structures:collections/regular_forests 
+- #repurposed_structures:collections/meadows 
+- #repurposed_structures:collections/plains 
 
 #minecraft:has_structure/end_city
 - minecraft:end_highlands (from Default)
@@ -1435,7 +1435,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:grove (from Croptopia)
 
 #repurposed_structures:has_structure/shipwrecks/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #twigs:does_not_spawn_rhyolite
 
@@ -1516,25 +1516,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:end_barrens (from Porting Lib Tags)
 
 #repurposed_structures:collections/meadows
-- minecraft:meadow (from Repurposed Structures)
-- biomesoplenty:field? (from Repurposed Structures)
-- biomesoplenty:highland? (from Repurposed Structures)
-- biomesoplenty:highland_moor? (from Repurposed Structures)
-- biomesoplenty:rocky_shrubland? (from Repurposed Structures)
-- biomesoplenty:clover_patch? (from Repurposed Structures)
-- projectvibrantjourneys:pine_meadows? (from Repurposed Structures)
-- wythers:cold_plains? (from Repurposed Structures)
-- wythers:cool_plains? (from Repurposed Structures)
-- wythers:autumnal_plains? (from Repurposed Structures)
-- wythers:harvest_fields? (from Repurposed Structures)
-- wythers:highland_plains? (from Repurposed Structures)
+- minecraft:meadow 
+- biomesoplenty:field? 
+- biomesoplenty:highland? 
+- biomesoplenty:highland_moor? 
+- biomesoplenty:rocky_shrubland? 
+- biomesoplenty:clover_patch? 
+- projectvibrantjourneys:pine_meadows? 
+- wythers:cold_plains? 
+- wythers:cool_plains? 
+- wythers:autumnal_plains? 
+- wythers:harvest_fields? 
+- wythers:highland_plains? 
 
 #repurposed_structures:has_structure/ruins/land_warm
-- #repurposed_structures:collections/plains (from Repurposed Structures)
-- #repurposed_structures:collections/swamps (from Repurposed Structures)
+- #repurposed_structures:collections/plains 
+- #repurposed_structures:collections/swamps 
 
 #repurposed_structures:has_structure/mineshafts/birch
-- #repurposed_structures:collections/birch_forests (from Repurposed Structures)
+- #repurposed_structures:collections/birch_forests 
 
 #minecraft:has_structure/ruined_portal_mountain
 - #minecraft:is_badlands (from Default)
@@ -1552,7 +1552,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_mountain (from Terralith)
 
 #repurposed_structures:has_structure/pyramids/dark_forest
-- #repurposed_structures:collections/spooky_forests (from Repurposed Structures)
+- #repurposed_structures:collections/spooky_forests 
 
 #croptopia:has_crop/raspberry
 - minecraft:forest (from Croptopia)
@@ -1616,10 +1616,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:cave/underground_jungle (from Terralith)
 
 #repurposed_structures:has_structure/pyramids/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #repurposed_structures:has_structure/outposts/badlands
-- #repurposed_structures:collections/badlands (from Repurposed Structures)
+- #repurposed_structures:collections/badlands 
 
 #croptopia:has_crop/chile_pepper
 - minecraft:plains (from Croptopia)
@@ -1693,7 +1693,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:basalt_deltas (from Fabric Convention Tags)
 
 #repurposed_structures:has_structure/outposts/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #c:tree_coniferous
 - #byg:is_taiga (from Oh The Biomes You'll Go)
@@ -1718,33 +1718,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:wintry_lowlands (from Terralith)
 
 #repurposed_structures:collections/caves
-- minecraft:dripstone_caves (from Repurposed Structures)
-- minecraft:lush_caves (from Repurposed Structures)
-- minecraft:deep_dark (from Repurposed Structures)
-- terralith:cave/andesite_caves? (from Repurposed Structures)
-- terralith:cave/crystal_caves? (from Repurposed Structures)
-- terralith:cave/deep_caves? (from Repurposed Structures)
-- terralith:cave/desert_caves? (from Repurposed Structures)
-- terralith:cave/diorite_caves? (from Repurposed Structures)
-- terralith:cave/frostfire_caves? (from Repurposed Structures)
-- terralith:cave/fungal_caves? (from Repurposed Structures)
-- terralith:cave/granite_caves? (from Repurposed Structures)
-- terralith:cave/ice_caves? (from Repurposed Structures)
-- terralith:cave/infested_caves? (from Repurposed Structures)
-- terralith:cave/mantle_caves? (from Repurposed Structures)
-- terralith:cave/thermal_caves? (from Repurposed Structures)
-- terralith:cave/tuff_caves? (from Repurposed Structures)
-- terralith:cave/underground_jungle? (from Repurposed Structures)
-- #forge:is_underground? (from Repurposed Structures)
-- #c:underground? (from Repurposed Structures)
-- #c:caves? (from Repurposed Structures)
+- minecraft:dripstone_caves 
+- minecraft:lush_caves 
+- minecraft:deep_dark 
+- terralith:cave/andesite_caves? 
+- terralith:cave/crystal_caves? 
+- terralith:cave/deep_caves? 
+- terralith:cave/desert_caves? 
+- terralith:cave/diorite_caves? 
+- terralith:cave/frostfire_caves? 
+- terralith:cave/fungal_caves? 
+- terralith:cave/granite_caves? 
+- terralith:cave/ice_caves? 
+- terralith:cave/infested_caves? 
+- terralith:cave/mantle_caves? 
+- terralith:cave/thermal_caves? 
+- terralith:cave/tuff_caves? 
+- terralith:cave/underground_jungle? 
+- #forge:is_underground? 
+- #c:underground? 
+- #c:caves? 
 
 #repurposed_structures:has_structure/mineshafts/stone
-- #repurposed_structures:collections/hills (from Repurposed Structures)
-- #repurposed_structures:collections/mountains (from Repurposed Structures)
-- #repurposed_structures:collections/meadows (from Repurposed Structures)
-- #repurposed_structures:collections/stony_shores (from Repurposed Structures)
-- #repurposed_structures:collections/rocky_mountains (from Repurposed Structures)
+- #repurposed_structures:collections/hills 
+- #repurposed_structures:collections/mountains 
+- #repurposed_structures:collections/meadows 
+- #repurposed_structures:collections/stony_shores 
+- #repurposed_structures:collections/rocky_mountains 
 
 #c:savanna
 - #byg:is_savanna (from Oh The Biomes You'll Go)
@@ -1811,27 +1811,27 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #c:swamp? (from Lovely Snails)
 
 #repurposed_structures:collections/rocky_mountains
-- terralith:amethyst_canyon? (from Repurposed Structures)
-- terralith:basalt_cliffs? (from Repurposed Structures)
-- terralith:emerald_peaks? (from Repurposed Structures)
-- terralith:granite_cliffs? (from Repurposed Structures)
-- terralith:haze_mountain? (from Repurposed Structures)
-- terralith:mountain_steppe? (from Repurposed Structures)
-- terralith:painted_mountains? (from Repurposed Structures)
-- terralith:rocky_mountains? (from Repurposed Structures)
-- terralith:shield_clearing? (from Repurposed Structures)
-- terralith:steppe? (from Repurposed Structures)
-- terralith:stony_spires? (from Repurposed Structures)
-- terralith:valley_clearing? (from Repurposed Structures)
-- biomesoplenty:crag? (from Repurposed Structures)
-- byg:canadian_shield? (from Repurposed Structures)
-- projectvibrantjourneys:overgrown_spires? (from Repurposed Structures)
-- wythers:aspen_crags? (from Repurposed Structures)
-- wythers:andesite_crags? (from Repurposed Structures)
-- wythers:cool_stony_peaks? (from Repurposed Structures)
-- wythers:cool_stony_peaks? (from Repurposed Structures)
-- wythers:tepui? (from Repurposed Structures)
-- wythers:tibesti_mountains? (from Repurposed Structures)
+- terralith:amethyst_canyon? 
+- terralith:basalt_cliffs? 
+- terralith:emerald_peaks? 
+- terralith:granite_cliffs? 
+- terralith:haze_mountain? 
+- terralith:mountain_steppe? 
+- terralith:painted_mountains? 
+- terralith:rocky_mountains? 
+- terralith:shield_clearing? 
+- terralith:steppe? 
+- terralith:stony_spires? 
+- terralith:valley_clearing? 
+- biomesoplenty:crag? 
+- byg:canadian_shield? 
+- projectvibrantjourneys:overgrown_spires? 
+- wythers:aspen_crags? 
+- wythers:andesite_crags? 
+- wythers:cool_stony_peaks? 
+- wythers:cool_stony_peaks? 
+- wythers:tepui? 
+- wythers:tibesti_mountains? 
 
 #byg:is_dead
 - byg:dead_sea (from Oh The Biomes You'll Go)
@@ -1882,7 +1882,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:deep_dark (from Spelunkery)
 
 #repurposed_structures:has_structure/mineshafts/crimson
-- #repurposed_structures:collections/nether_crimson_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_crimson_forests 
 
 #minecraft:has_structure/buried_treasure
 - #minecraft:is_beach (from Default)
@@ -1925,19 +1925,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:snowy_slopes (from Porting Lib Tags)
 
 #repurposed_structures:collections/snowy_forests
-- minecraft:snowy_taiga (from Repurposed Structures)
-- minecraft:grove (from Repurposed Structures)
-- biomesoplenty:snowy_maple_woods? (from Repurposed Structures)
-- biomesoplenty:snowy_coniferous_forest? (from Repurposed Structures)
-- biomesoplenty:muskeg? (from Repurposed Structures)
-- biomesoplenty:rainbow_hills? (from Repurposed Structures)
-- byg:frosted_taiga? (from Repurposed Structures)
-- byg:frosted_coniferous_forest? (from Repurposed Structures)
-- projectvibrantjourneys:snowy_boreal_forest? (from Repurposed Structures)
-- projectvibrantjourneys:snowy_redwoods? (from Repurposed Structures)
-- wythers:snowy_fen? (from Repurposed Structures)
-- wythers:snowy_thermal_taiga? (from Repurposed Structures)
-- wythers:deep_snowy_taiga? (from Repurposed Structures)
+- minecraft:snowy_taiga 
+- minecraft:grove 
+- biomesoplenty:snowy_maple_woods? 
+- biomesoplenty:snowy_coniferous_forest? 
+- biomesoplenty:muskeg? 
+- biomesoplenty:rainbow_hills? 
+- byg:frosted_taiga? 
+- byg:frosted_coniferous_forest? 
+- projectvibrantjourneys:snowy_boreal_forest? 
+- projectvibrantjourneys:snowy_redwoods? 
+- wythers:snowy_fen? 
+- wythers:snowy_thermal_taiga? 
+- wythers:deep_snowy_taiga? 
 
 #minecraft:is_savanna
 - minecraft:savanna (from Default)
@@ -1945,7 +1945,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:windswept_savanna (from Default)
 
 #repurposed_structures:has_structure/outposts/giant_tree_taiga
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
+- #repurposed_structures:collections/giant_taigas 
 
 #dungeons_arise:has_structure/thornborn_towers_biomes
 - #minecraft:is_forest (from When Dungeons Arise)
@@ -1990,12 +1990,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:swamp (from Croptopia)
 
 #repurposed_structures:has_structure/mineshafts/desert
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
+- #repurposed_structures:collections/deserts 
 
 #repurposed_structures:collections/jungles
-- #minecraft:is_jungle (from Repurposed Structures)
-- #forge:is_jungle? (from Repurposed Structures)
-- #c:in_jungle? (from Repurposed Structures)
+- #minecraft:is_jungle 
+- #forge:is_jungle? 
+- #c:in_jungle? 
 
 #byg:is_nether
 - byg:arisian_undergrowth (from Oh The Biomes You'll Go)
@@ -2012,20 +2012,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:weeping_mire (from Oh The Biomes You'll Go)
 
 #repurposed_structures:collections/spooky_forests
-- minecraft:dark_forest (from Repurposed Structures)
-- terralith:mirage_isles? (from Repurposed Structures)
-- byg:ancient_forest? (from Repurposed Structures)
-- byg:ebony_woods? (from Repurposed Structures)
-- biomesoplenty:ominous_woods? (from Repurposed Structures)
-- vampirism:vampire_forest? (from Repurposed Structures)
-- #forge:is_spooky? (from Repurposed Structures)
-- #forge:is_dead? (from Repurposed Structures)
-- #c:dead? (from Repurposed Structures)
-- wythers:ancient_moss_forest? (from Repurposed Structures)
-- wythers:deep_dark_forest? (from Repurposed Structures)
-- wythers:forbidden_forest? (from Repurposed Structures)
-- wythers:phantasmal_forest? (from Repurposed Structures)
-- wythers:phantasmal_swamp? (from Repurposed Structures)
+- minecraft:dark_forest 
+- terralith:mirage_isles? 
+- byg:ancient_forest? 
+- byg:ebony_woods? 
+- biomesoplenty:ominous_woods? 
+- vampirism:vampire_forest? 
+- #forge:is_spooky? 
+- #forge:is_dead? 
+- #c:dead? 
+- wythers:ancient_moss_forest? 
+- wythers:deep_dark_forest? 
+- wythers:forbidden_forest? 
+- wythers:phantasmal_forest? 
+- wythers:phantasmal_swamp? 
 
 #c:is_dense
 - #c:is_dense/overworld (from Porting Lib Tags)
@@ -2045,7 +2045,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:sunflower_plains (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/villages/badlands
-- #repurposed_structures:collections/badlands (from Repurposed Structures)
+- #repurposed_structures:collections/badlands 
 
 #croptopia:has_crop/rhubarb
 - minecraft:jungle (from Croptopia)
@@ -2063,7 +2063,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_deep_ocean (from Default)
 
 #repurposed_structures:has_structure/ancient_cities/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #forge:is_sandy
 - terralith:ancient_sands (from Terralith)
@@ -2074,20 +2074,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:snowy_badlands (from Terralith)
 
 #repurposed_structures:collections/mangroves
-- minecraft:mangrove_swamp (from Repurposed Structures)
-- wythers:tangled_forest? (from Repurposed Structures)
-- wythers:coastal_mangroves? (from Repurposed Structures)
-- wythers:bamboo_swamp? (from Repurposed Structures)
-- wythers:bayou? (from Repurposed Structures)
-- wythers:berry_bog? (from Repurposed Structures)
-- wythers:dripleaf_swamp? (from Repurposed Structures)
-- wythers:autumnal_swamp? (from Repurposed Structures)
+- minecraft:mangrove_swamp 
+- wythers:tangled_forest? 
+- wythers:coastal_mangroves? 
+- wythers:bamboo_swamp? 
+- wythers:bayou? 
+- wythers:berry_bog? 
+- wythers:dripleaf_swamp? 
+- wythers:autumnal_swamp? 
 
 #repurposed_structures:has_structure/witch_huts/taiga
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
+- #repurposed_structures:collections/taigas 
 
 #repurposed_structures:has_structure/strongholds/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #c:climate_cold
 - #byg:is_cold (from Oh The Biomes You'll Go)
@@ -2136,7 +2136,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:lush_caves (from Apoli)
 
 #repurposed_structures:has_structure/fortresses/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #bettermineshafts:has_structure/better_mineshaft_red_desert
 - #minecraft:is_badlands (from YUNG's Better Mineshafts)
@@ -2148,48 +2148,48 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_river (from Default)
 
 #repurposed_structures:collections/any_taiga
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
-- #minecraft:is_taiga (from Repurposed Structures)
-- minecraft:grove (from Repurposed Structures)
-- biomesoplenty:redwood_forest? (from Repurposed Structures)
-- byg:redwood_thicket? (from Repurposed Structures)
-- projectvibrantjourneys:redwoods? (from Repurposed Structures)
-- wythers:flooded_temperate_rainforest? (from Repurposed Structures)
-- wythers:temperate_rainforest? (from Repurposed Structures)
-- wythers:temperate_rainforest_crags? (from Repurposed Structures)
-- wythers:ancient_taiga? (from Repurposed Structures)
-- wythers:old_growth_taiga_crags? (from Repurposed Structures)
-- wythers:old_growth_taiga_swamp? (from Repurposed Structures)
-- wythers:sparse_eucalyptus_woodland? (from Repurposed Structures)
-- wythers:sparse_eucalyptus_jungle? (from Repurposed Structures)
-- wythers:old_growth_taiga_swamp? (from Repurposed Structures)
-- terralith:cloud_forest? (from Repurposed Structures)
-- terralith:forested_highlands? (from Repurposed Structures)
-- terralith:lavender_forest? (from Repurposed Structures)
-- terralith:lavender_valley? (from Repurposed Structures)
-- terralith:moonlight_grove? (from Repurposed Structures)
-- terralith:moonlight_valley? (from Repurposed Structures)
-- terralith:rocky_shrubland? (from Repurposed Structures)
-- terralith:shrubland? (from Repurposed Structures)
-- terralith:wintry_forest? (from Repurposed Structures)
-- biomesoplenty:jade_cliffs? (from Repurposed Structures)
-- biomesoplenty:mediterranean_taiga? (from Repurposed Structures)
-- biomesoplenty:dead_forest? (from Repurposed Structures)
-- biomesoplenty:old_growth_dead_forest? (from Repurposed Structures)
-- byg:autumnal_taiga? (from Repurposed Structures)
-- byg:canadian_shield? (from Repurposed Structures)
-- byg:maple_taiga? (from Repurposed Structures)
-- projectvibrantjourneys:boreal_forest? (from Repurposed Structures)
-- projectvibrantjourneys:crystal_lakes? (from Repurposed Structures)
-- wythers:birch_taiga? (from Repurposed Structures)
-- wythers:boreal_forest_red? (from Repurposed Structures)
-- wythers:boreal_forest_yellow? (from Repurposed Structures)
-- wythers:cold_island? (from Repurposed Structures)
-- wythers:forested_highlands? (from Repurposed Structures)
-- wythers:jade_highlands? (from Repurposed Structures)
-- wythers:larch_taiga? (from Repurposed Structures)
-- wythers:pine_barrens? (from Repurposed Structures)
-- wythers:thermal_taiga? (from Repurposed Structures)
+- #repurposed_structures:collections/taigas 
+- #minecraft:is_taiga 
+- minecraft:grove 
+- biomesoplenty:redwood_forest? 
+- byg:redwood_thicket? 
+- projectvibrantjourneys:redwoods? 
+- wythers:flooded_temperate_rainforest? 
+- wythers:temperate_rainforest? 
+- wythers:temperate_rainforest_crags? 
+- wythers:ancient_taiga? 
+- wythers:old_growth_taiga_crags? 
+- wythers:old_growth_taiga_swamp? 
+- wythers:sparse_eucalyptus_woodland? 
+- wythers:sparse_eucalyptus_jungle? 
+- wythers:old_growth_taiga_swamp? 
+- terralith:cloud_forest? 
+- terralith:forested_highlands? 
+- terralith:lavender_forest? 
+- terralith:lavender_valley? 
+- terralith:moonlight_grove? 
+- terralith:moonlight_valley? 
+- terralith:rocky_shrubland? 
+- terralith:shrubland? 
+- terralith:wintry_forest? 
+- biomesoplenty:jade_cliffs? 
+- biomesoplenty:mediterranean_taiga? 
+- biomesoplenty:dead_forest? 
+- biomesoplenty:old_growth_dead_forest? 
+- byg:autumnal_taiga? 
+- byg:canadian_shield? 
+- byg:maple_taiga? 
+- projectvibrantjourneys:boreal_forest? 
+- projectvibrantjourneys:crystal_lakes? 
+- wythers:birch_taiga? 
+- wythers:boreal_forest_red? 
+- wythers:boreal_forest_yellow? 
+- wythers:cold_island? 
+- wythers:forested_highlands? 
+- wythers:jade_highlands? 
+- wythers:larch_taiga? 
+- wythers:pine_barrens? 
+- wythers:thermal_taiga? 
 
 #botania:mystical_flower_blocklist
 - #forge:is_mushroom? (from Botania)
@@ -2253,10 +2253,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #byg:is_jungle (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/pyramids/flower_forest
-- #repurposed_structures:collections/floral (from Repurposed Structures)
+- #repurposed_structures:collections/floral 
 
 #repurposed_structures:has_structure/dungeons/dark_forest
-- #repurposed_structures:collections/spooky_forests (from Repurposed Structures)
+- #repurposed_structures:collections/spooky_forests 
 
 #forge:is_lush
 - terralith:white_cliffs (from Terralith)
@@ -2270,7 +2270,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:sakura_grove (from Terralith)
 
 #repurposed_structures:has_structure/ancient_cities/ocean
-- #repurposed_structures:collections/deep_oceans (from Repurposed Structures)
+- #repurposed_structures:collections/deep_oceans 
 
 #botania:marimorphosis_plains_bonus
 - #c:plains (from Botania)
@@ -2309,13 +2309,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #bosses_of_mass_destruction:has_structure/none
 
 #repurposed_structures:has_structure/outposts/taiga
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
+- #repurposed_structures:collections/taigas 
 
 #repurposed_structures:has_structure/mineshafts/swamp
-- #repurposed_structures:collections/swamps (from Repurposed Structures)
+- #repurposed_structures:collections/swamps 
 
 #repurposed_structures:has_structure/monuments/desert
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
+- #repurposed_structures:collections/deserts 
 
 #croptopia:has_crop/pineapple
 - minecraft:jungle (from Croptopia)
@@ -2341,7 +2341,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:sunflower_plains (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/temples/nether_basalt
-- #repurposed_structures:collections/nether_basalts (from Repurposed Structures)
+- #repurposed_structures:collections/nether_basalts 
 
 #croptopia:has_crop/radish
 - minecraft:forest (from Croptopia)
@@ -2386,7 +2386,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:alpine_highlands (from Terralith)
 
 #repurposed_structures:has_structure/outposts/crimson
-- #repurposed_structures:collections/nether_crimson_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_crimson_forests 
 
 #dungeons_arise:has_structure/plague_asylum_biomes
 - #minecraft:is_forest (from When Dungeons Arise)
@@ -2412,10 +2412,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_overworld (from Supplementaries Generated Pack)
 
 #repurposed_structures:has_structure/dungeons/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #repurposed_structures:has_structure/temples/nether_warped
-- #repurposed_structures:collections/nether_warped_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_warped_forests 
 
 #minecraft:has_structure/ruined_portal_swamp
 - minecraft:swamp (from Default)
@@ -2475,19 +2475,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:wintry_lowlands (from Terralith)
 
 #repurposed_structures:has_structure/igloos/mushroom
-- #repurposed_structures:collections/mushrooms (from Repurposed Structures)
+- #repurposed_structures:collections/mushrooms 
 
 #c:is_mushroom
 - minecraft:mushroom_fields (from Porting Lib Tags)
 
 #repurposed_structures:collections/icy
-- minecraft:ice_spikes (from Repurposed Structures)
-- minecraft:frozen_peaks (from Repurposed Structures)
-- #byg:is_icy? (from Repurposed Structures)
-- #forge:is_icy? (from Repurposed Structures)
-- wythers:glacial_cliffs? (from Repurposed Structures)
-- wythers:ice_cap? (from Repurposed Structures)
-- wythers:snowy_bog? (from Repurposed Structures)
+- minecraft:ice_spikes 
+- minecraft:frozen_peaks 
+- #byg:is_icy? 
+- #forge:is_icy? 
+- wythers:glacial_cliffs? 
+- wythers:ice_cap? 
+- wythers:snowy_bog? 
 
 #friendsandfoes:has_glare
 - minecraft:lush_caves (from Friends&Foes)
@@ -2543,7 +2543,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:windswept_savanna (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/temples/nether_crimson
-- #repurposed_structures:collections/nether_crimson_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_crimson_forests 
 
 #geode:has_echo_geode
 - deeperdarker:echoing_forest (from Deeper and Darker)
@@ -2556,7 +2556,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:windswept_savanna (from Croptopia)
 
 #repurposed_structures:has_structure/mansions/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #c:mesa
 - minecraft:wooded_badlands (from Fabric Convention Tags)
@@ -2588,9 +2588,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:yosemite_lowlands (from Terralith)
 
 #repurposed_structures:has_structure/wells/snow
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_mountains (from Repurposed Structures)
+- #repurposed_structures:collections/snowy_plains 
+- #repurposed_structures:collections/snowy_forests 
+- #repurposed_structures:collections/snowy_mountains 
 
 #forge:is_wasteland
 - terralith:ashen_savanna (from Terralith)
@@ -2634,15 +2634,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #c:mushroom? (from Lovely Snails)
 
 #repurposed_structures:has_structure/outposts/oak
-- #repurposed_structures:collections/regular_forests (from Repurposed Structures)
+- #repurposed_structures:collections/regular_forests 
 
 #repurposed_structures:has_structure/wells/mossy_stone
-- #repurposed_structures:collections/swamps (from Repurposed Structures)
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
-- #repurposed_structures:collections/spooky_forests (from Repurposed Structures)
+- #repurposed_structures:collections/swamps 
+- #repurposed_structures:collections/jungles 
+- #repurposed_structures:collections/spooky_forests 
 
 #repurposed_structures:has_structure/outposts/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #croptopia:has_crop/leek
 - minecraft:savanna (from Croptopia)
@@ -2654,29 +2654,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_ocean (from KubeJS Resource Pack [data])
 
 #repurposed_structures:collections/deep_oceans
-- #minecraft:is_deep_ocean (from Repurposed Structures)
-- #c:deep_ocean? (from Repurposed Structures)
+- #minecraft:is_deep_ocean 
+- #c:deep_ocean? 
 
 #apoli:category/desert
 - minecraft:desert (from Apoli)
 
 #repurposed_structures:has_structure/monuments/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #bosses_of_mass_destruction:has_structure/gauntlet_arena
 - #bosses_of_mass_destruction:collections/in_nether (from Bosses of Mass Destruction (Beta))
 
 #repurposed_structures:has_structure/villages/oak
-- #repurposed_structures:collections/regular_forests (from Repurposed Structures)
+- #repurposed_structures:collections/regular_forests 
 
 #byg:has_structure/end_city
 - #byg:is_end (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/mansions/desert
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
+- #repurposed_structures:collections/deserts 
 
 #repurposed_structures:has_structure/pyramids/mushroom
-- #repurposed_structures:collections/mushrooms (from Repurposed Structures)
+- #repurposed_structures:collections/mushrooms 
 
 #c:is_underground
 - minecraft:lush_caves (from Porting Lib Tags)
@@ -2690,7 +2690,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #c:savanna (from Botania)
 
 #repurposed_structures:has_structure/outposts/desert
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
+- #repurposed_structures:collections/deserts 
 
 #sandwichable:salt_water_bodies
 - #minecraft:is_ocean (from Sandwichable)
@@ -2711,7 +2711,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_forest (from Apoli)
 
 #repurposed_structures:has_structure/villages/mushroom
-- #repurposed_structures:collections/mushrooms (from Repurposed Structures)
+- #repurposed_structures:collections/mushrooms 
 
 #croptopia:has_crop/zucchini
 - minecraft:savanna (from Croptopia)
@@ -2732,7 +2732,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:prairie (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/mineshafts/ocean
-- #repurposed_structures:collections/oceans (from Repurposed Structures)
+- #repurposed_structures:collections/oceans 
 
 #c:is_hot/overworld
 - minecraft:desert (from Porting Lib Tags)
@@ -2748,10 +2748,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:mangrove_swamp (from Porting Lib Tags)
 
 #repurposed_structures:has_structure/outposts/icy
-- #repurposed_structures:collections/icy (from Repurposed Structures)
+- #repurposed_structures:collections/icy 
 
 #repurposed_structures:has_structure/mansions/oak
-- #repurposed_structures:collections/regular_forests (from Repurposed Structures)
+- #repurposed_structures:collections/regular_forests 
 
 #friendsandfoes:has_less_mooblooms
 - minecraft:meadow (from Friends&Foes)
@@ -2918,16 +2918,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:temperate_highlands (from Terralith)
 
 #repurposed_structures:has_structure/mineshafts/icy
-- #repurposed_structures:collections/icy (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_mountains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
+- #repurposed_structures:collections/icy 
+- #repurposed_structures:collections/snowy_forests 
+- #repurposed_structures:collections/snowy_mountains 
+- #repurposed_structures:collections/snowy_plains 
 
 #repurposed_structures:has_structure/pyramids/badlands
-- #repurposed_structures:collections/badlands (from Repurposed Structures)
+- #repurposed_structures:collections/badlands 
 
 #repurposed_structures:has_structure/mansions/birch
-- #repurposed_structures:collections/birch_forests (from Repurposed Structures)
+- #repurposed_structures:collections/birch_forests 
 
 #graveyard_biomes:has_structure/mushroom_biomes
 - graveyard_biomes:deep_dark_forest (from The Graveyard Biomes)
@@ -2977,23 +2977,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:warm_ocean (from Terralith)
 
 #repurposed_structures:collections/mushrooms
-- minecraft:mushroom_fields (from Repurposed Structures)
-- biomesoplenty:fungal_jungle? (from Repurposed Structures)
-- #forge:is_mushroom? (from Repurposed Structures)
-- #c:mushroom? (from Repurposed Structures)
+- minecraft:mushroom_fields 
+- biomesoplenty:fungal_jungle? 
+- #forge:is_mushroom? 
+- #c:mushroom? 
 
 #c:is_water
 - #minecraft:is_ocean (from Porting Lib Tags)
 - #minecraft:is_river (from Porting Lib Tags)
 
 #repurposed_structures:has_structure/mineshafts/taiga
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
+- #repurposed_structures:collections/taigas 
+- #repurposed_structures:collections/giant_taigas 
 
 #repurposed_structures:collections/end_voids
-- minecraft:small_end_islands (from Repurposed Structures)
-- minecraft:end_barrens (from Repurposed Structures)
-- betterend:ice_starfield? (from Repurposed Structures)
+- minecraft:small_end_islands 
+- minecraft:end_barrens 
+- betterend:ice_starfield? 
 
 #deeperdarker:has_structure/ancient_temple
 - deeperdarker:otherside_deeplands (from Deeper and Darker)
@@ -3109,7 +3109,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_ocean (from Terralith)
 
 #repurposed_structures:has_structure/outposts/mangrove
-- #repurposed_structures:collections/mangroves (from Repurposed Structures)
+- #repurposed_structures:collections/mangroves 
 
 #c:snowy_plains
 - minecraft:snowy_plains (from Fabric Convention Tags)
@@ -3152,10 +3152,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_savanna (from Apoli)
 
 #repurposed_structures:has_structure/mineshafts/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #repurposed_structures:has_structure/outposts/warped
-- #repurposed_structures:collections/nether_warped_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_warped_forests 
 
 #byg:has_structure/stone_arch
 - byg:lush_stacks (from Oh The Biomes You'll Go)
@@ -3217,7 +3217,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - spectrum:deeper_down_biome (from Spectrum)
 
 #repurposed_structures:has_structure/strongholds/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #sandwichable:no_salt_pools
 - #minecraft:is_ocean (from Sandwichable)
@@ -3227,11 +3227,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #byg:is_river
 
 #repurposed_structures:collections/nether_crimson_forests
-- minecraft:crimson_forest (from Repurposed Structures)
-- betternether:crimson_glowing_woods? (from Repurposed Structures)
-- betternether:crimson_pinewood? (from Repurposed Structures)
-- betternether:old_swampland? (from Repurposed Structures)
-- betternether:nether_swampland? (from Repurposed Structures)
+- minecraft:crimson_forest 
+- betternether:crimson_glowing_woods? 
+- betternether:crimson_pinewood? 
+- betternether:old_swampland? 
+- betternether:nether_swampland? 
 
 #c:swamp
 - #byg:is_swamp (from Oh The Biomes You'll Go)
@@ -3260,11 +3260,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:lush_caves (from Spelunkery)
 
 #repurposed_structures:collections/mountains
-- #minecraft:is_mountain (from Repurposed Structures)
-- #forge:is_peak? (from Repurposed Structures)
-- #c:mountain? (from Repurposed Structures)
-- #c:mountain_peak? (from Repurposed Structures)
-- #c:mountain_slope? (from Repurposed Structures)
+- #minecraft:is_mountain 
+- #forge:is_peak? 
+- #c:mountain? 
+- #c:mountain_peak? 
+- #c:mountain_slope? 
 
 #croptopia:has_crop/spinach
 - minecraft:forest (from Croptopia)
@@ -3317,17 +3317,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_ocean (from Terralith)
 
 #repurposed_structures:has_structure/monuments/icy
-- #repurposed_structures:collections/icy (from Repurposed Structures)
+- #repurposed_structures:collections/icy 
 
 #repurposed_structures:has_structure/mansions/snowy
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
+- #repurposed_structures:collections/snowy_plains 
 
 #byg:has_structure/desert_pyramid
 - byg:mojave_desert (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/villages/mountains
-- minecraft:jagged_peaks (from Repurposed Structures)
-- #repurposed_structures:collections/hills (from Repurposed Structures)
+- minecraft:jagged_peaks 
+- #repurposed_structures:collections/hills 
 
 #doom:has_structure/gladiator_fight_biomes
 - minecraft:soul_sand_valley (from Doom Fabric)
@@ -3342,7 +3342,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:coconino_meadow (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/ruins/land_hot
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
+- #repurposed_structures:collections/deserts 
 
 #dungeons_arise:has_structure/merchant_campsite_biomes
 - minecraft:plains (from When Dungeons Arise)
@@ -3359,13 +3359,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:wooded_badlands (from Porting Lib Tags)
 
 #repurposed_structures:has_structure/ruined_portals/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #repurposed_structures:has_structure/villages/birch
-- #repurposed_structures:collections/birch_forests (from Repurposed Structures)
+- #repurposed_structures:collections/birch_forests 
 
 #repurposed_structures:has_structure/dungeons/mushroom
-- #repurposed_structures:collections/mushrooms (from Repurposed Structures)
+- #repurposed_structures:collections/mushrooms 
 
 #rottencreatures:mummy_blacklist
 
@@ -3458,9 +3458,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:frosted_coniferous_forest (from Oh The Biomes You'll Go)
 
 #repurposed_structures:collections/any_forests
-- #minecraft:is_forest (from Repurposed Structures)
-- #forge:is_forest? (from Repurposed Structures)
-- #c:forest? (from Repurposed Structures)
+- #minecraft:is_forest 
+- #forge:is_forest? 
+- #c:forest? 
 
 #c:icy
 - #byg:is_snowy (from Oh The Biomes You'll Go)
@@ -3481,7 +3481,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:gravel_beach (from Terralith)
 
 #repurposed_structures:has_structure/pyramids/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #rottencreatures:dead_beard_blacklist
 
@@ -3497,7 +3497,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:amethyst_rainforest? (from Structory)
 
 #repurposed_structures:has_structure/villages/crimson
-- #repurposed_structures:collections/nether_crimson_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_crimson_forests 
 
 #minecraft:allows_tropical_fish_spawns_at_any_height
 - minecraft:lush_caves (from Default)
@@ -3523,7 +3523,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:temperate_highlands (from Terralith)
 
 #repurposed_structures:has_structure/witch_huts/birch
-- #repurposed_structures:collections/birch_forests (from Repurposed Structures)
+- #repurposed_structures:collections/birch_forests 
 
 #byg:has_structure/mineshaft_mesa
 - byg:red_rock_valley (from Oh The Biomes You'll Go)
@@ -3542,7 +3542,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:basalt_deltas (from Porting Lib Tags)
 
 #repurposed_structures:has_structure/igloos/mangrove
-- #repurposed_structures:collections/mangroves (from Repurposed Structures)
+- #repurposed_structures:collections/mangroves 
 
 #ad_astra:has_structure/mars_temple_biomes
 - ad_astra:martian_wastelands (from Ad Astra!)
@@ -3642,23 +3642,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:snowy_taiga (from Croptopia)
 
 #repurposed_structures:collections/giant_taigas
-- minecraft:old_growth_pine_taiga (from Repurposed Structures)
-- minecraft:old_growth_spruce_taiga (from Repurposed Structures)
-- biomesoplenty:redwood_forest? (from Repurposed Structures)
-- byg:redwood_thicket? (from Repurposed Structures)
-- projectvibrantjourneys:redwoods? (from Repurposed Structures)
-- wythers:flooded_temperate_rainforest? (from Repurposed Structures)
-- wythers:temperate_rainforest? (from Repurposed Structures)
-- wythers:temperate_rainforest_crags? (from Repurposed Structures)
-- wythers:ancient_taiga? (from Repurposed Structures)
-- wythers:old_growth_taiga_crags? (from Repurposed Structures)
-- wythers:old_growth_taiga_swamp? (from Repurposed Structures)
-- wythers:sparse_eucalyptus_woodland? (from Repurposed Structures)
-- wythers:sparse_eucalyptus_jungle? (from Repurposed Structures)
-- wythers:old_growth_taiga_swamp? (from Repurposed Structures)
+- minecraft:old_growth_pine_taiga 
+- minecraft:old_growth_spruce_taiga 
+- biomesoplenty:redwood_forest? 
+- byg:redwood_thicket? 
+- projectvibrantjourneys:redwoods? 
+- wythers:flooded_temperate_rainforest? 
+- wythers:temperate_rainforest? 
+- wythers:temperate_rainforest_crags? 
+- wythers:ancient_taiga? 
+- wythers:old_growth_taiga_crags? 
+- wythers:old_growth_taiga_swamp? 
+- wythers:sparse_eucalyptus_woodland? 
+- wythers:sparse_eucalyptus_jungle? 
+- wythers:old_growth_taiga_swamp? 
 
 #repurposed_structures:has_structure/shipwrecks/nether_bricks
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #minecraft:has_structure/ruined_portal_nether
 - #minecraft:is_nether (from Default)
@@ -3724,48 +3724,48 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:sunflower_plains (from Terralith)
 
 #repurposed_structures:collections/giant_trees
-- minecraft:old_growth_pine_taiga (from Repurposed Structures)
-- minecraft:old_growth_spruce_taiga (from Repurposed Structures)
-- minecraft:bamboo_jungle (from Repurposed Structures)
-- minecraft:jungle (from Repurposed Structures)
-- terralith:amethyst_rainforest? (from Repurposed Structures)
-- terralith:jungle_mountains? (from Repurposed Structures)
-- terralith:rocky_jungle? (from Repurposed Structures)
-- byg:orchard? (from Repurposed Structures)
-- byg:cika_woods? (from Repurposed Structures)
-- byg:coniferous_forest? (from Repurposed Structures)
-- byg:coniferous_forest_hills? (from Repurposed Structures)
-- byg:cherry_blossom_forest? (from Repurposed Structures)
-- byg:tropical_rainforest? (from Repurposed Structures)
-- byg:tropical_rainforest_hills? (from Repurposed Structures)
-- byg:redwood_thicket? (from Repurposed Structures)
-- byg:ebony_woods? (from Repurposed Structures)
-- byg:ebony_hills? (from Repurposed Structures)
-- biomesoplenty:redwood_forest? (from Repurposed Structures)
-- biomesoplenty:coniferous_forest? (from Repurposed Structures)
-- projectvibrantjourneys:redwoods? (from Repurposed Structures)
-- projectvibrantjourneys:baobab_fields? (from Repurposed Structures)
-- projectvibrantjourneys:snowy_redwoods? (from Repurposed Structures)
-- wythers:flooded_temperate_rainforest? (from Repurposed Structures)
-- wythers:temperate_rainforest? (from Repurposed Structures)
-- wythers:temperate_rainforest_crags? (from Repurposed Structures)
-- wythers:ancient_taiga? (from Repurposed Structures)
-- wythers:eucalyptus_deanei_forest? (from Repurposed Structures)
-- wythers:eucalyptus_jungle? (from Repurposed Structures)
-- wythers:eucalyptus_jungle_canyon? (from Repurposed Structures)
-- wythers:eucalyptus_salubris_woodland? (from Repurposed Structures)
-- wythers:eucalyptus_woodland? (from Repurposed Structures)
-- wythers:flooded_jungle? (from Repurposed Structures)
-- wythers:flooded_rainforest? (from Repurposed Structures)
-- wythers:old_growth_taiga_crags? (from Repurposed Structures)
-- wythers:old_growth_taiga_swamp? (from Repurposed Structures)
+- minecraft:old_growth_pine_taiga 
+- minecraft:old_growth_spruce_taiga 
+- minecraft:bamboo_jungle 
+- minecraft:jungle 
+- terralith:amethyst_rainforest? 
+- terralith:jungle_mountains? 
+- terralith:rocky_jungle? 
+- byg:orchard? 
+- byg:cika_woods? 
+- byg:coniferous_forest? 
+- byg:coniferous_forest_hills? 
+- byg:cherry_blossom_forest? 
+- byg:tropical_rainforest? 
+- byg:tropical_rainforest_hills? 
+- byg:redwood_thicket? 
+- byg:ebony_woods? 
+- byg:ebony_hills? 
+- biomesoplenty:redwood_forest? 
+- biomesoplenty:coniferous_forest? 
+- projectvibrantjourneys:redwoods? 
+- projectvibrantjourneys:baobab_fields? 
+- projectvibrantjourneys:snowy_redwoods? 
+- wythers:flooded_temperate_rainforest? 
+- wythers:temperate_rainforest? 
+- wythers:temperate_rainforest_crags? 
+- wythers:ancient_taiga? 
+- wythers:eucalyptus_deanei_forest? 
+- wythers:eucalyptus_jungle? 
+- wythers:eucalyptus_jungle_canyon? 
+- wythers:eucalyptus_salubris_woodland? 
+- wythers:eucalyptus_woodland? 
+- wythers:flooded_jungle? 
+- wythers:flooded_rainforest? 
+- wythers:old_growth_taiga_crags? 
+- wythers:old_growth_taiga_swamp? 
 
 #byg:overworld/climate/temperate
 - byg:temperate_grove (from Oh The Biomes You'll Go)
 - byg:temperate_rainforest (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/temples/taiga
-- #repurposed_structures:collections/any_taiga (from Repurposed Structures)
+- #repurposed_structures:collections/any_taiga 
 
 #minecraft:has_structure/pillager_outpost
 - minecraft:desert (from Default)
@@ -3803,18 +3803,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #byg:is_void
 
 #repurposed_structures:collections/birch_forests
-- minecraft:birch_forest (from Repurposed Structures)
-- minecraft:old_growth_birch_forest (from Repurposed Structures)
-- terralith:temperate_highlands? (from Repurposed Structures)
-- terralith:birch_taiga? (from Repurposed Structures)
-- terralith:white_cliffs? (from Repurposed Structures)
-- byg:aspen_forest? (from Repurposed Structures)
-- byg:temperate_grove? (from Repurposed Structures)
-- projectvibrantjourneys:aspen_grove? (from Repurposed Structures)
-- wythers:autumnal_birch_forest? (from Repurposed Structures)
-- wythers:birch_swamp? (from Repurposed Structures)
-- wythers:birch_taiga? (from Repurposed Structures)
-- wythers:warm_birch_forest? (from Repurposed Structures)
+- minecraft:birch_forest 
+- minecraft:old_growth_birch_forest 
+- terralith:temperate_highlands? 
+- terralith:birch_taiga? 
+- terralith:white_cliffs? 
+- byg:aspen_forest? 
+- byg:temperate_grove? 
+- projectvibrantjourneys:aspen_grove? 
+- wythers:autumnal_birch_forest? 
+- wythers:birch_swamp? 
+- wythers:birch_taiga? 
+- wythers:warm_birch_forest? 
 
 #c:plains
 - #byg:is_plains (from Oh The Biomes You'll Go)
@@ -3826,12 +3826,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #byg:is_jungle (from Oh The Biomes You'll Go)
 
 #repurposed_structures:collections/nether_warped_forests
-- minecraft:warped_forest (from Repurposed Structures)
-- betternether:bone_reef? (from Repurposed Structures)
-- betternether:old_warped_woods? (from Repurposed Structures)
-- betternether:nether_jungle? (from Repurposed Structures)
-- betternether:upside_down_forest? (from Repurposed Structures)
-- betternether:upside_down_forest_cleared? (from Repurposed Structures)
+- minecraft:warped_forest 
+- betternether:bone_reef? 
+- betternether:old_warped_woods? 
+- betternether:nether_jungle? 
+- betternether:upside_down_forest? 
+- betternether:upside_down_forest_cleared? 
 
 #minecraft:is_badlands
 - minecraft:badlands (from Default)
@@ -3918,7 +3918,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - graveyard_biomes:eroded_haunted_forest (from The Graveyard Biomes)
 
 #repurposed_structures:has_structure/mansions/savanna
-- #repurposed_structures:collections/savannas (from Repurposed Structures)
+- #repurposed_structures:collections/savannas 
 
 #terralith:all_terralith_biomes_no_mineshafts
 - terralith:desert_canyon (from Terralith)
@@ -4023,7 +4023,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:rose_fields (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/cities/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #c:vegetation_sparse
 - #byg:is_sparse (from Oh The Biomes You'll Go)
@@ -4101,7 +4101,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 #byg:is_slope
 
 #repurposed_structures:has_structure/ancient_cities/end
-- #repurposed_structures:collections/end (from Repurposed Structures)
+- #repurposed_structures:collections/end 
 
 #byg:is_hill
 
@@ -4110,34 +4110,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:cypress_swamplands (from Oh The Biomes You'll Go)
 
 #repurposed_structures:collections/taigas
-- minecraft:taiga (from Repurposed Structures)
-- terralith:cloud_forest? (from Repurposed Structures)
-- terralith:forested_highlands? (from Repurposed Structures)
-- terralith:lavender_forest? (from Repurposed Structures)
-- terralith:lavender_valley? (from Repurposed Structures)
-- terralith:moonlight_grove? (from Repurposed Structures)
-- terralith:moonlight_valley? (from Repurposed Structures)
-- terralith:rocky_shrubland? (from Repurposed Structures)
-- terralith:shrubland? (from Repurposed Structures)
-- terralith:wintry_forest? (from Repurposed Structures)
-- biomesoplenty:jade_cliffs? (from Repurposed Structures)
-- biomesoplenty:mediterranean_taiga? (from Repurposed Structures)
-- biomesoplenty:dead_forest? (from Repurposed Structures)
-- biomesoplenty:old_growth_dead_forest? (from Repurposed Structures)
-- byg:autumnal_taiga? (from Repurposed Structures)
-- byg:canadian_shield? (from Repurposed Structures)
-- byg:maple_taiga? (from Repurposed Structures)
-- projectvibrantjourneys:boreal_forest? (from Repurposed Structures)
-- projectvibrantjourneys:crystal_lakes? (from Repurposed Structures)
-- wythers:birch_taiga? (from Repurposed Structures)
-- wythers:boreal_forest_red? (from Repurposed Structures)
-- wythers:boreal_forest_yellow? (from Repurposed Structures)
-- wythers:cold_island? (from Repurposed Structures)
-- wythers:forested_highlands? (from Repurposed Structures)
-- wythers:jade_highlands? (from Repurposed Structures)
-- wythers:larch_taiga? (from Repurposed Structures)
-- wythers:pine_barrens? (from Repurposed Structures)
-- wythers:thermal_taiga? (from Repurposed Structures)
+- minecraft:taiga 
+- terralith:cloud_forest? 
+- terralith:forested_highlands? 
+- terralith:lavender_forest? 
+- terralith:lavender_valley? 
+- terralith:moonlight_grove? 
+- terralith:moonlight_valley? 
+- terralith:rocky_shrubland? 
+- terralith:shrubland? 
+- terralith:wintry_forest? 
+- biomesoplenty:jade_cliffs? 
+- biomesoplenty:mediterranean_taiga? 
+- biomesoplenty:dead_forest? 
+- biomesoplenty:old_growth_dead_forest? 
+- byg:autumnal_taiga? 
+- byg:canadian_shield? 
+- byg:maple_taiga? 
+- projectvibrantjourneys:boreal_forest? 
+- projectvibrantjourneys:crystal_lakes? 
+- wythers:birch_taiga? 
+- wythers:boreal_forest_red? 
+- wythers:boreal_forest_yellow? 
+- wythers:cold_island? 
+- wythers:forested_highlands? 
+- wythers:jade_highlands? 
+- wythers:larch_taiga? 
+- wythers:pine_barrens? 
+- wythers:thermal_taiga? 
 
 #minecraft:water_on_map_outlines
 - #minecraft:is_ocean (from Default)
@@ -4146,7 +4146,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:mangrove_swamp (from Default)
 
 #repurposed_structures:has_structure/villages/swamp
-- #repurposed_structures:collections/swamps (from Repurposed Structures)
+- #repurposed_structures:collections/swamps 
 
 #croptopia:has_crop/turnip
 - minecraft:jungle (from Croptopia)
@@ -4178,9 +4178,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:sierra_badlands? (from Croptopia)
 
 #repurposed_structures:collections/overworld
-- #minecraft:is_overworld (from Repurposed Structures)
-- #forge:is_overworld? (from Repurposed Structures)
-- #c:in_overworld? (from Repurposed Structures)
+- #minecraft:is_overworld 
+- #forge:is_overworld? 
+- #c:in_overworld? 
 
 #byg:is_deep_ocean
 - byg:dead_sea (from Oh The Biomes You'll Go)
@@ -4191,9 +4191,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #byg:is_badlands (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/wells/forest
-- #repurposed_structures:collections/regular_forests (from Repurposed Structures)
-- #repurposed_structures:collections/birch_forests (from Repurposed Structures)
-- #repurposed_structures:collections/floral (from Repurposed Structures)
+- #repurposed_structures:collections/regular_forests 
+- #repurposed_structures:collections/birch_forests 
+- #repurposed_structures:collections/floral 
 
 #terralith:all_terralith_biomes
 - terralith:desert_canyon (from Terralith)
@@ -4293,9 +4293,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:yosemite_lowlands (from Terralith)
 
 #repurposed_structures:has_structure/pyramids/snowy
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_mountains (from Repurposed Structures)
+- #repurposed_structures:collections/snowy_plains 
+- #repurposed_structures:collections/snowy_forests 
+- #repurposed_structures:collections/snowy_mountains 
 
 #bettermineshafts:has_structure/better_mineshaft_lush
 - minecraft:lush_caves (from YUNG's Better Mineshafts)
@@ -4335,15 +4335,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #byg:is_swamp (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/wells/badlands
-- #repurposed_structures:collections/badlands (from Repurposed Structures)
+- #repurposed_structures:collections/badlands 
 
 #repurposed_structures:collections/oceans
-- #minecraft:is_ocean (from Repurposed Structures)
-- #minecraft:is_deep_ocean (from Repurposed Structures)
-- #forge:is_ocean? (from Repurposed Structures)
-- #c:ocean? (from Repurposed Structures)
-- #c:shallow_ocean? (from Repurposed Structures)
-- #c:deep_ocean? (from Repurposed Structures)
+- #minecraft:is_ocean 
+- #minecraft:is_deep_ocean 
+- #forge:is_ocean? 
+- #c:ocean? 
+- #c:shallow_ocean? 
+- #c:deep_ocean? 
 
 #spectrum:colored_trees_generating_in
 - minecraft:plains (from Spectrum)
@@ -4422,10 +4422,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:cave/underground_jungle (from Terralith)
 
 #repurposed_structures:has_structure/villages/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #repurposed_structures:has_structure/dungeons/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #dungeons_arise:has_structure/illager_fort_biomes
 - minecraft:snowy_taiga (from When Dungeons Arise)
@@ -4438,16 +4438,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_taiga (from KubeJS Resource Pack [data])
 
 #repurposed_structures:collections/snowy_plains
-- minecraft:snowy_plains (from Repurposed Structures)
-- terralith:alpine_grove? (from Repurposed Structures)
-- terralith:cold_shrubland? (from Repurposed Structures)
-- terralith:snowy_badlands? (from Repurposed Structures)
-- terralith:snowy_shield? (from Repurposed Structures)
-- biomesoplenty:snowy_fir_clearing? (from Repurposed Structures)
-- #c:snowy_plains? (from Repurposed Structures)
-- wythers:snowy_bog? (from Repurposed Structures)
-- wythers:snowy_tundra? (from Repurposed Structures)
-- wythers:ice_cap? (from Repurposed Structures)
+- minecraft:snowy_plains 
+- terralith:alpine_grove? 
+- terralith:cold_shrubland? 
+- terralith:snowy_badlands? 
+- terralith:snowy_shield? 
+- biomesoplenty:snowy_fir_clearing? 
+- #c:snowy_plains? 
+- wythers:snowy_bog? 
+- wythers:snowy_tundra? 
+- wythers:ice_cap? 
 
 #apoli:category/icy
 - minecraft:ice_spikes (from Apoli)
@@ -4457,30 +4457,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #byg:is_badlands (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/villages/giant_taiga
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
+- #repurposed_structures:collections/giant_taigas 
 
 #byg:has_structure/village_skyris
 - byg:skyris_vale (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/bastions/underground
-- #repurposed_structures:collections/any_forests (from Repurposed Structures)
-- #repurposed_structures:collections/badlands (from Repurposed Structures)
-- #repurposed_structures:collections/caves (from Repurposed Structures)
-- #repurposed_structures:collections/deserts (from Repurposed Structures)
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
-- #repurposed_structures:collections/hills (from Repurposed Structures)
-- #repurposed_structures:collections/icy (from Repurposed Structures)
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
-- #repurposed_structures:collections/meadows (from Repurposed Structures)
-- #repurposed_structures:collections/mountains (from Repurposed Structures)
-- #repurposed_structures:collections/mushrooms (from Repurposed Structures)
-- #repurposed_structures:collections/plains (from Repurposed Structures)
-- #repurposed_structures:collections/savannas (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_mountains (from Repurposed Structures)
-- #repurposed_structures:collections/swamps (from Repurposed Structures)
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
+- #repurposed_structures:collections/any_forests 
+- #repurposed_structures:collections/badlands 
+- #repurposed_structures:collections/caves 
+- #repurposed_structures:collections/deserts 
+- #repurposed_structures:collections/giant_taigas 
+- #repurposed_structures:collections/hills 
+- #repurposed_structures:collections/icy 
+- #repurposed_structures:collections/jungles 
+- #repurposed_structures:collections/meadows 
+- #repurposed_structures:collections/mountains 
+- #repurposed_structures:collections/mushrooms 
+- #repurposed_structures:collections/plains 
+- #repurposed_structures:collections/savannas 
+- #repurposed_structures:collections/snowy_forests 
+- #repurposed_structures:collections/snowy_plains 
+- #repurposed_structures:collections/snowy_mountains 
+- #repurposed_structures:collections/swamps 
+- #repurposed_structures:collections/taigas 
 
 #croptopia:has_crop/vanilla
 - minecraft:jungle (from Croptopia)
@@ -4488,7 +4488,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:bamboo_jungle (from Croptopia)
 
 #repurposed_structures:has_structure/pyramids/ocean
-- #repurposed_structures:collections/oceans (from Repurposed Structures)
+- #repurposed_structures:collections/oceans 
 
 #c:badlands
 - #byg:is_badlands (from Oh The Biomes You'll Go)
@@ -4544,7 +4544,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:grove (from Croptopia)
 
 #repurposed_structures:has_structure/dungeons/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #c:wasteland
 - #byg:is_wasteland (from Oh The Biomes You'll Go)
@@ -4596,12 +4596,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:windswept_savanna (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/ruins/land_cold
-- #repurposed_structures:collections/hills (from Repurposed Structures)
-- #repurposed_structures:collections/meadows (from Repurposed Structures)
-- #repurposed_structures:collections/taigas (from Repurposed Structures)
+- #repurposed_structures:collections/hills 
+- #repurposed_structures:collections/meadows 
+- #repurposed_structures:collections/taigas 
 
 #repurposed_structures:has_structure/temples/nether_soul
-- #repurposed_structures:collections/nether_souls (from Repurposed Structures)
+- #repurposed_structures:collections/nether_souls 
 
 #byg:has_structure/mineshaft
 - #byg:is_overworld (from Oh The Biomes You'll Go)
@@ -4620,9 +4620,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:sierra_badlands? (from Croptopia)
 
 #repurposed_structures:has_structure/dungeons/snow
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_mountains (from Repurposed Structures)
+- #repurposed_structures:collections/snowy_plains 
+- #repurposed_structures:collections/snowy_forests 
+- #repurposed_structures:collections/snowy_mountains 
 
 #friendsandfoes:has_structure/iceologer_cabin
 - #friendsandfoes:collections/snowy (from Friends&Foes)
@@ -4746,7 +4746,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_jungle (from Terralith)
 
 #repurposed_structures:has_structure/villages/ocean
-- #repurposed_structures:collections/deep_oceans (from Repurposed Structures)
+- #repurposed_structures:collections/deep_oceans 
 
 #dungeons_arise:has_structure/typhon_biomes
 - #minecraft:is_ocean (from When Dungeons Arise)
@@ -4772,8 +4772,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_forest (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/igloos/stone
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
-- #repurposed_structures:collections/rocky_mountains (from Repurposed Structures)
+- #repurposed_structures:collections/giant_taigas 
+- #repurposed_structures:collections/rocky_mountains 
 
 #byg:has_structure/village_red_rock
 - byg:red_rock_valley (from Oh The Biomes You'll Go)
@@ -4792,10 +4792,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:sierra_badlands? (from Croptopia)
 
 #repurposed_structures:collections/swamps
-- minecraft:swamp (from Repurposed Structures)
-- minecraft:mangrove_swamp (from Repurposed Structures)
-- #forge:is_swamp? (from Repurposed Structures)
-- #c:swamp? (from Repurposed Structures)
+- minecraft:swamp 
+- minecraft:mangrove_swamp 
+- #forge:is_swamp? 
+- #c:swamp? 
 
 #forge:is_dry/overworld
 - terralith:alpine_highlands (from Terralith)
@@ -4832,7 +4832,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:windswept_savanna (from Croptopia)
 
 #repurposed_structures:has_structure/villages/dark_forest
-- #repurposed_structures:collections/spooky_forests (from Repurposed Structures)
+- #repurposed_structures:collections/spooky_forests 
 
 #croptopia:has_crop/tomatillo
 - minecraft:forest (from Croptopia)
@@ -4860,34 +4860,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:swamp (from Croptopia)
 
 #repurposed_structures:collections/end
-- #minecraft:is_end (from Repurposed Structures)
-- #forge:is_end? (from Repurposed Structures)
-- #c:in_the_end? (from Repurposed Structures)
-- #c:end_islands? (from Repurposed Structures)
-- betterend:amber_land? (from Repurposed Structures)
-- betterend:blossoming_spires? (from Repurposed Structures)
-- betterend:chorus_forest? (from Repurposed Structures)
-- betterend:crystal_mountains? (from Repurposed Structures)
-- betterend:dragon_graveyards? (from Repurposed Structures)
-- betterend:dry_shrubland? (from Repurposed Structures)
-- betterend:dust_wasteland? (from Repurposed Structures)
-- betterend:empty_aurora_cave? (from Repurposed Structures)
-- betterend:empty_end_cave? (from Repurposed Structures)
-- betterend:empty_smaragdant_cave? (from Repurposed Structures)
-- betterend:foggy_mushroomland? (from Repurposed Structures)
-- betterend:glowing_grassland? (from Repurposed Structures)
-- betterend:jade_cave? (from Repurposed Structures)
-- betterend:lantern_woods? (from Repurposed Structures)
-- betterend:lush_aurora_cave? (from Repurposed Structures)
-- betterend:lush_smaragdant_cave? (from Repurposed Structures)
-- betterend:megalake? (from Repurposed Structures)
-- betterend:megalake_grove? (from Repurposed Structures)
-- betterend:neon_oasis? (from Repurposed Structures)
-- betterend:painted_mountains? (from Repurposed Structures)
-- betterend:shadow_forest? (from Repurposed Structures)
-- betterend:sulphur_springs? (from Repurposed Structures)
-- betterend:umbra_valley? (from Repurposed Structures)
-- betterend:umbrella_jungle? (from Repurposed Structures)
+- #minecraft:is_end 
+- #forge:is_end? 
+- #c:in_the_end? 
+- #c:end_islands? 
+"betterend:amber_land",
+"betterend:blossoming_spires",
+"betterend:chorus_forest",
+"betterend:crystal_mountains",
+"betterend:dragon_graveyards",
+"betterend:dry_shrubland",
+"betterend:dust_wasteland",
+"betterend:empty_aurora_cave",
+"betterend:empty_end_cave",
+"betterend:empty_smaragdant_cave",
+"betterend:foggy_mushroomland",
+"betterend:glowing_grassland",
+"betterend:jade_cave",
+"betterend:lantern_woods",
+"betterend:lush_aurora_cave",
+"betterend:lush_smaragdant_cave",
+"betterend:megalake",
+"etterend:megalake_grove",
+"betterend:neon_oasis",
+"betterend:painted_mountains",
+"betterend:shadow_forest",
+"betterend:sulphur_springs",
+"betterend:umbra_valley",
+"betterend:umbrella_jungle"
 
 #byg:is_sparse
 
@@ -4912,10 +4912,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #c:snowy (from Botania)
 
 #repurposed_structures:has_structure/temples/ocean
-- #repurposed_structures:collections/deep_oceans (from Repurposed Structures)
+- #repurposed_structures:collections/deep_oceans 
 
 #repurposed_structures:has_structure/mineshafts/savanna
-- #repurposed_structures:collections/savannas (from Repurposed Structures)
+- #repurposed_structures:collections/savannas 
 
 #terralith:has_structure/fortified_village
 - minecraft:plains (from Terralith)
@@ -4971,10 +4971,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #terralith:has_structure/fortified_village? (from Structory)
 
 #repurposed_structures:collections/snowy_mountains
-- minecraft:snowy_slopes (from Repurposed Structures)
-- wythers:snowy_peaks? (from Repurposed Structures)
-- wythers:icy_crags? (from Repurposed Structures)
-- wythers:icy_volcano? (from Repurposed Structures)
+- minecraft:snowy_slopes 
+- wythers:snowy_peaks? 
+- wythers:icy_crags? 
+- wythers:icy_volcano? 
 
 #c:flower_forests
 - minecraft:flower_forest (from Fabric Convention Tags)
@@ -5137,7 +5137,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:stony_spires (from Terralith)
 
 #repurposed_structures:has_structure/witch_huts/giant_tree_taiga
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
+- #repurposed_structures:collections/giant_taigas 
 
 #byg:is_sandy
 - byg:mojave_desert (from Oh The Biomes You'll Go)
@@ -5146,14 +5146,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:is_overworld (from Spectrum)
 
 #repurposed_structures:has_structure/ruins/nether
-- #repurposed_structures:collections/nether (from Repurposed Structures)
+- #repurposed_structures:collections/nether 
 
 #apoli:category/mushroom
 - minecraft:mushroom_fields (from Apoli)
 
 #repurposed_structures:has_structure/outposts/snowy
-- #repurposed_structures:collections/snowy_plains (from Repurposed Structures)
-- #repurposed_structures:collections/snowy_forests (from Repurposed Structures)
+- #repurposed_structures:collections/snowy_plains 
+- #repurposed_structures:collections/snowy_forests 
 
 #c:is_icy
 - #byg:is_icy (from Oh The Biomes You'll Go)
@@ -5173,7 +5173,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:zelkova_forest (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/pyramids/jungle
-- #repurposed_structures:collections/jungles (from Repurposed Structures)
+- #repurposed_structures:collections/jungles 
 
 #mythicmetals:osmium_biomes
 - #c:mountain (from Mythic Metals)
@@ -5189,43 +5189,50 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:sunflower_plains (from Croptopia)
 
 #repurposed_structures:collections/nether_souls
-- minecraft:soul_sand_valley (from Repurposed Structures)
-- betternether:soul_plain? (from Repurposed Structures)
-- betternether:wart_forest? (from Repurposed Structures)
-- betternether:wart_forest_edge? (from Repurposed Structures)
-- betternether:poor_nether_grasslands? (from Repurposed Structures)
-- betternether:nether_grasslands? (from Repurposed Structures)
+- minecraft:soul_sand_valley 
+- betternether:soul_plain? 
+- betternether:wart_forest? 
+- betternether:wart_forest_edge? 
+- betternether:poor_nether_grasslands? 
+- betternether:nether_grasslands? 
 
 #byg:has_structure/pillager_outpost
 - #byg:is_overworld (from Oh The Biomes You'll Go)
 
 #repurposed_structures:collections/nether
-- #minecraft:is_nether (from Repurposed Structures)
-- #forge:is_nether? (from Repurposed Structures)
-- #c:nether? (from Repurposed Structures)
-- #c:in_nether? (from Repurposed Structures)
-- betternether:bone_reef? (from Repurposed Structures)
-- betternether:crimson_glowing_woods? (from Repurposed Structures)
-- betternether:crimson_pinewood? (from Repurposed Structures)
-- betternether:flooded_deltas? (from Repurposed Structures)
-- betternether:gravel_desert? (from Repurposed Structures)
-- betternether:magma_land? (from Repurposed Structures)
-- betternether:nether_grasslands? (from Repurposed Structures)
-- betternether:nether_jungle? (from Repurposed Structures)
-- betternether:nether_mushroom_forest? (from Repurposed Structures)
-- betternether:nether_mushroom_forest_edge? (from Repurposed Structures)
-- betternether:nether_swampland? (from Repurposed Structures)
-- betternether:nether_swampland_terraces? (from Repurposed Structures)
-- betternether:old_fungiwoods? (from Repurposed Structures)
-- betternether:old_swampland? (from Repurposed Structures)
-- betternether:old_warped_woods? (from Repurposed Structures)
-- betternether:poor_nether_grasslands? (from Repurposed Structures)
-- betternether:soul_plain? (from Repurposed Structures)
-- betternether:sulfuric_bone_reef? (from Repurposed Structures)
-- betternether:upside_down_forest? (from Repurposed Structures)
-- betternether:upside_down_forest_cleared? (from Repurposed Structures)
-- betternether:wart_forest? (from Repurposed Structures)
-- betternether:wart_forest_edge? (from Repurposed Structures)
+- #minecraft:is_nether 
+- #forge:is_nether? 
+- #c:nether? 
+- #c:in_nether
+
+"minecraft:crimson_forest",
+"minecraft:warped_forest",
+"minecraft:nether_wastes",
+"minecraft:soul_sand_valley",
+"minecraft:basalt_deltas",
+"betternether:bone_reef",
+"betternether:crimson_glowing_woods",
+"betternether:crimson_pinewoo",
+"betternether:flooded_deltas",
+"betternether:gravel_desert",
+"betternether:magma_land",
+"betternether:nether_grasslands",
+"betternether:nether_jungle",
+"betternether:nether_mushroom_forest",
+"betternether:nether_mushroom_forest_edge",
+"betternether:nether_swampland",
+"betternether:nether_swampland_terraces",
+"betternether:old_fungiwoods",
+"betternether:old_swampland",
+"betternether:old_warped_woods",
+"betternether:poor_nether_grasslands",
+"betternether:soul_plain",
+"betternether:sulfuric_bone_reef",
+"betternether:upside_down_forest",
+"betternether:upside_down_forest_cleared",
+"betternether:wart_forest",
+"betternether:wart_forest_edge"
+
 
 #minecraft:without_wandering_trader_spawns
 - minecraft:the_void (from Default)
@@ -5255,7 +5262,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - #minecraft:has_structure/shipwreck_beached? (from Rotten Creatures)
 
 #repurposed_structures:has_structure/shipwrecks/crimson
-- #repurposed_structures:collections/nether_crimson_forests (from Repurposed Structures)
+- #repurposed_structures:collections/nether_crimson_forests 
 
 #byg:has_structure/igloo
 - byg:shattered_glacier (from Oh The Biomes You'll Go)
@@ -5301,7 +5308,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:cave/desert_caves (from Terralith)
 
 #repurposed_structures:has_structure/pyramids/giant_tree_taiga
-- #repurposed_structures:collections/giant_taigas (from Repurposed Structures)
+- #repurposed_structures:collections/giant_taigas 
 
 #forge:is_underground
 - terralith:cave/andesite_caves (from Terralith)
@@ -5320,16 +5327,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - terralith:cave/underground_jungle (from Terralith)
 
 #repurposed_structures:collections/nether_basalts
-- minecraft:basalt_deltas (from Repurposed Structures)
-- betternether:flooded_deltas? (from Repurposed Structures)
-- betternether:gravel_desert? (from Repurposed Structures)
-- betternether:magma_land? (from Repurposed Structures)
+- minecraft:basalt_deltas 
+- betternether:flooded_deltas? 
+- betternether:gravel_desert? 
+- betternether:magma_land? 
 
 #repurposed_structures:collections/stony_shores
-- minecraft:stony_shore (from Repurposed Structures)
-- terralith:gravel_desert? (from Repurposed Structures)
-- biomesoplenty:cold_desert? (from Repurposed Structures)
-- #c:stony_shores? (from Repurposed Structures)
+- minecraft:stony_shore 
+- terralith:gravel_desert? 
+- biomesoplenty:cold_desert? 
+- #c:stony_shores? 
 
 #apoli:category/the_end
 - #minecraft:is_end (from Apoli)
@@ -5390,7 +5397,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - byg:zelkova_forest (from Oh The Biomes You'll Go)
 
 #repurposed_structures:has_structure/dungeons/badlands
-- #repurposed_structures:collections/badlands (from Repurposed Structures)
+- #repurposed_structures:collections/badlands 
 
 #bettermineshafts:has_structure/better_mineshaft_spruce
 - #minecraft:is_taiga (from YUNG's Better Mineshafts)
@@ -5481,7 +5488,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Jan
 - minecraft:windswept_savanna (from KubeJS Resource Pack [data])
 
 #repurposed_structures:has_structure/dungeons/icy
-- #repurposed_structures:collections/icy (from Repurposed Structures)
+- #repurposed_structures:collections/icy 
 
 #spelunkery:has_dirt_noise
 - minecraft:mushroom_fields (from Spelunkery)

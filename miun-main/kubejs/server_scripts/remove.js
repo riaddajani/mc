@@ -23,6 +23,7 @@ const arrRemove = [
 "botania:smelt_rod",
 "botania:spawner_claw",
 "botania:super_lava_pendant",
+"skylorlib:golden_bread",
 "botania:terraform_rod",
 "botania:tornado_rod",
 "friendsandfoes:wildfire_crown",
@@ -129,8 +130,8 @@ const arrRemove = [
 "indrev:slaughter_mk4",
 "kibe:angel_ring",
 "kibe:chunk_loader",
-"kibe:cursed_lasso",
 "kibe:diamond_kibe",
+"kibe:cursed_lasso",
 "kibe:diamond_lasso",
 "kibe:diamond_spikes",
 "kibe:gold_spikes",
@@ -281,15 +282,26 @@ const arrRemove = [
 "galosphere:silver_block",
 "galosphere:silver_ingot",
 "galosphere:silver_nugget",
+"soulsweapons:lost_soul",
+"soulsweapons:draugr",
 "galosphere:silver_ore",
+"chococraft:pink_gysahl",
+"chococraft:red_gysahl",
+"things:recall_potion",
+"fluidtank:fluid_source",
 "galosphere:deepslate_silver_ore",
 "galosphere:raw_silver_block",
 "ad_astra:steel_block",
 "ad_astra:steel_nugget",
 "ad_astra:steel_ingot",
+"soulsweapons:withered_wabbajack",
 "ad_astra:steel_plate",
 "archon:wither_stave",
 "archon:heat_ranger",
+"soulsweapons:mjolnir",
+"mythicmetals:carmot_nuke_core",
+"mythicmetals:banglum_nuke_core",
+"mythicmetals:quadrillum_nuke_core",
 "gearreborn:nv_goggles"
 ];
 
@@ -326,7 +338,10 @@ var removeTypeGear = [
 
 var idRemove = [
   "indrev:pulverizer/sulfur_dust_from_gunpowder",
-  "indrev:pulverizer/sulfur_dust"
+  "indrev:pulverizer/sulfur_dust",
+  "soulsweapons:bewitchment_molten_demon_heart",
+  "soulsweapons:moonstone_ring_2",
+  "byg:brown_dye"
 ]
 
 ServerEvents.recipes( event => {

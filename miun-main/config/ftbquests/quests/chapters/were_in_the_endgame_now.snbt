@@ -3,13 +3,13 @@
 	group: "529B8499DEC935D4"
 	order_index: 0
 	filename: "were_in_the_endgame_now"
-	title: "We're in the Endgame now"
+	title: "The End Game"
 	icon: {
 		id: "kibe:angel_ring"
 		Count: 1b
 		tag: { }
 	}
-	subtitle: ["Is there really anything else to call it?"]
+	subtitle: ["Grinding for End Game Items"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -485,7 +485,7 @@
 		}
 		{
 			x: -10.5d
-			y: -3.9187499999999886d
+			y: -6.918749999999989d
 			subtitle: "Found in the nether at the Gladiator Arena"
 			hide_dependency_lines: true
 			dependencies: ["34F995C13D2E8ECB"]
@@ -502,7 +502,7 @@
 		{
 			title: "Kill Arch Maykr"
 			x: -9.265306122448976d
-			y: -3.948979591836739d
+			y: -6.948979591836739d
 			subtitle: "Clear out those evil doom mobs in the end"
 			description: ["Visit the End, Find the Arch Maykr, and Slay this special mini bosss. This will stop Doom Mobs from spawning in the End"]
 			dependencies: ["3D8C6E7D44891F51"]
@@ -533,7 +533,7 @@
 		{
 			title: "Kill Mother Demon [END GAME]"
 			x: -7.81428571428571d
-			y: -3.9008928571428427d
+			y: -6.900892857142843d
 			subtitle: "Found in a structure in The Nether"
 			dependencies: ["4FDF85B3FD6D691B"]
 			hide: false
@@ -574,7 +574,7 @@
 		{
 			title: "Kill Icon Of Sin [END GAME]"
 			x: -5.929761904761904d
-			y: -4.0d
+			y: -7.0d
 			subtitle: "The last Doom Boss... you cant do it!"
 			description: ["Found in a structure in The Nether"]
 			dependencies: ["5C3324C5094EA33B"]

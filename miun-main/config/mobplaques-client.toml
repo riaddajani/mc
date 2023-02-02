@@ -13,7 +13,7 @@
 	height_offset = 0
 	#Entities blacklisted from showing any plaques.
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. Path may use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*shulker_box" to match all shulker boxes no matter of color.
-	mob_blacklist = ["minecraft:armor_stand", "automobility:automobile", "immersive_aircraft:*", "doom:iconofsin", "doom:motherdemon", "doom:gladiator", "doom:arch_maykr"]
+	mob_blacklist = ["minecraft:armor_stand", "automobility:automobile", "immersive_aircraft:*", "doom:iconofsin", "doom:motherdemon", "doom:gladiator", "doom:arch_maykr", "soulsweapons:freyr_sword_entity", "soulsweapons:comet_spear_entity", "soulsweapons:leviathan_axe_entity", "soulsweapons:big_moonlight_projectile", "soulsweapons:charged_arrow_entity"]
 	#Show plaques from mobs obstructed by walls the player cannot see through.
 	behind_walls = false
 	#Are mob plaques enabled, toggleable in-game using the 'J' key by default.

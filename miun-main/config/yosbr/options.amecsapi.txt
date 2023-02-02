@@ -174,7 +174,7 @@ key_modifiers_gui.xaero_toggle_grid:0,0,0
 key_modifiers_gui.xaero_toggle_waypoints:0,0,0
 key_modifiers_gui.xaero_toggle_map_waypoints:0,0,0
 key_modifiers_gui.xaero_toggle_map:0,0,0
-key_modifiers_gui.xaero_enlarge_map:0,0,0
+key_modifiers_gui.xaero_enlarge_map:0,1,0
 key_modifiers_gui.xaero_waypoints_key:0,0,0
 key_modifiers_gui.xaero_zoom_in:0,0,0
 key_modifiers_gui.xaero_zoom_out:0,0,0

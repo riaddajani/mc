@@ -3,9 +3,9 @@
 	group: "50115579257378EC"
 	order_index: 1
 	filename: "monster_and_sprites"
-	title: "Monster and Sprites"
+	title: "Monsters and Things"
 	icon: "minecraft:zombie_head"
-	subtitle: ["Everything Monsters"]
+	subtitle: ["Everything Monsters, Blocks, and Misc"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -112,6 +112,142 @@
 					}
 				}
 			]
+		}
+		{
+			icon: "minepop:minepop_zombie"
+			x: -7.0d
+			y: 4.5d
+			subtitle: "MmMMhmmmM"
+			description: ["Death To Zombies"]
+			id: "67B329232D256049"
+			tasks: [{
+				id: "66BA604DFD9EDC5F"
+				type: "kill"
+				title: "Kill 100 Zombies"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+			rewards: [{
+				id: "7E339F5A25C961F4"
+				type: "item"
+				item: "minepop:minepop_zombie"
+			}]
+		}
+		{
+			icon: "minepop:minepop_creeper"
+			x: -6.0d
+			y: 4.5d
+			subtitle: "Kaboom"
+			id: "75BFEA5A6091146D"
+			tasks: [{
+				id: "19DC23695178CD4C"
+				type: "kill"
+				title: "Kill 100 Creepers"
+				entity: "minecraft:creeper"
+				value: 100L
+			}]
+			rewards: [{
+				id: "2D4ED24FA69B2EE8"
+				type: "item"
+				item: "minepop:minepop_creeper"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			subtitle: "What are you looking at?"
+			id: "3D72B6CCE9541889"
+			tasks: [{
+				id: "020C7F7E0806B7B3"
+				type: "kill"
+				title: "Kill 100 Endermen"
+				icon: "minepop:minepopenderman"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [{
+				id: "4670954B7E019B6D"
+				type: "item"
+				item: "minepop:minepopenderman"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			subtitle: "Got Gold?"
+			id: "50FC16585CAA8707"
+			tasks: [{
+				id: "550FB7ACA013B1F9"
+				type: "kill"
+				title: "Kill 100 Piglins"
+				icon: "minepop:minepop_pigman"
+				entity: "minecraft:piglin"
+				value: 100L
+			}]
+			rewards: [{
+				id: "5B55D824D82C97E1"
+				type: "item"
+				item: "minepop:minepop_pigman"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "Poor Piggies"
+			id: "14861309CAA12134"
+			tasks: [{
+				id: "377664C98BDE474B"
+				type: "kill"
+				title: "Kill 100 Pigs"
+				icon: "minepop:minepop_pig"
+				entity: "minecraft:pig"
+				value: 100L
+			}]
+			rewards: [{
+				id: "0BBEDA1EF889D3A8"
+				type: "item"
+				item: "minepop:minepop_pig"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			subtitle: "Jones the Bones"
+			id: "3B5A65B0181E751A"
+			tasks: [{
+				id: "2B4134D926E5AE86"
+				type: "kill"
+				title: "Kill 100 Skeletons"
+				icon: "minepop:minepop_skeleton"
+				entity: "minecraft:skeleton"
+				value: 100L
+			}]
+			rewards: [{
+				id: "25AF4FD7C00DF630"
+				type: "item"
+				item: "minepop:minepop_skeleton"
+			}]
+		}
+		{
+			icon: "minepop:minepop_mr_beast"
+			x: -1.0d
+			y: 4.5d
+			subtitle: "Dig it?"
+			id: "4222E9BC7B52E4BD"
+			tasks: [{
+				id: "7785D42F53EDCAF9"
+				type: "questsadditions:break"
+				title: "Break 1000 Dirt Blocks"
+				block_type: 0
+				block: "minecraft:dirt"
+				value: 1000L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "523651F65AFF0998"
+				type: "item"
+				item: "minepop:minepop_mr_beast"
+			}]
 		}
 	]
 	quest_links: [ ]

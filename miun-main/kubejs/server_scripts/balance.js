@@ -360,11 +360,18 @@ event.remove({ output: "techreborn:" + item + "_boots"});
 ///////////////////////////////////
 // Single item in recipe replace //
 
-event.replaceInput(
-  {id: "plantinajar:plant_jar"},
-  "minecraft:iron_ingot",
-  "techreborn:aluminum_ingot"
-)
+// event.replaceInput(
+//   {id: "plantinajar:plant_jar"},
+//   "minecraft:iron_ingot",
+//   "techreborn:aluminum_ingot"
+// )
+event.remove({id: "plantinajar:plant_jar"})
+event.shaped("plantinajar:plant_jar", ["ggg", "gpg", "gig"],
+  {
+    g: "botania:mana_glass",
+    p: "croptosis:potash_block",
+    i: "mobz:hardenedmetal_ingot"
+  })
 
 // Resourceful Tools - Diamond Hammer
 event.remove({id: 'resourceful_tools:crack_hammer_leather_diamond'})
@@ -384,10 +391,16 @@ event.replaceInput(
 // Steam drill
 
 event.replaceInput(
-{ id: "modern_industrialization:steam_mining_drill" },
+{ id: "modern_industrialization:tools/steam_mining_drill" },
 "minecraft:furnace",
 "gobber2:gobber2_rod"
 );
+
+event.replaceInput(
+  { id: "modern_industrialization:tools/steam_mining_drill" },
+  "minecraft:diamond",
+  "techreborn:red_garnet_plate"
+  );
 
 // Building Gadgets - Destruction Gadget, end game. its too destructive.
 event.replaceInput(
@@ -400,12 +413,29 @@ event.replaceInput(
 
 // Riot Gauntlet
 event.replaceInput(
-{ id: "things:riot_gauntlet" },
-"minecraft:iron_ingot",
-"techreborn:hot_tungstensteel_ingot"
+ { id: "things:empty_agglomeration" },
+ "minecraft:slime_ball",
+ "gobber2:dragon_star"
 );
 
- // Riot Gauntlet
+event.replaceInput(
+  { id: "things:infernal_scepter" },
+  "minecraft:blaze_rod",
+  "gobber2:gobber2_rod_end"
+ );
+
+event.remove({id: "things:riot_gauntlet"})
+event.shaped("things:riot_gauntlet", ['nhn', 'hch', 'hoh'],
+{
+  n: "minecraft:netherite_ingot",
+  h: "techreborn:hot_tungstensteel_ingot",
+  c: "things:gleaming_compound" ,
+  o: "minecraft:crying_obsidian"
+})
+
+
+
+ // Mining
 event.replaceInput(
 { id: "things:mining_gloves" },
 "minecraft:leather",
@@ -433,6 +463,10 @@ event.replaceInput(
 // "gobber2:dragon_star"
 // );
 
+event.shaped("minecraft:saddle", [' s ', 's s', 's s'],
+{
+  s: 'minecraft:leather'
+})
 
 // Dark Enchanter
 event.remove({id: "dark-enchanting:dark_enchanter"})
@@ -668,6 +702,12 @@ event.remove({output:"dimdoors:gold_dimensional_door"})
  "gobber2:gobber2_ingot_nether"
  );
 
+ event.replaceInput(
+  {id: "prefab:ender_gateway"},
+  "minecraft:prismarine",
+  "betterend:amber_gem"
+ )
+
 //  dim doors - oak
  event.replaceInput(
  { id: "dimdoors:oak_dimensional_door" },
@@ -719,6 +759,90 @@ event.replaceInput(
 "minecraft:slime_ball",
 "gofish:slimefish"
 );
+
+// comet spear soulsweapon
+// event.replaceInput({output: "soulsweapons:comet_spear"}, "minecraft:gold_ingot", "gobber2:dragon_star")
+event.remove({id: "soulsweapons:comet_spear"})
+event.shaped("soulsweapons:comet_spear", [" 11", "2s1", " 1 "],
+  {
+    1: "gobber2:dragon_star",
+    2: "soulsweapons:moonstone",
+    s: "#soulsweapons:lord_soul"
+  })
+// event.replaceInput({output: "soulsweapons:bloodthirster"}, "minecraft:iron_ingot", "soulsweapons:soul_ingot")
+event.remove({id: "soulsweapons:bloodthirster"})
+event.shaped("soulsweapons:bloodthirster", ["121", "121", " s "],
+  {
+    1: "soulsweapons:soul_ingot",
+    2: "soulsweapons:crimson_ingot",
+    s: "minecraft:stick"
+  })
+event.replaceInput({output: "soulsweapons:soul_ingot"}, "minecraft:iron_ingot", "gobber2:gobber2_ingot_end")
+event.replaceInput({output: "soulsweapons:lord_soul_red"}, "minecraft:nether_star", "gobber2:dragon_star")
+event.replaceInput({output: "soulsweapons:dragon_staff"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
+event.replaceInput({output: "soulsweapons:dragon_staff"}, "minecraft:dragon_head", "adventurez:stone_golem_heart")
+// event.replaceInput({output: "soulsweapons:dragonslayer_swordspear"}, "minecraft:gold_ingot", "dragonloot:dragon_scale")
+event.remove({id: "soulsweapons:dragonslayer_swordspear"})
+event.shaped("soulsweapons:dragonslayer_swordspear", [" 1 ", "121", "1s1"],
+  {
+    1: "dragonloot:dragon_scale",
+    2: "#soulsweapons:lord_soul",
+    s: "minecraft:stick"
+  })
+event.replaceInput({output: "soulsweapons:galeforce"}, "minecraft:string", "botania:mana_string")
+event.replaceInput({output: "soulsweapons:lich_bane"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
+event.replaceInput({output: "soulsweapons:lich_bane"}, "minecraft:diamond", "botania:mana_diamond")
+event.replaceInput({output: "soulsweapons:rageblade"}, "minecraft:blaze_rod", "gobber2:gobber2_rod_end")
+// event.replaceInput({output: "soulsweapons:whirligig_sawblade"}, "minecraft:iron_ingot", "mobz:boss_ingot")
+event.remove({id: "soulsweapons:whirligig_sawblade"})
+event.shaped("soulsweapons:whirligig_sawblade", [" 1 ", "121", "s1 "],
+  {
+    1: "mobz:boss_ingot",
+    2: "#soulsweapons:lord_soul",
+    s: "minecraft:stick"
+  })
+event.remove({id: "soulsweapons:freyr_sword"})
+// event.shaped("soulsweapons:freyr_sword", [" 1 ", " 2 ", "s3s"],
+//   {
+//     1: "soulsweapons:moonstone",
+//     2: "soulsweapons:verglas",
+//     3: "#soulsweapons:lord_soul",
+//     s: "gobber2:dragon_star"
+//   })
+  event.custom({
+    "type": "botania:runic_altar",
+    "output": {
+      "item": "soulsweapons:freyr_sword"
+    },
+    "mana": 50000,
+    "ingredients": [
+      {
+        "item": "soulsweapons:moonstone",
+      },
+      {
+        "item": "soulsweapons:moonstone",
+      },
+      {
+        "item": "soulsweapons:moonstone",
+      },
+      {
+        "item": "soulsweapons:verglas",
+      },
+      {
+        "item": "soulsweapons:verglas",
+      },
+      {
+        "tag": "soulsweapons:lord_soul",
+      },
+      {
+        "item": "gobber2:dragon_star",
+      },
+      {
+        "item": "bosses_of_mass_destruction:void_thorn"
+      }
+      ]
+    })
+  
 
 // Gobber2 - Ring of haste
 event.replaceInput(
@@ -810,19 +934,54 @@ event.custom({
   })
 
 event.remove({id: "gobber2:gobber2_ring_miner"})
-event.shaped("gobber2:gobber2_ring_miner", ['123', '456', '789'],
-{
-  1: '#c:diamond_ores',
-  2: 'minecraft:ancient_debris',
-  3: '#c:emerald_ores',
-  4: 'gobber2:gobber2_ore',
-  5: 'gobber2:gobber2_ring',
-  6: 'lightestlamp:lanthanum_ore',
-  7: '#c:emerald_ores',
-  8: 'minecraft:ancient_debris',
-  9: '#c:diamond_ores'
-})
-
+// event.shaped("gobber2:gobber2_ring_miner", ['123', '456', '789'],
+// {
+//   1: '#c:diamond_ores',
+//   2: 'minecraft:ancient_debris',
+//   3: '#c:emerald_ores',
+//   4: 'gobber2:gobber2_ore',
+//   5: 'gobber2:gobber2_ring',
+//   6: 'lightestlamp:lanthanum_ore',
+//   7: '#c:emerald_ores',
+//   8: 'minecraft:ancient_debris',
+//   9: '#c:diamond_ores'
+// })
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "gobber2:gobber2_ring_miner"
+  },
+  "mana": 5000,
+  "ingredients": [
+    {
+      "tag": 'c:diamond_ores',
+    },
+    {
+      "item": 'minecraft:ancient_debris',
+    },
+    {
+      "tag": 'c:emerald_ores',
+    },
+    {
+      "item": 'gobber2:gobber2_ore',
+    },
+    {
+      "item": 'gobber2:gobber2_ring',
+    },
+    {
+      "item": 'lightestlamp:lanthanum_ore',
+    },
+    {
+      "tag": 'c:emerald_ores',
+    },
+    {
+      "item": 'minecraft:ancient_debris',
+    },
+    {
+      "tag": 'c:diamond_ores',
+    }
+    ]
+  })
 
 //Gobber2 - Swiftness
 event.remove({ output: "gobber2:gobber2_ring_swiftness" });
@@ -833,12 +992,12 @@ event.shaped("gobber2:gobber2_ring_swiftness", [
 ]);
 
 // Kibe Escape Rope
-event.replaceInput(
-{ id: "kibe:escape_rope" },
-"minecraft:iron_ingot",
-"adventurez:gilded_stone"
-);
-
+event.remove({ output: "kibe:escape_rope" });
+event.shaped("kibe:escape_rope", [
+["minecraft:string","minecraft:string", ""],
+["minecraft:string","minecraft:string",""],
+["minecraft:string","minecraft:string", "adventurez:gilded_stone"],
+]);
 // Compact Machine - Removed from AQM2 v1.2 - 1.19.2
 // event.remove({id: "compactmachines:wall"})
 // event.custom({
@@ -884,30 +1043,38 @@ event.replaceInput(
 });
 
   // Quarry Plus
-   event.replaceInput(
-     { id: "quarryplus:quarry" },
-     "minecraft:iron_ingot",
-     "techreborn:hot_tungstensteel_ingot"
-     );
+  //  event.replaceInput(
+  //    { id: "quarryplus:quarry" },
+  //    "minecraft:iron_ingot",
+  //    "techreborn:hot_tungstensteel_ingot"
+  //    );
 
-   event.replaceInput(
-     { id: "quarryplus:quarry" },
-     "minecraft:dropper",
-     "modern_industrialization:electric_quarry"
-     );
+  //  event.replaceInput(
+  //    { id: "quarryplus:quarry" },
+  //    "minecraft:dropper",
+  //    "modern_industrialization:electric_quarry"
+  //    );
 
-   event.replaceInput(
-     { id: "quarryplus:quarry" },
-     "minecraft:redstone_block",
-     "modern_industrialization:advanced_upgrade"
-     );
+  //  event.replaceInput(
+  //    { id: "quarryplus:quarry" },
+  //    "minecraft:redstone_block",
+  //    "modern_industrialization:advanced_upgrade"
+  //    );
 
-    event.replaceInput(
-      { id: "quarryplus:quarry" },
-      "minecraft:golden_pickaxe",
-      "gobber2:gobber2_pickaxe_nether"
-    );
-
+  //   event.replaceInput(
+  //     { id: "quarryplus:quarry" },
+  //     "minecraft:golden_pickaxe",
+  //     "gobber2:gobber2_pickaxe_nether"
+  //   );
+  event.remove({id: "quarryplus:quarry"})
+  event.shaped("quarryplus:quarry", ["iti", "pqp", "iai"],
+    {
+      i: "techreborn:hot_tungstensteel_ingot",
+      t: "minecraft:obsidian",
+      p: "gobber2:gobber2_pickaxe_nether",
+      q: "modern_industrialization:electric_quarry",
+      a: "modern_industrialization:advanced_upgrade"
+    })
 
   // kibe gliders
 
@@ -983,7 +1150,7 @@ tanksRem.forEach(function(item,index) {
 
 event.shaped("fluidtank:tank_stone", ["iti", "tit", "iti"],
 {
-  i: "#minecraft:stone_bricks",
+  i: "minecraft:cracked_stone_bricks",
   t: "fluidtank:tank_wood"
 })
 
@@ -1116,34 +1283,6 @@ event.custom({
   },
   "mana": 200
 });
-//Cloud
-event.replaceInput(
-  { id: "botania:cloud_pendant" },
-  "botania:manasteel_ingot",
-  "botania:terrasteel_ingot"
-);
-event.replaceInput(
-  { id: "botania:thunder_sword" },
-  "botania:mana_diamond",
-  "gobber2:dragon_star"
-);
-event.replaceInput(
-  { id: "botania:clip" },
-  "botania:dreamwood",
-  "gobber2:dragon_star"
-);
-
-event.replaceInput(
-  { id: "botania:mana_gun" },
-  "botania:mana_diamond",
-  "arcanus:master_wand"
-);
-
-event.replaceInput(
-  { id: "botania:reach_ring" },
-  "botania:elementium_ingot",
-  "botania:gaia_ingot"
-);
 
 // Magictek Mechs
 event.replaceInput(
@@ -1153,7 +1292,7 @@ event.replaceInput(
 );
 
 event.replaceInput(
-  { id: "mtmechs:magicite" },
+  { id: "mtmechs:magicite_item" },
   "minecraft:quartz",
   "gobber2:gobber2_rod"
 );
@@ -1175,23 +1314,60 @@ event.replaceInput(
 );
 
 // Things
-event.replaceInput(
-{ id: "things:item_magnet" },
-"minecraft:iron_ingot",
-"dml-refabricated:glitch_ingot"
-);
+// event.replaceInput(
+// { id: "things:item_magnet" },
+// "minecraft:iron_ingot",
+// "dml-refabricated:glitch_ingot"
+// );
+event.remove({id: "things:item_magnet"})
+event.shaped("things:item_magnet", ['a a', 'i i', 'ipi'],
+{
+  a: "things:gleaming_powder",
+  i: "dml-refabricated:glitch_ingot",
+  p: "minecraft:ender_pearl"
+})
 
-event.replaceInput(
-{ id: "things:recall_potion" },
-"minecraft:ender_pearl",
-"mythicmetals:aquarium_pearl"
-);
+// event.replaceInput(
+// { id: "things:recall_potion" },
+// "minecraft:ender_pearl",
+// "mythicmetals:aquarium_pearl"
+// );
 
 event.replaceInput(
 { id: "bosses_of_mass_destruction:brimstone_nectar"},
 "minecraft:ghast_tear",
 "gobber2:dragon_star"
 );
+
+event.remove({id:"things:socks"})
+event.custom({
+  "type": "botania:runic_altar",
+  "output": {
+    "item": "things:socks"
+   },
+  "mana": 10000,
+  "ingredients": [
+    {
+      "item": "winged:phoenix_feather"
+    },
+    {
+      "item": "winged:phoenix_feather"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "things:gleaming_compound"
+    },
+    {
+      "item": "spectrum:upgrade_speed2"
+    }
+    ]
+  });
+
 
 event.remove({output:"things:rabbit_foot_charm"})
 event.custom({
@@ -1219,65 +1395,65 @@ event.custom({
   // event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
 
   event.remove({output:"things:arm_extender"})
-  // event.custom({
-  //   "type": "botania:runic_altar",
-  //   "output": {
-  //     "item": "things:arm_extender"
-  //   },
-  //   "mana": 25000,
-  //   "ingredients": [
-  //     {
-  //       "item": "techreborn:lead_ingot"
-  //     },
-  //     {
-  //       "item": "things:gleaming_compound"
-  //     },
-  //     {
-  //       "item": "minecraft:fishing_rod"
-  //     },
-  //     {
-  //       "item": "bosses_of_mass_destruction:ancient_anima"
-  //     },
-  //     {
-  //       "item": "lightestlamp:xenon_rod"
-  //     }
-  //     ]
-  //   });
+   event.custom({
+     "type": "botania:runic_altar",
+     "output": {
+       "item": "things:arm_extender"
+      },
+     "mana": 25000,
+     "ingredients": [
+       {
+         "item": "techreborn:lead_ingot"
+       },
+       {
+         "item": "things:gleaming_compound"
+       },
+       {
+         "item": "minecraft:fishing_rod"
+       },
+       {
+         "item": "bosses_of_mass_destruction:ancient_anima"
+       },
+       {
+         "item": "lightestlamp:xenon_rod"
+       }
+       ]
+     });
   
-   event.custom({ 
-       "type": "create:mechanical_crafting",
-       "pattern": [
-           " L ",
-           " R ",
-           "ASA",
-           " G ",
-           " H "
-       ],
-       "key": {
-           "L": {
-               "item": "techreborn:lead_ingot"
-           },
-           "R": {
-               "item": "things:gleaming_compound"
-           },
-           "H": {
-               "item": "create:brass_hand"
-           },
-           "A": {
-               "item": "minecraft:fishing_rod"
-           },
-           "S": {
-             "item": "lightestlamp:xenon_rod"
-           },
-           "G": {
-             "item": "bosses_of_mass_destruction:ancient_anima"
-         }
-       },
-       "result": {
-           "item": "things:arm_extender"
-       },
-       "acceptMirrored": false
-   })
+  //  event.custom({ 
+  //      "type": "create:mechanical_crafting",
+  //      "pattern": [
+  //          " L ",
+  //          " R ",
+  //          "ASA",
+  //          " G ",
+  //          " H "
+  //      ],
+  //      "key": {
+  //          "L": {
+  //              "item": "techreborn:lead_ingot"
+  //          },
+  //          "R": {
+  //              "item": "things:gleaming_compound"
+  //          },
+  //          "H": {
+  //              "item": "create:brass_hand"
+  //          },
+  //          "A": {
+  //              "item": "minecraft:fishing_rod"
+  //          },
+  //          "S": {
+  //            "item": "lightestlamp:xenon_rod"
+  //          },
+  //          "G": {
+  //            "item": "bosses_of_mass_destruction:ancient_anima"
+  //        }
+  //      },
+  //      "result": {
+  //          "item": "things:arm_extender"
+  //      },
+  //      "acceptMirrored": false
+  //  })
 
 event.remove({output:"things:hardening_catalyst"})
 event.custom({
