@@ -1,4 +1,4 @@
-# Last execution: 31-01-2023 02:07:39
+# Last execution: 03-02-2023 00:38:42
 minecraft:blasting {
 	bewitchment:silver_ingot_from_blasting_deepslate_silver_ore
 		- bewitchment:silver_ingot_from_blasting_deepslate_silver_ore
@@ -47,10 +47,18 @@ minecraft:blasting {
 		- modern_industrialization:materials/bronze/smelting/dust_to_ingot_blasting
 		- techreborn:blasting/bronze_ingot_from_c_bronze_dusts
 
+	modern_industrialization:materials/copper/smelting/dust_to_ingot_blasting
+		- indrev:blasting/copper_ingot_from_smelting
+		- modern_industrialization:materials/copper/smelting/dust_to_ingot_blasting
+
 	modern_industrialization:materials/electrum/smelting/dust_to_ingot_blasting
 		- indrev:blasting/electrum_ingot_from_smelting
 		- modern_industrialization:materials/electrum/smelting/dust_to_ingot_blasting
 		- techreborn:blasting/electrum_ingot_from_c_electrum_dusts
+
+	modern_industrialization:materials/gold/smelting/dust_to_ingot_blasting
+		- indrev:blasting/gold_ingot
+		- modern_industrialization:materials/gold/smelting/dust_to_ingot_blasting
 
 	modern_industrialization:materials/invar/smelting/dust_to_ingot_blasting
 		- modern_industrialization:materials/invar/smelting/dust_to_ingot_blasting
@@ -59,6 +67,10 @@ minecraft:blasting {
 	modern_industrialization:materials/iridium/smelting/ore_deepslate_to_ingot_blasting
 		- modern_industrialization:materials/iridium/smelting/ore_deepslate_to_ingot_blasting
 		- modern_industrialization:materials/iridium/smelting/ore_to_ingot_blasting
+
+	modern_industrialization:materials/iron/smelting/dust_to_ingot_blasting
+		- indrev:blasting/iron_ingot_from_dust
+		- modern_industrialization:materials/iron/smelting/dust_to_ingot_blasting
 
 	modern_industrialization:materials/lead/smelting/dust_to_ingot_blasting
 		- indrev:blasting/lead_ingot_from_smelting
@@ -104,21 +116,6 @@ minecraft:blasting {
 		- mythicmetals:blasting/blast_tin_ingot_from_raw_ore
 		- techreborn:blasting/tin_ingot_from_c_raw_tin_ores
 
-	resourceful_tools:blasting_copper_powder
-		- indrev:blasting/copper_ingot_from_smelting
-		- modern_industrialization:materials/copper/smelting/dust_to_ingot_blasting
-		- resourceful_tools:blasting_copper_powder
-
-	resourceful_tools:blasting_gold_powder
-		- indrev:blasting/gold_ingot
-		- modern_industrialization:materials/gold/smelting/dust_to_ingot_blasting
-		- resourceful_tools:blasting_gold_powder
-
-	resourceful_tools:blasting_iron_powder
-		- indrev:blasting/iron_ingot_from_dust
-		- modern_industrialization:materials/iron/smelting/dust_to_ingot_blasting
-		- resourceful_tools:blasting_iron_powder
-
 }
 
 minecraft:crafting_shaped {
@@ -147,10 +144,6 @@ minecraft:crafting_shaped {
 	modern_industrialization:materials/bronze/craft/block_from_ingot
 		- modern_industrialization:materials/bronze/craft/block_from_ingot
 		- mythicmetals:blocks/bronze_block
-
-	modern_industrialization:materials/copper/craft/ingot_from_nugget
-		- modern_industrialization:materials/copper/craft/ingot_from_nugget
-		- resourceful_tools:copper_nugget_to_ingot
 
 	modern_industrialization:materials/platinum/craft/block_from_ingot
 		- modern_industrialization:materials/platinum/craft/block_from_ingot
@@ -206,27 +199,6 @@ minecraft:crafting_shapeless {
 		- galosphere:silver_nugget
 		- indrev:shapeless/silver_nugget
 		- techreborn:crafting_table/nugget/silver_nugget
-
-	create:crafting/materials/brass_ingot_from_decompacting
-		- create:crafting/materials/brass_ingot_from_decompacting
-		- techreborn:crafting_table/ingot/brass_ingot_from_block
-
-	create:crafting/materials/brass_nugget_from_decompacting
-		- create:crafting/materials/brass_nugget_from_decompacting
-		- techreborn:crafting_table/nugget/brass_nugget
-
-	create:crafting/materials/copper_nugget
-		- create:crafting/materials/copper_nugget
-		- resourceful_tools:copper_nugget_from_ingot
-		- techreborn:crafting_table/nugget/copper_nugget
-
-	create:crafting/materials/zinc_ingot_from_decompacting
-		- create:crafting/materials/zinc_ingot_from_decompacting
-		- techreborn:crafting_table/ingot/zinc_ingot_from_block
-
-	create:crafting/materials/zinc_nugget_from_decompacting
-		- create:crafting/materials/zinc_nugget_from_decompacting
-		- techreborn:crafting_table/nugget/zinc_nugget
 
 	galosphere:raw_silver
 		- galosphere:raw_silver
@@ -337,7 +309,6 @@ minecraft:smelting {
 	modern_industrialization:materials/copper/smelting/dust_to_ingot_smelting
 		- indrev:smelting/copper_ingot_from_smelting
 		- modern_industrialization:materials/copper/smelting/dust_to_ingot_smelting
-		- resourceful_tools:smelting_copper_powder
 
 	modern_industrialization:materials/electrum/smelting/dust_to_ingot_smelting
 		- indrev:smelting/electrum_ingot_from_smelting
@@ -347,7 +318,6 @@ minecraft:smelting {
 	modern_industrialization:materials/gold/smelting/dust_to_ingot_smelting
 		- indrev:smelting/gold_ingot
 		- modern_industrialization:materials/gold/smelting/dust_to_ingot_smelting
-		- resourceful_tools:smelting_gold_powder
 
 	modern_industrialization:materials/invar/smelting/dust_to_ingot_smelting
 		- modern_industrialization:materials/invar/smelting/dust_to_ingot_smelting
@@ -361,7 +331,6 @@ minecraft:smelting {
 	modern_industrialization:materials/iron/smelting/dust_to_ingot_smelting
 		- indrev:smelting/iron_ingot_from_dust
 		- modern_industrialization:materials/iron/smelting/dust_to_ingot_smelting
-		- resourceful_tools:smelting_iron_powder
 
 	modern_industrialization:materials/lead/smelting/dust_to_ingot_smelting
 		- indrev:smelting/lead_ingot_from_smelting

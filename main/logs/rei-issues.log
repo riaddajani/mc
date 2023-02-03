@@ -1,4 +1,4 @@
-[02:08:51] [main/ERROR] [REI] AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery] plugin failed to reloadable-plugin/DisplaySerializerRegistryImpl/!
+[01:49:16] [main/ERROR] [REI] AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery] plugin failed to reloadable-plugin/DisplaySerializerRegistryImpl/!
 java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.registry.display.DisplayCategory in environment type SERVER
 	at net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:59)
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:462)
@@ -23,9 +23,9 @@ java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.regist
 	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$startReload$10(PluginManagerImpl.java:330)
 	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.pluginSection(PluginManagerImpl.java:196)
 	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.startReload(PluginManagerImpl.java:328)
-	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:123)
-	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:114)
-	at me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$3(RoughlyEnoughItemsCore.java:144)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:160)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:151)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$4(RoughlyEnoughItemsCore.java:181)
 	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
 	at net.minecraft.class_4014.method_18365(class_4014.java:69)
@@ -37,7 +37,7 @@ java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.regist
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
-[02:08:51] [main/ERROR] [REI] AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery] plugin failed to reloadable-plugin/MenuInfoRegistryImpl/!
+[01:49:16] [main/ERROR] [REI] AlloyForgeryCommonPlugin of AlloyForgeryCommonPlugin [alloy_forgery] plugin failed to reloadable-plugin/MenuInfoRegistryImpl/!
 java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.registry.display.DisplayCategory in environment type SERVER
 	at net.fabricmc.loader.impl.transformer.FabricTransformer.transform(FabricTransformer.java:59)
 	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPreMixinClassByteArray(KnotClassDelegate.java:462)
@@ -63,9 +63,9 @@ java.lang.RuntimeException: Cannot load class me.shedaniel.rei.api.client.regist
 	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.lambda$startReload$10(PluginManagerImpl.java:330)
 	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.pluginSection(PluginManagerImpl.java:196)
 	at me.shedaniel.rei.impl.common.plugins.PluginManagerImpl.startReload(PluginManagerImpl.java:328)
-	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:123)
-	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:114)
-	at me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$3(RoughlyEnoughItemsCore.java:144)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:160)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore._reloadPlugins(RoughlyEnoughItemsCore.java:151)
+	at me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$4(RoughlyEnoughItemsCore.java:181)
 	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787)
 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
 	at net.minecraft.class_4014.method_18365(class_4014.java:69)
