@@ -1,4 +1,4 @@
-# Last execution: 03-02-2023 00:38:42
+# Last execution: 03-02-2023 04:07:25
 minecraft:blasting {
 	bewitchment:silver_ingot_from_blasting_deepslate_silver_ore
 		- bewitchment:silver_ingot_from_blasting_deepslate_silver_ore
