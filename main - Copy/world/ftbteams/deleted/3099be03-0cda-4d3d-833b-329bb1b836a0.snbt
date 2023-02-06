@@ -1,0 +1,21 @@
+{
+	id: "3099be03-0cda-4d3d-833b-329bb1b836a0"
+	type: "party"
+	owner: "2f4f4bc8-91af-4ffb-b7d2-4f3c23b27307"
+	ranks: {
+		da36b0a2-15bb-4110-b588-8c574922f455: "invited"
+	}
+	properties: {
+		"ftbteams:display_name": "Mean_Bao's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59EF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1674195566870L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Mean_Bao\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "2f4f4bc8-91af-4ffb-b7d2-4f3c23b27307", date: 1674196022132L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"TheGreenB4stard\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1674196318222L, text: "{\"color\":\"gold\",\"translate\":\"ftbteams.message.left_party\",\"with\":[{\"color\":\"yellow\",\"text\":\"Mean_Bao\"}]}" }
+	]
+	extra: { }
+}

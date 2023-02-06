@@ -1,0 +1,23 @@
+[00:00:00] [Server thread/INFO]: Saving grave backup data
+[00:05:56] [User Authenticator #10/INFO]: UUID of player TheGreenB4stard is da36b0a2-15bb-4110-b588-8c574922f455
+[00:05:56] [Server thread/INFO]: [Handshake] Sending channel query
+[00:05:56] [Netty Epoll Server IO #0/INFO]: [Handshake] Receiving client channels
+[00:05:56] [Netty Epoll Server IO #0/INFO]: [Handshake] Handshake completed successfully
+[00:05:58] [Server thread/INFO]: TheGreenB4stard[/45.62.218.6:50530] logged in with entity id 77613 at (292.3427271447986, 40.0, -212.65315525967335)
+[00:05:58] [Server thread/INFO]: Sending server config values to client
+[00:05:58] [Netty Epoll Server IO #0/INFO]: Receiving client config
+[00:05:58] [Server thread/INFO]: Server sent config handshake for deeperdarker to TheGreenB4stard
+[00:05:58] [Server thread/INFO]: Server sent config handshake for paragon to TheGreenB4stard
+[00:05:58] [Server thread/INFO]: TheGreenB4stard joined the game
+[00:05:59] [Server thread/INFO]: Replacing apoli:replaced_loot_table with null
+[00:05:59] [Server thread/INFO]: [STDOUT]: [Wall-Jump! UNOFFICIAL] Syncing Server Config
+[00:05:59] [Server thread/INFO]: [STDOUT]: [Wall-Jump! UNOFFICIAL] Synced Server Config
+[00:06:00] [Netty Epoll Server IO #0/INFO]: Priority overwritten for player TheGreenB4stard. Normal: GRAVE / Robbing: INVENTORY
+[00:06:00] [Server thread/INFO]: Handshake response from TheGreenB4stard : SUCCESS
+[00:06:00] [Server thread/INFO]: Handshake succeeded with no issues
+[00:06:00] [Server thread/INFO]: Handshake response from TheGreenB4stard : SUCCESS
+[00:06:00] [Server thread/INFO]: Handshake succeeded with no issues
+[00:06:01] [Netty Epoll Server IO #0/INFO]: [ShulkerBoxTooltip] TheGreenB4stard: protocol version: 2.0
+[00:06:26] [Server thread/INFO]: Player TheGreenB4stard joined with a matching carpet client
+[00:06:35] [Server thread/INFO]: TheGreenB4stard lost connection: Disconnected
+[00:06:35] [Server thread/INFO]: TheGreenB4stard left the game

@@ -1,0 +1,599 @@
+{
+	id: "08E933695057E910"
+	group: "529B8499DEC935D4"
+	order_index: 0
+	filename: "were_in_the_endgame_now"
+	title: "The End Game"
+	icon: {
+		id: "kibe:angel_ring"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["Grinding for End Game Items"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -1.5d
+			subtitle: "You have won"
+			description: ["Congrats you have made the hardest item in the game."]
+			dependencies: ["6912B0F3A6A06069"]
+			id: "641B13F19713CF5F"
+			tasks: [{
+				id: "4DBFD52D29222381"
+				type: "item"
+				item: "techreborn:quantum_chestplate"
+			}]
+			rewards: [{
+				id: "2073F5928A88220B"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Under water breathing"
+			dependencies: ["6912B0F3A6A06069"]
+			id: "0FE2BFCCBAAC9C29"
+			tasks: [{
+				id: "22170D95778B1719"
+				type: "item"
+				item: "techreborn:quantum_helmet"
+			}]
+			rewards: [{
+				id: "5807473B11FF2996"
+				type: "item"
+				item: "minecraft:firework_rocket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Run Fast"
+			dependencies: ["6912B0F3A6A06069"]
+			id: "7DAA6E68A1184E08"
+			tasks: [{
+				id: "0A4D72B4940E60DF"
+				type: "item"
+				item: "techreborn:quantum_leggings"
+			}]
+			rewards: [{
+				id: "4D7A3CDE3272550B"
+				type: "item"
+				item: "techreborn:industrial_solar_panel"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			subtitle: "Jump High"
+			dependencies: ["6912B0F3A6A06069"]
+			id: "1B7C883BBC2962E3"
+			tasks: [{
+				id: "5087D37572FBB21C"
+				type: "item"
+				item: "techreborn:quantum_boots"
+			}]
+			rewards: [{
+				id: "3C452C0F5E43F1B5"
+				type: "item"
+				item: "gofish:wooden_crate"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Good luck"
+			description: ["Creative Flight"]
+			dependencies: ["01804CA59BAD3478"]
+			id: "6912B0F3A6A06069"
+			tasks: [{
+				id: "554BA9EC7E9B5F7A"
+				type: "item"
+				item: {
+					id: "kibe:angel_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2FD44064BA1F78AB"
+				type: "toast"
+				icon: "minecraft:cookie"
+				auto: "enabled"
+				description: "Do you want a cookie?"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Spooky"
+			description: ["Use an Assembler with some UU Matter to craft the Cursed Gem."]
+			dependencies: [
+				"13426EC067660B5B"
+				"5DCBAD24802E5735"
+				"54356D1908BAB423"
+			]
+			id: "01804CA59BAD3478"
+			tasks: [{
+				id: "68ECA269A4570723"
+				type: "item"
+				item: "kubejs:cursed_gem"
+			}]
+			rewards: [{
+				id: "6789B02AC607F16C"
+				type: "random"
+				table_id: 28493754319576071L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			subtitle: "Arch Makyr drop"
+			description: ["Kill the Arch Makyr to obtain a Corupted Emerald."]
+			hide_dependency_lines: true
+			dependencies: ["4FDF85B3FD6D691B"]
+			id: "5DCBAD24802E5735"
+			tasks: [{
+				id: "4FBDD2D101709C3D"
+				type: "item"
+				item: "kubejs:corrupted_emerald"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "Demon Pearl drop"
+			description: ["Kill the Mother Of Demon to obtain a Demon Pearl."]
+			hide_dependency_lines: true
+			dependencies: ["5C3324C5094EA33B"]
+			id: "13426EC067660B5B"
+			tasks: [{
+				id: "378C30CAED064F38"
+				type: "item"
+				item: "kubejs:demon_pearl"
+			}]
+			rewards: [{
+				id: "44E808AFDCC02EC4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			subtitle: "Star of Icon drop"
+			description: ["Get a Star Of Icon by killing the Icon of Sin."]
+			hide_dependency_lines: true
+			dependencies: ["075E9ED31928FCFA"]
+			id: "54356D1908BAB423"
+			tasks: [{
+				id: "54CF1CFE643B05AA"
+				type: "item"
+				item: "kubejs:star_of_icon"
+			}]
+			rewards: [{
+				id: "6B2E3849276731BD"
+				type: "item"
+				item: "expandedstorage:obsidian_to_netherite_conversion_kit"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Become Loki"
+			description: [
+				"Save locations to teleport to using a Warp Portal. There is a 30 second delay after opening a portal to open another. Unlimited Uses, Unlimited Saved Locations"
+				""
+				"Better than the Displacement Tome"
+			]
+			dependencies: [
+				"01804CA59BAD3478"
+				"56DCB71E3FF4699C"
+			]
+			optional: true
+			id: "4532E363054902AB"
+			tasks: [{
+				id: "1ABF9FF8A4340B1E"
+				type: "item"
+				item: "tempad:tempad"
+			}]
+			rewards: [
+				{
+					id: "525668A315DBB2C8"
+					type: "item"
+					item: "kubejs:aqm2"
+				}
+				{
+					id: "26C57E6206318C7B"
+					type: "choice"
+					table_id: 1830006897849082013L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "A book to save teleport locations"
+			description: ["You need a displacement page to save a location, and each teleport requires 5 Ender Pearls"]
+			dependencies: ["01804CA59BAD3478"]
+			optional: true
+			id: "56DCB71E3FF4699C"
+			tasks: [
+				{
+					id: "159AD9421EF47BC4"
+					type: "item"
+					item: {
+						id: "things:displacement_tome"
+						Count: 1b
+						tag: {
+							Targets: { }
+						}
+					}
+				}
+				{
+					id: "71D10ADA9E6BD43D"
+					type: "item"
+					item: "things:displacement_page"
+				}
+			]
+			rewards: [{
+				id: "576143D66340E7C4"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 5
+			}]
+		}
+		{
+			title: "Earn the Heart of the Sky"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Permanent. Creative. Fly."
+			description: ["Have Fun!"]
+			dependencies: [
+				"0FE2BFCCBAAC9C29"
+				"641B13F19713CF5F"
+				"7DAA6E68A1184E08"
+				"1B7C883BBC2962E3"
+			]
+			id: "41C462C47A245184"
+			tasks: [
+				{
+					id: "6A056F04ADE71C00"
+					type: "kill"
+					entity: "minecraft:panda"
+					value: 10L
+				}
+				{
+					id: "6A66F44DBF23E243"
+					type: "kill"
+					entity: "creeperoverhaul:jungle_creeper"
+					value: 5L
+				}
+				{
+					id: "3A46D69A58DAFF36"
+					type: "kill"
+					entity: "sprout:elephant"
+					value: 5L
+				}
+				{
+					id: "64283EC520864312"
+					type: "kill"
+					entity: "mobz:crip"
+					value: 5L
+				}
+			]
+			rewards: [{
+				id: "40FEE64E8DCF5987"
+				type: "command"
+				command: "/give @p winged:heart_of_the_sky 1"
+				player_command: false
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			subtitle: "You saw the Void Blossom, a end game boss. Run if you can."
+			secret: true
+			id: "59F44A867E77E0D9"
+			tasks: [{
+				id: "67CB0FC33EB453CE"
+				type: "observation"
+				title: "Nearing End Game Boss"
+				icon: "bosses_of_mass_destruction:void_blossom"
+				timer: 0L
+				observe_type: 5
+				to_observe: "bosses_of_mass_destruction:void_blossom"
+			}]
+			rewards: [{
+				id: "281DBCE4E98E6A78"
+				type: "item"
+				item: "terrarianslimes:blessed_apple"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			subtitle: "Another one bites the dust ;)"
+			description: [
+				"You'll want the Void Blossom's drop"
+				""
+				"Appears in rare caves at the bottom of the world. Void lilies will point the way"
+			]
+			dependencies: ["59F44A867E77E0D9"]
+			id: "6B62B3C86EDFCD2A"
+			tasks: [{
+				id: "463AAB4EE73688DB"
+				type: "kill"
+				title: "Kill Void Blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				entity: "bosses_of_mass_destruction:void_blossom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0259B060F54C9958"
+				type: "random"
+				table_id: 28493754319576071L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0437499999999886d
+			subtitle: "Can you stop it?!"
+			description: [
+				"You'll want the Obsidilith's drop"
+				""
+				"Found in a rare structure in the end islands"
+			]
+			id: "5DC586689DB6CA8C"
+			tasks: [{
+				id: "3D8EF7CB681E0876"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				entity: "bosses_of_mass_destruction:obsidilith"
+				value: 1L
+			}]
+			rewards: [{
+				id: "36B8868B65A0CE51"
+				type: "choice"
+				table_id: 707184499980441339L
+			}]
+		}
+		{
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			x: -10.5d
+			y: -1.0437499999999886d
+			subtitle: "Tough one"
+			description: [
+				"You'll want the Gauntlet's drop"
+				""
+				"Can be found in a rare nether structure"
+			]
+			id: "3E2FB2359874D3FD"
+			tasks: [{
+				id: "3F378224F7E0ABCC"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+				entity: "bosses_of_mass_destruction:gauntlet"
+				value: 1L
+			}]
+			rewards: [{
+				id: "3FB3D62D006ED227"
+				type: "random"
+				table_id: 3648661763718734484L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -1.0437499999999886d
+			subtitle: "Good luck"
+			description: [
+				"You'll want the Lich's drop                                 "
+				"Found in Cold Biomes, follow the Soul Stars that lead the path"
+			]
+			id: "66F4F9428D96C99A"
+			tasks: [{
+				id: "008598C4124763B2"
+				type: "kill"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				entity: "bosses_of_mass_destruction:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7F5290D8BEAC5606"
+				type: "random"
+				table_id: 1830006897849082013L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			subtitle: "Easy Choice"
+			description: ["Keep the material for another end game item, or use them to create a staff that suppresses mob spawn in 64 block range (You can kill the boss again)"]
+			dependencies: [
+				"66F4F9428D96C99A"
+				"5DC586689DB6CA8C"
+			]
+			id: "6A63CB1BC51C23FA"
+			tasks: [{
+				id: "56F0F1B3AE0A40BD"
+				type: "item"
+				item: "bosses_of_mass_destruction:mob_ward"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			subtitle: "Tough Choice"
+			description: ["Keep the material for another end game item, or use them to give creative flight in a small area (You can kill the boss again)"]
+			dependencies: [
+				"66F4F9428D96C99A"
+				"3E2FB2359874D3FD"
+			]
+			id: "6CF78C3526B1E591"
+			tasks: [{
+				id: "5AC080533AEDCF71"
+				type: "item"
+				item: "bosses_of_mass_destruction:levitation_block"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			subtitle: "Easy Choice"
+			description: ["Keep the material for another end game item, or use them to increase blast radius by 33% in 64 block range. (You can kill the boss again)"]
+			dependencies: [
+				"3E2FB2359874D3FD"
+				"5DC586689DB6CA8C"
+			]
+			id: "1E099201D86D6A61"
+			tasks: [{
+				id: "2E3D7B839A0D1454"
+				type: "item"
+				item: "bosses_of_mass_destruction:monolith_block"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			subtitle: "Really Tough Choice"
+			description: ["Keep the material for another end game item, or use them to blink through walls. (You can kill the boss again)"]
+			dependencies: [
+				"5DC586689DB6CA8C"
+				"6B62B3C86EDFCD2A"
+			]
+			id: "58D2B7A125EC181F"
+			tasks: [{
+				id: "68E1D635035B7317"
+				type: "item"
+				item: {
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.918749999999989d
+			subtitle: "Found in the nether at the Gladiator Arena"
+			hide_dependency_lines: true
+			dependencies: ["34F995C13D2E8ECB"]
+			size: 1.25d
+			id: "3D8C6E7D44891F51"
+			tasks: [{
+				id: "5248D61485902420"
+				type: "kill"
+				title: "Kill Gladiator [DIFFICULT]"
+				entity: "doom:gladiator"
+				value: 100L
+			}]
+		}
+		{
+			title: "Kill Arch Maykr"
+			x: -9.265306122448976d
+			y: -6.948979591836739d
+			subtitle: "Clear out those evil doom mobs in the end"
+			description: ["Visit the End, Find the Arch Maykr, and Slay this special mini bosss. This will stop Doom Mobs from spawning in the End"]
+			dependencies: ["3D8C6E7D44891F51"]
+			hide: true
+			size: 1.25d
+			id: "4FDF85B3FD6D691B"
+			tasks: [{
+				id: "56B533D691636624"
+				type: "kill"
+				title: "Kill Arch Makyr"
+				entity: "doom:arch_maykr"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "055291452BBF348D"
+					type: "item"
+					item: "doom:argent_energy"
+					count: 16
+				}
+				{
+					id: "238F38632A4D07E0"
+					type: "item"
+					item: "doom:jump_pad"
+				}
+			]
+		}
+		{
+			title: "Kill Mother Demon [END GAME]"
+			x: -7.81428571428571d
+			y: -6.900892857142843d
+			subtitle: "Found in a structure in The Nether"
+			dependencies: ["4FDF85B3FD6D691B"]
+			hide: false
+			size: 1.75d
+			id: "5C3324C5094EA33B"
+			tasks: [{
+				id: "4026F62E588A5ED1"
+				type: "kill"
+				title: "Kill the Mother Demon"
+				entity: "doom:motherdemon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4645DBCAF93979C0"
+					type: "item"
+					item: "doom:jump_pad"
+				}
+				{
+					id: "6A4B13AB31CEAFB7"
+					type: "item"
+					item: {
+						id: "doom:shotgun"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "228B0D4B53CEEA56"
+					type: "item"
+					item: "doom:shotgun_shells"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Kill Icon Of Sin [END GAME]"
+			x: -5.929761904761904d
+			y: -7.0d
+			subtitle: "The last Doom Boss... you cant do it!"
+			description: ["Found in a structure in The Nether"]
+			dependencies: ["5C3324C5094EA33B"]
+			hide: true
+			size: 2.5d
+			id: "075E9ED31928FCFA"
+			tasks: [{
+				id: "6CAA179F4E796CB6"
+				type: "kill"
+				title: "Kill Icon of Sin"
+				entity: "doom:iconofsin"
+				value: 1L
+			}]
+			rewards: [{
+				id: "48C474F348CED4F5"
+				type: "item"
+				item: "tacocraft:cheesy_taco"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
