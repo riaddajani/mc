@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/pink_stained_glass_pane_from_white_stained_glass_pane_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-01-24 01:09:20 +0000"
@@ -65,6 +71,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/guards_armor_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_decorations/purple_stone_brick_wall_from_stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2023-01-21 18:24:54 +0000"
@@ -107,6 +119,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/goat_gear_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/crossed_bars/crossed_birch_bars": {
     "criteria": {
       "has_birch_log": "2023-01-20 06:08:44 +0000"
@@ -134,6 +152,12 @@
   "techreborn:recipes/centrifuge/redstone": {
     "criteria": {
       "has_redstone": "2023-01-22 19:16:09 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/guards_armor_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -257,6 +281,12 @@
     },
     "done": true
   },
+  "spectrum:progression/tools/unlock_tender_pickaxe": {
+    "criteria": {
+      "collected_gemstone_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
+  },
   "betterend:recipes/tools/iron_hammer": {
     "criteria": {
       "has_1123_stick": "2023-01-20 06:29:28 +0000"
@@ -281,6 +311,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_purple": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/quartz_sunny": {
     "criteria": {
       "has_item": "2023-01-22 19:15:58 +0000"
@@ -296,6 +332,12 @@
   "betterend:recipes/decorations/terminite_axe": {
     "criteria": {
       "has_1_stick": "2023-01-20 06:29:27 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/vanguard_armor_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -318,6 +360,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_brown": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
@@ -327,6 +375,7 @@
   "spectrum:progression/colored_saplings/unlock_purple_sapling": {
     "criteria": {
       "collected_amethyst_shard": "2023-01-21 04:37:29 +0000",
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000",
       "collected_citrine_shard": "2023-01-20 22:08:26 +0000"
     },
     "done": false
@@ -367,6 +416,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_light_blue_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/pink_stone_brick_slab_from_stone_brick_slab": {
     "criteria": {
       "has_stone_bricks": "2023-01-21 18:24:54 +0000"
@@ -382,6 +437,12 @@
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2023-01-20 22:05:43 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_orange_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -436,6 +497,12 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2023-01-20 23:17:52 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_blue_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -496,6 +563,12 @@
   "takesapillage:root": {
     "criteria": {
       "always": "2023-02-02 04:40:16 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_cyan_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -565,6 +638,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_light_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/tools/lead_from_rope": {
     "criteria": {
       "has_rope": "2023-01-20 22:41:11 +0000"
@@ -613,6 +692,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_orange": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "chococraft:recipes/chococraft.tab/pickled_gysahl_raw": {
     "criteria": {
       "has_gysahl_green": "2023-01-20 06:49:53 +0000"
@@ -631,6 +716,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_orange": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:44 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_decorations/lime_stone_brick_wall_from_stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2023-01-21 18:24:54 +0000"
@@ -640,6 +731,12 @@
   "consistency_plus:recipes/gray_dye": {
     "criteria": {
       "has_block": "2023-01-21 04:40:57 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_magenta_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -679,6 +776,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/thief_armor_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/jungle_log_bridge_middle": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:47 +0000"
@@ -689,6 +792,12 @@
     "criteria": {
       "has_the_recipe": "2023-01-20 07:08:21 +0000",
       "has_salt": "2023-01-20 07:08:21 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_white_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -710,9 +819,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_brown_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/crossbows/crossbow_slayer": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_light_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -740,6 +861,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_black": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "architects_palette:recipes/building_blocks/wither_lamp": {
     "criteria": {
       "has_glowstone_dust": "2023-01-25 05:59:17 +0000"
@@ -749,6 +876,12 @@
   "mcwbridges:recipes/deepslate_brick_bridge": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:48 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -800,6 +933,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_purple": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2023-01-20 22:21:25 +0000"
@@ -815,6 +954,12 @@
   "consistency_plus:recipes/black_dye": {
     "criteria": {
       "has_block": "2023-01-20 06:37:31 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_gree_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -1084,9 +1229,27 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_green": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_magenta": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/cyan_stained_glass_pane_from_light_blue_stained_glass_pane_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:05 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_light_blue": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -1138,6 +1301,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_black": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/chiseled_limestone_pillar_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-21 05:51:45 +0000"
@@ -1159,6 +1328,12 @@
   "consistency_plus:recipes/red_dye": {
     "criteria": {
       "has_block": "2023-01-22 19:16:09 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_yellow_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -1229,6 +1404,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_magenta_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/centrifuge/calcium_carbonate_cell": {
     "criteria": {
       "has_calcium_carbonate": "2023-01-20 06:08:45 +0000"
@@ -1272,6 +1453,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_orange": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2023-01-20 22:40:21 +0000"
@@ -1284,6 +1471,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_red_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "morevillagers:recipes/hunting_post": {
     "criteria": {
       "has_arrow": "2023-01-20 22:37:41 +0000"
@@ -1293,6 +1486,12 @@
   "hexcasting:root": {
     "criteria": {
       "has_charged_amethyst": "2023-01-21 04:37:29 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/deepslate_brick_platform": {
+    "criteria": {
+      "has_slab": "2023-02-03 21:16:20 +0000"
     },
     "done": true
   },
@@ -1311,6 +1510,12 @@
   "techreborn:recipes/crafting_table/machine/block_placer": {
     "criteria": {
       "has_hopper": "2023-01-30 05:22:23 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_black_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -1393,9 +1598,16 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/sweet_tooth_boots": {
+    "criteria": {
+      "has_diamond": "2023-02-03 21:07:19 +0000"
+    },
+    "done": true
+  },
   "spectrum:progression/detectors/unlock_item_detector": {
     "criteria": {
-      "has_quartz": "2023-01-22 19:15:58 +0000"
+      "has_quartz": "2023-01-22 19:15:58 +0000",
+      "collected_corresponding_shard": "2023-02-03 21:19:59 +0000"
     },
     "done": false
   },
@@ -1426,6 +1638,12 @@
   "techreborn:recipes/chemical_reactor/magenta_carpet_from_gray_carpet_with_pink_dye": {
     "criteria": {
       "has_pink_dye": "2023-01-24 01:09:09 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/ghostly_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -1507,6 +1725,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_cyan": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-01-20 22:05:43 +0000"
@@ -1537,6 +1761,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_blue_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2023-01-20 22:40:20 +0000"
@@ -1550,9 +1780,27 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/emerald_gear_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/nugget/silver_nugget": {
     "criteria": {
       "has_silver_ingot": "2023-01-21 01:11:51 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_blue_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_yellow": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -1726,9 +1974,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_lime_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2023-01-21 01:06:17 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_red": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -1753,6 +2013,12 @@
   "betternether:recipes/decorations/warped_taburet": {
     "criteria": {
       "has_224_stick": "2023-01-20 06:29:29 +0000"
+    },
+    "done": true
+  },
+  "adorn:recipes/deepslate_brick_step": {
+    "criteria": {
+      "has_slab": "2023-02-03 21:16:20 +0000"
     },
     "done": true
   },
@@ -1840,6 +2106,18 @@
     },
     "done": true
   },
+  "spectrum:progression/unlock_lagoon_rod": {
+    "criteria": {
+      "collected_topaz": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_magenta": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/acacia_rope_bridge_stair": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:46 +0000"
@@ -1888,6 +2166,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_pink_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/blue_wool_from_cyan_wool_with_blue_dye": {
     "criteria": {
       "has_blue_dye": "2023-01-24 01:09:06 +0000"
@@ -1915,6 +2199,12 @@
   "minecraft:recipes/decorations/blue_candle": {
     "criteria": {
       "has_blue_dye": "2023-01-24 01:09:06 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -2018,6 +2308,12 @@
   "decorative_blocks:recipes/decorative_blocks.general/dark_oak_support": {
     "criteria": {
       "has_plank": "2023-01-20 07:24:26 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_purple_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -2125,6 +2421,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_purple_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "guardiansgalore:blaze_bell": {
     "criteria": {
       "has_gold_ingot": "2023-01-20 06:08:45 +0000"
@@ -2224,6 +2526,12 @@
   "mobz:recipes/rottenflesh_recipe": {
     "criteria": {
       "got_the_rottenflesh": "2023-01-20 06:08:46 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/dark_armor_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -2330,6 +2638,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_green": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/crimson_chair": {
     "criteria": {
       "has_238_stick": "2023-01-20 06:29:29 +0000"
@@ -2372,6 +2686,12 @@
     },
     "done": true
   },
+  "vinery:faucet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/lime_wool_from_yellow_wool_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:04 +0000"
@@ -2405,6 +2725,12 @@
   "techreborn:recipes/centrifuge/raw_copper": {
     "criteria": {
       "has_raw_copper": "2023-01-20 06:45:04 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/chain_gold": {
+    "criteria": {
+      "has_gold": "2023-02-03 21:38:33 +0000"
     },
     "done": true
   },
@@ -2475,6 +2801,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_green_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/helix_tree_bookshelf": {
     "criteria": {
       "has_744_book": "2023-01-21 06:19:04 +0000"
@@ -2529,6 +2861,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/dark_armor_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2023-01-20 22:18:22 +0000"
@@ -2538,6 +2876,12 @@
   "mcwbridges:recipes/dry_bamboo_bridge": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:47 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_purple_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -2607,6 +2951,18 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_light_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_white_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/botania/green_shiny_flower": {
     "criteria": {
       "has_item": "2023-01-22 19:05:30 +0000"
@@ -2637,6 +2993,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_brown": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "quarryplus:recipes/quarryplus.quarryplus/filler": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
@@ -2652,6 +3014,12 @@
   "botania:recipes/botania/mushroom_13": {
     "criteria": {
       "has_item": "2023-01-21 01:41:31 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/root": {
+    "criteria": {
+      "grave_03": "2023-02-03 21:16:20 +0000"
     },
     "done": true
   },
@@ -2721,6 +3089,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_gree_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "dark-enchanting:recipes/table_upgrade": {
     "criteria": {
       "has_enchanting_table": "2023-01-21 06:19:24 +0000"
@@ -2730,6 +3104,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/brown_stone_bricks": {
     "criteria": {
       "has_stone_bricks": "2023-01-21 18:24:54 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_brown": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -2815,6 +3195,12 @@
     },
     "done": false
   },
+  "rusticated:recipes/rusticated.item_group_ag/oak_brewing_barrel": {
+    "criteria": {
+      "has_iron": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_decorations/obsidian_brick_wall_from_obsidian_stonecutting": {
     "criteria": {
       "has_obsidian": "2023-01-21 04:49:40 +0000"
@@ -2863,6 +3249,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_black_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/magenta_terracotta_from_terracotta_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-01-24 01:09:20 +0000"
@@ -2888,6 +3280,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_red_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2023-01-20 22:40:20 +0000"
@@ -2903,6 +3301,12 @@
   "blockus:recipes/blockus.blockus_redstone/bluestone_button": {
     "criteria": {
       "has_bluestone": "2023-01-21 00:45:10 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_purple_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -2926,7 +3330,8 @@
   },
   "spectrum:progression/colored_saplings/unlock_light_blue_sapling": {
     "criteria": {
-      "collected_amethyst_shard": "2023-01-21 04:37:29 +0000"
+      "collected_amethyst_shard": "2023-01-21 04:37:29 +0000",
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000"
     },
     "done": false
   },
@@ -3014,6 +3419,12 @@
     },
     "done": true
   },
+  "mcda:recipes/upgrade_cores/upgrade_core_spider": {
+    "criteria": {
+      "has_core_specification_item": "2023-02-03 21:28:08 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/rope_mangrove_bridge": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:46 +0000"
@@ -3029,6 +3440,12 @@
   "techreborn:recipes/chemical_reactor/blue_stained_glass_pane_from_cyan_stained_glass_pane_with_gray_dye": {
     "criteria": {
       "has_gray_dye": "2023-01-24 01:09:21 +0000"
+    },
+    "done": true
+  },
+  "techreborn:recipes/blast_furnace/iron_ingot_from_rail": {
+    "criteria": {
+      "has_rail": "2023-02-03 21:26:31 +0000"
     },
     "done": true
   },
@@ -3049,6 +3466,18 @@
       "has_blue_dye": "2023-01-24 01:09:06 +0000"
     },
     "done": true
+  },
+  "mcda:recipes/crafting_items/glut_charm": {
+    "criteria": {
+      "has_spider_eye": "2023-02-03 21:28:08 +0000"
+    },
+    "done": true
+  },
+  "spectrum:progression/unlock_cmy_pedestal": {
+    "criteria": {
+      "collected_all_basic_shards": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
   },
   "techreborn:recipes/chemical_reactor/red_stained_glass_pane_from_pink_stained_glass_pane_with_red_dye": {
     "criteria": {
@@ -3080,6 +3509,12 @@
       "has_dusts/redstone": "2023-01-22 19:16:09 +0000"
     },
     "done": true
+  },
+  "spectrum:progression/colored_saplings/unlock_cyan_sapling": {
+    "criteria": {
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
@@ -3120,6 +3555,12 @@
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2023-01-20 23:35:40 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_light_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -3201,6 +3642,12 @@
     },
     "done": true
   },
+  "spectrum:progression/gemstone_lamps/unlock_topaz_lamps": {
+    "criteria": {
+      "collected_gemstone_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
+  },
   "betternether:recipes/decorations/wart_bar_stool": {
     "criteria": {
       "has_183_stick": "2023-01-20 06:29:28 +0000"
@@ -3237,9 +3684,21 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/spelunker_armor_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/marble_tiles_from_marble_stonecutting": {
     "criteria": {
       "has_marble": "2023-01-21 06:17:10 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_purple": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -3315,6 +3774,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_red": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/extractor/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2023-01-26 01:29:01 +0000"
@@ -3375,6 +3840,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_coal_block": "2023-01-21 00:39:20 +0000"
@@ -3390,6 +3861,12 @@
   "betterend:recipes/decorations/terminite_bulb_lantern_pink": {
     "criteria": {
       "has_945_pink_dye": "2023-01-24 01:09:08 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -3459,6 +3936,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_lime_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/flint_knife": {
     "criteria": {
       "has_stick": "2023-01-20 06:29:27 +0000"
@@ -3495,6 +3978,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_light_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/brown_candle_from_green_candle_with_red_dye": {
     "criteria": {
       "has_red_dye": "2023-01-24 01:08:41 +0000"
@@ -3504,6 +3993,12 @@
   "indrev:cable_mk1": {
     "criteria": {
       "checkInv": "2023-02-01 02:54:13 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_light_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -3534,6 +4029,12 @@
   "immersive_aircraft:misc/aircraftery": {
     "criteria": {
       "has_item": "2023-01-20 06:56:29 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_red_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -3610,6 +4111,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_black_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2023-01-20 23:17:52 +0000"
@@ -3661,6 +4168,12 @@
   "mcwlights:recipes/lava_lamp": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:48 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_pink": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -3722,6 +4235,12 @@
   "minecraft:recipes/decorations/pink_candle": {
     "criteria": {
       "has_pink_dye": "2023-01-24 01:09:09 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_white_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -3857,6 +4376,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_red_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "adorn:recipes/guide_book": {
     "criteria": {
       "has_key_item_0": "2023-01-21 06:19:04 +0000"
@@ -3890,6 +4415,18 @@
   "betterend:recipes/decorations/iron_chandelier": {
     "criteria": {
       "has_1116_iron_ingot": "2023-01-20 06:56:29 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_yellow": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
+  "vinery:vinemaker_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-02-03 21:38:33 +0000"
     },
     "done": true
   },
@@ -4002,6 +4539,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_yellow_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/horizontal_crossed_bars/horizontal_crossed_jungle_bars": {
     "criteria": {
       "has_jungle_log": "2023-01-20 06:08:44 +0000"
@@ -4035,6 +4578,12 @@
   "techreborn:recipes/grinder/bone_meal": {
     "criteria": {
       "has_bone": "2023-01-20 07:08:49 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_light_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -4086,6 +4635,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/chandelier_gold": {
+    "criteria": {
+      "has_gold": "2023-02-03 21:38:33 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2023-01-20 07:24:26 +0000"
@@ -4128,12 +4683,30 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_red": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "morevillagers:all_villages": {
     "criteria": {
       "savanna": "2023-01-20 07:12:35 +0000",
       "plains": "2023-01-21 06:25:46 +0000"
     },
     "done": false
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_magenta_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_red": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
   },
   "croparia:recipes/croparia_crop/seed_crop_leather": {
     "criteria": {
@@ -4154,9 +4727,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_black": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/daggers/dagger_moon": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_pink": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -4226,9 +4811,21 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_magenta": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:44 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/golden_apple": {
     "criteria": {
       "has_apple": "2023-01-20 06:33:54 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_light_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -4258,6 +4855,7 @@
   },
   "spectrum:progression/colored_saplings/unlock_lime_sapling": {
     "criteria": {
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000",
       "collected_citrine_shard": "2023-01-20 22:08:26 +0000"
     },
     "done": false
@@ -4277,6 +4875,12 @@
   "techreborn:recipes/blast_furnace/blackstone": {
     "criteria": {
       "has_cobblestone": "2023-01-20 06:37:11 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_yellow": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -4383,9 +4987,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_white_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "twigs:recipes/twigs.item_group/smooth_basalt_brick_wall_from_smooth_basalt_from_stonecutting": {
     "criteria": {
       "has_smooth_basalt": "2023-01-20 22:06:56 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_cyan_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -4423,6 +5039,12 @@
   "techreborn:recipes/grinder/bauxite_dust": {
     "criteria": {
       "has_bauxite_ore": "2023-01-21 04:39:26 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_light_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -4481,6 +5103,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_purple_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "spectrum:progression/colored_saplings/unlock_yellow_sapling": {
     "criteria": {
       "collected_citrine_shard": "2023-01-20 22:08:26 +0000"
@@ -4515,6 +5143,18 @@
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_purple_dye": "2023-01-24 01:09:08 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_gray_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_purple_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -4572,6 +5212,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "hexcasting:recipes/hexcasting.creative_tab/scroll_medium": {
     "criteria": {
       "has_item": "2023-01-21 04:37:29 +0000"
@@ -4619,6 +5265,12 @@
       "has_iron": "2023-01-20 06:56:29 +0000"
     },
     "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_desert": "2023-02-03 21:26:30 +0000"
+    },
+    "done": false
   },
   "betternether:recipes/decorations/willow_bookshelf": {
     "criteria": {
@@ -4668,6 +5320,12 @@
     },
     "done": true
   },
+  "spectrum:hidden/collect_shards/collect_topaz_shard": {
+    "criteria": {
+      "has_topaz_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/glistering_melon_slice": {
     "criteria": {
       "has_melon_slice": "2023-01-20 07:13:30 +0000"
@@ -4692,6 +5350,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_orange_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2023-01-20 07:15:59 +0000"
@@ -4713,6 +5377,7 @@
       "minecraft:creeper": "2023-01-21 05:57:12 +0000",
       "minecraft:slime": "2023-01-21 00:57:35 +0000",
       "minecraft:zombified_piglin": "2023-01-24 01:00:51 +0000",
+      "minecraft:witch": "2023-02-03 21:28:07 +0000",
       "minecraft:zombie": "2023-01-20 06:32:25 +0000",
       "minecraft:zombie_villager": "2023-01-21 05:55:18 +0000"
     },
@@ -4782,6 +5447,12 @@
   "betternether:recipes/decorations/stalagnate_taburet": {
     "criteria": {
       "has_104_stick": "2023-01-20 06:29:27 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_green": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -5059,6 +5730,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_green": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/pink_stained_glass_from_light_gray_stained_glass_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-01-24 01:09:20 +0000"
@@ -5074,6 +5751,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2023-01-20 22:40:20 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_cyan": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -5151,6 +5834,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_red_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "arcanus:recipes/tools/wands": {
     "criteria": {
       "has_amethyst": "2023-01-21 04:37:29 +0000"
@@ -5160,6 +5849,12 @@
   "toms_storage:unlock_netherite": {
     "criteria": {
       "inv_changed-netherite": "2023-01-20 06:08:47 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_light_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -5178,6 +5873,12 @@
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:29 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/spelunker_armor_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -5248,6 +5949,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/shulker_armor_chestplate": {
+    "criteria": {
+      "has_iron_chestplate": "2023-02-03 21:16:24 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/whispering_gourd_lantern": {
     "criteria": {
       "has_1239_torch": "2023-01-20 06:59:10 +0000"
@@ -5263,6 +5970,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/limestone_tile_stairs_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-21 05:51:45 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_orange": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -5561,6 +6274,18 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_orange_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_black": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2023-01-20 23:35:40 +0000"
@@ -5594,6 +6319,12 @@
   "decorative_blocks:recipes/decorative_blocks.general/acacia_seat": {
     "criteria": {
       "has_plank": "2023-01-21 18:23:14 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_light_gray": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -5687,6 +6418,12 @@
     },
     "done": false
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_cyan_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/crafting_table/unit/upgrader/industrial_unit_upgrader": {
     "criteria": {
       "has_data_storage_chip": "2023-01-25 06:01:35 +0000"
@@ -5705,15 +6442,28 @@
     },
     "done": false
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_purple": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/red_carpet_from_magenta_concrete_powder_with_red_dye": {
     "criteria": {
       "has_red_dye": "2023-01-24 01:08:41 +0000"
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_brown": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "spectrum:progression/colored_saplings/unlock_blue_sapling": {
     "criteria": {
       "collected_amethyst_shard": "2023-01-21 04:37:29 +0000",
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000",
       "collected_citrine_shard": "2023-01-20 22:08:26 +0000"
     },
     "done": false
@@ -5724,15 +6474,39 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_magenta_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/grinder/coal_dust_from_block": {
     "criteria": {
       "has_coal_block": "2023-01-21 00:39:20 +0000"
     },
     "done": true
   },
+  "spectrum:progression/gemstone_chimes/unlock_topaz_chime": {
+    "criteria": {
+      "collected_gemstone_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
+  },
   "betternether:recipes/decorations/nether_reed_bookshelf": {
     "criteria": {
       "has_64_book": "2023-01-21 06:19:04 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_white": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -5778,9 +6552,21 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_white_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_stairs": {
     "criteria": {
       "has_planks": "2023-01-21 18:23:14 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_green": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -5857,9 +6643,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_yellow_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "croparia:recipes/misc/seed_crop_eye": {
     "criteria": {
       "has_spider_eye": "2023-01-20 06:32:39 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_orange": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -5872,6 +6670,12 @@
   "techreborn:recipes/chemical_reactor/blue_carpet_from_white_concrete_powder_with_blue_dye": {
     "criteria": {
       "has_blue_dye": "2023-01-24 01:09:06 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/reinforced_mail_chestplate": {
+    "criteria": {
+      "has_iron_chestplate": "2023-02-03 21:16:24 +0000"
     },
     "done": true
   },
@@ -6025,6 +6829,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_cyan": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "explorerscompass:explorers_compass_cobweb": {
     "criteria": {
       "has_recipe": "2023-01-20 06:08:44 +0000",
@@ -6101,6 +6911,12 @@
   "farmersdelight:recipes/farmersdelight/safety_net": {
     "criteria": {
       "has_rope": "2023-01-20 22:41:11 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_brown_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -6276,6 +7092,12 @@
   "earthtojavamobs:recipes/mud_bucket": {
     "criteria": {
       "has_the_recipe": "2023-01-20 06:56:28 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/sweet_tooth_helmet": {
+    "criteria": {
+      "has_diamond": "2023-02-03 21:07:19 +0000"
     },
     "done": true
   },
@@ -6519,6 +7341,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_black": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/crossed_bars/crossed_warped_bars": {
     "criteria": {
       "has_warped_stem": "2023-01-20 06:08:47 +0000"
@@ -6609,6 +7437,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_ag/crushing_tub": {
+    "criteria": {
+      "has_iron": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/crossbows/crossbow_voidcaller_crossbow": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
@@ -6660,6 +7494,12 @@
   "additionalbars:recipes/bars/oak_bars": {
     "criteria": {
       "has_oak_log": "2023-01-20 06:08:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2023-02-03 21:26:31 +0000"
     },
     "done": true
   },
@@ -6782,6 +7622,12 @@
       "in_water": "2023-01-20 06:37:38 +0000"
     },
     "done": true
+  },
+  "spectrum:progression/decostones/unlock_topaz_decostone": {
+    "criteria": {
+      "collected_gemstone_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
   },
   "betterend:recipes/decorations/jellyshroom_gate": {
     "criteria": {
@@ -7001,6 +7847,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "spectrum:progression/colored_lamps/unlock_black_lamp": {
     "criteria": {
       "has_citrine_shard": "2023-01-20 22:08:26 +0000"
@@ -7040,6 +7892,12 @@
   "techreborn:recipes/chemical_reactor/cyan_wool_from_light_blue_wool_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:04 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/battle_robe_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-02-03 21:38:33 +0000"
     },
     "done": true
   },
@@ -7139,6 +7997,24 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_purple": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/grim_armor_chestplate": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_red": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/bluestone_lines_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2023-01-21 00:45:10 +0000"
@@ -7154,6 +8030,12 @@
   "mcdw:recipes/gauntlets/gauntlet_maulers": {
     "criteria": {
       "has_bone": "2023-01-20 07:08:49 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_path_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -7184,6 +8066,18 @@
   "mcwbridges:recipes/stone_brick_bridge_stair": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:43 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/snow_armor_chestplate": {
+    "criteria": {
+      "has_iron_chestplate": "2023-02-03 21:16:24 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_pink_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -7223,6 +8117,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_magenta_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "morevillagers:recipes/gardening_table": {
     "criteria": {
       "has_flower": "2023-01-20 06:39:58 +0000"
@@ -7253,9 +8153,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_cyan_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/shields/shield_tower_guard": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/sweet_tooth_leggings": {
+    "criteria": {
+      "has_diamond": "2023-02-03 21:07:19 +0000"
     },
     "done": true
   },
@@ -7286,6 +8198,12 @@
   "consistency_plus:recipes/stone": {
     "criteria": {
       "has_block": "2023-01-20 06:37:11 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_gree_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -7367,6 +8285,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_cyan": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/jellyshroom_sign": {
     "criteria": {
       "has_791_stick": "2023-01-20 06:29:27 +0000"
@@ -7400,6 +8324,12 @@
   "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
       "has_quartz": "2023-01-22 19:15:58 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_yellow": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -7762,11 +8692,12 @@
   },
   "spectrum:collect_all_basic_shards": {
     "criteria": {
+      "has_topaz_shard": "2023-02-03 21:19:59 +0000",
       "gotten_previous": "2023-01-20 22:08:26 +0000",
       "has_amethyst_shard": "2023-01-21 04:37:29 +0000",
       "has_citrine_shard": "2023-01-20 22:08:26 +0000"
     },
-    "done": false
+    "done": true
   },
   "techreborn:recipes/chemical_reactor/lime_carpet_from_light_blue_concrete_powder_with_yellow_dye": {
     "criteria": {
@@ -7792,9 +8723,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_white": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/yellow_carpet_from_white_carpet": {
     "criteria": {
       "has_yellow_dye": "2023-01-24 01:08:39 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_light_gray_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -7807,6 +8750,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2023-01-20 22:03:52 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_brown_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -7852,6 +8801,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_green": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/pink_terracotta_from_white_terracotta_with_red_dye": {
     "criteria": {
       "has_red_dye": "2023-01-24 01:08:40 +0000"
@@ -7879,6 +8834,12 @@
   "techreborn:recipes/crafting_table/cable/copper_cable": {
     "criteria": {
       "has_copper_ingot": "2023-01-20 07:15:59 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/spelunker_armor_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -7936,6 +8897,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/thief_armor_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/ae2.main/network/cables/smart_brown": {
     "criteria": {
       "has_dyes/black": "2023-01-24 01:08:42 +0000"
@@ -7945,6 +8912,12 @@
   "minecraft:recipes/building_blocks/lime_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-01-20 22:05:43 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_cyan_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -7966,6 +8939,12 @@
     },
     "done": true
   },
+  "vinery:big_table": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "twigs:recipes/twigs.item_group/smooth_basalt_bricks_from_stonecutting": {
     "criteria": {
       "has_smooth_basalt": "2023-01-20 22:06:57 +0000"
@@ -7984,6 +8963,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_brown_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/small_limestone_bricks_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-21 05:51:45 +0000"
@@ -7993,6 +8978,12 @@
   "techreborn:recipes/chemical_reactor/cyan_stained_glass_from_light_blue_stained_glass_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:05 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_brown": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -8017,6 +9008,18 @@
   "minecraft:recipes/building_blocks/copper_block": {
     "criteria": {
       "has_copper_ingot": "2023-01-20 07:15:59 +0000"
+    },
+    "done": true
+  },
+  "vinery:basket": {
+    "criteria": {
+      "has_wheat": "2023-02-03 21:09:22 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_magenta": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -8092,6 +9095,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-01-20 23:35:40 +0000"
@@ -8147,9 +9156,27 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_green_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2023-02-03 21:26:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
       "has_planks": "2023-01-20 07:24:26 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_green_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -8220,6 +9247,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_blue": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/small_dust/glowstone_small_dust_from_dust": {
     "criteria": {
       "has_glowstone_dust": "2023-01-25 05:59:17 +0000"
@@ -8263,6 +9296,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/piglin_armor_boots": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_decorations/small_bluestone_brick_wall_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2023-01-21 00:45:09 +0000"
@@ -8272,6 +9311,12 @@
   "techreborn:recipes/chemical_reactor/blue_carpet_from_gray_concrete_powder_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:04 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_purple": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -8341,6 +9386,18 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_white_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/chandelier_iron": {
+    "criteria": {
+      "has_iron": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/crema": {
     "criteria": {
       "has_salt": "2023-01-20 07:08:21 +0000"
@@ -8350,6 +9407,12 @@
   "minecraft:recipes/building_blocks/tinted_glass": {
     "criteria": {
       "has_amethyst_shard": "2023-01-21 04:37:29 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mercenary_armor_chestplate": {
+    "criteria": {
+      "has_iron_chestplate": "2023-02-03 21:16:24 +0000"
     },
     "done": true
   },
@@ -8456,6 +9519,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/iron_plate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/decorative_blocks.general/oak_support": {
     "criteria": {
       "has_plank": "2023-01-20 06:29:24 +0000"
@@ -8471,6 +9540,12 @@
   "betternether:recipes/decorations/anchor_tree_bookshelf": {
     "criteria": {
       "has_388_book": "2023-01-21 06:19:04 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_cyan": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -8573,6 +9648,12 @@
   "techreborn:recipes/chemical_reactor/green_wool_from_blue_wool_with_yellow_dye": {
     "criteria": {
       "has_yellow_dye": "2023-01-24 01:08:39 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_white": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -8709,6 +9790,18 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_cyan": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
+  "spectrum:progression/unlock_compacting_chest": {
+    "criteria": {
+      "collected_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-01-20 22:13:54 +0000"
@@ -8724,6 +9817,12 @@
   "betterend:recipes/decorations/dragon_tree_bookshelf": {
     "criteria": {
       "has_692_book": "2023-01-21 06:19:04 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_lime": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -8764,6 +9863,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_light_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "hexcasting:grant_patchi_book": {
     "criteria": {
       "tick": "2023-01-20 06:08:50 +0000"
@@ -8788,6 +9893,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_magenta_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/jellyshroom_ladder": {
     "criteria": {
       "has_789_stick": "2023-01-20 06:29:27 +0000"
@@ -8800,6 +9911,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_white": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
     "criteria": {
       "has_blue_dye": "2023-01-24 01:09:05 +0000"
@@ -8809,6 +9926,12 @@
   "techreborn:recipes/grinder/diamond_dust": {
     "criteria": {
       "has_diamond": "2023-01-20 22:03:52 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_orange": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -8884,6 +10007,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_gree_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/horizontal_bars/horizontal_acacia_bars": {
     "criteria": {
       "has_acacia_log": "2023-01-20 06:08:44 +0000"
@@ -8938,9 +10067,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/thallasium_bulb_lantern_brown": {
     "criteria": {
       "has_883_brown_dye": "2023-01-24 01:08:42 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_red_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -8959,6 +10100,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/bluestone_brick_slab_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2023-01-21 00:45:10 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_orange_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -9052,6 +10199,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_lime_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/nether_reed_ladder": {
     "criteria": {
       "has_57_stick": "2023-01-20 06:29:28 +0000"
@@ -9079,6 +10232,12 @@
   "morevillagers:recipes/blueprint_table": {
     "criteria": {
       "has_paper": "2023-01-20 23:24:10 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/ghostly_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -9161,6 +10320,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_lime_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "halfdoors:recipes/oak_halfdoor": {
     "criteria": {
       "has_planks": "2023-01-30 05:25:03 +0000"
@@ -9170,6 +10335,18 @@
   "blockus:recipes/blockus.blockus_building_blocks/marble_lines_from_marble_stonecutting": {
     "criteria": {
       "has_marble": "2023-01-21 06:17:10 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_brown_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_pink": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -9224,6 +10401,12 @@
   "techreborn:recipes/chemical_reactor/blue_carpet_from_cyan_carpet_with_gray_dye": {
     "criteria": {
       "has_gray_dye": "2023-01-24 01:09:21 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_black": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -9384,6 +10567,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_purple_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "chococraft:recipes/chococraft.tab/red_gysahl": {
     "criteria": {
       "has_gysahl_green": "2023-01-20 06:49:53 +0000"
@@ -9417,6 +10606,12 @@
   "techreborn:recipes/chemical_reactor/red_carpet_from_white_carpet_with_red_dye": {
     "criteria": {
       "has_red_dye": "2023-01-24 01:08:41 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/grim_armor_boots": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
     },
     "done": true
   },
@@ -9704,6 +10899,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_light_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2023-01-20 06:08:50 +0000"
@@ -9848,6 +11049,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_red_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/horizontal_bars/horizontal_iron_bars": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:08:45 +0000"
@@ -9926,6 +11133,12 @@
     },
     "done": true
   },
+  "wizards:obtain_wand": {
+    "criteria": {
+      "wand": "2023-02-03 21:24:27 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/red_stained_glass_pane_from_orange_stained_glass_pane_with_red_dye": {
     "criteria": {
       "has_red_dye": "2023-01-24 01:08:40 +0000"
@@ -9947,6 +11160,12 @@
   "doom:argent": {
     "criteria": {
       "argent": "2023-01-21 01:26:08 +0000"
+    },
+    "done": true
+  },
+  "vinery:cherry_fence_gate": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -10106,6 +11325,12 @@
     },
     "done": true
   },
+  "jamd:recipes/transportation/mine_portal_block": {
+    "criteria": {
+      "has_pick": "2023-02-03 21:06:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/campfire": {
     "criteria": {
       "has_stick": "2023-01-20 06:29:27 +0000"
@@ -10145,6 +11370,7 @@
   },
   "spectrum:progression/unlock_present": {
     "criteria": {
+      "collected_topaz": "2023-02-03 21:19:59 +0000",
       "collected_amethyst": "2023-01-21 04:37:29 +0000"
     },
     "done": false
@@ -10164,6 +11390,12 @@
   "ae2:recipes/ae2.main/network/cables/glass_pink": {
     "criteria": {
       "has_dyes/black": "2023-01-24 01:09:09 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/evocation_robe_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2023-02-03 21:38:33 +0000"
     },
     "done": true
   },
@@ -10221,6 +11453,18 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_red_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_light_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/double_axes/axe_whirlwind": {
     "criteria": {
       "has_stick": "2023-01-20 06:29:28 +0000"
@@ -10230,6 +11474,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/bluestone_tile_stairs_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2023-01-21 00:45:09 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -10270,15 +11520,51 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_orange": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
+  "vinery:cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/terminite_bulb_lantern_gray": {
     "criteria": {
       "has_919_gray_dye": "2023-01-24 01:09:20 +0000"
     },
     "done": true
   },
+  "mcda:recipes/base_armors/grim_armor_helmet": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_yellow": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "architects_palette:recipes/building_blocks/spool": {
     "criteria": {
       "has_wooden_fence": "2023-01-31 05:36:37 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_lime": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_brown": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -10337,6 +11623,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/vanguard_armor_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/gray_stained_glass_pane_from_glass_pane_with_gray_dye": {
     "criteria": {
       "has_gray_dye": "2023-01-24 01:09:20 +0000"
@@ -10349,6 +11641,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_pink": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/techreborn.item_group/crafting_table/armor/bronze_boots": {
     "criteria": {
       "has_tag_c_bronze_ingots": "2023-01-26 03:52:12 +0000"
@@ -10358,6 +11656,12 @@
   "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
     "criteria": {
       "has_wct": "2023-01-20 06:08:47 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_yellow_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -10416,6 +11720,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/mystery_armor_purple_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/elder_chest": {
     "criteria": {
       "has_lots_of_items": "2023-01-20 06:34:35 +0000"
@@ -10428,9 +11738,33 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_white": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/battle_robe_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/bone_rib_cage": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/axes/axe_anchor": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:29 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_green_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -10676,6 +12010,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/evocation_robe_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2023-02-03 21:38:33 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/marble_brick_stairs_from_polished_marble_stonecutting": {
     "criteria": {
       "has_polished_marble": "2023-01-24 01:02:47 +0000"
@@ -10760,6 +12100,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_light_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "consistency_plus:recipes/diorite": {
     "criteria": {
       "has_block": "2023-01-20 22:13:07 +0000"
@@ -10787,6 +12133,12 @@
   "techreborn:recipes/chemical_reactor/cyan_wool_from_white_wool_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:04 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -10842,6 +12194,12 @@
   "croptopia:recipes/caesar_salad": {
     "criteria": {
       "has_olive": "2023-01-20 06:34:35 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_white_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -10912,6 +12270,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_black_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/anchor_tree_fence": {
     "criteria": {
       "has_372_stick": "2023-01-20 06:29:27 +0000"
@@ -10942,6 +12306,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_orange_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2023-01-20 06:40:49 +0000"
@@ -10957,6 +12327,12 @@
   "techreborn:recipes/techreborn.item_group/crafting_table/tool/sapphire_hoe": {
     "criteria": {
       "has_sapphire_gem": "2023-01-21 06:23:34 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_pink_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -10987,6 +12363,12 @@
   "adorn:recipes/dark_oak_kitchen_cupboard": {
     "criteria": {
       "has_planks": "2023-01-20 07:24:26 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_pink_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -11050,6 +12432,12 @@
     },
     "done": true
   },
+  "halfdoors:recipes/iron_halfdoor": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:10:17 +0000"
+    },
+    "done": true
+  },
   "fluidtank:recipes/tank/tank_emerald": {
     "criteria": {
       "has_emerald": "2023-01-20 22:40:22 +0000"
@@ -11107,6 +12495,18 @@
   "farmersdelight:recipes/farmersdelight/cooking/ratatouille": {
     "criteria": {
       "has_any_ingredient": "2023-01-20 06:50:24 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_light_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/thief_armor_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -11224,6 +12624,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_white": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/centrifuge/helium_cell": {
     "criteria": {
       "has_helium": "2023-01-20 06:08:45 +0000"
@@ -11245,6 +12651,12 @@
   "betternether:recipes/decorations/wart_chair": {
     "criteria": {
       "has_181_stick": "2023-01-20 06:29:27 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_green": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -11302,10 +12714,22 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_magenta": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "croparia:recipes/misc/seed_crop_magenta": {
     "criteria": {
       "has_the_recipe": "2023-01-24 01:09:20 +0000",
       "has_magenta_dye": "2023-01-24 01:09:20 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_cyan": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -11370,6 +12794,18 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_blue": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/ghostly_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/extractor/paper_from_book": {
     "criteria": {
       "has_book": "2023-01-21 06:19:04 +0000"
@@ -11418,6 +12854,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_black": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "architects_palette:recipes/decorations/oak_railing": {
     "criteria": {
       "has_oak_planks": "2023-01-20 06:29:23 +0000"
@@ -11442,6 +12884,9 @@
       "byg:prairie": "2023-01-26 01:29:13 +0000",
       "byg:firecracker_shrubland": "2023-01-22 19:14:57 +0000",
       "byg:magma_wastes": "2023-01-21 01:23:50 +0000",
+      "byg:atacama_desert": "2023-02-03 21:18:57 +0000",
+      "byg:araucaria_savanna": "2023-02-03 21:14:59 +0000",
+      "byg:baobab_savanna": "2023-02-03 21:16:16 +0000",
       "byg:amaranth_fields": "2023-01-22 19:18:45 +0000",
       "byg:basalt_barrera": "2023-01-26 01:29:22 +0000"
     },
@@ -11521,6 +12966,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_brown_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/obsidian_bricks_from_obsidian_stonecutting": {
     "criteria": {
       "has_obsidian": "2023-01-21 04:49:40 +0000"
@@ -11530,6 +12981,12 @@
   "ae2:recipes/ae2.main/network/cables/smart_pink": {
     "criteria": {
       "has_dyes/black": "2023-01-24 01:09:09 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_pink": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -11720,6 +13177,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_yellow": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_building_blocks/bluestone_bricks_from_bluestone_stonecutting": {
     "criteria": {
       "has_bluestone": "2023-01-21 00:45:09 +0000"
@@ -11781,6 +13244,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_lime": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/wire_mill/gold_cable": {
     "criteria": {
       "has_gold_ingot": "2023-01-20 22:40:21 +0000"
@@ -11792,6 +13261,18 @@
       "has_tag_minecraft_planks": "2023-01-20 06:29:23 +0000"
     },
     "done": true
+  },
+  "mcda:recipes/base_armors/sweet_tooth_chestplate": {
+    "criteria": {
+      "has_diamond": "2023-02-03 21:07:19 +0000"
+    },
+    "done": true
+  },
+  "spectrum:progression/unlock_block_placer": {
+    "criteria": {
+      "has_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
   },
   "techreborn:recipes/centrifuge/raw_gold": {
     "criteria": {
@@ -11871,6 +13352,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_yellow_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/misc/charcoal": {
     "criteria": {
       "has_the_recipe": "2023-01-20 06:20:42 +0000"
@@ -11925,6 +13412,24 @@
     },
     "done": true
   },
+  "vinery:cherry_fence": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_black_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "vinery:straw_hat": {
+    "criteria": {
+      "has_wheat": "2023-02-03 21:09:22 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/croptopia.croptopia/meringue": {
     "criteria": {
       "has_egg": "2023-01-20 06:44:35 +0000"
@@ -11934,6 +13439,12 @@
   "techreborn:recipes/chemical_reactor/red_carpet_from_magenta_carpet_with_red_dye": {
     "criteria": {
       "has_red_dye": "2023-01-24 01:08:40 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_red": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -11964,6 +13475,12 @@
   "techreborn:recipes/chemical_reactor/purple_carpet_from_blue_concrete_powder_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-01-24 01:09:20 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_gray_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -12052,6 +13569,12 @@
       "lettuce_seed": "2023-01-22 19:05:30 +0000"
     },
     "done": false
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
   },
   "techreborn:recipes/chemical_reactor/nitrogen_dioxide": {
     "criteria": {
@@ -12228,6 +13751,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/piglin_armor_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "naturescompass:natures_compass_sapling": {
     "criteria": {
       "has_recipe": "2023-01-20 06:08:45 +0000"
@@ -12237,6 +13766,12 @@
   "farmersdelight:recipes/farmersdelight/cooking/beef_stew": {
     "criteria": {
       "has_any_ingredient": "2023-01-20 22:18:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-02-03 21:22:34 +0000"
     },
     "done": true
   },
@@ -12331,6 +13866,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_white": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/swords/sword_katana": {
     "criteria": {
       "has_stick": "2023-01-20 06:29:27 +0000"
@@ -12385,6 +13926,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/dark_armor_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "blockus:recipes/blockus.blockus_decorations/marble_tile_wall_from_polished_marble_stonecutting": {
     "criteria": {
       "has_polished_marble": "2023-01-24 01:02:47 +0000"
@@ -12394,6 +13941,12 @@
   "techreborn:recipes/chemical_reactor/pink_stained_glass_pane_from_glass_pane_with_pink_dye": {
     "criteria": {
       "has_pink_dye": "2023-01-24 01:09:09 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/dark_armor_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -12424,6 +13977,12 @@
   "blockus:recipes/blockus.blockus_legacy/legacy_explosion_proof_gold_block_from_gold_block_stonecutting": {
     "criteria": {
       "has_gold_block": "2023-01-23 20:06:47 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/emerald_gear_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -12495,6 +14054,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_light_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/dark_oak_bridge_pier": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:44 +0000"
@@ -12529,6 +14094,24 @@
   "betterend:recipes/decorations/hydralux_petal_block_pink": {
     "criteria": {
       "has_857_pink_dye": "2023-01-24 01:09:09 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_gree_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_purple_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_ag/rope": {
+    "criteria": {
+      "has_string": "2023-02-03 21:27:39 +0000"
     },
     "done": true
   },
@@ -12607,6 +14190,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/marble_stairs_from_marble_stonecutting": {
     "criteria": {
       "has_marble": "2023-01-21 06:17:10 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -12852,6 +14441,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_white_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/industrial_sawmill/saw_small_dust_from_wooden_sword": {
     "criteria": {
       "has_wooden_sword": "2023-01-20 06:32:20 +0000"
@@ -12873,6 +14468,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/polished_marble_slab_from_polished_marble_stonecutting": {
     "criteria": {
       "has_polished_marble": "2023-01-24 01:02:47 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -13033,6 +14634,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/evocation_robe_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2023-02-03 21:38:33 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/yellow_carpet_from_white_concrete_powder_with_yellow_dye": {
     "criteria": {
       "has_yellow_dye": "2023-01-24 01:08:38 +0000"
@@ -13063,9 +14670,16 @@
     },
     "done": true
   },
+  "botania:recipes/botania/ghost_rail": {
+    "criteria": {
+      "has_item": "2023-02-03 21:26:31 +0000"
+    },
+    "done": true
+  },
   "spectrum:progression/colored_saplings/unlock_green_sapling": {
     "criteria": {
       "collected_amethyst_shard": "2023-01-21 04:37:29 +0000",
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000",
       "collected_citrine_shard": "2023-01-20 22:08:26 +0000"
     },
     "done": false
@@ -13085,6 +14699,12 @@
   "mcda:recipes/base_armors/snow_armor_leggings": {
     "criteria": {
       "has_iron_leggings": "2023-02-02 04:40:14 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_blue_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -13145,6 +14765,12 @@
   "techreborn:recipes/chemical_reactor/light_blue_stained_glass_from_white_stained_glass_with_blue_dye": {
     "criteria": {
       "has_blue_dye": "2023-01-24 01:09:05 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -13242,6 +14868,18 @@
   "mcdw:recipes/crossbows/crossbow_imploding": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:29 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_gray": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -13366,6 +15004,18 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_pink_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/guards_armor_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/horizontal_crossed_bars/horizontal_crossed_oak_bars": {
     "criteria": {
       "has_oak_log": "2023-01-20 06:08:45 +0000"
@@ -13415,6 +15065,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_lime": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-01-20 22:13:54 +0000"
@@ -13426,6 +15082,7 @@
       "minecraft:sunflower_plains": "2023-01-20 22:39:43 +0000",
       "minecraft:beach": "2023-01-26 01:29:53 +0000",
       "minecraft:river": "2023-01-20 07:09:52 +0000",
+      "minecraft:dripstone_caves": "2023-02-03 21:22:22 +0000",
       "minecraft:ocean": "2023-01-26 01:30:52 +0000",
       "minecraft:flower_forest": "2023-01-20 06:43:12 +0000",
       "minecraft:savanna": "2023-01-20 06:20:37 +0000",
@@ -13476,6 +15133,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/piglin_armor_helmet": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/bamboo_bridge_pier": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:44 +0000"
@@ -13500,6 +15163,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_light_gray": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "additionalbars:recipes/horizontal_bars/horizontal_birch_bars": {
     "criteria": {
       "has_birch_log": "2023-01-20 06:08:48 +0000"
@@ -13518,9 +15187,21 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_light_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "croparia:recipes/crops/seed_crop_goldenapple": {
     "criteria": {
       "has_golden_apple": "2023-01-20 22:40:23 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_purple": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -13551,6 +15232,12 @@
   "croparia:recipes/croparia_crop/seed_crop_string": {
     "criteria": {
       "has_string": "2023-01-20 22:23:50 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_lime": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -13638,6 +15325,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_lime": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "marketcrates:recipes/decorations/jungle_crate": {
     "criteria": {
       "has_wood_slab": "2023-01-20 06:08:44 +0000"
@@ -13678,6 +15371,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/limestone_squares_from_limestone_stonecutting": {
     "criteria": {
       "has_limestone": "2023-01-21 05:51:45 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_lime_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -13735,6 +15434,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_pink": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "inmis:recipes/baby_backpack": {
     "criteria": {
       "has_leather": "2023-01-20 23:17:52 +0000"
@@ -13744,6 +15449,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/iron_plating": {
     "criteria": {
       "has_iron_ingot": "2023-01-20 06:56:28 +0000"
+    },
+    "done": true
+  },
+  "vinery:campfire": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:44 +0000"
     },
     "done": true
   },
@@ -13782,6 +15493,12 @@
       "gotten_previous": "2023-01-20 22:08:26 +0000"
     },
     "done": false
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_yellow_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
   },
   "techreborn:recipes/chemical_reactor/brown_terracotta_from_orange_terracotta_with_brown_dye": {
     "criteria": {
@@ -13831,6 +15548,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_light_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "ae2:recipes/ae2.main/network/cables/dense_smart_fluix": {
     "criteria": {
       "has_dusts/redstone": "2023-01-22 19:16:09 +0000"
@@ -13852,6 +15575,12 @@
   "mcdw:recipes/sickles/sickle_sickle": {
     "criteria": {
       "has_stick": "2023-01-20 06:29:27 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/grim_armor_leggings": {
+    "criteria": {
+      "has_bone": "2023-02-03 21:16:23 +0000"
     },
     "done": true
   },
@@ -14067,6 +15796,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/iron_lattice": {
+    "criteria": {
+      "has_iron": "2023-02-03 21:07:08 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/mushroom_fir_sign": {
     "criteria": {
       "has_310_stick": "2023-01-20 06:29:28 +0000"
@@ -14091,6 +15826,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_lime_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/grinder/quartz_dust_from_gem": {
     "criteria": {
       "has_quartz": "2023-01-22 19:15:58 +0000"
@@ -14100,6 +15841,12 @@
   "croptopia:recipes/croptopia.croptopia/starfruit_sapling": {
     "criteria": {
       "has_starfruit": "2023-01-20 06:43:23 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_lime": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -14124,6 +15871,12 @@
   "ae2:main/root": {
     "criteria": {
       "copper": "2023-01-20 07:15:59 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_pink": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -14172,6 +15925,12 @@
   "marketcrates:recipes/decorations/crimson_crate": {
     "criteria": {
       "has_wood_slab": "2023-01-20 06:08:45 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_magenta": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -14281,6 +16040,12 @@
   "techreborn:recipes/chemical_reactor/purple_carpet_from_white_concrete_powder_with_purple_dye": {
     "criteria": {
       "has_purple_dye": "2023-01-24 01:09:08 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/fabric_bolt_gray": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
     },
     "done": true
   },
@@ -14452,6 +16217,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_green_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/crafting_table/machine/canning_machine": {
     "criteria": {
       "has_basic_machine_frame": "2023-01-25 06:01:49 +0000"
@@ -14494,9 +16265,21 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_red": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "croparia:recipes/croparia_crop/seed_crop_glowstone": {
     "criteria": {
       "has_glowstone_dust": "2023-01-25 05:59:17 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_blue": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -14608,6 +16391,12 @@
     },
     "done": true
   },
+  "vinery:apple_cupcake": {
+    "criteria": {
+      "has_egg": "2023-02-03 21:35:12 +0000"
+    },
+    "done": true
+  },
   "betternether:recipes/decorations/nether_mushroom_taburet": {
     "criteria": {
       "has_361_stick": "2023-01-20 06:29:28 +0000"
@@ -14629,6 +16418,12 @@
   "techreborn:recipes/centrifuge/potato": {
     "criteria": {
       "has_potato": "2023-01-21 06:27:38 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/mystery_armor_red_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -14716,6 +16511,12 @@
     },
     "done": true
   },
+  "spectrum:progression/unlock_mud_bucket": {
+    "criteria": {
+      "collected_topaz_shard": "2023-02-03 21:19:59 +0000"
+    },
+    "done": false
+  },
   "croparia:recipes/misc/seed_crop_bottle": {
     "criteria": {
       "has_the_recipe": "2023-01-21 00:53:18 +0000",
@@ -14753,6 +16554,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_magenta": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/tenanea_ladder": {
     "criteria": {
       "has_711_stick": "2023-01-20 06:29:27 +0000"
@@ -14768,6 +16575,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/charcoal_block": {
     "criteria": {
       "has_charcoal": "2023-01-21 05:43:48 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_pink_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -14822,6 +16635,18 @@
   "mcwbridges:recipes/mangrove_log_bridge_stair": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:48 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_white_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/base_armors/thief_armor_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:08 +0000"
     },
     "done": true
   },
@@ -14969,6 +16794,12 @@
     },
     "done": true
   },
+  "mcda:recipes/crafting_items/fabric_bolt_light_gray": {
+    "criteria": {
+      "has_stick": "2023-02-03 21:04:45 +0000"
+    },
+    "done": true
+  },
   "botania:main/flower_pickup": {
     "criteria": {
       "flower": "2023-01-20 06:39:58 +0000"
@@ -15051,6 +16882,12 @@
     "criteria": {
       "has_gunpowder": "2023-01-21 04:40:57 +0000",
       "has_the_recipe": "2023-01-21 04:40:57 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_light_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
     },
     "done": true
   },
@@ -15144,6 +16981,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_white_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:52 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/dragon_tree_gate": {
     "criteria": {
       "has_678_stick": "2023-01-20 06:29:28 +0000"
@@ -15192,6 +17035,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_slab_orange_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "mcwbridges:recipes/warped_rope_bridge_stair": {
     "criteria": {
       "has_planks": "2023-01-20 06:08:47 +0000"
@@ -15201,6 +17050,12 @@
   "blockus:recipes/blockus.blockus_building_blocks/herringbone_oak_planks": {
     "criteria": {
       "has_oak_planks": "2023-01-20 06:29:23 +0000"
+    },
+    "done": true
+  },
+  "vinery:dough": {
+    "criteria": {
+      "has_wheat": "2023-02-03 21:09:22 +0000"
     },
     "done": true
   },
@@ -15225,6 +17080,12 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2023-01-20 06:20:42 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_stairs_blue_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
@@ -15282,6 +17143,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_blue_dyed": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "guardiansgalore:guardian_block": {
     "criteria": {
       "has_stone": "2023-01-20 06:08:47 +0000"
@@ -15314,6 +17181,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_slab_brown": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "techreborn:recipes/chemical_reactor/purple_stained_glass_from_blue_stained_glass_with_magenta_dye": {
     "criteria": {
       "has_magenta_dye": "2023-01-24 01:09:20 +0000"
@@ -15323,6 +17196,12 @@
   "bewitchment:recipes/tools/death_protection_poppet": {
     "criteria": {
       "has_item": "2023-01-21 06:26:48 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_red_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:52 +0000"
     },
     "done": true
   },
@@ -15353,6 +17232,12 @@
   "croparia:recipes/crops/seed_crop_coal": {
     "criteria": {
       "has_coal": "2023-01-20 06:37:31 +0000"
+    },
+    "done": true
+  },
+  "mcda:recipes/crafting_items/iron_scale": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
     },
     "done": true
   },
@@ -15416,6 +17301,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/cobblestone_wall_light_blue": {
+    "criteria": {
+      "has_cobblestone": "2023-02-03 21:16:54 +0000"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/iron_bulb_lantern": {
     "criteria": {
       "has_1064_iron_ingot": "2023-01-20 06:56:29 +0000"
@@ -15437,6 +17328,12 @@
   "decorative_blocks:recipes/decorations/torch_from_chandelier": {
     "criteria": {
       "has_torch": "2023-01-20 06:59:10 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_black_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
     },
     "done": true
   },
@@ -15474,6 +17371,12 @@
   "techreborn:recipes/chemical_reactor/cyan_candle_from_light_blue_candle_with_cyan_dye": {
     "criteria": {
       "has_cyan_dye": "2023-01-24 01:09:05 +0000"
+    },
+    "done": true
+  },
+  "consistency_plus:recipes/dripstone": {
+    "criteria": {
+      "has_block": "2023-02-03 21:31:04 +0000"
     },
     "done": true
   },
@@ -15519,6 +17422,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_stairs_yellow": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
+    },
+    "done": true
+  },
   "mcdw:recipes/bows/bow_phantom_bow": {
     "criteria": {
       "has_bone": "2023-01-20 07:08:49 +0000"
@@ -15547,6 +17456,12 @@
   "betternether:recipes/decorations/spruce_bar_stool": {
     "criteria": {
       "has_244_stick": "2023-01-20 06:29:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2023-02-03 21:26:31 +0000"
     },
     "done": true
   },
@@ -15742,6 +17657,12 @@
     },
     "done": true
   },
+  "rusticated:recipes/rusticated.item_group_deco/stone_purple_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:55 +0000"
+    },
+    "done": true
+  },
   "bclib:recipes/decorations/tag_hopper": {
     "criteria": {
       "has_tag_chest": "2023-01-20 06:41:06 +0000"
@@ -15851,6 +17772,12 @@
     },
     "done": true
   },
+  "mcda:recipes/base_armors/guards_armor_boots": {
+    "criteria": {
+      "has_iron_ingot": "2023-02-03 21:07:07 +0000"
+    },
+    "done": true
+  },
   "twigs:recipes/twigs.item_group/rhyolite_slab": {
     "criteria": {
       "has_rhyolite": "2023-01-21 00:48:26 +0000"
@@ -15890,6 +17817,12 @@
   "morevillagers:first_workstation_get": {
     "criteria": {
       "grindstone": "2023-01-21 01:04:18 +0000"
+    },
+    "done": true
+  },
+  "rusticated:recipes/rusticated.item_group_deco/stone_cyan_dyed": {
+    "criteria": {
+      "is_cobblestone": "2023-02-03 21:16:53 +0000"
     },
     "done": true
   },
