@@ -1395,65 +1395,65 @@ event.custom({
   // event.shapeless(Item.of('patchouli:guide_book', '{"patchouli:book":"agape_space:space_guide"}'), ['minecraft:book', 'minecraft:amethyst_shard'])
 
   event.remove({output:"things:arm_extender"})
-   event.custom({
-     "type": "botania:runic_altar",
-     "output": {
-       "item": "things:arm_extender"
-      },
-     "mana": 25000,
-     "ingredients": [
-       {
-         "item": "techreborn:lead_ingot"
-       },
-       {
-         "item": "things:gleaming_compound"
-       },
-       {
-         "item": "minecraft:fishing_rod"
-       },
-       {
-         "item": "bosses_of_mass_destruction:ancient_anima"
-       },
-       {
-         "item": "lightestlamp:xenon_rod"
-       }
-       ]
-     });
+  //  event.custom({
+  //    "type": "botania:runic_altar",
+  //    "output": {
+  //      "item": "things:arm_extender"
+  //     },
+  //    "mana": 25000,
+  //    "ingredients": [
+  //      {
+  //        "item": "techreborn:lead_ingot"
+  //      },
+  //      {
+  //        "item": "things:gleaming_compound"
+  //      },
+  //      {
+  //        "item": "minecraft:fishing_rod"
+  //      },
+  //      {
+  //        "item": "bosses_of_mass_destruction:ancient_anima"
+  //      },
+  //      {
+  //        "item": "lightestlamp:xenon_rod"
+  //      }
+  //      ]
+  //    });
   
-  //  event.custom({ 
-  //      "type": "create:mechanical_crafting",
-  //      "pattern": [
-  //          " L ",
-  //          " R ",
-  //          "ASA",
-  //          " G ",
-  //          " H "
-  //      ],
-  //      "key": {
-  //          "L": {
-  //              "item": "techreborn:lead_ingot"
-  //          },
-  //          "R": {
-  //              "item": "things:gleaming_compound"
-  //          },
-  //          "H": {
-  //              "item": "create:brass_hand"
-  //          },
-  //          "A": {
-  //              "item": "minecraft:fishing_rod"
-  //          },
-  //          "S": {
-  //            "item": "lightestlamp:xenon_rod"
-  //          },
-  //          "G": {
-  //            "item": "bosses_of_mass_destruction:ancient_anima"
-  //        }
-  //      },
-  //      "result": {
-  //          "item": "things:arm_extender"
-  //      },
-  //      "acceptMirrored": false
-  //  })
+    event.custom({ 
+        "type": "create:mechanical_crafting",
+        "pattern": [
+            " L ",
+            " R ",
+            "ASA",
+            " G ",
+            " H "
+        ],
+        "key": {
+            "L": {
+                "item": "techreborn:lead_ingot"
+            },
+            "R": {
+                "item": "things:gleaming_compound"
+            },
+            "H": {
+                "item": "create:brass_hand"
+            },
+            "A": {
+                "item": "minecraft:fishing_rod"
+            },
+            "S": {
+              "item": "lightestlamp:xenon_rod"
+            },
+            "G": {
+              "item": "bosses_of_mass_destruction:ancient_anima"
+          }
+        },
+        "result": {
+            "item": "things:arm_extender"
+        },
+        "acceptMirrored": false
+    })
 
 event.remove({output:"things:hardening_catalyst"})
 event.custom({

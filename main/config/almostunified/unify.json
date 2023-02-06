@@ -155,7 +155,8 @@
     "betterend:ender_.*",
     "betterend:amber_.*",
     "betternether:cincinnasite_.*",
-    "betternether:cincinnasite"
+    "betternether:cincinnasite",
+    "indrev:salt"
   ],
   "ignoredRecipeTypes": [],
   "ignoredRecipes": [],

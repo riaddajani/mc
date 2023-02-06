@@ -3,6 +3,7 @@
   "generator": {
     "type": "minecraft:flat",
     "settings": {
+      "structure_overrides": [],
       "biome": "aqm2:mining_dim",
       "lakes": false,
       "features": true,

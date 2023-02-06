@@ -1,7 +1,7 @@
 {
-	"EliteSpawnRates": 0.1,
-	"UltraSpawnRates": 0.2,
-	"EldritchSpawnRates": 0.3,
+	"EliteSpawnRates": 0.013,
+	"UltraSpawnRates": 0.012,
+	"EldritchSpawnRates": 0.01,
 	"EliteHealthMultiplier": 4.0,
 	"UltraHealthMultiplier": 7.5,
 	"EldritchHealthMultiplier": 13.0,
@@ -13,7 +13,7 @@
 	"EldritchMinModifiers": 7,
 	"EliteMaxModifiers": 4,
 	"UltraMaxModifiers": 7,
-	"EldritchMaxModifiers": 10,
+	"EldritchMaxModifiers": 9,
 	// Prevent named mobs from becoming Elite, Ultra, and Eldritch
 	"ignoreNamedMobs": true,
 	// Turn off titles for mobs
@@ -95,12 +95,12 @@
 	},
 	"gravityConfig": {
 		"name": "Gravity",
-		"disabled": false,
+		"disabled": true,
 		"cooldown": 500
 	},
 	"lethargicConfig": {
 		"name": "Lethargic",
-		"disabled": false,
+		"disabled": true,
 		"cooldown": 400,
 		"duration": 100,
 		"amplifier": 1
@@ -128,7 +128,7 @@
 	"starvingConfig": {
 		"name": "Starving",
 		"disabled": false,
-		"cooldown": 433,
+		"cooldown": 500,
 		"duration": 160,
 		"amplifier": 1
 	},
@@ -162,7 +162,7 @@
 	},
 	"undyingConfig": {
 		"name": "Undying",
-		"disabled": false,
+		"disabled": true,
 		"regenerationDuration": 500,
 		"regenerationAmplifier": 1,
 		"absorptionDuration": 1000,

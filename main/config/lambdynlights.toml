@@ -262,6 +262,7 @@
 				enderwarthog = true
 				ender_whale = true
 				necromancer = true
+				dragon = true
 
 			[light_sources.settings.entities.elementalcreepers]
 				illusion_creeper = false
@@ -439,6 +440,7 @@
 				inky_sheep = true
 				patched_sheep = true
 				ashen_cow = true
+				amber_chicken = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				cave_creeper = true
@@ -559,6 +561,7 @@
 				swamp_hopper_butterfly = true
 				cloudy_puff_butterfly = true
 				butter_gold_butterfly = true
+				shroom_skipper_butterfly = true
 
 			[light_sources.settings.entities.automobility]
 				automobile = true
@@ -766,6 +769,7 @@
 
 			[light_sources.settings.entities.takesapillage]
 				clay_golem = true
+				skirmisher = true
 
 			[light_sources.settings.entities.ad_astra]
 				tier_1_rocket = true

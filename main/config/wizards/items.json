@@ -76,6 +76,105 @@
           "operation": "ADDITION"
         }
       ]
+    },
+    "wand_netherite_arcane": {
+      "attack_damage": 2.0,
+      "attack_speed": -2.4,
+      "spell_attributes": [
+        {
+          "name": "arcane",
+          "value": 3.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "wand_netherite_fire": {
+      "attack_damage": 2.0,
+      "attack_speed": -2.4,
+      "spell_attributes": [
+        {
+          "name": "fire",
+          "value": 3.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "wand_netherite_frost": {
+      "attack_damage": 2.0,
+      "attack_speed": -2.4,
+      "spell_attributes": [
+        {
+          "name": "frost",
+          "value": 3.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_netherite_arcane": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "arcane",
+          "value": 5.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_netherite_fire": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "fire",
+          "value": 5.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_netherite_frost": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "frost",
+          "value": 5.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_crystal_arcane": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "arcane",
+          "value": 6.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_ruby_fire": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "fire",
+          "value": 6.0,
+          "operation": "ADDITION"
+        }
+      ]
+    },
+    "staff_smaragdant_frost": {
+      "attack_damage": 4.0,
+      "attack_speed": -3.0,
+      "spell_attributes": [
+        {
+          "name": "frost",
+          "value": 6.0,
+          "operation": "ADDITION"
+        }
+      ]
     }
   },
   "armor_sets": {

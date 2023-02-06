@@ -2,8 +2,8 @@
 PlayerEvents.loggedIn( event => {
   if (!event.player.stages.has('starting_items')) {
     event.player.stages.add('starting_items')
-    event.player.inventory.clear("byg:biomepedia");
-    event.player.inventory.clear("patchouli:guide_book");
+    event.player.inventory.clear('byg:biomepedia');
+    event.player.inventory.clear(Item.of('patchouli:guide_book', '{"patchouli:book":"hexcasting:thehexbook"}'));
     event.player.inventory.clear("doom:daisy");
     event.player.inventory.clear('prefab:item_house');
     event.player.give('ftbquests:book')
