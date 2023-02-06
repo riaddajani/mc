@@ -1,3 +1,0 @@
-# miun
-
-server for friends
