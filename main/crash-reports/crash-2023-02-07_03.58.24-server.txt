@@ -1,0 +1,1707 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 2023-02-07 03:58:24
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at net.minecraft.class_1255.method_20813(class_1255.java:152)
+	at net.minecraft.class_1255.method_18857(class_1255.java:142)
+	at net.minecraft.class_3215.getChunkBlocking(class_3215.java:2281)
+	at net.minecraft.class_3215.method_12121(class_3215.java:2177)
+	at net.minecraft.class_1937.method_8402(class_1937.java:197)
+	at net.minecraft.class_1937.method_8497(class_1937.java:10578)
+	at net.minecraft.class_1937.method_8320(class_1937.java:11070)
+	at net.minecraft.class_1297.method_5852(class_1297.java:1056)
+	at net.minecraft.class_1297.method_36974(class_1297.java:783)
+	at net.minecraft.class_1297.method_5784(class_1297.java:752)
+	at net.minecraft.class_1309.method_26318(class_1309.java:2282)
+	at net.minecraft.class_1309.method_6091(class_1309.java:2227)
+	at net.minecraft.class_1657.method_6091(class_1657.java:1638)
+	at net.minecraft.class_1309.method_6007(class_1309.java:2680)
+	at net.minecraft.class_1657.method_6007(class_1657.java:570)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2385)
+	at net.minecraft.class_1657.method_5773(class_1657.java:284)
+	at net.minecraft.class_3222.method_14226(class_3222.java:487)
+	at net.minecraft.class_3244.method_18784(class_3244.java:268)
+	at net.minecraft.class_2535.method_10754(class_2535.java:248)
+	at net.minecraft.class_3242.method_14357(class_3242.java:183)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:886)
+	at net.minecraft.class_3176.method_3813(class_3176.java:289)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:819)
+	at net.minecraft.server.MinecraftServer.handler$cjp000$modifiedRunLoop(MinecraftServer.java:7885)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:644)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+	at net.minecraft.server.MinecraftServer$$Lambda$28145/0x0000000804528248.run(Unknown Source)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at net.minecraft.class_1255.method_20813(class_1255.java:152)
+	at net.minecraft.class_1255.method_18857(class_1255.java:142)
+	at net.minecraft.class_3215.getChunkBlocking(class_3215.java:2281)
+	at net.minecraft.class_3215.method_12121(class_3215.java:2177)
+	at net.minecraft.class_1937.method_8402(class_1937.java:197)
+	at net.minecraft.class_1937.method_8497(class_1937.java:10578)
+	at net.minecraft.class_1937.method_8320(class_1937.java:11070)
+	at net.minecraft.class_1297.method_5852(class_1297.java:1056)
+	at net.minecraft.class_1297.method_36974(class_1297.java:783)
+	at net.minecraft.class_1297.method_5784(class_1297.java:752)
+	at net.minecraft.class_1309.method_26318(class_1309.java:2282)
+	at net.minecraft.class_1309.method_6091(class_1309.java:2227)
+	at net.minecraft.class_1657.method_6091(class_1657.java:1638)
+	at net.minecraft.class_1309.method_6007(class_1309.java:2680)
+	at net.minecraft.class_1657.method_6007(class_1657.java:570)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2385)
+	at net.minecraft.class_1657.method_5773(class_1657.java:284)
+	at net.minecraft.class_3222.method_14226(class_3222.java:487)
+	at net.minecraft.class_3244.method_18784(class_3244.java:268)
+	at net.minecraft.class_2535.method_10754(class_2535.java:248)
+	at net.minecraft.class_3242.method_14357(class_3242.java:183)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:886)
+	at net.minecraft.class_3176.method_3813(class_3176.java:289)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:819)
+	at net.minecraft.server.MinecraftServer.handler$cjp000$modifiedRunLoop(MinecraftServer.java:7885)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:644)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:257)
+Mixins in Stacktrace:
+	net.minecraft.class_3215:
+		eu.pb4.polymer.mixin.block.ServerChunkManagerMixin (polymer.mixins.json)
+		carpet.mixins.ServerChunkCache_tickMixin (carpet.mixins.json)
+		carpet.mixins.ServerChunkCacheMixin (carpet.mixins.json)
+		me.jellysquid.mods.lithium.mixin.world.chunk_access.ServerChunkManagerMixin (lithium.mixins.json)
+		me.jellysquid.mods.lithium.mixin.alloc.chunk_ticking.ServerChunkManagerMixin (lithium.mixins.json)
+	net.minecraft.class_1937:
+		draylar.magna.mixin.WorldMixin (magna.mixins.json)
+		carpet.mixins.Level_tickMixin (carpet.mixins.json)
+		carpet.mixins.Level_getOtherEntitiesLimited (carpet.mixins.json)
+		org.betterx.betterend.mixin.common.LevelMixin (betterend.mixins.common.json)
+		net.blay09.mods.balm.mixin.LevelMixin (balm.mixins.json)
+		me.jellysquid.mods.lithium.mixin.alloc.chunk_random.WorldMixin (lithium.mixins.json)
+		dev.nathanpb.dml.mixin.WorldMixin (mixins.dml-refabricated-base.json)
+		me.jellysquid.mods.lithium.mixin.world.inline_block_access.WorldMixin (lithium.mixins.json)
+		carpet.mixins.Level_movableBEMixin (carpet.mixins.json)
+		io.github.lucaargolo.kibe.mixin.WorldMixin (kibe.mixins.json)
+		eu.pb4.polymer.mixin.other.WorldAccessor (polymer.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.LevelMixin (porting_lib_base.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.WorldMixin (fabric-lifecycle-events-v1.mixins.json)
+		me.jellysquid.mods.lithium.mixin.world.block_entity_ticking.sleeping.WorldMixin (lithium.mixins.json)
+		me.jellysquid.mods.lithium.mixin.world.inline_height.WorldMixin (lithium.mixins.json)
+		me.jellysquid.mods.lithium.mixin.block.hopper.WorldMixin (lithium.mixins.json)
+		io.github.fabricators_of_create.porting_lib.transfer.mixin.common.LevelMixin (porting_lib_transfer.mixins.json)
+		me.jellysquid.mods.lithium.mixin.world.block_entity_retrieval.WorldMixin (lithium.mixins.json)
+		me.jellysquid.mods.lithium.mixin.world.chunk_access.WorldMixin (lithium.mixins.json)
+		carpet.mixins.Level_fillUpdatesMixin (carpet.mixins.json)
+		carpet.mixins.Level_scarpetPlopMixin (carpet.mixins.json)
+		dev.architectury.mixin.fabric.ExplosionPreInvoker (architectury.mixins.json)
+		dev.onyxstudios.cca.mixin.world.common.MixinWorld (mixins.cardinal_components_world.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.entity.LevelMixin (porting_lib_entity.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.LevelMixin (kubejs-common.mixins.json)
+		org.dimdev.dimdoors.mixin.WorldMixin (dimdoors.mixins.json)
+		appeng.mixins.OnNeighborUpdateMixin (ae2.mixins.json)
+	net.minecraft.class_1297:
+		net.chococraft.fabric.mixins.EntityMixin (chococraft.mixins.json)
+		moriyashiine.bewitchment.mixin.pledge.EntityMixin (bewitchment.mixins.json)
+		artifacts.mixin.item.whoopeecushion.EntityMixin (mixins.artifacts.json)
+		artifacts.mixin.item.umbrella.EntityMixin (mixins.artifacts.json)
+		be.florens.expandability.mixin.swimming.EntityMixin (expandability.mixins.json)
+		me.jellysquid.mods.lithium.mixin.alloc.deep_passengers.EntityMixin (lithium.mixins.json)
+		dev.onyxstudios.cca.mixin.entity.common.MixinEntity (mixins.cardinal_components_entity.json)
+		net.kyrptonaught.customportalapi.mixin.EntityMixin (customportalapi.mixins.json)
+		artifacts.mixin.item.aquadashers.EntityMixin (mixins.artifacts.json)
+		virtuoel.pehkui.mixin.compat117plus.EntityMixin (pehkui.mixins.json)
+		tschipp.carryon.mixin.EntityMixin (carryon.mixins.json)
+		moriyashiine.bewitchment.mixin.ritual.EntityMixin (bewitchment.mixins.json)
+		be.florens.expandability.mixin.fluidcollision.EntityMixin (expandability.mixins.json)
+		moriyashiine.extraorigins.mixin.EntityMixin (extraorigins.mixins.json)
+		net.fabricmc.fabric.mixin.dimension.EntityMixin (fabric-dimensions-v1.mixins.json)
+		io.github.foundationgames.automobility.mixin.EntityMixin (automobility.mixins.json)
+		dev.mrsterner.besmirchment.mixin.EntityMixin (besmirchment.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.EntityMixin (kubejs-common.mixins.json)
+		artifacts.mixin.item.pendant.EntityMixin (mixins.artifacts.json)
+		org.dimdev.dimdoors.mixin.accessor.EntityAccessor (dimdoors.mixins.json)
+		moriyashiine.bewitchment.mixin.curse.EntityMixin (bewitchment.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.RemoveFireInvulnerabilityMixin (bewitchment.vampirehacks.mixins.json)
+		carpet.mixins.EntityMixin (carpet.mixins.json)
+		ru.fewizz.crawl.mixin.EntityMixin (mixins.crawl.json)
+		io.github.flemmli97.flan.mixin.EntityMixin (flan.mixins.json)
+		vazkii.botania.mixin.EntityMixin (botania_xplat.mixins.json)
+		moriyashiine.bewitchment.mixin.EntityMixin (bewitchment.mixins.json)
+		io.github.lucaargolo.kibe.mixin.EntityMixin (kibe.mixins.json)
+		earth.terrarium.ad_astra.mixin.EntityMixin (ad_astra-common.mixins.json)
+		com.kwpugh.gobber2.mixin.EntityMixinFireFreeze (gobber2.mixins.json)
+		org.betterx.betterend.mixin.common.EntityMixin (betterend.mixins.common.json)
+		net.mehvahdjukaar.supplementaries.mixins.EntityMixin (supplementaries-common.mixins.json)
+		me.steven.indrev.mixin.common.MixinEntity (indrev.mixins.json)
+		me.jellysquid.mods.lithium.mixin.block.hopper.EntityAccessor (lithium.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.EntityMixin (porting_lib_base.mixins.json)
+		net.orcinus.galosphere.mixin.EntityMixin (galosphere.mixins.json)
+		net.adventurez.mixin.accessor.EntityAccessor (adventurez.mixins.json)
+		mcp.mobius.waila.mixin.EntityAccess (wthit.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.EntityMixin (fabric-entity-events-v1.mixins.json)
+		ladysnake.impaled.mixin.EntityMixin (impaled.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.collisions.fluid.EntityMixin (lithium.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.accessor.EntityAccessor (porting_lib_accessors.mixins.json)
+		dan200.computercraft.fabric.mixin.MixinEntity (computercraft.mixins.json)
+		io.github.flemmli97.flan.fabric.mixin.EntityDamageMixin (flan.fabric.mixins.json)
+		net.blay09.mods.balm.mixin.EntityMixin (balm.mixins.json)
+		io.github.apace100.origins.mixin.SelectionInvulnerabilityMixin (origins.mixins.json)
+		virtuoel.pehkui.mixin.compat116plus.EntityMixin (pehkui.mixins.json)
+		net.merchantpug.apugli.mixin.EntityMixin (apugli.mixins.json)
+		dev.emi.stepheightentityattribute.mixin.EntityMixin (stepheightentityattribute.mixins.json)
+		carpetextra.mixins.EntityMixin (carpet-extra.mixins.json)
+		io.github.stuff_stuffs.multipart_entities.mixin.common.MixinEntity (MultipartEntities.mixins.json)
+		io.github.apace100.apoli.mixin.EntityAccessor (apoli.mixins.json)
+		com.simibubi.create.foundation.mixin.fabric.EntityMixin (create.mixins.json)
+		safro.archon.mixin.EntityMixin (archon.mixins.json)
+		carpet.mixins.Entity_scarpetEventsMixin (carpet.mixins.json)
+		eu.pb4.polymer.mixin.entity.EntityAccessor (polymer.mixins.json)
+		dev.architectury.mixin.fabric.MixinEntity (architectury.mixins.json)
+		me.jellysquid.mods.lithium.mixin.ai.nearby_entity_tracking.EntityMixin (lithium.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.skip_fire_check.EntityMixin (lithium.mixins.json)
+		org.dimdev.dimdoors.mixin.EntityMixin (dimdoors.mixins.json)
+		de.dafuqs.spectrum.mixin.EntityMixin (spectrum.mixins.json)
+		de.dafuqs.spectrum.mixin.EntityApplyFluidsMixin (spectrum.mixins.json)
+		dev.cafeteria.fakeplayerapi.mixin.EntityMixin (fake-player-api.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.collisions.movement.EntityMixin (lithium.mixins.json)
+		vazkii.botania.mixin.EntityAccessor (botania_xplat.mixins.json)
+		com.glisco.things.mixin.EntityMixin (things.mixins.json)
+		com.github.mim1q.minecells.mixin.entity.EntityMixin (minecells.mixins.json)
+		net.darkhax.bookshelf.mixin.entity.AccessorEntity (bookshelf.common.mixins.json)
+		at.petrak.hexcasting.mixin.accessor.AccessorEntity (hexplat.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.EntityMixin (bewitchment.vampirehacks.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.collisions.suffocation.EntityMixin (lithium.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.FireToSunDamageMixin (bewitchment.vampirehacks.mixins.json)
+		moriyashiine.bewitchment.mixin.transformation.EntityMixin (bewitchment.mixins.json)
+		virtuoel.pehkui.mixin.EntityMixin (pehkui.mixins.json)
+		me.luligabi.incantationem.mixin.EntityInvoker (incantationem.mixins.json)
+		io.github.fabricators_of_create.porting_lib.attributes.mixin.EntityMixin (porting_lib_attributes.common.mixins.json)
+		earth.terrarium.ad_astra.mixin.EntityInvoker (ad_astra-common.mixins.json)
+		io.github.tropheusj.milk.mixin.EntityMixin (milk.mixins.json)
+		org.spoorn.myloot.mixin.EntityAccessor (myloot.mixins.json)
+		virtuoel.pehkui.mixin.compat117plus.EntityCalculateDimensionsMixin (pehkui.mixins.json)
+		mc.rpgstats.mixin.BonemealGrowMixin (rpgstats.mixins.json)
+		io.github.apace100.apoli.mixin.EntityMixin (apoli.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.collisions.unpushable_cramming.EntityMixin (lithium.mixins.json)
+	net.minecraft.class_1309:
+		net.orcinus.galosphere.mixin.LivingEntityMixin (galosphere.mixins.json)
+		timefall.mcsa.fabric.mixins.LivingEntityMixin (mcsa.mixins.json)
+		dev.loleq21.gearreborn.mixin.LivingEntityMixin (gearreborn.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.LivingEntityMixin (fabric-entity-events-v1.mixins.json)
+		com.glisco.things.mixin.LivingEntityMixin (things.mixins.json)
+		dev.nathanpb.dml.modular_armor.mixin.LivingEntityMixin (mixins.dml-refabricated-modular-armor.json)
+		dev.emi.trinkets.mixin.LivingEntityMixin (trinkets.mixins.json)
+		appeng.mixins.DynamicLadderMixin (ae2.mixins.json)
+		com.github.crimsondawn45.fabricshieldlib.mixin.LivingEntityAccessor (fabricshieldlib.mixins.json)
+		ladysnake.impaled.mixin.LivingEntityMixin (impaled.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.LivingEntityMixin (porting_lib_base.mixins.json)
+		moriyashiine.bewitchment.mixin.familiar.LivingEntityMixin (bewitchment.mixins.json)
+		carpet.mixins.LivingEntity_creativeFlyMixin (carpet.mixins.json)
+		net.moddingplayground.frame.mixin.contentregistries.state.LivingEntityMixin (frame-content-registries-v0.mixins.json)
+		moriyashiine.bewitchment.mixin.pledge.LivingEntityMixin (bewitchment.mixins.json)
+		ru.pinkgoosik.villagerhats.mixin.LivingEntityMixin (villager-hats.mixins.json)
+		net.darkhax.maxhealthfix.mixin.MixinLivingEntity (maxhealthfix.common.mixins.json)
+		wraith.fwaystones.mixin.LivingEntityMixin (fwaystones.mixins.json)
+		net.spell_engine.mixin.LivingEntityMixin (spell_engine.mixins.json)
+		net.spell_power.mixin.LivingEntityMixin (spell_power.mixins.json)
+		virtuoel.pehkui.mixin.LivingEntityMixin (pehkui.mixins.json)
+		safro.fabric.enchantments.mixin.ConsumerMixin (fabricenchantments.mixins.json)
+		com.tiviacz.travelersbackpack.mixin.LivingEntityMixin (travelersbackpack.mixins.json)
+		safro.fabric.enchantments.mixin.GodOfTheSeaMixin (fabricenchantments.mixins.json)
+		gay.nyako.vanityslots.mixin.MixinGetAttackDistanceScalingFactor (vanityslots.mixins.json)
+		earth.terrarium.ad_astra.mixin.LivingEntityMixin (ad_astra-common.mixins.json)
+		net.bettercombat.mixin.LivingEntityMixin (bettercombat.mixins.json)
+		mc.rpgstats.mixin.ItemEatMixin (rpgstats.mixins.json)
+		dev.nathanpb.dml.mixin.LivingEntityMixin (mixins.dml-refabricated-base.json)
+		me.jellysquid.mods.lithium.mixin.entity.skip_equipment_change_check.LivingEntityMixin (lithium.mixins.json)
+		moriyashiine.bewitchment.mixin.LivingEntityMixin (bewitchment.mixins.json)
+		dev.architectury.mixin.fabric.MixinLivingEntity (architectury.mixins.json)
+		moriyashiine.bewitchment.mixin.trinket.LivingEntityMixin (bewitchment.mixins.json)
+		mod.azure.doom.mixin.LivingEntityMixin (doom.mixins.json)
+		dev.emi.stepheightentityattribute.mixin.LivingEntityMixin (stepheightentityattribute.mixins.json)
+		artifacts.mixin.item.crossnecklace.LivingEntityMixin (mixins.artifacts.json)
+		chronosacaria.mcda.mixin.LivingEntityMixin (mcda.mixins.json)
+		artifacts.mixin.item.bunnyhoppers.LivingEntityMixin (mixins.artifacts.json)
+		at.petrak.hexcasting.fabric.mixin.FabricLivingEntityMixin (fabricasting.mixins.json)
+		reborncore.mixin.common.MixinLivingEntity (reborncore.common.mixins.json)
+		dev.mrsterner.besmirchment.mixin.LivingEntityMixin (besmirchment.mixins.json)
+		moriyashiine.bewitchment.mixin.fortune.LivingEntityMixin (bewitchment.mixins.json)
+		net.wizards.mixin.effect.LivingEntityFrozen (wizards.mixins.json)
+		at.petrak.hexcasting.mixin.accessor.AccessorLivingEntity (hexplat.mixins.json)
+		artifacts.mixin.item.flippers.LivingEntityMixin (mixins.artifacts.json)
+		com.nhoryzon.mc.farmersdelight.mixin.LivingEntityBackstabbingEnchantmentMixin (farmersdelight.mixins.json)
+		com.yahoo.chirpycricket.guardiansgalore.mixins.GS_LivingEntityMixin (GuardiansGalore.mixins.json)
+		com.github.teamfusion.rottencreatures.mixin.common.LivingEntityMixin (rottencreatures-common.mixins.json)
+		io.github.fabricators_of_create.porting_lib.attributes.mixin.LivingEntityMixin (porting_lib_attributes.common.mixins.json)
+		daniking.vinery.mixin.LivingEntityMixin (vinery.mixins.json)
+		com.simibubi.create.foundation.mixin.CustomItemUseEffectsMixin (create.mixins.json)
+		moriyashiine.bewitchment.mixin.transformation.LivingEntityMixin (bewitchment.mixins.json)
+		carpet.mixins.LivingEntity_scarpetEventsMixin (carpet.mixins.json)
+		safro.fabric.enchantments.mixin.BeheadingMixin (fabricenchantments.mixins.json)
+		safro.archon.mixin.LivingEntityMixin (archon.mixins.json)
+		me.jellysquid.mods.lithium.mixin.alloc.enum_values.LivingEntityMixin (lithium.mixins.json)
+		de.dafuqs.spectrum.mixin.LivingEntityMixin (spectrum.mixins.json)
+		vazkii.botania.fabric.mixin.LivingEntityFabricMixin (botania_fabric.mixins.json)
+		artifacts.mixin.item.everlastingfood.LivingEntityMixin (mixins.artifacts.json)
+		me.jellysquid.mods.lithium.mixin.entity.fast_powder_snow_check.LivingEntityMixin (lithium.mixins.json)
+		carpet.mixins.LivingEntity_maxCollisionsMixin (carpet.mixins.json)
+		artifacts.mixin.item.umbrella.LivingEntityMixin (mixins.artifacts.json)
+		artifacts.mixin.item.drinkinghat.LivingEntityMixin (mixins.artifacts.json)
+		artifacts.mixin.item.goldenhook.LivingEntityMixin (mixins.artifacts.json)
+		carpet.mixins.LivingEntity_cleanLogsMixin (carpet.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.fast_hand_swing.LivingEntityMixin (lithium.mixins.json)
+		earth.terrarium.ad_astra.mixin.gravity.LivingEntityGravityMixin (ad_astra-common.mixins.json)
+		com.jamieswhiteshirt.reachentityattributes.mixin.LivingEntityMixin (mixins.reach-entity-attributes.json)
+		io.github.lucaargolo.kibe.mixin.LivingEntityMixin (kibe.mixins.json)
+		chronosacaria.mcdar.mixin.LivingEntityMixin (mcdar.mixins.json)
+		moriyashiine.respawnablepets.mixin.LivingEntityMixin (respawnablepets.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.accessor.LivingEntityAccessor (porting_lib_accessors.mixins.json)
+		dev.architectury.mixin.fabric.LivingDeathInvoker (architectury.mixins.json)
+		io.github.apace100.origins.mixin.LikeWaterMixin (origins.mixins.json)
+		io.github.apace100.originsclasses.mixin.LivingEntityMixin (origins-classes.mixins.json)
+		carpetextra.mixins.LivingEntityMixin (carpet-extra.mixins.json)
+		dev.mrsterner.guardvillagers.mixin.LivingEntityMixin (guardvillagers.mixins.json)
+		net.wizards.mixin.effect.LivingEntityFrostShield (wizards.mixins.json)
+		com.github.clevernucleus.dataattributes.mixin.LivingEntityMixin (dataattributes.mixins.json)
+		com.github.eterdelta.crittersandcompanions.mixin.LivingEntityMixin (crittersandcompanions.mixins.json)
+		moriyashiine.bewitchment.mixin.poppet.LivingEntityMixin (bewitchment.mixins.json)
+		com.b1n_ry.yigd.mixin.LivingEntityMixin (yigd.mixins.json)
+		io.github.apace100.apoli.mixin.LivingEntityMixin (apoli.mixins.json)
+		chronosacaria.mcdw.mixin.LivingEntityPlayerEntityMixin (mcdw.mixins.json)
+		dev.cammiescorner.arcanus.core.mixin.LivingEntityMixin (arcanus.mixins.json)
+		safro.fabric.enchantments.mixin.ExperienceMixin (fabricenchantments.mixins.json)
+		net.soulsweaponry.mixin.LivingEntityMixin (soulsweapons.mixins.json)
+		artifacts.mixin.event.LivingEntitiesMixin (mixins.artifacts.json)
+		com.kwpugh.gobber2.mixin.LivingEntityMixinClimbing (gobber2.mixins.json)
+		com.yungnickyoung.minecraft.betterdeserttemples.mixin.PharaohKilledMixin (betterdeserttemples.mixins.json)
+		moriyashiine.bewitchment.mixin.contract.LivingEntityMixin (bewitchment.mixins.json)
+		net.orcinus.galosphere.mixin.access.LivingEntityAccessor (galosphere.mixins.json)
+		ellemes.expandedstorage.thread.mixin.MiniStorageHeadEquipment (expandedstorage-thread.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.LivingEntityMixin (fabric-lifecycle-events-v1.mixins.json)
+		com.kwpugh.gobber2.mixin.LivingEntityMixinBreathing (gobber2.mixins.json)
+		de.dafuqs.spectrum.mixin.FirstStrikeEnchantmentMixin (spectrum.mixins.json)
+		chronosacaria.mcdw.mixin.LivingEntityMixin (mcdw.mixins.json)
+		net.barribob.boss.mixin.LivingEntityMixin (bosses.mixins.json)
+		be.florens.expandability.mixin.swimming.LivingEntityMixin (expandability.mixins.json)
+		moriyashiine.bewitchment.mixin.brew.LivingEntityAccessor (bewitchment.mixins.json)
+		ru.fewizz.crawl.mixin.LivingEntityMixin (mixins.crawl.json)
+		net.mehvahdjukaar.supplementaries.mixins.LivingEntityMixin (supplementaries-common.mixins.json)
+		virtuoel.pehkui.mixin.compat117plus.LivingEntityMixin (pehkui.mixins.json)
+		ml.pkom.advancedreborn.mixins.LivingEntityMixin (advanced_reborn.mixins.json)
+		moriyashiine.onsoulfire.mixin.LivingEntityMixin (onsoulfire.mixins.json)
+		mc.rpgstats.mixin.TotemUseMixin (rpgstats.mixins.json)
+		com.charles445.damagetilt.mixin.KnockbackMixin (damagetilt.mixins.json)
+		net.fabricmc.fabric.mixin.item.LivingEntityMixin (fabric-item-api-v1.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.fast_elytra_check.LivingEntityMixin (lithium.mixins.json)
+		de.dafuqs.additionalentityattributes.mixin.common.LivingEntityMixin (additionalentityattributes.mixins.json)
+		net.adventurez.mixin.accessor.LivingEntityAccessor (adventurez.mixins.json)
+		vazkii.botania.mixin.LivingEntityAccessor (botania_xplat.mixins.json)
+		com.github.crimsondawn45.fabricshieldlib.mixin.LivingEntityMixin (fabricshieldlib.mixins.json)
+		moriyashiine.bewitchment.mixin.sigil.LivingEntityMixin (bewitchment.mixins.json)
+		de.kxmischesdomi.morebannerfeatures.mixin.player.LivingEntityMixin (morebannerfeatures.mixins.json)
+		moriyashiine.bewitchment.mixin.ritual.LivingEntityMixin (bewitchment.mixins.json)
+		virtuoel.pehkui.mixin.compat115plus.LivingEntityMixin (pehkui.mixins.json)
+		moriyashiine.bewitchment.mixin.curse.LivingEntityMixin (bewitchment.mixins.json)
+		io.github.flemmli97.flan.fabric.mixin.EntityDamageMixin (flan.fabric.mixins.json)
+		org.betterx.bclib.mixin.common.elytra.LivingEntityMixin (bclib.mixins.common.json)
+		net.bettercombat.mixin.LivingEntityAccessor (bettercombat.mixins.json)
+		io.github.apace100.apoli.mixin.EyeHeightAccess (apoli.mixins.json)
+		com.nhoryzon.mc.farmersdelight.mixin.LivingEntityKnockBackMixin (farmersdelight.mixins.json)
+		net.dragonloot.mixin.LivingEntityMixin (dragonloot.mixins.json)
+		org.betterx.betterend.mixin.common.LivingEntityMixin (betterend.mixins.common.json)
+		me.luligabi.incantationem.mixin.LivingEntityMixin (incantationem.mixins.json)
+		io.github.apace100.origins.mixin.WaterBreathingMixin$CanBreatheInWater (origins.mixins.json)
+		artifacts.mixin.item.runningshoes.LivingEntityMixin (mixins.artifacts.json)
+		net.hyper_pigeon.eldritch_mobs.mixin.LivingEntityMixin (eldritch_mobs.mixins.json)
+		nourl.mythicmetals.mixin.LivingEntityMixin (mythicmetals.mixins.json)
+		com.github.mim1q.minecells.mixin.entity.LivingEntityInvoker (minecells.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.elytra.LivingEntityMixin (fabric-entity-events-v1.mixins.json)
+		com.simibubi.create.foundation.mixin.accessor.LivingEntityAccessor (create.mixins.json)
+		gd.rf.acro.givemehats.mixin.AttackMixin (gmh.mixins.json)
+		moriyashiine.bewitchment.mixin.brew.LivingEntityMixin (bewitchment.mixins.json)
+		me.luligabi.coxinhautilities.mixin.LivingEntityMixin (coxinhautilities.mixins.json)
+		virtuoel.pehkui.mixin.compat116plus.LivingEntityMixin (pehkui.mixins.json)
+		moriyashiine.extraorigins.mixin.LivingEntityMixin (extraorigins.mixins.json)
+		me.steven.indrev.mixin.common.MixinLivingEntity (indrev.mixins.json)
+		dqu.additionaladditions.mixin.LivingEntityMixin (AdditionalAdditions.mixins.json)
+		artifacts.mixin.statuseffect.LivingEntityMixin (mixins.artifacts.json)
+		com.glisco.conjuring.mixin.LivingEntityMixin (conjuring.mixins.json)
+		net.spell_engine.mixin.effect.LivingEntityStatusEffectSync (spell_engine.mixins.json)
+		net.blay09.mods.balm.mixin.LivingEntityMixin (balm.mixins.json)
+		me.jellysquid.mods.lithium.mixin.entity.collisions.unpushable_cramming.LivingEntityMixin (lithium.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.LivingEntityMixin (kubejs-common.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.FireToSunDamageMixin (bewitchment.vampirehacks.mixins.json)
+		eu.pb4.polymer.mixin.entity.LivingEntityMixin (polymer.mixins.json)
+		timefall.mcsa.mixin.LivingEntityMixin (mcsa-common.mixins.json)
+		artifacts.mixin.event.LivingEntityMixin (mixins.artifacts.json)
+		net.darkhax.bookshelf.mixin.entity.AccessorLivingEntity (bookshelf.common.mixins.json)
+		draylar.tiered.mixin.LivingEntityMixin (tiered.mixins.json)
+		net.merchantpug.apugli.mixin.LivingEntityMixin (apugli.mixins.json)
+		net.darkhax.bookshelf.mixin.entity.MixinLivingEntity (bookshelf.common.mixins.json)
+		net.merchantpug.apugli.mixin.LivingEntityAccessor (apugli.mixins.json)
+		io.github.consistencyplus.consistency_plus.mixin.LivingEntityMixin (consistency_plus.mixins.json)
+		artifacts.mixin.item.cloudinabottle.LivingEntityMixin (mixins.artifacts.json)
+		net.spell_engine.mixin.LivingEntityAccessor (spell_engine.mixins.json)
+		safro.fabric.enchantments.mixin.SugarRushMixin (fabricenchantments.mixins.json)
+		com.github.mim1q.minecells.mixin.entity.LivingEntityMixin (minecells.mixins.json)
+		mc.rpgstats.mixin.KillMixin (rpgstats.mixins.json)
+	net.minecraft.class_1657:
+		com.glisco.things.mixin.PlayerEntityMixin (things.mixins.json)
+		ru.fewizz.crawl.mixin.PlayerEntityMixin (mixins.crawl.json)
+		artifacts.mixin.item.diggingclaws.PlayerMixin (mixins.artifacts.json)
+		io.github.flemmli97.flan.fabric.mixin.PlayerDropMixin (flan.fabric.mixins.json)
+		vazkii.botania.fabric.mixin.PlayerFabricMixin (botania_fabric.mixins.json)
+		dev.nathanpb.dml.mixin.PlayerEntityMixin (mixins.dml-refabricated-base.json)
+		com.kyanite.deeperdarker.fabric.mixin.PlayerTickMixin (deeperdarker.mixins.json)
+		com.tiviacz.travelersbackpack.mixin.PlayerEntityMixin (travelersbackpack.mixins.json)
+		fabric.genandnic.walljump.mixin.MixinPlayer (fabric-walljump-common.mixins.json)
+		com.github.clevernucleus.dataattributes.mixin.PlayerEntityMixin (dataattributes.mixins.json)
+		carpet.mixins.Player_xpNoCooldownMixin (carpet.mixins.json)
+		org.samo_lego.fabrictailor.mixin.accessors.APlayer (fabrictailor.mixins.json)
+		com.chocohead.gen.mixin.net.minecraft.class_1657 (mixins.mm.json)
+		tschipp.carryon.mixin.PlayerMixinFabric (carryon.fabric.mixins.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinArmor (gobber2.mixins.json)
+		me.steven.indrev.mixin.common.MixinPlayerEntity (indrev.mixins.json)
+		ladysnake.impaled.mixin.impaling.PlayerEntityMixin (impaled.mixins.json)
+		safro.archon.mixin.PlayerEntityMixin (archon.mixins.json)
+		io.github.kosmx.emotes.arch.mixin.ServerPlayerMixin (emotecraft-arch.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.RemoveFireInvulnerabilityMixin (bewitchment.vampirehacks.mixins.json)
+		com.github.mim1q.minecells.mixin.entity.player.PlayerEntityMixin (minecells.mixins.json)
+		moriyashiine.bewitchment.mixin.PlayerEntityMixin (bewitchment.mixins.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinGobberForce (gobber2.mixins.json)
+		net.spell_engine.mixin.PlayerEntityMixin (spell_engine.mixins.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinTickHand (gobber2.mixins.json)
+		artifacts.mixin.item.heliumflamingo.PlayerMixin (mixins.artifacts.json)
+		io.github.fabricators_of_create.porting_lib.fake_players.mixin.common.PlayerMixin (porting_lib_fake_players.mixins.json)
+		com.wuest.prefab.mixins.SavePlayerDataMixin (prefab.mixins.json)
+		io.github.ladysnake.impersonate.impl.mixin.PlayerEntityMixin (mixins.impersonate.common.json)
+		moriyashiine.bewitchment.mixin.contract.PlayerEntityMixin (bewitchment.mixins.json)
+		immersive_aircraft.mixin.PlayerEntityMixin (immersive_aircraft.mixins.json)
+		me.luligabi.coxinhautilities.mixin.PlayerEntityMixin (coxinhautilities.mixins.json)
+		com.github.crimsondawn45.fabricshieldlib.mixin.PlayerEntityMixin (fabricshieldlib.mixins.json)
+		earth.terrarium.ad_astra.mixin.PlayerMixin (ad_astra-common.mixins.json)
+		dev.architectury.mixin.fabric.MixinPlayer (architectury.mixins.json)
+		dev.architectury.mixin.fabric.PlayerAttackInvoker (architectury.mixins.json)
+		io.github.apace100.apoli.mixin.PlayerEntityMixin (apoli.mixins.json)
+		com.nhoryzon.mc.farmersdelight.mixin.LivingEntityBackstabbingEnchantmentMixin (farmersdelight.mixins.json)
+		net.id.incubus_core.mixin.player.PlayerDropMixin (incubus_core.mixins.json)
+		chronosacaria.mcdw.mixin.ShieldPlayerEntityMixin (mcdw.mixins.json)
+		draylar.inmis.mixin.PlayerDropMixin (inmis.mixins.json)
+		be.florens.expandability.mixin.swimming.PlayerMixin (expandability.mixins.json)
+		ellemes.expandedstorage.common.mixin.SpectatorEntityInventoryViewingFix (expandedstorage-common.mixins.json)
+		carpet.mixins.Player_antiCheatDisabledMixin (carpet.mixins.json)
+		io.github.flemmli97.flan.fabric.mixin.PlayerInteractEntityMixin (flan.fabric.mixins.json)
+		io.github.apace100.origins.mixin.WaterBreathingMixin$UpdateAir (origins.mixins.json)
+		de.dafuqs.spectrum.mixin.PlayerEntityMixin (spectrum.mixins.json)
+		moriyashiine.bewitchment.mixin.familiar.PlayerEntityMixin (bewitchment.mixins.json)
+		mc.rpgstats.mixin.ApplyDamageMixin (rpgstats.mixins.json)
+		net.dragonloot.mixin.PlayerEntityMixin (dragonloot.mixins.json)
+		org.spoorn.spoornweaponattributes.mixin.PlayerEntityMixin (spoornweaponattributes-common.mixins.json)
+		io.github.apace100.origins.mixin.NoCobwebSlowdownMixin (origins.mixins.json)
+		virtuoel.pehkui.mixin.compat117plus.PlayerEntityMixin (pehkui.mixins.json)
+		safro.fabric.enchantments.mixin.TankMixin (fabricenchantments.mixins.json)
+		net.runes.mixin.PlayerEntityMixin (runes.mixins.json)
+		virtuoel.pehkui.mixin.EntityVehicleHeightOffsetMixin (pehkui.mixins.json)
+		dqu.additionaladditions.mixin.PlayerMixin (AdditionalAdditions.mixins.json)
+		org.betterx.betternether.mixin.common.PlayerEntityMixin (betternether.mixins.common.json)
+		virtuoel.pehkui.mixin.compat115plus.PlayerEntityMixin (pehkui.mixins.json)
+		net.adventurez.mixin.PlayerEntityMixin (adventurez.mixins.json)
+		dev.architectury.mixin.fabric.LivingDeathInvoker (architectury.mixins.json)
+		wraith.fwaystones.mixin.PlayerEntityMixin (fwaystones.mixins.json)
+		mc.rpgstats.mixin.BowCanUseMixin (rpgstats.mixins.json)
+		de.kxmischesdomi.morebannerfeatures.mixin.player.PlayerMixin (morebannerfeatures.mixins.json)
+		moriyashiine.bewitchment.mixin.brew.PlayerEntityMixin (bewitchment.mixins.json)
+		com.glisco.conjuring.mixin.PlayerEntityMixin (conjuring.mixins.json)
+		mc.rpgstats.mixin.ShieldMixin (rpgstats.mixins.json)
+		artifacts.mixin.item.universalattractor.PlayerMixin (mixins.artifacts.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinSolidFooting (gobber2.mixins.json)
+		chronosacaria.mcdw.mixin.LivingEntityPlayerEntityMixin (mcdw.mixins.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinTick (gobber2.mixins.json)
+		carpet.mixins.Player_scarpetEventsMixin (carpet.mixins.json)
+		ladysnake.sincereloyalty.mixin.PlayerEntityMixin (sincereloyalty.mixins.json)
+		com.jamieswhiteshirt.reachentityattributes.mixin.PlayerEntityMixin (mixins.reach-entity-attributes.json)
+		artifacts.mixin.event.LivingEntitiesMixin (mixins.artifacts.json)
+		com.nyfaria.nyfsquiver.mixin.PlayerEntityMixin (nyfsquiver.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.PlayerMixin (porting_lib_base.mixins.json)
+		com.faboslav.friendsandfoes.mixin.PlayerEntityMixin (friendsandfoes-common.mixins.json)
+		chronosacaria.mcdw.mixin.PlayerEntityMixin (mcdw.mixins.json)
+		safro.fabric.enchantments.mixin.BewitchingMixin (fabricenchantments.mixins.json)
+		de.dafuqs.spectrum.mixin.FirstStrikeEnchantmentMixin (spectrum.mixins.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinDamage (gobber2.mixins.json)
+		io.github.lucaargolo.kibe.mixin.PlayerEntityMixin (kibe.mixins.json)
+		moriyashiine.bewitchment.mixin.transformation.PlayerEntityMixin (bewitchment.mixins.json)
+		virtuoel.pehkui.mixin.PlayerEntityMixin (pehkui.mixins.json)
+		de.dafuqs.additionalentityattributes.mixin.common.PlayerEntityMixin (additionalentityattributes.mixins.json)
+		com.tiviacz.travelersbackpack.mixin.AccessorPlayerEntity (travelersbackpack.mixins.json)
+		com.nhoryzon.mc.farmersdelight.mixin.PlayerEntityAttackWithSkilletMixin (farmersdelight.mixins.json)
+		org.dimdev.dimdoors.mixin.PlayerEntityMixin (dimdoors.mixins.json)
+		com.b1n_ry.yigd.mixin.PlayerEntityMixin (yigd.mixins.json)
+		net.bettercombat.mixin.PlayerEntityMixin (bettercombat.mixins.json)
+		org.betterx.betterend.mixin.common.PlayerMixin (betterend.mixins.common.json)
+		net.mehvahdjukaar.supplementaries.mixins.fabric.PlayerProjectileMixin (supplementaries.mixins.json)
+		dev.mrsterner.besmirchment.mixin.PlayerEntityMixin (besmirchment.mixins.json)
+		appeng.mixins.BreakSpeedMixin (ae2.mixins.json)
+		me.luligabi.miningutility.mixin.PlayerEntityMixin (miningutility.mixins.json)
+		dev.cammiescorner.arcanus.core.mixin.PlayerEntityMixin (arcanus.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.PlayerMixin (kubejs-common.mixins.json)
+		chronosacaria.mcdar.mixin.PlayerEntityMixin (mcdar.mixins.json)
+		net.voidz.mixin.PlayerEntityMixin (voidz.mixins.json)
+		carpet.mixins.Player_portalDelayMixin (carpet.mixins.json)
+		dev.nathanpb.dml.modular_armor.mixin.PlayerEntityMixin (mixins.dml-refabricated-modular-armor.json)
+		draylar.tiered.mixin.PlayerEntityMixin (tiered.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.PlayerEntityMixin (fabric-entity-events-v1.mixins.json)
+		net.combatroll.mixin.PlayerEntityMixin (combatroll.mixins.json)
+		io.github.consistencyplus.consistency_plus.mixin.PlayerEntityMixin (consistency_plus.mixins.json)
+		net.adriantodt.winged.mixin.PlayerEntityMixin (winged.mixins.json)
+		dev.cammiescorner.hookshot.core.mixin.PlayerEntityMixin (hookshot.mixins.json)
+		net.orcinus.galosphere.mixin.PlayerMixin (galosphere.mixins.json)
+		io.github.apace100.originsclasses.mixin.PlayerEntityMixin (origins-classes.mixins.json)
+		net.blay09.mods.balm.mixin.PlayerMixin (balm.mixins.json)
+		chronosacaria.mcda.mixin.MixinPlayer (mcda.mixins.json)
+		gay.nyako.vanityslots.mixin.MixinPlayerEntity (vanityslots.mixins.json)
+		reborncore.mixin.common.MixinPlayerEntity (reborncore.common.mixins.json)
+		net.merchantpug.apugli.mixin.PlayerEntityMixin (apugli.mixins.json)
+		com.aizistral.nochatreports.mixins.server.MixinPlayer (nochatreports.mixins.json)
+		mod.azure.doom.mixin.PlayerEntityMixin (doom.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.FireToSunDamageMixin (bewitchment.vampirehacks.mixins.json)
+		carpet.mixins.Player_parrotMixin (carpet.mixins.json)
+		com.kwpugh.gobber2.mixin.PlayerEntityMixinAttack (gobber2.mixins.json)
+		timefall.mcsa.mixin.LivingEntityMixin (mcsa-common.mixins.json)
+		carpet.mixins.Player_creativeNoClipMixin (carpet.mixins.json)
+		nourl.mythicmetals.mixin.PlayerEntityMixin (mythicmetals.mixins.json)
+		io.github.flemmli97.flan.mixin.PlayerMixin (flan.mixins.json)
+		net.id.incubus_core.mixin.player.PlayerEntityMixin (incubus_core.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.accessor.PlayerAccessor (porting_lib_accessors.mixins.json)
+		tschipp.carryon.mixin.PlayerMixin (carryon.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.elytra.PlayerEntityMixin (fabric-entity-events-v1.mixins.json)
+		carpet.mixins.Player_fakePlayersMixin (carpet.mixins.json)
+		mc.rpgstats.mixin.BlockBreakSpeedMixin (rpgstats.mixins.json)
+		net.bettercombat.mixin.PlayerEntityAccessor (bettercombat.mixins.json)
+		vazkii.botania.mixin.PlayerMixin (botania_xplat.mixins.json)
+		carpetextra.mixins.PlayerEntityMixin (carpet-extra.mixins.json)
+		potionstudios.byg.mixin.common.entity.MixinPlayer (byg.mixins.json)
+	net.minecraft.class_3222:
+		com.glisco.deathlog.mixin.ServerPlayerEntityMixin (deathlog.mixins.json)
+		me.steinborn.krypton.mixin.shared.player.ServerPlayerEntityMixin (krypton.mixins.json)
+		net.merchantpug.apugli.mixin.ServerPlayerEntityAccessor (apugli.mixins.json)
+		chronosacaria.mcda.mixin.PlayerTeleportationStateAccessor (mcda.mixins.json)
+		eu.pb4.polymer.mixin.other.ServerPlayerEntityMixin (polymer.mixins.json)
+		de.dafuqs.spectrum.mixin.ServerPlayerEntityMixin (spectrum.mixins.json)
+		me.shedaniel.cloth.mixin.common.events.MixinServerPlayerEntity (cloth-common-events-v1.mixins.json)
+		chronosacaria.mcda.mixin.ServerPlayerEntityMixin (mcda.mixins.json)
+		net.fabricmc.fabric.mixin.dimension.EntityMixin (fabric-dimensions-v1.mixins.json)
+		dev.onyxstudios.cca.mixin.block.common.MixinServerPlayerEntity (mixins.cardinal_components_block.json)
+		org.dimdev.dimdoors.mixin.ServerPlayerEntityMixin (dimdoors.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.ServerPlayerMixin (kubejs-common.mixins.json)
+		io.wispforest.owo.mixin.ServerPlayerEntityMixin (owo.mixins.json)
+		net.fabricmc.fabric.mixin.screenhandler.ServerPlayerEntityMixin (fabric-screen-handler-api-v1.mixins.json)
+		net.barribob.boss.mixin.ServerPlayerEntityMixin (bosses.mixins.json)
+		io.github.ladysnake.impersonate.impl.mixin.ServerPlayerEntityMixin (mixins.impersonate.common.json)
+		virtuoel.pehkui.mixin.ServerPlayerEntityMixin (pehkui.mixins.json)
+		org.samo_lego.fabrictailor.mixin.MServerPlayerEntity_TailoredPlayer (fabrictailor.mixins.json)
+		org.betterx.betterend.mixin.common.ServerPlayerMixin (betterend.mixins.common.json)
+		net.mehvahdjukaar.moonlight.core.mixins.fabric.ServerPlayerAccessor (moonlight.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.RemoveFireInvulnerabilityMixin (bewitchment.vampirehacks.mixins.json)
+		carpet.mixins.ServerPlayer_scarpetEventMixin (carpet.mixins.json)
+		com.github.mim1q.minecells.mixin.entity.player.ServerPlayerEntityMixin (minecells.mixins.json)
+		com.illusivesoulworks.polymorph.mixin.MixinServerPlayer (polymorph.fabric.mixins.json)
+		net.fabricmc.fabric.mixin.event.interaction.ServerPlayerEntityMixin (fabric-events-interaction-v0.mixins.json)
+		wraith.fwaystones.mixin.ServerPlayerEntityMixin (fwaystones.mixins.json)
+		com.b1n_ry.yigd.mixin.ServerPlayerEntityMixin (yigd.mixins.json)
+		tfar.dankstorage.mixin.ServerPlayerMixin (dankstorage.mixins.json)
+		com.logprot.mixin.DamageMixin (logprot.mixins.json)
+		dev.cafeteria.fakeplayerapi.mixin.ServerPlayerEntityAccessor (fake-player-api.mixins.json)
+		vazkii.botania.mixin.ServerPlayerMixin (botania_xplat.mixins.json)
+		net.spell_engine.mixin.criteria.ServerPlayerSpellCastCriteria (spell_engine.mixins.json)
+		mc.rpgstats.mixin.DataFixerMixin (rpgstats.mixins.json)
+		me.steven.indrev.mixin.common.MixinServerPlayerEntity (indrev.mixins.json)
+		moriyashiine.respawnablepets.mixin.ServerPlayerEntityMixin (respawnablepets.mixins.json)
+		com.github.clevernucleus.dataattributes.mixin.ServerPlayerEntityMixin (dataattributes.mixins.json)
+		io.github.ladysnake.pal.impl.mixin.ServerPlayerEntityMixin (mixins.playerabilitylib.common.json)
+		io.github.apace100.apoli.mixin.ServerPlayerEntityMixin (apoli.mixins.json)
+		mc.rpgstats.mixin.TakeDamageMixin (rpgstats.mixins.json)
+		dev.architectury.mixin.fabric.MixinServerPlayer (architectury.mixins.json)
+		squeek.appleskin.mixin.ServerPlayerEntityMixin (appleskin.mixins.json)
+		net.kyrptonaught.customportalapi.mixin.ServerPlayerMixin (customportalapi.mixins.json)
+		potionstudios.byg.mixin.common.entity.MixinServerPlayer (byg.mixins.json)
+		net.hyper_pigeon.eldritch_mobs.mixin.ServerPlayerEntityMixin (eldritch_mobs.mixins.json)
+		net.fabricmc.fabric.mixin.entity.event.ServerPlayerEntityMixin (fabric-entity-events-v1.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.accessor.ServerPlayerAccessor (porting_lib_accessors.mixins.json)
+		dev.cafeteria.fakeplayerapi.mixin.ServerPlayerEntityMixin (fake-player-api.mixins.json)
+		io.github.flemmli97.flan.mixin.PlayerClaimMixin (flan.mixins.json)
+		moriyashiine.bewitchment.mixin.vampirehack.FireToSunDamageMixin (bewitchment.vampirehacks.mixins.json)
+		net.fabricmc.fabric.mixin.container.ServerPlayerEntityMixin (fabric-containers-v0.accurate.mixins.json)
+		net.fabricmc.fabric.mixin.container.ServerPlayerEntityAccessor (fabric-containers-v0.mixins.json)
+		wraith.fwaystones.mixin.ServerPlayerEntityAccessor (fwaystones.mixins.json)
+		timefall.mcsa.fabric.mixins.ServerPlayerEntityMixin (mcsa.mixins.json)
+		net.blay09.mods.balm.mixin.ServerPlayerMixin (balm.mixins.json)
+		com.yungnickyoung.minecraft.betterdeserttemples.mixin.ServerPlayerTickMixin (betterdeserttemples.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.ServerPlayerMixin (porting_lib_base.mixins.json)
+		com.yungnickyoung.minecraft.yungsapi.mixin.ServerPlayerEntityTickMixin (yungsapi.mixins.json)
+		net.voidz.mixin.ServerPlayerEntityMixin (voidz.mixins.json)
+		dev.architectury.mixin.fabric.LivingDeathInvoker (architectury.mixins.json)
+		fr.catcore.server.translations.api.mixin.ServerPlayerEntityMixin (server_translations_api.mixin.json)
+		dev.onyxstudios.cca.mixin.entity.common.MixinServerPlayerEntity (mixins.cardinal_components_entity.json)
+		carpet.mixins.ServerPlayer_actionPackMixin (carpet.mixins.json)
+	net.minecraft.class_3244:
+		be.florens.expandability.mixin.swimming.server.ServerGamePacketListenerImplMixin (expandability.mixins.json)
+		eu.pb4.polymer.mixin.entity.ServerPlayNetworkHandlerMixin (polymer.mixins.json)
+		com.simibubi.create.foundation.mixin.fabric.ServerGamePacketListenerImplAccessor (create.mixins.json)
+		net.devtech.stacc.mixin.CreativeDesyncFixin (stacc.mixins.json)
+		lol.bai.badpackets.impl.mixin.MixinServerGamePacketListenerImpl (badpackets.mixins.json)
+		carpet.mixins.ServerGamePacketListenerImpl_tickMixin (carpet.mixins.json)
+		carpetextra.mixins.ServerPlayNetworkHandlerMixin (carpet-extra.mixins.json)
+		dev.emi.trinkets.mixin.ServerPlayNetworkHandlerMixin (trinkets.mixins.json)
+		net.adventurez.mixin.ServerPlayNetworkHandlerMixin (adventurez.mixins.json)
+		dev.lambdaurora.lovely_snails.mixin.ServerPlayNetworkHandlerMixin (lovely_snails.mixins.json)
+		virtuoel.pehkui.mixin.ServerPlayNetworkHandlerMixin (pehkui.mixins.json)
+		io.github.kosmx.emotes.fabric.mixin.ServerPlayNetworkInstance (emotecraft.mixins.json)
+		us.potatoboy.timeoutout.mixin.ServerPlayNetworkHandlerKeepAliveMixin (timeoutout.mixins.json)
+		com.jamieswhiteshirt.reachentityattributes.mixin.ServerPlayNetworkHandlerMixin (mixins.reach-entity-attributes.json)
+		net.bettercombat.mixin.ServerPlayNetworkHandlerMixin (bettercombat.mixins.json)
+		carpet.mixins.ServerGamePacketListenerImplMixin (carpet.mixins.json)
+		io.github.ladysnake.impersonate.impl.mixin.ServerPlayNetworkHandlerMixin (mixins.impersonate.common.json)
+		org.dimdev.dimdoors.mixin.ServerPlayNetworkHandlerMixin (dimdoors.mixins.json)
+		org.dimdev.dimdoors.mixin.ExtendedServerPlayNetworkhandlerMixin (dimdoors.mixins.json)
+		fr.catcore.server.translations.api.mixin.ServerPlayNetworkHandlerMixin (server_translations_api.mixin.json)
+		com.aizistral.nochatreports.mixins.server.MixinServerGamePacketListenerImpl (nochatreports.mixins.json)
+		net.fabricmc.fabric.mixin.networking.ServerPlayNetworkHandlerMixin (fabric-networking-api-v1.mixins.json)
+		carpet.mixins.ServerGamePacketListenerImpl_antiCheatDisabledMixin (carpet.mixins.json)
+		eu.pb4.polymer.mixin.other.ServerPlayNetworkHandlerMixin (polymer.mixins.json)
+		ladysnake.sincereloyalty.mixin.ServerPlayNetworkHandlerMixin (sincereloyalty.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.accessor.ServerGamePacketListenerImplAccessor (porting_lib_accessors.mixins.json)
+		eu.pb4.polymer.mixin.item.ServerPlayNetworkHandlerMixin (polymer.mixins.json)
+		com.finallion.graveyard.mixin.ServerPlayNetworkHandlerMixin (graveyard.mixins.json)
+		carpet.mixins.ServerGamePacketListenerImpl_coreMixin (carpet.mixins.json)
+		carpet.mixins.ServerGamePacketListenerImpl_scarpetEventsMixin (carpet.mixins.json)
+		io.github.foundationgames.automobility.mixin.ServerGamePacketListenerImplMixin (automobility.mixins.json)
+		carpet.mixins.ServerGamePacketListenerImpl_interactionUpdatesMixin (carpet.mixins.json)
+		eu.pb4.polymer.mixin.block.packet.ServerPlayNetworkHandlerMixin (polymer.mixins.json)
+		virtuoel.pehkui.mixin.compat119plus.ServerPlayNetworkHandlerMixin (pehkui.mixins.json)
+		io.github.apace100.apoli.mixin.ServerPlayNetworkHandlerMixin (apoli.mixins.json)
+		earth.terrarium.ad_astra.mixin.ServerGamePacketListenerImplMixin (ad_astra-common.mixins.json)
+	net.minecraft.class_2535:
+		me.steinborn.krypton.mixin.shared.network.pipeline.compression.ClientConnectionMixin (krypton.mixins.json)
+		carpet.mixins.Connection_packetCounterMixin (carpet.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.ConnectionMixin (porting_lib_base.mixins.json)
+		io.github.fabricators_of_create.porting_lib.fake_players.mixin.common.accessor.ConnectionAccessor (porting_lib_fake_players.mixins.json)
+		lol.bai.badpackets.impl.mixin.MixinConnection (badpackets.mixins.json)
+		xyz.nucleoid.packettweaker.mixin.ClientConnectionMixin (packettweaker.mixins.json)
+		net.fabricmc.fabric.mixin.networking.ClientConnectionMixin (fabric-networking-api-v1.mixins.json)
+		dan200.computercraft.fabric.mixin.ConnectionAccess (computercraft.mixins.json)
+		me.steinborn.krypton.mixin.shared.network.pipeline.encryption.ClientConnectionMixin (krypton.mixins.json)
+		me.steinborn.krypton.mixin.shared.network.flushconsolidation.ClientConnectionMixin (krypton.mixins.json)
+		eu.pb4.polymer.mixin.other.ClientConnectionMixin (polymer.mixins.json)
+		io.wispforest.owo.mixin.ClientConnectionMixin (owo.mixins.json)
+	net.minecraft.server.MinecraftServer:
+		carpet.mixins.MinecraftServer_pingPlayerSampleLimit (carpet.mixins.json)
+		io.github.ladysnake.impersonate.impl.mixin.MinecraftServerMixin (mixins.impersonate.common.json)
+		net.fabricmc.fabric.mixin.registry.sync.MinecraftServerMixin (fabric-registry-sync-v0.mixins.json)
+		me.drex.villagerconfig.mixin.MinecraftServerMixin (villagerconfig.mixins.json)
+		xaero.common.mixin.MixinMinecraftServer (xaerominimap.mixins.json)
+		io.github.bumblesoftware.fastload.mixin.mixins.server.MinecraftServerMixin (fastload.mixins.json)
+		dev.onyxstudios.cca.mixin.scoreboard.MixinMinecraftServer (mixins.cardinal_components_scoreboard.json)
+		net.blay09.mods.balm.mixin.MinecraftServerMixin (balm.mixins.json)
+		terrablender.mixin.MixinMinecraftServer (terrablender_fabric.mixins.json)
+		potionstudios.byg.mixin.access.MinecraftServerAccess (byg.mixins.json)
+		com.chaosthedude.explorerscompass.mixins.MinecraftServerMixin (explorerscompass.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.inject_resources.MinecraftServerMixin (kubejs-common.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.MinecraftServerMixin (fabric-lifecycle-events-v1.mixins.json)
+		wraith.fwaystones.mixin.MinecraftServerAccessor (fwaystones.mixins.json)
+		org.betterx.bclib.mixin.common.MinecraftServerMixin (bclib.mixins.common.json)
+		net.fabricmc.fabric.mixin.resource.loader.MinecraftServerMixin (fabric-resource-loader-v0.mixins.json)
+		uk.me.desert_island.rer.mixin.MixinMinecraftServer (roughlyenoughresources.mixins.json)
+		net.fabricmc.fabric.mixin.biome.MinecraftServerMixin (fabric-biome-api-v1.mixins.json)
+		io.github.flemmli97.flan.mixin.MinecraftServerMixin (flan.mixins.json)
+		carpet.mixins.MinecraftServer_scarpetMixin (carpet.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.MinecraftServerMixin (kubejs-common.mixins.json)
+		org.betterx.worlds.together.mixin.common.MinecraftServerMixin (together.mixins.common.json)
+		com.chaosthedude.naturescompass.mixins.ServerMixin (naturescompass.mixins.json)
+		net.fabricmc.fabric.mixin.message.MinecraftServerMixin (fabric-message-api-v1.mixins.json)
+		carpet.mixins.MinecraftServer_tickspeedMixin (carpet.mixins.json)
+		carpet.mixins.MinecraftServer_coreMixin (carpet.mixins.json)
+		appeng.mixins.spatial.MinecraftServerMixin (ae2.mixins.json)
+		net.fabricmc.fabric.mixin.biome.modification.MinecraftServerMixin (fabric-biome-api-v1.mixins.json)
+		io.github.fabricators_of_create.porting_lib.mixin.common.accessor.MinecraftServerAccessor (porting_lib_accessors.mixins.json)
+		dev.onyxstudios.cca.mixin.level.common.MixinMinecraftServer (mixins.cardinal_components_level.json)
+		potionstudios.byg.mixin.server.MixinMinecraftServer (byg.mixins.json)
+		xaero.map.mixin.MixinMinecraftServer (xaeroworldmap.mixins.json)
+		org.betterx.worlds.together.mixin.common.MinecraftServerMixinLate (together.mixins.common.json)
+		lol.bai.megane.runtime.mixin.MixinMinecraftServer (megane-runtime.mixins.json)
+	net.minecraft.class_3176:
+		dev.architectury.mixin.fabric.MixinDedicatedServer (architectury.mixins.json)
+		potionstudios.byg.mixin.server.MixinDedicatedServer (byg_fabric.mixins.json)
+		com.aizistral.nochatreports.mixins.server.MixinDedicatedServer (nochatreports.mixins.json)
+		com.b1n_ry.yigd.mixin.MinecraftDedicatedServerMixin (yigd.mixins.json)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@17.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@17.0.5/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+	at java.base@17.0.5/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@6b4900e1
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@6b4900e1
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@17.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=11 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=12 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@7fda9555
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@7fda9555
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"Java2D Disposer" daemon prio=10 Id=26 WAITING on java.lang.ref.ReferenceQueue$Lock@449c068c
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@449c068c
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.desktop@17.0.5/sun.java2d.Disposer.run(Disposer.java:145)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Thread-1" daemon prio=5 Id=27 TIMED_WAITING
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:376)
+	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:190)
+
+
+"FileSystemWatchService" daemon prio=5 Id=28 RUNNABLE (in native)
+	at java.base@17.0.5/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.5/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"KubeJS Background Thread" prio=5 Id=37 TIMED_WAITING
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at dev.latvian.mods.kubejs.util.KubeJSBackgroundThread.run(KubeJSBackgroundThread.java:20)
+
+
+"pool-4-thread-1" prio=5 Id=38 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@366dc6e8
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@366dc6e8
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+
+"Cleaner-0" daemon prio=5 Id=46 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@4f05a850
+	at java.base@17.0.5/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@4f05a850
+	at java.base@17.0.5/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.5/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.5/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+"Timer hack thread" daemon prio=5 Id=47 TIMED_WAITING
+	at java.base@17.0.5/java.lang.Thread.sleep(Native Method)
+	at net.minecraft.class_156$9.run(class_156.java:849)
+
+
+"pool-5-thread-1" prio=5 Id=48 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@64defcd8
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@64defcd8
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	...
+
+
+"Server thread" prio=5 Id=54 TIMED_WAITING on java.lang.String@18d0fadd
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@18d0fadd
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at net.minecraft.class_1255.method_20813(class_1255.java:152)
+	at net.minecraft.class_1255.method_18857(class_1255.java:142)
+	at net.minecraft.class_3215.getChunkBlocking(class_3215.java:2281)
+	at net.minecraft.class_3215.method_12121(class_3215.java:2177)
+	at net.minecraft.class_1937.method_8402(class_1937.java:197)
+	at net.minecraft.class_1937.method_8497(class_1937.java:10578)
+	...
+
+
+"DestroyJavaVM" prio=5 Id=56 RUNNABLE
+
+
+"ComputerCraft-Network-0" daemon prio=3 Id=57 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+
+"ComputerCraft-Network-1" daemon prio=3 Id=58 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+
+"FileSystemWatchService" daemon prio=5 Id=60 RUNNABLE (in native)
+	at java.base@17.0.5/sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at java.base@17.0.5/sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"ComputerCraft-Network-2" daemon prio=3 Id=61 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+
+"ComputerCraft-Network-3" daemon prio=3 Id=62 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a7586bf
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	...
+
+
+"Server console handler" daemon prio=5 Id=63 RUNNABLE (in native)
+	at java.base@17.0.5/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.5/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.5/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.5/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	-  locked java.io.BufferedInputStream@69de8d15
+	at java.base@17.0.5/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270)
+	at java.base@17.0.5/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313)
+	at java.base@17.0.5/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188)
+	-  locked java.io.InputStreamReader@38a8c1f1
+	at java.base@17.0.5/java.io.InputStreamReader.read(InputStreamReader.java:177)
+	...
+
+
+"Netty Epoll Server IO #0" daemon prio=5 Id=64 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Server Watchdog" daemon prio=5 Id=71 RUNNABLE
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@17.0.5/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at net.minecraft.class_3178.run(class_3178.java:47)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"ComputerCraft-Computer-Runner-0" daemon prio=5 Id=75 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@27b1c22b
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@27b1c22b
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at dan200.computercraft.core.computer.ComputerThread$TaskRunner.run(ComputerThread.java:508)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"ComputerCraft-Computer-Monitor-0" daemon prio=5 Id=76 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7127e81c
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7127e81c
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at dan200.computercraft.core.computer.ComputerThread$Monitor.run(ComputerThread.java:394)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #1" daemon prio=5 Id=79 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #2" daemon prio=5 Id=80 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #3" daemon prio=5 Id=96 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #4" daemon prio=5 Id=97 RUNNABLE
+	at io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:182)
+	at io.netty.channel.epoll.EpollEventLoop.epollWait(EpollEventLoop.java:290)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #5" daemon prio=5 Id=105 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Netty Epoll Server IO #6" daemon prio=5 Id=111 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Worker-Main-38" daemon prio=5 Id=139 WAITING on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Netty Epoll Server IO #7" daemon prio=5 Id=141 RUNNABLE (in native)
+	at io.netty.channel.epoll.Native.epollWait(Native Method)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:209)
+	at io.netty.channel.epoll.Native.epollWait(Native.java:202)
+	at io.netty.channel.epoll.EpollEventLoop.epollWaitNoTimerChange(EpollEventLoop.java:294)
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Worker-Main-52" daemon prio=5 Id=161 TIMED_WAITING on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-54" daemon prio=5 Id=165 TIMED_WAITING on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"IO-Worker-98" prio=5 Id=258 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"Worker-Main-102" daemon prio=5 Id=262 TIMED_WAITING on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-101" daemon prio=5 Id=261 WAITING on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1724)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-103" daemon prio=5 Id=263 TIMED_WAITING on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@6c8c7508
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"Worker-Main-104" daemon prio=5 Id=264 RUNNABLE
+	at net.minecraft.class_6492$class_6738.method_41301(class_6492.java:151)
+	at net.minecraft.class_6492$class_6738.method_41299(class_6492.java:51)
+	at net.minecraft.class_6492$class_6738.method_41187(class_6492.java:213)
+	at net.minecraft.class_6492$class_6738.method_41188(class_6492.java:216)
+	at net.minecraft.class_6492$class_6738$$Lambda$28876/0x000000080462afc0.apply(Unknown Source)
+	at java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
+	at java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	...
+
+
+"ForkJoinPool.commonPool-worker-75" daemon prio=5 Id=267 TIMED_WAITING on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"ForkJoinPool.commonPool-worker-76" daemon prio=5 Id=268 TIMED_WAITING on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"ForkJoinPool.commonPool-worker-77" daemon prio=5 Id=269 TIMED_WAITING on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"ForkJoinPool.commonPool-worker-78" daemon prio=5 Id=270 TIMED_WAITING on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"ForkJoinPool.commonPool-worker-79" daemon prio=5 Id=271 TIMED_WAITING on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"ForkJoinPool.commonPool-worker-80" daemon prio=5 Id=272 TIMED_WAITING on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@3b5cbeca
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+	at java.base@17.0.5/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+
+"IO-Worker-106" prio=5 Id=273 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"IO-Worker-107" prio=5 Id=274 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+"IO-Worker-108" prio=5 Id=275 TIMED_WAITING on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$TransferStack@12d59621
+	at java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+	at java.base@17.0.5/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+
+
+
+Stacktrace:
+	at net.minecraft.class_3178.run(class_3178.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Mixins in Stacktrace: None found
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: ResourceKey[minecraft:dimension / minecraft:overworld]: players: 1, entities: 167,167,1129,171,171,0,0 [minecraft:item_frame:32,minecraft:item:23,lilwings:swallow_tail_butterfly:19,minecraft:armor_stand:11,minecraft:chicken:10], block_entities: 526 [<lithium_sleeping>:154,minecraft:sculk_sensor:104,minecraft:mob_spawner:87,visualworkbench:crafting_table:42,minecraft:sculk_catalyst:41], block_ticks: 13, fluid_ticks: 0, chunk_source: Chunks[S] W: 2574 E: 167,167,1129,171,171,0,0,
+ResourceKey[minecraft:dimension / ad_astra:mercury_orbit]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:earth_orbit]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:glacio_orbit]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_nether]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 3 [<null>:3], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / aqm2:mining_dimension]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:venus_orbit]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / dimdoors:limbo]: players: 0, entities: 73,73,72,484,484,0,0 [dimdoors:monolith:70,minecraft:item:3], block_entities: 3 [dimdoors:entrance_rift:3], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 2153 E: 73,73,72,484,484,0,0,
+ResourceKey[minecraft:dimension / dimdoors:personal_pockets]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:glacio]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecraft:the_end]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:venus]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:mars_orbit]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / deeperdarker:otherside]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:mars]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / dimdoors:public_pockets]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / dimdoors:dungeon_pockets]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:moon_orbit]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / jamd:mining]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 4 [<null>:4], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / voidz:void]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecells:insufferable_crypt]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:mercury]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / spectrum:deeper_down_dimension]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / minecells:prison]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ad_astra:moon]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+ResourceKey[minecraft:dimension / ae2:spatial_storage]: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 5.19.0-29-generic
+	Java Version: 17.0.5, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Private Build
+	Memory: 3364869256 bytes (3208 MiB) / 6442450944 bytes (6144 MiB) up to 6442450944 bytes (6144 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: DO-Regular
+	Identifier: Intel64 Family 6 Model 63 Stepping 2
+	Microarchitecture: Haswell (Server)
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: QXL paravirtual graphic card
+	Graphics card #0 vendor: Red Hat, Inc. (0x1b36)
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: 0x0100
+	Graphics card #0 versionInfo: unknown
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): -0.00
+	Memory slot #0 type: RAM
+	Virtual memory max (MB): 3974.47
+	Virtual memory used (MB): 7692.86
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xmx6144M -Xms6144M
+	Fabric Mods: 
+		ad_astra: Ad Astra! 1.12.2
+		additionaladditions: Additional Additions 5.1.0
+		additionalbars: Additional Bars 3.3.1+1.19
+		adorn: Adorn 3.8.1+1.19.2
+		advanced_reborn: Advanced Reborn 1.1.3
+		advdebug: Advancements Debug 2.3.0
+		adventurez: AdventureZ 1.4.17
+		ae2: Applied Energistics 2 12.9.2
+		ae2wtlib: AE2WTLib 12.8.5
+		allay: YDM's Allay Mod 4.1.0
+		alloy_forgery: Alloy Forgery 2.0.17+1.19
+		almostunified: AlmostUnified 1.19.2-0.3.3
+		amecs: Amecs 1.3.8+mc.1.19-rc2
+		animal_origins_18: Animal Origins 1.0.0
+		appbot: Applied Botanics 1.4.1
+		appleskin: AppleSkin 2.4.1+mc1.19
+		arcanus: Arcanus 1.30
+		architects_palette: Architect's Palette Fabric 2.1.1
+		architectury: Architectury 6.4.62
+		archon: Archon 0.4.1
+		armorstatues: Armor Statues 4.0.3
+		artifacts: Artifacts 7.1.1+fabric
+			expandability: ExpandAbility 6.0.0
+			step-height-entity-attribute: Step Height Entity Attribute 1.0.0
+		artis: Artis-Recrafted 2.5.0+1.19
+			advanced_runtime_resource_pack: Runtime Resource Pack 0.6.2
+		attributefix: AttributeFix 17.1.3
+		auto-workstations: Auto Workstations v1.0-SNAPSHOT-19
+		autoconfig1u: Auto Config v1 Updated 3.4.0
+		automobility: Automobility 0.4.1+1.19.2-fabric
+			jsonem: JsonEM 0.1.2+1.19
+		autotag-convention: AutoTag Convention 2.0.0+1.19
+			autotag: AutoTag 2.0.0+1.19
+		badpackets: Bad Packets 0.2.1
+		balm-fabric: Balm 4.5.2+0
+		bcc: BetterCompatibilityChecker 2.0.2-build.16+mc1.19.1
+		bclib: BCLib 2.1.5
+		bedbenefits: BedBenefits 9.1.2
+		beenfo: Beenfo 1.19.1-fabric0.58.5-1.3.3
+			crowdin-translate: CrowdinTranslate 1.4+1.19
+		besmirchment: Besmirchment 1.19-7
+			terraform-wood-api-v1: Terraform Wood API (v1) 4.2.0
+		bettercombat: Better Combat 1.5.5+1.19
+		betterdeserttemples: YUNG's Better Desert Temples 1.19.2-Fabric-2.2.1
+		betterdungeons: YUNG's Better Dungeons 1.19.2-Fabric-3.2.1
+		betterend: Better End 2.1.3
+		bettermineshafts: YUNG's Better Mineshafts 1.19.2-Fabric-3.2.0
+		betternether: Better Nether 7.1.2
+		betterstats: Better Statistics Screen 2.2.1+1.19.2
+			tcdcommons: TCD Commons API 1.1+1.19.2
+		betterstrongholds: YUNG's Better Strongholds 1.19.2-Fabric-3.2.0
+		bewitchment: Bewitchment 1.19-6
+		bhmenu: BHMenu-Fabric 1.19-1.3
+		bitsandchisels: BitsAndChisels 2.7.0
+			stacc: Stacc 1.3.4
+		blockus: Blockus 2.5.6+1.19.2
+		boatcontainer: BoatContainer 1.2.4
+		bookshelf: Bookshelf 16.2.16
+		bosses_of_mass_destruction: Bosses of Mass Destruction (Beta) 1.4.6-1.19.2
+			maelstrom_library: Maelstrom Library 1.3-1.19-pre1
+			multipart_entities: MultipartEntities 1.2-1.19-pre1
+		botania: Botania 1.19.2-437-FABRIC
+		botarium: Botarium 1.8.2
+		brewinandchewin: Brewin And Chewin fabric-1.0.5+1.19.2
+		buildinggadgets: st'ructure tools 1.0.30
+			mm: Manningham Mills 2.3
+		byg: Oh The Biomes You'll Go 2.0.0.13
+			com_electronwill_night-config_core: core 3.6.6
+			com_electronwill_night-config_toml: toml 3.6.6
+		cacao: Croptopia's Chocolaterie 1.2
+		capybara: Capybara 2.0.1
+		cardinal-components: Cardinal Components API 5.0.2
+			cardinal-components-item: Cardinal Components API (items) 5.0.2
+			cardinal-components-level: Cardinal Components API (world saves) 5.0.2
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.0.2
+		carpet: Carpet Mod 1.4.84
+		carpet-extra: Carpet Extra 1.4.84
+		carryon: Carry On 2.0.4.6
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-beta.1
+		catwalksinc: Catwalks Inc. 1.3.1
+		chalk: Chalk 2.1.0+1.19
+		chisel: Chisel Refabricated 1.4.5
+		chococraft: Chococraft 4 0.6.5
+		chubbystuff: Chubby Stuff 2.0.1-fabric
+		climbladdersfast: ClimbLaddersFast 3.0.6-1.19
+		cloth-api: Cloth API 4.0.65
+			cloth-client-events-v0: Cloth Client Events v0 4.0.65
+			cloth-common-events-v1: Cloth Common Events v1 4.0.65
+			cloth-utils-v1: Cloth Utils v1 4.0.65
+		cloth-config: Cloth Config v8 8.2.88
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 9.0.0+14
+		combatroll: Combat Roll 1.1.2+1.19
+		compact_storage: Compact Storage 5.0.3_1.19.2
+		computercraft: CC: Restitched 1.101.2
+			io_netty_netty-codec-http: netty-codec-http 4.1.77.Final
+			org_squiddev_cobalt: Cobalt 0.5.5
+		conjuring: Conjuring 1.0.26+1.19
+		consistency_plus: Consistency Plus 0.5.1+1.19.2
+			stonecutter_recipe_tags: Stonecutter Recipe Tags 4.0.0+1.19.9b8d04c.fabric
+		cookingforblockheads: Cooking for Blockheads 13.3.0
+		coxinhautilities: Coxinha Utilities 1.4.5+1.19
+			yet-another-config-lib: YetAnotherConfigLib 2.2.0-for-1.19.2
+		craftingtweaks: Crafting Tweaks 15.1.0
+		crawl: Crawl 0.11.1
+		create: Create 0.5.0.i-925+1.19.2
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			milk: Milk Lib 1.0.51
+				dripstone_fluid_lib: Dripstone Fluid Lib 2.0.1
+			porting_lib: Porting Lib 2.1.731+1.19.2
+				porting_lib_accessors: Porting Lib Accessors 2.1.731+1.19.2
+				porting_lib_attributes: Porting Lib Attributes 2.1.731+1.19.2
+				porting_lib_base: Porting Lib Base 2.1.731+1.19.2
+				porting_lib_common: Porting Lib Common 2.1.731+1.19.2
+				porting_lib_constants: Porting Lib Constants 2.1.731+1.19.2
+				porting_lib_entity: Porting Lib Entity 2.1.731+1.19.2
+				porting_lib_extensions: Porting Lib Extensions 2.1.731+1.19.2
+				porting_lib_fake_players: Porting Lib Fake Players 2.1.731+1.19.2
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.1.731+1.19.2
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.731+1.19.2
+				porting_lib_model_loader: Porting Lib Model Loader 2.1.731+1.19.2
+				porting_lib_models: Porting Lib Models 2.1.731+1.19.2
+				porting_lib_networking: Porting Lib Networking 2.1.731+1.19.2
+				porting_lib_obj_loader: Porting Lib Obj Loader 2.1.731+1.19.2
+				porting_lib_transfer: Porting Lib Transfer 2.1.731+1.19.2
+				serialization_hooks: Serialization Hooks 0.3.26
+			registrate-fabric: Registrate for Fabric 1.1.50-MC1.19.2
+		creativecore: CreativeCore (Fabric) 2.9.3
+		creaturesfromthesnow: Creatures from The Snow 4.1.0+1.19.2
+		creeperoverhaul: Creeper Overhaul 2.0.6
+		crittersandcompanions: Critters and Companions 1.19.2-1.0.3
+		croparia: Croparia 4.0.0
+		croptopia: Croptopia 2.2.2
+			com_typesafe_config: config 1.4.1
+			io_leangen_geantyref_geantyref: geantyref 1.3.11
+			org_spongepowered_configurate-core: configurate-core 4.1.2
+			org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		croptosis: Croptosis 1.5.1
+		culturaldelights: Cultural Delights Fabric 0.14.9+1.19.2
+		damagetilt: Damage Tilt 1.19-fabric-0.1.2
+		dankstorage: Dank Storage 1.19.2-4.3
+		dark-enchanting: Dark Enchanting 1.0.0+1.19.1
+		dataattributes: Data Attributes 1.4.1
+		deathlog: DeathLog 0.2.11+1.19
+		decorative_blocks: Decorative Blocks 3.0.0
+		deeperdarker: Deeper and Darker 1.1.6
+			customportalapi: Custom Portal Api 0.0.1-beta54-1.19
+			paragon: Paragon 3.0.2
+				com_moandjiezana_toml_toml4j: toml4j 0.7.2
+				org_yaml_snakeyaml: snakeyaml 1.27
+		dimdoors: DimensionalDoors 5.0.2
+			com_flowpowered_flow-math: flow-math 1.0.3
+			com_github_dimensionaldevelopment_poly2tri_java: poly2tri.java 0.1.1
+			matrix: Matrix 1.0.0
+			org_jgrapht_jgrapht-core: jgrapht-core 1.1.0
+		disenchanter: Disenchanter 0.1.7+1.19
+		dml-refabricated: Deep Mob Learning: Refabricated 0.5.9-BETA+1.19.2
+			dml-refabricated-base: DML: Refabricated - Base 0.5.9-BETA+1.19.2
+				libgui: LibGui 6.3.0+1.19
+					jankson: Jankson 4.1.1+j1.2.1
+					libninepatch: LibNinePatch 1.1.0
+			dml-refabricated-modular-armor: DML: Refabricated - Glitch Armor 0.5.9-BETA+1.19.2
+			dmlsimulacrum: Deep Mob Learning: Simulacrum 0.5.9-BETA+1.19.2
+			ktdatataglib: KtDataTagLib 1.6.6
+		doom: Doom Fabric 4.2.28
+		doublejump: Double Jump Mod 1.0.1+mc1.19
+		dragonloot: DragonLoot 1.1.2
+		duckling: Duckling 2.0.8
+		dummmmmmy: MmmMmmMmmMmm 1.19-1.5.3
+		dungeons_arise: When Dungeons Arise 2.1.54
+		earthtojavamobs: Earth2Java 1.9.3
+		eldritch_mobs: EldritchMobs 1.12.10
+			polymer: Polymer (Core) 0.2.18+1.19.2
+				polymer-registry-sync-manipulator: Polymer Registry Sync Manipulator 0.0.3+1.19.2
+			polymer-blocks-ext: Polymer Blocks 0.1.0-alpha.9+1.19.2
+			server_translations_api: Server Translations API 1.4.18+1.19.2
+				packet_tweaker: Packet Tweaker 0.3.0+1.18.2
+		emojiful: Emojiful 4.0.4
+			com_esotericsoftware_yamlbeans_yamlbeans: yamlbeans 1.15
+		emotecraft: Emotecraft 2.2.7-b.build.47
+		expandedstorage: Expanded Storage 8.1.0-beta.5
+		experiencebugfix: Experience Bug Fix 19
+		explorerscompass: Explorer's Compass 1.19.2-2.2.0-fabric
+		extended_drawers: Extended Drawers 1.3.6+mc.1.19.2
+			graphlib: Graph Lib 0.3.1+1.19
+			mconfig: Mconfig 1.2.0+mc.1.19-rc1
+				de_poiu_apron_apron: apron 2.1.1
+		extra_classes_origins: Extra Classes - Origins 1.0.0
+		extragenerators: Extra Generators 1.2.1-BETA+1.19
+		extrakeybinds: ThatRobins Extra Origins Keybinds 0.4.0+1.17-1.19.2
+		extraorigins: Extra Origins 1.19-2
+		fabric-api: Fabric API 0.73.2+1.19.2
+			fabric-api-base: Fabric API Base 0.4.15+8f4e8eb390
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.14+93d8cb8290
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.1.0+82db024a90
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.2+e415d50e90
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.16+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.1+413cbbc790
+			fabric-commands-v0: Fabric Commands (v0) 0.2.33+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.41+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.1+7c6cd14d90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.2.2+27265b3490
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.8+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.3.7+413cbbc790
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.35+0d0f210290
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.4+9244241690
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.34+562bff6e90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.35+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.24+b6b6abb490
+			fabric-item-api-v1: Fabric Item API (v1) 1.6.5+dce4603e90
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.38+9244241690
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.4+1b46dc7890
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.12+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.15+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.7+93d8cb8290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.23+33fbc73890
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.11+10eb22f490
+			fabric-networking-v0: Fabric Networking (v0) 0.3.28+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.2.1+d8ef690890
+			fabric-particles-v1: Fabric Particles (v1) 1.0.14+4d0d570390
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.1+413cbbc790
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.32+9244241690
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.19+6e0787e690
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.11+4d0d570390
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.2+aae9039d90
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.8.3+251d254a90
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.7+1cc24b1b90
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.6+413cbbc790
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.3+08b73de490
+		fabric-diagonal-panes: Fabric Diagonal Panes 0.6.4
+		fabric-furnaces: Fabric Furnaces 2.2.0-1.19.2
+		fabric-language-kotlin: Fabric Language Kotlin 1.9.0+kotlin.1.8.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.8.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.8.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.8.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.8.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.18.5
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.6.4
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.6.4
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.4.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.4.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.4.1
+		fabric-language-scala: Fabric Language Scala 1.1.0+scala.2.13.6
+		fabricenchantments: Fabric Enchantments 0.9.0
+		fabricloader: Fabric Loader 0.14.13
+		fabricshieldlib: Fabric Shield Lib 1.6.1-1.19
+		fabrictailor: Fabric Tailor 2.0.1
+			config2brigadier: Config to Brigadier 1.2.1
+			fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+		fallingtree: FallingTree 3.10.0
+		farmersdelight: Farmer's Delight 1.19.2-1.3.9
+		farmingforblockheads: Farming for Blockheads 11.1.0
+		fastload: Fast Load 2.6.11
+		ferritecore: FerriteCore 5.0.3
+		flan: Flan 1.19.2-1.8.3
+			rtree-3i-lite-fabric: rtree-3i-lite for Fabric 0.3.0
+		fluidtank: Fluid Tank 19.1.596-fabric
+			org_typelevel_cats-core_2_13: cats-core_2.13 2.8.0
+			org_typelevel_cats-kernel_2_13: cats-kernel_2.13 2.8.0
+		forgeconfigapiport: Forge Config API Port 4.2.10
+		frame: Frame 0.26.1+1.19-fabric
+			frame-api-base: Frame Base 0.2.1+906ebc04a9
+			frame-blocks-v0: Frame Blocks (v0) 0.1.3+233e7428a9
+			frame-config-v0: Frame Config (v0) 0.3.1+0fa45150a9
+			frame-content-registries-v0: Frame Content Registries (v0) 0.4.0+2876b511a9
+			frame-enchantments-v0: Frame Enchantments (v0) 0.1.0+4093105da9
+			frame-game-rules-v0: Frame Game Rules (v0) 0.2.4+e7ce56a6a9
+			frame-items-v0: Frame Items (v0) 0.1.3+906ebc04a9
+			frame-loot-tables-v0: Frame Loot Tables (v0) 0.1.4+4f7341eca9
+			frame-registries-v0: Frame Registries (v0) 0.1.1+0e0ec74ea9
+			frame-rendering-v0: Frame Rendering (v0) 0.1.5+906ebc04a9
+			frame-tabbed-item-groups-v0: Frame Tabbed Item Groups (v0) 0.2.4+0aca9b56a9
+			frame-toymaker-v0: Frame Data Generation Helpers (v0) 0.6.1+b13741c3a9
+			frame-woods-v0: Frame Woods (v0) 0.2.1+6a33fbada9
+		friendsandfoes: Friends&Foes 1.6.8
+		ftblibrary: FTB Library 1902.3.11-build.166
+		ftbquests: FTB Quests 1902.4.6-build.176
+		ftbteams: FTB Teams 1902.2.12-build.95
+		fwaystones: Fabric Waystones 3.0.5+mc1.19.2
+		galosphere: Galosphere 1.19.2-1.2.1
+		gearreborn: Gear Reborn 1.19-0.1.15
+		geckolib3: Geckolib 3.1.38
+			com_eliotlash_mclib_mclib: mclib 20
+		genesis: Genesis 1.19.2-1.0.2
+		givemehat: Give Me Hats! 2.5.0
+		go-fish: Go Fish 1.6.0-1.19.1
+		gobber2: Gobber2 2.6.61
+			pugh_lib: Pugh Lib 1.4.15
+			pugh_tools: Pugh Tools 1.3.23
+		graveyard: The Graveyard 2.3
+		graveyard_biomes: The Graveyard Biomes 1.6
+		grounded_origins: Grounded Origins 1.2.3
+			apugli: Apugli 1.9.3+1.19-fabric
+		guardiansgalore: GuardiansGalore 1.19.2-3.0
+		guardvillagers: Guard Villagers Fabric 1.19.2-1.0.16
+		halfdoors: Half Doors 1.3.9+1.19.x
+		harvest_scythes: Harvest Scythes 2.5.4+mc1.19.2
+		heartstone: Heartstone 1.19.2-1.0.4
+		hexcasting: Hex Casting 0.10.3
+		hookshot: Hookshot 26.0
+		horseinfo: Horse Info 0.4.2-1.19
+		horsestatsvanilla: Horse Stats Vanilla 4.2.2
+		iceberg: Iceberg 1.0.46
+		immersive_aircraft: Immersive Aircraft 0.3.0+1.19.2
+		impaled: Impaled 1.1.4
+		impersonate: Impersonate 2.8.0
+		incantationem: Incantationem 1.1.6+1.19
+		indrev: Industrial Revolution 1.15.1-BETA
+			fake-player-api: Fake Player API 0.4.0
+		ingredient-extension-api: Ingredient Extension API 3.0.6
+		inmis: Inmis 2.7.1-1.19
+		inmisaddon: InmisAddon 1.0.3
+		itemfilters: Item Filters 1902.2.9-build.46
+		jamd: JAMD 2.0.5-build.12+mc1.19.2
+		jamlib: JamLib 0.6.0+1.19
+		java: OpenJDK 64-Bit Server VM 17
+		kibe: Kibe 1.9.11-BETA+1.19
+		kjsextras: KubeJS Extras 3.0.0
+		krypton: Krypton 0.2.1
+			com_velocitypowered_velocity-native: velocity-native 3.1.2-SNAPSHOT
+		kubejs: KubeJS 1902.6.0-build.140
+		labels: labels 1.19.2-1.7
+		lank: Lankasters Origins 1.0.0
+		lavajava: Lava Java 0.4.1
+		libra: Libra 0.5.44
+		lightestlamp: Lightest Lamps 3.0.0f
+		lilwings: Lil' Wings 1.2.3
+		lithium: Lithium 0.10.4
+		log_more_info: Log More Info 1.0.0-1.19
+		logbegone: Log Begone 1.0.4
+		logprot: Logprot Mod 1.19-2.0
+		lootintegrations: Loot integration Mod 1.19.1-1.7
+		lootjs: LootJS 2.7.9
+		lovely_snails: Lovely Snails 1.1.0+1.19
+		luggage: Luggage 1.19-1.5.2
+			forge_tags: Porting Lib Tags 3.0
+		macawsbridgesbyg: Macaw's Bridges - BYG 1.19.2-1.0
+		marketcrates: Marketcrates 1.5
+		mavapi: More Axolotl Variants API 1.0.1
+		mavm: More Axolotl Variants Mod 1.2.0
+		maxhealthfix: MaxHealthFix 8.0.1
+		mcda: MC Dungeons Armors 2.4.2
+		mcdar: MC Dungeons Artifacts 1.5.2-1.19
+		mcdw: MC Dungeons Weapons 5.0.4-1.19
+			enchant_giver: Enchant Giver 1.3.0
+		mcpitanlibarch: MCPitanLibarch 1.3.5-1.19-fabric
+		mcsa: MC Story Mode Armors 3.1.2+1.19
+		mcwbridges: Macaw's Bridges 1.0.6
+		mcwfences: Macaw's Fences and Walls 1.0.7
+		mcwlights: Macaw's Lights and Lamps 1.0.5
+		mcwpaintings: Macaw's Paintings 1.0.4
+		mcwwindows: Macaw's Windows 2.1.2
+		megacells: MEGA Cells 2.0.0-beta.6-1.19.2
+		megane: megane 8.3.0
+			megane-alloy-forgery: megane-alloy-forgery 8.3.0
+			megane-api: megane-api 8.3.0
+			megane-applied-energistics-2: megane-applied-energistics-2 8.3.0
+			megane-extra-generators: megane-extra-generators 8.3.0
+			megane-fabric-transfer: megane-fabric-transfer 8.3.0
+			megane-industrial-revolution: megane-industrial-revolution 8.3.0
+			megane-kibe: megane-kibe 8.3.0
+			megane-luggage: megane-luggage 8.3.0
+			megane-modern-dynamics: megane-modern-dynamics 8.3.0
+			megane-reborn-core: megane-reborn-core 8.3.0
+			megane-reborn-energy: megane-reborn-energy 8.3.0
+			megane-runtime: megane-runtime 8.3.0
+			megane-tech-reborn: megane-tech-reborn 8.3.0
+			megane-vanilla: megane-vanilla 8.3.0
+			megane-wireless-networks: megane-wireless-networks 8.3.0
+		merequester: ME Requester 1.19.2-1.0.3
+		midnightlib: MidnightLib 1.0.0
+		milk_plus: Milk+ 4.0.44
+		minecells: Mine Cells 1.3.3
+		minecraft: Minecraft 1.19.2
+		minepop: Mine Pop 0.0.1-1.19.2
+		miningutility: Mining Utility 1.2.6+1.19
+		mixintrace: MixinTrace 1.1.1+1.17
+		mo_glass: Mo Glass 1.6.1-MC1.19.2
+		mobz: MobZ 3.3.5
+		mocolors: Mo' Colors 1.5.0
+		modern_industrialization: Modern Industrialization 1.6.2-beta
+			magna: Magna 1.8.0-1.19
+		moderndynamics: Modern Dynamics 0.3.4-beta
+		moonlight: Moonlight 1.19.2-2.2.2
+		morebannerfeatures: More Banner Features 1.1.3
+		morevillagers: More Villagers 4.0.2
+		mtmechs: Magitek Mechs 1.0.14
+		myloot: myLoot 3.1-1.19.2
+		mythical_origins: Mythical Origins 1.0.0
+		mythicmetals: Mythic Metals 0.16.4+1.19.2
+		mythicmounts: Mythic Mounts 1.19.2-7.1
+		naturescompass: Nature's Compass 1.19.2-2.1.0-fabric
+		nochatreports: No Chat Reports 1.19.2-v1.13.12
+		nyfsquiver: Nyf's Quivers Fabric-0.5.1-1.19.2
+		omega-config: OmegaConfig 1.2.3-1.18.1
+		onsoulfire: On Soul Fire 1.19-2
+		origins: Origins 1.7.1
+			apoli: Apoli 2.6.1
+				calio: Calio 1.7.0
+		origins-classes: Origins: Classes 1.4.0
+		owo: oωo 0.9.3+1.19
+			blue_endless_jankson: jankson 1.2.1
+		paintings: Paintings++ 10.2.4.0
+		patchouli: Patchouli 1.19.2-77-FABRIC
+		patchoulibutton: PachouliButton 1.0.2
+		paucal: PAUCAL 0.5.0
+		pehkui: Pehkui 3.6.3+1.14.4-1.19.3
+			kanos_config: Kanos Config 0.3.1+1.14.4-1.19
+		phosphor: Phosphor 0.8.1
+		plantinajar: Plant In A Jar 2.5.0
+			org_objenesis_objenesis: objenesis 3.2
+		player-animator: Player Animator 0.4.2
+		playerabilitylib: Pal 1.6.0
+		plushies: Plushie Mod 1.2
+		polymorph: Polymorph 0.46.1+1.19.2
+		prefab: Prefab 4.2.4
+		probejs: ProbeJS 4.2.5
+		publicguiannouncement: Public Gui Announcement 4.3.3
+		puzzleslib: Puzzles Lib 4.3.12
+			cardinal-components-base: Cardinal Components API (base) 5.0.2
+			cardinal-components-block: Cardinal Components API (blocks) 5.0.2
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.0.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.0.2
+			cardinal-components-world: Cardinal Components API (worlds) 5.0.2
+		quarryplus: QuarryPlus 19.1.672
+		questsadditions: Quests Additions 1.4.1
+		quickshulker: Quick Shulker 1.3.9-1.19
+			kyrptconfig: Kyrpt Config 1.4.16-1.19
+			shulkerutils: shulkerutils 1.0.4-1.19
+		reacharound: Reacharound 1.1.2
+		reborncore: Reborn Core 5.4.0
+			team_reborn_energy: Energy 2.3.0
+		redbits: Red Bits 1.14.1
+			interference: Interference API 1.4.2
+		repurposed_structures: Repurposed Structures 6.1.3+1.19.2
+		resourcefulconfig: Resourcefulconfig 1.0.18
+		resourcefullib: Resourceful Lib 1.1.21
+		respawnablepets: Respawnable Pets 1.19-2
+		revelationary: Revelationary 1.3.0
+		rhino: Rhino 1902.2.2-build.264
+		rightclickharvest: Right Click Harvest 3.1.0+1.19-1.19.2
+		rocks: This Rocks! 1.6.1
+		rottencreatures: Rotten Creatures 1.0.1
+		roughlyenoughitems: Roughly Enough Items 9.1.587
+			error_notifier: Error Notifier 1.0.9
+		roughlyenoughresources: Roughly Enough Resources 2.6.0
+		rpgstats: RPGStats 4.5.0+1.19.2
+		runes: Runes 0.9.3+1.19
+		rusticated: Rusticated 2.0.4-fabric
+		sandwichable: Sandwichable 1.3.a+1.19
+		shulkerboxtooltip: Shulker Box Tooltip 3.2.2+1.19.2
+		silkspawners: SilkSpawners 1.1.2
+		simplyswords: Simply Swords 1.40-1.19.2
+		skylorlib: SkyLib 1.5.1
+		soulsweapons: Marium's Soulslike Weaponry 0.9.8b
+		spectrum: Spectrum 1.6.5-1.19.2-leisure_time
+			additionalentityattributes: Additionalentityattributes 1.2.0+1.19.2
+			arrowhead: Arrowhead 1.1.0-1.19.2
+			incubus_core: Incubus Core 1.9.1
+		spell_engine: Spell Engine 0.9.8+1.19
+		spell_power: Spell Power Attribute 0.9.4+1.19
+		spoornpacks: SpoornPacks 4.3.3-1.19.1
+			com_fasterxml_jackson_core_jackson-annotations: jackson-annotations 2.13.1
+			com_fasterxml_jackson_core_jackson-core: jackson-core 2.13.1
+			com_fasterxml_jackson_core_jackson-databind: jackson-databind 2.13.1
+		spoornweaponattributes: SpoornWeaponAttributes 4.0.9-1.19
+			net_objecthunter_exp4j: exp4j 0.4.8
+		sprout: Sprout 1.4.4
+		stoneholm: Stoneholm 1.4.4
+		structory: Structory 1.0.1
+		suggestion_tweaker: Suggestion Tweaker 1.19.1-1.3.1
+		supplementaries: Supplementaries 1.19.2-2.2.46
+		t_and_t: Towns and Towers 1.10
+		takesapillage: Takes a Pillage 1.0.4
+		techreborn: Tech Reborn 5.4.0
+		teenycoal: Teeny Coal 1.1.4-1.19.x
+		tempad: Tempad 1.4.3
+		terrablender: TerraBlender 2.0.1.136
+		terralith: Terralith 2.3
+		things: Things 0.3.0+1.19
+		tiered: Tiered 1.2.1
+			reach-entity-attributes: Reach Entity Attributes 2.3.0
+		timeoutout: TimeOut Out 1.0.3+1.19.1
+		toms_storage: Tom's Simple Storage Mod 1.4.6
+		toolstats: ToolStats 12.0.2
+		totw_additions: Towers of the Wild: Additions 1.2.3
+		tr-patchouli: Tech Reborn Patchouli 2.1.1
+		tradingpost: Trading Post 4.2.0
+		transparent: Transparent 5.1.2
+		trashslot: TrashSlot 12.0.1
+		travelersbackpack: Traveler's Backpack 1.19.2-8.2.12
+		trinkets: Trinkets 3.4.2
+		twigs: Twigs 2.0.0-beta.9+1.19-fabric
+		vanityslots: Vanity Slots 1.2.5
+		veinmining: Vein Mining 1.0.2+1.19.2
+			spectrelib: SpectreLib 0.11.0+1.19
+		villager-hats: Villager Hats 1.4.1
+		villagerconfig: VillagerConfig 3.0.5-mc-1.19
+			fiber: fiber 0.23.0-2
+		vinery: Vinery 1.1.4
+		visualworkbench: Visual Workbench 4.2.1
+		voidz: VoidZ 1.0.9
+		voyager: Voyager v2 2.1.0-1.18-1.19.x
+		walljump-fabric: Wall-Jump! UNOFFICIAL 1.6.1b
+		wildlife: Wildlife 1.19.2-2.2
+		winged: Winged Mod 1.19-3.3.0
+		wirelessnetworks: Wireless Networks 1.6.0
+		wizards: Wizards 0.9.8+1.19
+		wthit: wthit 5.13.5
+		xaerominimap: Xaero's Minimap 22.17.1
+		xaeroworldmap: Xaero's World Map 1.28.8
+		xlpackets: XLPackets 1.19.2-4
+		xps: Xp Obelisk 0.4.7-r+1.19.2-Fabric
+		yet-another-config-lib: YetAnotherConfigLib 2.2.0-for-1.19.2
+		yigd: You're in Grave Danger 1.4.8
+		yosbr: YOSBR 0.1.1
+		yungsapi: YUNG's API 1.19.2-Fabric-3.8.2
+			org_javassist_javassist: javassist 3.28.0-GA
+			org_reflections_reflections: reflections 0.10.2
+	Server Running: true
+	Player Count: 1 / 20; [class_3222['TheGreenB4stard'/643, l='ServerLevel[world]', x=58.50, y=65.00, z=13.50]]
+	Data Packs: vanilla, Fabric Mods, minecraft/croptop, dimdoors/default (incompatible), dimdoors/classic (incompatible), Supplementaries Generated Pack, spoornpacks (incompatible)
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

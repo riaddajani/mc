@@ -1,0 +1,10 @@
+[21:10:46] [INFO ] startup_scripts:aqmitems.js:3: Creating AQM2 Items...
+[21:10:46] [INFO ] Loaded script startup_scripts:aqmitems.js in 0.113 s
+[21:10:46] [INFO ] startup_scripts:packversion.js:1: Loading Another Quality Modpack 2 KubeJS
+[21:10:46] [INFO ] Loaded script startup_scripts:packversion.js in 0.002 s
+[21:10:46] [INFO ] Loaded script startup_scripts:worldgen.js in 0.001 s
+[21:10:46] [INFO ] startup_scripts:modify.js:3: Modifying AQM2 Items...
+[21:10:46] [INFO ] Loaded script startup_scripts:modify.js in 0.003 s
+[21:10:46] [INFO ] Loaded script startup_scripts:blockhardness.js in 0.001 s
+[21:10:46] [INFO ] Loaded script startup_scripts:removeore.js in 0.002 s
+[21:10:46] [INFO ] Loaded 6/6 KubeJS startup scripts in 0.644 s

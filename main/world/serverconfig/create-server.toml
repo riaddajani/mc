@@ -201,6 +201,16 @@ limitAdventureMode = true
 		#.
 		#Whether harvesters should replant crops after harvesting.
 		harvesterReplants = true
+		#.
+		#[in Bytes]
+		#[0 to disable this limit]
+		#Maximum amount of data a contraption can have before it can't be synced with players.
+		#Un-synced contraptions will not be visible and will not have collision.
+		#Range: > 0
+		maxDataSize = 2000000
+		#.
+		#Whether minecart contraptions can be picked up in survival mode.
+		survivalContraptionPickup = true
 
 	[kinetics.stressValues]
 
@@ -419,10 +429,6 @@ limitAdventureMode = true
 		#Range: > 1
 		schematicannonDelay = 10
 		#.
-		#Amount of block positions per tick scanned by a running cannon. Higher => Faster
-		#Range: > 1
-		schematicannonSkips = 10
-		#.
 		#% of Schematicannon's Fuel filled by 1 Gunpowder.
 		#Range: 0.0 ~ 100.0
 		schematicannonGunpowderWorth = 20.0
@@ -481,6 +487,10 @@ limitAdventureMode = true
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	manualTrainSpeedModifier = 0.75
+	#.
+	#Maximum length of track that can be placed as one batch or turn.
+	#Range: 16 ~ 128
+	maxTrackPlacementLength = 32
 
 	#.
 	#Standard Trains
