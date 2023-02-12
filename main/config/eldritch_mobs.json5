@@ -1,0 +1,195 @@
+{
+	"EliteSpawnRates": 0.013,
+	"UltraSpawnRates": 0.012,
+	"EldritchSpawnRates": 0.01,
+	"EliteHealthMultiplier": 5.0,
+	"UltraHealthMultiplier": 7.5,
+	"EldritchHealthMultiplier": 12.0,
+	"EliteXpMultiplier": 4,
+	"UltraXpMultiplier": 8,
+	"EldritchXpMultiplier": 12,
+	"EliteMinModifiers": 3,
+	"UltraMinModifiers": 4,
+	"EldritchMinModifiers": 7,
+	"EliteMaxModifiers": 4,
+	"UltraMaxModifiers": 7,
+	"EldritchMaxModifiers": 9,
+	// Prevent named mobs from becoming Elite, Ultra, and Eldritch
+	"ignoreNamedMobs": true,
+	// Turn off titles for mobs
+	"turnOffTitles": false,
+	// Turn off boss bars
+	"turnOffBossBars": true,
+	// Boss bars appears when placing crosshair on buffed mob
+	"crosshairBossBars": true,
+	// Buffed mobs are highlighted after being damaged
+	"turnOnGlowingMobs": true,
+	// Turn off loot for buffed mobs
+	"disableLootDrops": false,
+	// If true, buffed mobs only drop loot when killed by players
+	"onlyDropLootIfKilledByPlayers": true,
+	// Buffed mobs also drop the loot of the tier below them + the loot of their tier.
+	"combinedLootDrop": false,
+	// Buffed mobs have generic titles w/o abilities
+	"genericTitles": true,
+	"alchemistConfig": {
+		"name": "Alchemist",
+		"disabled": false,
+		"cooldown": 550,
+		"useStrongHealing": false,
+		"useStrongHarming": false
+	},
+	"berserkConfig": {
+		"name": "Berserk",
+		"disabled": false,
+		"amplifier": 2
+	},
+	"blindingConfig": {
+		"name": "Blinding",
+		"disabled": false,
+		"cooldown": 400,
+		"duration": 80,
+		"amplifier": 1
+	},
+	"burningConfig": {
+		"name": "Burning",
+		"disabled": false,
+		"cooldown": 600,
+		"fireDuration": 5
+	},
+	"cloakedConfig": {
+		"name": "Cloaked",
+		"disabled": true
+	},
+	"deflectorConfig": {
+		"name": "Deflector",
+		"disabled": false
+	},
+	"drainingConfig": {
+		"name": "Draining",
+		"disabled": false,
+		"cooldown": 400,
+		"duration": 125,
+		"amplifier": 1
+	},
+	"drowningConfig": {
+		"name": "Drowning",
+		"disabled": false,
+		"drowningDamage": 0.009999999776482582,
+		"waterBreathingDuration": 100
+	},
+	"duplicatorConfig": {
+		"name": "Duplicator",
+		"disabled": true,
+		"cooldown": 3000
+	},
+	"enderConfig": {
+		"name": "Ender",
+		"disabled": false
+	},
+	"ghastlyConfig": {
+		"name": "Ghastly",
+		"disabled": false,
+		"cooldown": 700,
+		"fireballPower": 2
+	},
+	"gravityConfig": {
+		"name": "Gravity",
+		"disabled": true,
+		"cooldown": 500
+	},
+	"lethargicConfig": {
+		"name": "Lethargic",
+		"disabled": true,
+		"cooldown": 400,
+		"duration": 100,
+		"amplifier": 1
+	},
+	"lifestealConfig": {
+		"name": "Lifesteal",
+		"disabled": false,
+		"lifestealHealProportion": 0.11999999
+	},
+	"regeneratingConfig": {
+		"name": "Regenerating",
+		"disabled": true,
+		"healAmount": 0.005000000353902578
+	},
+	"rustConfig": {
+		"name": "Rust",
+		"disabled": false,
+		"equipmentDamage": 25
+	},
+	"resistantConfig": {
+		"name": "Resistant",
+		"disabled": false,
+		"amplifier": 1
+	},
+	"starvingConfig": {
+		"name": "Starving",
+		"disabled": false,
+		"cooldown": 500,
+		"duration": 160,
+		"amplifier": 1
+	},
+	"stormyConfig": {
+		"name": "Stormy",
+		"disabled": false,
+		"cooldown": 1000
+	},
+	"speedsterConfig": {
+		"name": "Speedster",
+		"disabled": false,
+		"amplifier": 2
+	},
+	"sprinterConfig": {
+		"name": "Sprinter",
+		"disabled": false,
+		"cooldown": 500,
+		"duration": 150,
+		"amplifier": 3
+	},
+	"thornyConfig": {
+		"name": "Thorny",
+		"disabled": false,
+		"thornyReturnDamage": 0.205555999
+	},
+	"toxicConfig": {
+		"name": "Toxic",
+		"disabled": false,
+		"duration": 100,
+		"amplifier": 2
+	},
+	"undyingConfig": {
+		"name": "Undying",
+		"disabled": true,
+		"regenerationDuration": 500,
+		"regenerationAmplifier": 1,
+		"absorptionDuration": 1000,
+		"absorptionAmplifier": 4,
+		"fireResistanceDuration": 600
+	},
+	"weaknessConfig": {
+		"name": "Weakness",
+		"disabled": false,
+		"cooldown": 400,
+		"duration": 130,
+		"amplifier": 1
+	},
+	"webslingingConfig": {
+		"name": "Webslinging",
+		"disabled": false,
+		"cooldown": 600
+	},
+	"witheringConfig": {
+		"name": "Withering",
+		"disabled": false,
+		"duration": 90,
+		"amplifier": 1
+	},
+	"yeeterConfig": {
+		"name": "Yeeter",
+		"disabled": false,
+		"yeetAmount": 4.75
+	}
+}
