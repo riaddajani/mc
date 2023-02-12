@@ -2,11 +2,14 @@
 	// Can use the following tags as repair ingredient -- minecraft:planks, minecraft:stone_crafting_materials. Other tags do not work.
 	"swordStats": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SWORD_KATANA": {
 			"material": "iron",
 			"damage": 1,
 			"attackSpeed": -1.5,
 =======
+=======
+>>>>>>> Stashed changes
 		"SWORD_DARK_KATANA": {
 			"material": "netherite",
 			"damage": 2,
@@ -25,35 +28,48 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SWORD_MECHANIZED_SAWBLADE": {
 			"material": "diamond",
 			"damage": 3,
 			"attackSpeed": -2.4000000953674316,
 =======
+=======
+>>>>>>> Stashed changes
 		"SWORD_KATANA": {
 			"material": "iron",
 			"damage": 1,
 			"attackSpeed": -1.5,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:blaze_rod"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SWORD_HAWKBRAND": {
 			"material": "iron",
 			"damage": 5,
 			"attackSpeed": -2.0,
 =======
+=======
+>>>>>>> Stashed changes
 		"SWORD_BROKEN_SAWBLADE": {
 			"material": "iron",
 			"damage": 3,
 			"attackSpeed": -2.4000000953674316,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"SWORD_BROKEN_SAWBLADE": {
 			"material": "iron",
@@ -65,14 +81,23 @@
 			"damage": 4,
 			"attackSpeed": -3.0,
 >>>>>>> Stashed changes
+=======
+		"SWORD_BROADSWORD": {
+			"material": "iron",
+			"damage": 4,
+			"attackSpeed": -3.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SWORD_CORAL_BLADE": {
 			"material": "iron",
 =======
+=======
+>>>>>>> Stashed changes
 		"SWORD_OBSIDIAN_CLAYMORE": {
 			"material": "netherite",
 			"damage": 6,
@@ -91,7 +116,11 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SWORD_CUTLASS": {
+=======
+		"SWORD_CORAL_BLADE": {
+>>>>>>> Stashed changes
 =======
 		"SWORD_CORAL_BLADE": {
 >>>>>>> Stashed changes
@@ -102,6 +131,7 @@
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"SWORD_SPONGE_STRIKER": {
 			"material": "diamond",
@@ -115,6 +145,12 @@
 			"material": "netherite",
 			"damage": 8,
 			"attackSpeed": -3.0,
+=======
+		"SWORD_CUTLASS": {
+			"material": "iron",
+			"damage": 3,
+			"attackSpeed": -2.700000047683716,
+>>>>>>> Stashed changes
 =======
 		"SWORD_CUTLASS": {
 			"material": "iron",
@@ -139,12 +175,12 @@
 				"minecraft:diamond"
 			]
 		},
-		"SWORD_SINISTER": {
-			"material": "iron",
-			"damage": 5,
-			"attackSpeed": -2.0,
+		"SWORD_HEARTSTEALER": {
+			"material": "diamond",
+			"damage": 4,
+			"attackSpeed": -3.0,
 			"repairIngredient": [
-				"minecraft:iron_ingot"
+				"minecraft:diamond"
 			]
 		},
 <<<<<<< Updated upstream
@@ -163,6 +199,17 @@
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
+=======
+		"SWORD_RAPIER": {
+			"material": "iron",
+			"damage": 0,
+			"attackSpeed": -0.8999999761581421,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+>>>>>>> Stashed changes
 		"SWORD_IRON_SWORD_VAR": {
 			"material": "iron",
 			"damage": 3,
@@ -177,6 +224,9 @@
 			"attackSpeed": -3.0,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			]
 		},
@@ -184,6 +234,7 @@
 			"material": "iron",
 			"damage": 5,
 			"attackSpeed": -2.0,
+<<<<<<< Updated upstream
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
@@ -195,6 +246,10 @@
 			"attackSpeed": -3.0,
 			"repairIngredient": [
 				"minecraft:diamond"
+=======
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+>>>>>>> Stashed changes
 			]
 		},
 		"SWORD_NAMELESS_BLADE": {
@@ -214,6 +269,9 @@
 			"material": "iron",
 			"damage": 5,
 			"attackSpeed": -3.0,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
@@ -244,6 +302,7 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SWORD_CLAYMORE": {
 			"material": "iron",
 			"damage": 5,
@@ -278,20 +337,53 @@
 			"damage": 5,
 			"attackSpeed": -2.0,
 >>>>>>> Stashed changes
+=======
+		"SWORD_HAWKBRAND": {
+			"material": "iron",
+			"damage": 5,
+			"attackSpeed": -2.0,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"SWORD_FREEZING_FOIL": {
+			"material": "iron",
+			"damage": 0,
+			"attackSpeed": -0.8999999761581421,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 		"SWORD_MASTERS_KATANA": {
 			"material": "diamond",
 			"damage": 1,
 			"attackSpeed": -1.100000023841858,
 			"repairIngredient": [
 				"minecraft:diamond"
+<<<<<<< Updated upstream
 			]
 		},
 		"SWORD_BROADSWORD": {
+=======
+			]
+		},
+		"SWORD_MECHANIZED_SAWBLADE": {
+			"material": "diamond",
+			"damage": 3,
+			"attackSpeed": -2.4000000953674316,
+			"repairIngredient": [
+				"minecraft:blaze_rod"
+			]
+		}
+	},
+	"axeStats": {
+		"AXE_AXE": {
+>>>>>>> Stashed changes
 			"material": "iron",
 			"damage": 4,
 			"attackSpeed": -3.0,
@@ -320,6 +412,7 @@
 				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
 		"SWORD_MECHANIZED_SAWBLADE": {
 			"material": "diamond",
 			"damage": 3,
@@ -334,14 +427,23 @@
 		"AXE_HIGHLAND": {
 			"material": "iron",
 			"damage": 6,
+=======
+		"AXE_ENCRUSTED_ANCHOR": {
+			"material": "diamond",
+			"damage": 5,
+>>>>>>> Stashed changes
 			"attackSpeed": -3.0999999046325684,
 			"repairIngredient": [
-				"minecraft:iron_ingot"
+				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
 		"AXE_AXE": {
+=======
+		"AXE_HIGHLAND": {
+>>>>>>> Stashed changes
 			"material": "iron",
 			"damage": 6,
 			"attackSpeed": -3.0999999046325684,
@@ -349,6 +451,7 @@
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 		"AXE_FIREBRAND": {
 			"material": "diamond",
 			"damage": 5,
@@ -363,9 +466,14 @@
 		"AXE_ENCRUSTED_ANCHOR": {
 			"material": "diamond",
 			"damage": 5,
+=======
+		"AXE_ANCHOR": {
+			"material": "iron",
+			"damage": 6,
+>>>>>>> Stashed changes
 			"attackSpeed": -3.0999999046325684,
 			"repairIngredient": [
-				"minecraft:diamond"
+				"minecraft:iron_ingot"
 			]
 		},
 		"AXE_HIGHLAND": {
@@ -414,11 +522,14 @@
 	},
 	"daggerStats": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"DAGGER_VOID_TOUCHED_BLADE": {
 			"material": "diamond",
 			"damage": 4,
 			"attackSpeed": -1.2000000476837158,
 =======
+=======
+>>>>>>> Stashed changes
 		"DAGGER_TEMPEST_KNIFE": {
 			"material": "iron",
 			"damage": 2,
@@ -429,15 +540,19 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"DAGGER_THE_END": {
 			"material": "netherite",
 			"damage": 4,
 			"attackSpeed": -1.2000000476837158,
 =======
+=======
+>>>>>>> Stashed changes
 		"DAGGER_FANGS_OF_FROST": {
 			"material": "iron",
 			"damage": 1,
 			"attackSpeed": -1.0,
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:netherite_scrap"
@@ -455,19 +570,29 @@
 			"material": "diamond",
 			"damage": 3,
 			"attackSpeed": -1.2999999523162842,
+=======
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"DAGGER_RESOLUTE_TEMPEST_KNIFE": {
 			"material": "iron",
+=======
+		"DAGGER_CHILL_GALE_KNIFE": {
+			"material": "diamond",
+>>>>>>> Stashed changes
 			"damage": 3,
 			"attackSpeed": -1.2999999523162842,
 			"repairIngredient": [
-				"minecraft:iron_ingot"
+				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		"DAGGER_SHEAR_DAGGER": {
@@ -495,9 +620,15 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"DAGGER_TEMPEST_KNIFE": {
 			"material": "iron",
 			"damage": 2,
+=======
+		"DAGGER_DAGGER": {
+			"material": "iron",
+			"damage": 1,
+>>>>>>> Stashed changes
 =======
 		"DAGGER_DAGGER": {
 			"material": "iron",
@@ -525,6 +656,7 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"DAGGER_DAGGER": {
 			"material": "iron",
 			"damage": 1,
@@ -532,6 +664,8 @@
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 =======
+=======
+>>>>>>> Stashed changes
 		"DAGGER_THE_BEGINNING": {
 			"material": "netherite",
 			"damage": 4,
@@ -547,6 +681,14 @@
 			"repairIngredient": [
 				"minecraft:diamond"
 >>>>>>> Stashed changes
+			]
+		},
+		"DAGGER_RESOLUTE_TEMPEST_KNIFE": {
+			"material": "iron",
+			"damage": 3,
+			"attackSpeed": -1.2999999523162842,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
 			]
 		},
 		"DAGGER_RESOLUTE_TEMPEST_KNIFE": {
@@ -586,6 +728,7 @@
 	},
 	"hammerStats": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"HAMMER_BONECLUB": {
 			"material": "iron",
 			"damage": 5,
@@ -594,6 +737,8 @@
 				"minecraft:bone_block"
 			]
 		},
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		"HAMMER_MACE": {
@@ -621,7 +766,10 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 		"HAMMER_FLAIL": {
 			"material": "iron",
 			"damage": 5,
@@ -638,6 +786,9 @@
 				"minecraft:netherite_scrap"
 			]
 		},
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		"HAMMER_GRAVITY": {
 			"material": "diamond",
@@ -656,6 +807,7 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"HAMMER_FLAIL": {
 			"material": "iron",
 			"damage": 5,
@@ -666,6 +818,10 @@
 		},
 		"HAMMER_STORMLANDER": {
 			"material": "diamond",
+=======
+		"HAMMER_BONECLUB": {
+			"material": "iron",
+>>>>>>> Stashed changes
 =======
 		"HAMMER_BONECLUB": {
 			"material": "iron",
@@ -692,6 +848,7 @@
 		},
 		"GAUNTLET_SOUL_FISTS": {
 			"material": "netherite",
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 			"damage": 0,
 			"attackSpeed": -1.399999976158142,
@@ -701,18 +858,29 @@
 		},
 		"GAUNTLET_MAULERS": {
 			"material": "diamond",
+=======
+>>>>>>> Stashed changes
 			"damage": 0,
 			"attackSpeed": -1.399999976158142,
 			"repairIngredient": [
-				"minecraft:diamond"
+				"minecraft:netherite_scrap"
 			]
 		},
+<<<<<<< Updated upstream
 		"GAUNTLET_GAUNTLET": {
 			"material": "iron",
 			"damage": 0,
 			"attackSpeed": -1.399999976158142,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
+=======
+		"GAUNTLET_MAULERS": {
+			"material": "diamond",
+			"damage": 0,
+			"attackSpeed": -1.399999976158142,
+			"repairIngredient": [
+				"minecraft:diamond"
+>>>>>>> Stashed changes
 			]
 		}
 	},
@@ -757,6 +925,7 @@
 			"attackSpeed": -2.25,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
+<<<<<<< Updated upstream
 			]
 		},
 <<<<<<< Updated upstream
@@ -770,6 +939,11 @@
 		},
 		"SICKLE_SKULL_SCYTHE": {
 =======
+		"SICKLE_FROST_SCYTHE": {
+>>>>>>> Stashed changes
+=======
+			]
+		},
 		"SICKLE_FROST_SCYTHE": {
 >>>>>>> Stashed changes
 			"material": "diamond",
@@ -809,9 +983,12 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"PICK_MOUNTAINEER_PICK": {
 			"material": "iron",
 =======
+=======
+>>>>>>> Stashed changes
 		"PICK_HAILING_PINNACLE": {
 			"material": "diamond",
 >>>>>>> Stashed changes
@@ -822,9 +999,12 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"PICK_HAILING_PINNACLE": {
 			"material": "diamond",
 =======
+=======
+>>>>>>> Stashed changes
 		"PICK_MOUNTAINEER_PICK": {
 			"material": "iron",
 >>>>>>> Stashed changes
@@ -847,6 +1027,7 @@
 	"extraAttackReachOfGlaives": 1.0,
 	"glaiveStats": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SPEAR_GLAIVE": {
 			"material": "iron",
 			"damage": 3,
@@ -855,6 +1036,8 @@
 				"minecraft:iron_ingot"
 			]
 		},
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		"SPEAR_CACKLING_BROOM": {
@@ -877,6 +1060,14 @@
 			"material": "iron",
 			"damage": 5,
 			"attackSpeed": -2.4000000953674316,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"SPEAR_VENOM_GLAIVE": {
+			"material": "iron",
+			"damage": 5,
+			"attackSpeed": -2.5,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
@@ -922,10 +1113,13 @@
 	"extraAttackReachOfStaves": 1.0,
 	"staffStats": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"STAFF_BATTLESTAFF_OF_TERROR": {
 			"material": "iron",
 			"damage": 0,
 =======
+=======
+>>>>>>> Stashed changes
 		"STAFF_GROWING_STAFF": {
 			"material": "iron",
 			"damage": 1,
@@ -944,9 +1138,15 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"STAFF_GROWING_STAFF": {
 			"material": "iron",
 			"damage": 1,
+=======
+		"STAFF_BATTLESTAFF_OF_TERROR": {
+			"material": "iron",
+			"damage": 0,
+>>>>>>> Stashed changes
 =======
 		"STAFF_BATTLESTAFF_OF_TERROR": {
 			"material": "iron",
@@ -979,6 +1179,7 @@
 		}
 	},
 	"bowStats": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"BOW_HUNTERS_PROMISE": {
 			"material": "iron",
@@ -1083,10 +1284,17 @@
 			"drawSpeed": 15,
 			"range": 13.0,
 >>>>>>> Stashed changes
+=======
+		"BOW_TWIN_BOW": {
+			"material": "diamond",
+			"drawSpeed": 12,
+			"range": 10.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
 		"BOW_HUNTING_BOW": {
 			"material": "iron",
 			"drawSpeed": 16,
@@ -1106,12 +1314,30 @@
 			"drawSpeed": 17,
 			"range": 14.0,
 >>>>>>> Stashed changes
+=======
+		"BOW_PINK_SCOUNDREL": {
+			"material": "diamond",
+			"drawSpeed": 17,
+			"range": 13.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"BOW_BURST_GALE_BOW": {
+=======
+		"BOW_MASTERS_BOW": {
+			"material": "iron",
+			"drawSpeed": 17,
+			"range": 10.0,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"BOW_SHIVERING_BOW": {
+>>>>>>> Stashed changes
 			"material": "diamond",
 			"drawSpeed": 12,
 			"range": 16.0,
@@ -1122,6 +1348,118 @@
 		"BOW_TWISTING_VINE_BOW": {
 			"material": "iron",
 			"drawSpeed": 15,
+			"range": 10.0,
+=======
+		"BOW_WEB_BOW": {
+			"material": "diamond",
+			"drawSpeed": 15,
+			"range": 12.0,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+<<<<<<< Updated upstream
+		"BOW_PHANTOM_BOW": {
+			"material": "diamond",
+			"drawSpeed": 20,
+			"range": 14.0,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+		"BOW_BUBBLE_BURSTER": {
+			"material": "diamond",
+			"drawSpeed": 15,
+			"range": 13.0,
+=======
+		"BOW_TWISTING_VINE_BOW": {
+			"material": "iron",
+			"drawSpeed": 15,
+			"range": 10.0,
+>>>>>>> Stashed changes
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+<<<<<<< Updated upstream
+		"BOW_SNOW_BOW": {
+=======
+		"BOW_HUNTING_BOW": {
+>>>>>>> Stashed changes
+			"material": "iron",
+			"drawSpeed": 16,
+			"range": 11.0,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+<<<<<<< Updated upstream
+		"BOW_BURST_GALE_BOW": {
+			"material": "diamond",
+			"drawSpeed": 12,
+			"range": 16.0,
+>>>>>>> Stashed changes
+=======
+		"BOW_GREEN_MENACE": {
+			"material": "diamond",
+			"drawSpeed": 17,
+			"range": 13.0,
+>>>>>>> Stashed changes
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+		"BOW_SNOW_BOW": {
+			"material": "iron",
+			"drawSpeed": 16,
+			"range": 11.0,
+=======
+		"BOW_SABREWING": {
+			"material": "diamond",
+			"drawSpeed": 10,
+			"range": 13.0,
+>>>>>>> Stashed changes
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+<<<<<<< Updated upstream
+		"BOW_PINK_SCOUNDREL": {
+=======
+		"BOW_WIND_BOW": {
+>>>>>>> Stashed changes
+=======
+		"BOW_WINTERS_TOUCH": {
+			"material": "diamond",
+			"drawSpeed": 15,
+			"range": 13.0,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+		"BOW_ELITE_POWER_BOW": {
+			"material": "iron",
+			"drawSpeed": 20,
+			"range": 15.0,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"BOW_NOCTURNAL_BOW": {
+>>>>>>> Stashed changes
+			"material": "diamond",
+			"drawSpeed": 17,
+			"range": 14.0,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+<<<<<<< Updated upstream
+		"BOW_TRICKBOW": {
+			"material": "diamond",
+			"drawSpeed": 12,
 			"range": 10.0,
 =======
 		"BOW_WEB_BOW": {
@@ -1144,70 +1482,27 @@
 			"material": "diamond",
 			"drawSpeed": 15,
 			"range": 13.0,
-			"repairIngredient": [
-				"minecraft:diamond"
-			]
-		},
-		"BOW_SNOW_BOW": {
-			"material": "iron",
-			"drawSpeed": 16,
-			"range": 11.0,
-			"repairIngredient": [
-				"minecraft:iron_ingot"
-			]
-		},
-		"BOW_BURST_GALE_BOW": {
-			"material": "diamond",
-			"drawSpeed": 12,
-			"range": 16.0,
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
 <<<<<<< Updated upstream
+		"BOW_TRICKBOW": {
+			"material": "diamond",
+			"drawSpeed": 12,
+			"range": 10.0,
+=======
 		"BOW_SNOW_BOW": {
 			"material": "iron",
 			"drawSpeed": 16,
 			"range": 11.0,
-=======
-		"BOW_SABREWING": {
-			"material": "diamond",
-			"drawSpeed": 10,
-			"range": 13.0,
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
 <<<<<<< Updated upstream
-		"BOW_PINK_SCOUNDREL": {
-=======
-		"BOW_WIND_BOW": {
->>>>>>> Stashed changes
-			"material": "diamond",
-			"drawSpeed": 11,
-			"range": 15.0,
-			"repairIngredient": [
-				"minecraft:diamond"
-			]
-		},
-		"BOW_TRICKBOW": {
-			"material": "diamond",
-			"drawSpeed": 12,
-			"range": 10.0,
-			"repairIngredient": [
-				"minecraft:diamond"
-			]
-		},
-		"BOW_TRICKBOW": {
-			"material": "diamond",
-			"drawSpeed": 12,
-			"range": 10.0,
-			"repairIngredient": [
-				"minecraft:diamond"
-			]
-		},
 <<<<<<< Updated upstream
 		"BOW_ECHO_OF_THE_VALLEY": {
 			"material": "diamond",
@@ -1219,10 +1514,17 @@
 			"drawSpeed": 15,
 			"range": 10.0,
 >>>>>>> Stashed changes
+=======
+		"BOW_BURST_GALE_BOW": {
+			"material": "diamond",
+			"drawSpeed": 12,
+			"range": 16.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"BOW_WINTERS_TOUCH": {
 			"material": "diamond",
@@ -1233,6 +1535,28 @@
 			"material": "iron",
 			"drawSpeed": 15,
 			"range": 12.0,
+>>>>>>> Stashed changes
+=======
+		"BOW_SABREWING": {
+			"material": "diamond",
+			"drawSpeed": 10,
+			"range": 13.0,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+		"BOW_WIND_BOW": {
+			"material": "diamond",
+			"drawSpeed": 11,
+			"range": 15.0,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+		"BOW_TRICKBOW": {
+			"material": "diamond",
+			"drawSpeed": 12,
+			"range": 10.0,
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
@@ -1262,26 +1586,47 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"BOW_BUBBLE_BOW": {
 			"material": "iron",
 			"drawSpeed": 15,
 			"range": 12.0,
+=======
+		"BOW_WEEPING_VINE_BOW": {
+			"material": "iron",
+			"drawSpeed": 15,
+			"range": 10.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 		"BOW_ELITE_POWER_BOW": {
 			"material": "iron",
 			"drawSpeed": 20,
 			"range": 15.0,
+=======
+		"BOW_BUBBLE_BOW": {
+			"material": "iron",
+			"drawSpeed": 15,
+			"range": 12.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 		"BOW_NOCTURNAL_BOW": {
 			"material": "diamond",
 			"drawSpeed": 17,
 			"range": 14.0,
+=======
+		"BOW_ECHO_OF_THE_VALLEY": {
+			"material": "diamond",
+			"drawSpeed": 11,
+			"range": 16.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
@@ -1299,6 +1644,7 @@
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 		"BOW_VOID_BOW": {
 			"material": "diamond",
 			"drawSpeed": 15,
@@ -1335,10 +1681,25 @@
 			"drawSpeed": 16,
 			"range": 12.0,
 >>>>>>> Stashed changes
+=======
+		"BOW_POWER_BOW": {
+			"material": "iron",
+			"drawSpeed": 20,
+			"range": 14.0,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+		"BOW_VOID_BOW": {
+			"material": "diamond",
+			"drawSpeed": 15,
+			"range": 15.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:bone"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"BOW_SHIVERING_BOW": {
 			"material": "diamond",
@@ -1378,16 +1739,45 @@
 			"material": "iron",
 			"drawSpeed": 20,
 			"range": 14.0,
+=======
+		"BOW_BONEBOW": {
+			"material": "stone",
+			"drawSpeed": 16,
+			"range": 12.0,
+			"repairIngredient": [
+				"minecraft:bone"
+			]
+		},
+		"BOW_ANCIENT_BOW": {
+			"material": "netherite",
+			"drawSpeed": 14,
+			"range": 18.0,
+			"repairIngredient": [
+				"minecraft:netherite_scrap"
+			]
+		},
+		"BOW_SOUL_BOW": {
+			"material": "iron",
+			"drawSpeed": 14,
+			"range": 10.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 		"BOW_TWIN_BOW": {
 			"material": "diamond",
 			"drawSpeed": 12,
 			"range": 10.0,
+=======
+		"BOW_CALL_OF_THE_VOID": {
+			"material": "netherite",
+			"drawSpeed": 15,
+			"range": 16.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
-				"minecraft:diamond"
+				"minecraft:netherite_scrap"
 			]
 		}
 	},
@@ -1401,7 +1791,11 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"BOW_SHORTBOW": {
+=======
+		"BOW_MECHANICAL_SHORTBOW": {
+>>>>>>> Stashed changes
 =======
 		"BOW_MECHANICAL_SHORTBOW": {
 >>>>>>> Stashed changes
@@ -1413,7 +1807,11 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"BOW_LOVE_SPELL_BOW": {
+=======
+		"BOW_PURPLE_STORM": {
+>>>>>>> Stashed changes
 =======
 		"BOW_PURPLE_STORM": {
 >>>>>>> Stashed changes
@@ -1461,6 +1859,7 @@
 	},
 	"crossbowStats": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_CORRUPTED_CROSSBOW": {
 			"material": "netherite",
 			"drawSpeed": 22,
@@ -1499,12 +1898,55 @@
 =======
 		"CROSSBOW_HARPOON_CROSSBOW": {
 			"material": "iron",
+=======
+		"CROSSBOW_HARP_CROSSBOW": {
+			"material": "iron",
+>>>>>>> Stashed changes
 			"drawSpeed": 28,
-			"range": 11.0,
+			"range": 8.600000381469727,
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+		"CROSSBOW_VOIDCALLER_CROSSBOW": {
+			"material": "diamond",
+			"drawSpeed": 26,
+			"range": 12.5,
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+<<<<<<< Updated upstream
+		"CROSSBOW_CORRUPTED_CROSSBOW": {
+			"material": "netherite",
+			"drawSpeed": 22,
+			"range": 14.0,
+=======
+		"CROSSBOW_BURST_CROSSBOW": {
+			"material": "iron",
+			"drawSpeed": 28,
+			"range": 8.0,
+>>>>>>> Stashed changes
+			"repairIngredient": [
+				"minecraft:netherite_scrap"
+			]
+		},
+		"CROSSBOW_HARPOON_CROSSBOW": {
+			"material": "iron",
+			"drawSpeed": 28,
+<<<<<<< Updated upstream
+			"range": 9.199999809265137,
+>>>>>>> Stashed changes
+=======
+			"range": 11.0,
+>>>>>>> Stashed changes
+			"repairIngredient": [
+				"minecraft:iron_ingot"
+			]
+		},
+<<<<<<< Updated upstream
+		"CROSSBOW_VOIDCALLER_CROSSBOW": {
+=======
 		"CROSSBOW_CORRUPTED_CROSSBOW": {
 			"material": "netherite",
 			"drawSpeed": 22,
@@ -1517,12 +1959,12 @@
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 9.199999809265137,
->>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
-		"CROSSBOW_VOIDCALLER_CROSSBOW": {
+		"CROSSBOW_SLAYER_CROSSBOW": {
+>>>>>>> Stashed changes
 			"material": "diamond",
 			"drawSpeed": 26,
 <<<<<<< Updated upstream
@@ -1537,26 +1979,36 @@
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 8.0,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_BABY_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 23,
 			"range": 7.199999809265137,
 =======
+=======
+>>>>>>> Stashed changes
 		"CROSSBOW_COG_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 8.399999618530273,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"CROSSBOW_SOUL_HUNTER_CROSSBOW": {
 			"material": "diamond",
@@ -1568,10 +2020,17 @@
 			"drawSpeed": 24,
 			"range": 14.0,
 >>>>>>> Stashed changes
+=======
+		"CROSSBOW_NAUTICAL_CROSSBOW": {
+			"material": "diamond",
+			"drawSpeed": 24,
+			"range": 14.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"CROSSBOW_AUTO_CROSSBOW": {
 			"material": "iron",
@@ -1583,12 +2042,22 @@
 			"drawSpeed": 23,
 			"range": 7.199999809265137,
 >>>>>>> Stashed changes
+=======
+		"CROSSBOW_BABY_CROSSBOW": {
+			"material": "iron",
+			"drawSpeed": 23,
+			"range": 7.199999809265137,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_SCATTER_CROSSBOW": {
+=======
+		"CROSSBOW_AUTO_CROSSBOW": {
+>>>>>>> Stashed changes
 =======
 		"CROSSBOW_AUTO_CROSSBOW": {
 >>>>>>> Stashed changes
@@ -1600,6 +2069,7 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_SOUL_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 28,
@@ -1610,10 +2080,17 @@
 			"drawSpeed": 20,
 			"range": 8.199999809265137,
 >>>>>>> Stashed changes
+=======
+		"CROSSBOW_RAPID_CROSSBOW": {
+			"material": "iron",
+			"drawSpeed": 20,
+			"range": 8.199999809265137,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"CROSSBOW_HEAVY_CROSSBOW": {
 			"material": "iron",
@@ -1627,6 +2104,9 @@
 =======
 		"CROSSBOW_FIREBOLT_THROWER": {
 >>>>>>> Stashed changes
+=======
+		"CROSSBOW_FIREBOLT_THROWER": {
+>>>>>>> Stashed changes
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 7.900000095367432,
@@ -1634,6 +2114,7 @@
 				"minecraft:iron_ingot"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"CROSSBOW_SPELLBOUND_CROSSBOW": {
 			"material": "iron",
@@ -1645,16 +2126,25 @@
 			"drawSpeed": 28,
 			"range": 11.0,
 >>>>>>> Stashed changes
+=======
+		"CROSSBOW_SOUL_HUNTER_CROSSBOW": {
+			"material": "diamond",
+			"drawSpeed": 28,
+			"range": 11.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"CROSSBOW_RAPID_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 20,
 			"range": 8.199999809265137,
 =======
+=======
+>>>>>>> Stashed changes
 		"CROSSBOW_SCATTER_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 28,
@@ -1665,15 +2155,21 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_VEILED_CROSSBOW": {
 			"material": "diamond",
 			"drawSpeed": 22,
 			"range": 14.5,
 =======
+=======
+>>>>>>> Stashed changes
 		"CROSSBOW_HEAVY_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 8.0,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
@@ -1688,6 +2184,7 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_DOOM_CROSSBOW": {
 			"material": "netherite",
 			"drawSpeed": 26,
@@ -1730,12 +2227,22 @@
 			"drawSpeed": 28,
 			"range": 8.0,
 >>>>>>> Stashed changes
+=======
+		"CROSSBOW_SOUL_CROSSBOW": {
+			"material": "iron",
+			"drawSpeed": 28,
+			"range": 8.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_FIREBOLT_THROWER": {
+=======
+		"CROSSBOW_EXPLODING_CROSSBOW": {
+>>>>>>> Stashed changes
 =======
 		"CROSSBOW_EXPLODING_CROSSBOW": {
 >>>>>>> Stashed changes
@@ -1755,10 +2262,17 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_FERAL_SOUL_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 9.199999809265137,
+=======
+		"CROSSBOW_LIGHTNING_HARP_CROSSBOW": {
+			"material": "diamond",
+			"drawSpeed": 28,
+			"range": 14.199999809265137,
+>>>>>>> Stashed changes
 =======
 		"CROSSBOW_LIGHTNING_HARP_CROSSBOW": {
 			"material": "diamond",
@@ -1793,15 +2307,20 @@
 			]
 		},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"CROSSBOW_SLAYER_CROSSBOW": {
 			"material": "diamond",
 			"drawSpeed": 26,
 			"range": 8.800000190734863,
 =======
+=======
+>>>>>>> Stashed changes
 		"CROSSBOW_SHADOW_CROSSBOW": {
 			"material": "diamond",
 			"drawSpeed": 25,
 			"range": 12.0,
+<<<<<<< Updated upstream
+=======
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
@@ -1816,14 +2335,35 @@
 			]
 		},
 <<<<<<< Updated upstream
-		"CROSSBOW_NAUTICAL_CROSSBOW": {
-			"material": "diamond",
+		"CROSSBOW_THE_SLICER": {
+			"material": "iron",
+			"drawSpeed": 28,
+			"range": 10.199999809265137,
+>>>>>>> Stashed changes
+=======
+		"CROSSBOW_DUAL_CROSSBOW": {
+			"material": "iron",
 			"drawSpeed": 24,
-			"range": 14.0,
+			"range": 7.0,
+>>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:diamond"
 			]
 		},
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+		"CROSSBOW_NAUTICAL_CROSSBOW": {
+=======
+		"CROSSBOW_VEILED_CROSSBOW": {
+>>>>>>> Stashed changes
+			"material": "diamond",
+			"drawSpeed": 22,
+			"range": 14.5,
+			"repairIngredient": [
+				"minecraft:diamond"
+			]
+		},
+<<<<<<< Updated upstream
 		"CROSSBOW_THE_SLICER": {
 			"material": "iron",
 			"drawSpeed": 28,
@@ -1859,10 +2399,15 @@
 			"drawSpeed": 28,
 			"range": 8.399999618530273,
 =======
+=======
+>>>>>>> Stashed changes
 		"CROSSBOW_BUTTERFLY_CROSSBOW": {
 			"material": "iron",
 			"drawSpeed": 28,
 			"range": 8.899999618530273,
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			"repairIngredient": [
 				"minecraft:iron_ingot"

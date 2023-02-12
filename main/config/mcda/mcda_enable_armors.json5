@@ -1,6 +1,7 @@
 {
 	"ARMORS_SETS_ENABLED": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"HUNTER": true,
 		"GOURDIAN": true,
 		"SWEET_TOOTH": true,
@@ -83,6 +84,15 @@
 		"CAVE_CRAWLER": true,
 		"PURPLE_MYSTERY": true,
 		"GHOST_KINDLER": true,
+=======
+		"ENTERTAINER": true,
+		"GREEN_MYSTERY": true,
+		"SWEET_TOOTH": true,
+		"CURIOUS": true,
+		"CAVE_CRAWLER": true,
+		"PURPLE_MYSTERY": true,
+		"GHOST_KINDLER": true,
+>>>>>>> Stashed changes
 		"RED_MYSTERY": true,
 		"HUNTER": true,
 		"BEENEST": true,
@@ -150,6 +160,9 @@
 		"SNOW": true,
 		"SHADOW_WALKER": true,
 		"THIEF": true
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 }

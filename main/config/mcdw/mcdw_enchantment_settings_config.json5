@@ -1,6 +1,7 @@
 {
 	"ENABLE_ENCHANTMENT_SETTINGS": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"EXTRA_XP_HEALING": false,
 		"ENABLE_INNATE_ENCHANTMENTS": true,
 		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false,
@@ -8,12 +9,17 @@
 		"ENABLE_OP_ENCHANTMENT_MIXING": false,
 		"SHARED_PAIN_CAN_DAMAGE_USER": false
 =======
+=======
+>>>>>>> Stashed changes
 		"SHARED_PAIN_CAN_DAMAGE_USER": false,
 		"ENABLE_OP_ENCHANTMENT_MIXING": false,
 		"AREA_OF_EFFECT_ENCHANTS_DONT_AFFECT_PLAYERS": true,
 		"ENABLE_INNATE_ENCHANTMENTS": true,
 		"EXTRA_XP_HEALING": false,
 		"LEECHING_CAN_BE_MIXED_WITH_HEALING": false
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	},
 	// ENIGMA_RESONATOR_DIVISOR -> Higher number = lower damage. Default value = 3.25.

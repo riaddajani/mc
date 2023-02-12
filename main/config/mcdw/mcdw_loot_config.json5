@@ -44,6 +44,7 @@
 	},
 	"AXE_SPAWN_RATES": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"AXE_HIGHLAND": 5,
 		"AXE_AXE": 10,
 		"AXE_FIREBRAND": 5,
@@ -67,6 +68,15 @@
 		"AXE_ANCHOR": 10
 	},
 	"DAGGER_SPAWN_RATES": {
+=======
+		"AXE_AXE": 10,
+		"AXE_FIREBRAND": 5,
+		"AXE_ENCRUSTED_ANCHOR": 5,
+		"AXE_HIGHLAND": 5,
+		"AXE_ANCHOR": 10
+	},
+	"DAGGER_SPAWN_RATES": {
+>>>>>>> Stashed changes
 		"DAGGER_TEMPEST_KNIFE": 10,
 		"DAGGER_FANGS_OF_FROST": 5,
 		"DAGGER_CHILL_GALE_KNIFE": 5,
@@ -77,13 +87,19 @@
 		"DAGGER_DAGGER": 10,
 		"DAGGER_MOON": 5,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"DAGGER_THE_BEGINNING": 5,
 		"DAGGER_DAGGER": 10
 =======
+=======
+>>>>>>> Stashed changes
 		"DAGGER_THE_END": 5,
 		"DAGGER_THE_BEGINNING": 5,
 		"DAGGER_VOID_TOUCHED_BLADE": 10,
 		"DAGGER_RESOLUTE_TEMPEST_KNIFE": 5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	},
 	"DOUBLE_AXE_SPAWN_RATES": {
@@ -92,6 +108,7 @@
 		"AXE_CURSED": 5
 	},
 	"GAUNTLET_SPAWN_RATES": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"GAUNTLET_MAULERS": 5,
 		"GAUNTLET_SOUL_FISTS": 5,
@@ -152,17 +169,53 @@
 		"PICK_HOWLING_PICK": 10
 	},
 	"SCYTHE_SPAWN_RATES": {
+=======
+		"GAUNTLET_GAUNTLET": 10,
+		"GAUNTLET_SOUL_FISTS": 5,
+		"GAUNTLET_MAULERS": 5
+	},
+	"GLAIVE_SPAWN_RATES": {
+		"SPEAR_CACKLING_BROOM": 5,
+		"SPEAR_GRAVE_BANE": 5,
+		"SPEAR_GLAIVE": 10,
+		"SPEAR_VENOM_GLAIVE": 5
+	},
+	"HAMMER_SPAWN_RATES": {
+		"HAMMER_MACE": 10,
+		"HAMMER_SUNS_GRACE": 5,
+		"HAMMER_STORMLANDER": 5,
+		"HAMMER_FLAIL": 5,
+		"HAMMER_GREAT_HAMMER": 10,
+		"HAMMER_GRAVITY": 5,
+		"HAMMER_BONE_CUDGEL": 5,
+		"HAMMER_BONECLUB": 10
+	},
+	"PICK_SPAWN_RATES": {
+		"PICK_DIAMOND_PICKAXE_VAR": 10,
+		"PICK_HAILING_PINNACLE": 10,
+		"PICK_MOUNTAINEER_PICK": 10,
+		"PICK_HOWLING_PICK": 10
+	},
+	"SCYTHE_SPAWN_RATES": {
+>>>>>>> Stashed changes
 		"SICKLE_JAILORS_SCYTHE": 10,
 		"SICKLE_SOUL_SCYTHE": 5,
 		"SICKLE_FROST_SCYTHE": 5,
 		"SICKLE_SKULL_SCYTHE": 5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	},
 	"SICKLE_SPAWN_RATES": {
 		"SICKLE_SICKLE": 10,
 		"SICKLE_NIGHTMARES_BITE": 5,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		"SICKLE_SICKLE": 10,
+=======
+		"SICKLE_LAST_LAUGH_GOLD": 5,
+>>>>>>> Stashed changes
 =======
 		"SICKLE_LAST_LAUGH_GOLD": 5,
 >>>>>>> Stashed changes
@@ -179,6 +232,7 @@
 		"SPEAR_FORTUNE": 5
 	},
 	"STAFF_SPAWN_RATES": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"STAFF_BATTLESTAFF_OF_TERROR": 5,
 		"STAFF_BATTLESTAFF": 10,
@@ -224,6 +278,22 @@
 		"SWORD_DIAMOND_SWORD_VAR": 10,
 		"SWORD_HEARTSTEALER": 5,
 		"SWORD_CUTLASS": 10,
+=======
+		"STAFF_GROWING_STAFF": 5,
+		"STAFF_BATTLESTAFF": 10,
+		"STAFF_BATTLESTAFF_OF_TERROR": 5
+	},
+	"SWORD_SPAWN_RATES": {
+		"SWORD_DARK_KATANA": 5,
+		"SWORD_FROST_SLAYER": 5,
+		"SWORD_KATANA": 10,
+		"SWORD_BROKEN_SAWBLADE": 5,
+		"SWORD_BROADSWORD": 10,
+		"SWORD_OBSIDIAN_CLAYMORE": 5,
+		"SWORD_DIAMOND_SWORD_VAR": 10,
+		"SWORD_HEARTSTEALER": 5,
+		"SWORD_CUTLASS": 10,
+>>>>>>> Stashed changes
 		"SWORD_CORAL_BLADE": 10,
 		"SWORD_NAMELESS_BLADE": 5,
 		"SWORD_RAPIER": 10,
@@ -239,6 +309,9 @@
 		"SWORD_FREEZING_FOIL": 5,
 		"SWORD_MASTERS_KATANA": 5,
 		"SWORD_MECHANIZED_SAWBLADE": 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	},
 	"WHIP_SPAWN_RATES": {
@@ -246,6 +319,7 @@
 		"WHIP_VINE_WHIP": 5
 	},
 	"BOW_SPAWN_RATES": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"BOW_HUNTERS_PROMISE": 5,
 		"BOW_SABREWING": 5,
@@ -298,6 +372,28 @@
 		"BOW_TRICKBOW": 10,
 		"BOW_LOST_SOULS": 5,
 		"BOW_HAUNTED_BOW": 5,
+=======
+		"BOW_TWIN_BOW": 5,
+		"BOW_PINK_SCOUNDREL": 5,
+		"BOW_MASTERS_BOW": 5,
+		"BOW_SHIVERING_BOW": 5,
+		"BOW_TWISTING_VINE_BOW": 10,
+		"BOW_HUNTING_BOW": 10,
+		"BOW_GREEN_MENACE": 5,
+		"BOW_WINTERS_TOUCH": 5,
+		"BOW_ELITE_POWER_BOW": 5,
+		"BOW_NOCTURNAL_BOW": 5,
+		"BOW_WEB_BOW": 10,
+		"BOW_PHANTOM_BOW": 10,
+		"BOW_SNOW_BOW": 10,
+		"BOW_BUBBLE_BURSTER": 5,
+		"BOW_BURST_GALE_BOW": 5,
+		"BOW_SABREWING": 5,
+		"BOW_WIND_BOW": 10,
+		"BOW_TRICKBOW": 10,
+		"BOW_LOST_SOULS": 5,
+		"BOW_HAUNTED_BOW": 5,
+>>>>>>> Stashed changes
 		"BOW_WEEPING_VINE_BOW": 10,
 		"BOW_BUBBLE_BOW": 10,
 		"BOW_HUNTERS_PROMISE": 5,
@@ -308,6 +404,9 @@
 		"BOW_ANCIENT_BOW": 0,
 		"BOW_SOUL_BOW": 10,
 		"BOW_CALL_OF_THE_VOID": 5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	},
 	"LONGBOW_SPAWN_RATES": {
@@ -316,6 +415,7 @@
 		"BOW_RED_SNAKE": 5
 	},
 	"SHORTBOW_SPAWN_RATES": {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 		"BOW_PURPLE_STORM": 5,
 		"BOW_SHORTBOW": 10,
@@ -359,6 +459,14 @@
 		"BOW_PURPLE_STORM": 5
 	},
 	"CROSSBOW_SPAWN_RATES": {
+=======
+		"BOW_LOVE_SPELL_BOW": 5,
+		"BOW_MECHANICAL_SHORTBOW": 5,
+		"BOW_SHORTBOW": 10,
+		"BOW_PURPLE_STORM": 5
+	},
+	"CROSSBOW_SPAWN_RATES": {
+>>>>>>> Stashed changes
 		"CROSSBOW_HARP_CROSSBOW": 5,
 		"CROSSBOW_VOIDCALLER_CROSSBOW": 5,
 		"CROSSBOW_BURST_CROSSBOW": 5,
@@ -388,6 +496,9 @@
 		"CROSSBOW_DUAL_CROSSBOW": 5,
 		"CROSSBOW_VEILED_CROSSBOW": 5,
 		"CROSSBOW_BUTTERFLY_CROSSBOW": 5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	},
 	"SHIELD_SPAWN_RATES": {
