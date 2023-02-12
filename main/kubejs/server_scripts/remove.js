@@ -39,13 +39,7 @@ const arrRemove = [
 "byg:lignite_ore",
 "byg:lignite",
 "consistency_plus:copper_nugget",
-"create:crushed_zinc_ore",
-"create:deepslate_zinc_ore",
 "create:extendo_grip",
-"create:raw_zinc_block",
-"create:raw_zinc",
-"create:zinc_ore",
-"createdeco:zinc_sheet",
 "croptosis:feather_meal",
 "croptosis:rotten_pile",
 "darkutils:damage_plate_maim",
@@ -110,10 +104,6 @@ const arrRemove = [
 "indrev:copper_shovel",
 "indrev:copper_sword", 
 "indrev:damage_enhancer",
-"indrev:rancher_mk1",
-"indrev:rancher_mk2",
-"indrev:rancher_mk3",
-"indrev:rancher_mk4",
 "indrev:silver_boots", 
 "indrev:silver_chestplate", 
 "indrev:silver_helmet", 
@@ -129,7 +119,6 @@ const arrRemove = [
 "indrev:slaughter_mk3",
 "indrev:slaughter_mk4",
 "kibe:angel_ring",
-"kibe:chunk_loader",
 "kibe:diamond_kibe",
 "kibe:cursed_lasso",
 "kibe:diamond_lasso",
@@ -226,7 +215,6 @@ const arrRemove = [
 "techreborn:steel_leggings", 
 "things:hades_crystal",
 "things:monocle",
-"things:moss_necklace",
 "twilightforest:uncrafting_table",
 "valley:copper_nugget",
 "archon:combustion_charge",
@@ -404,3 +392,12 @@ ServerEvents.recipes( event => {
   event.remove({id: "autoworkstations:netherite_auto_crafting_table_upgrade"})
   event.remove({id: "autoworkstations:netherite_auto_crafting_table"})
 })
+
+
+// Blacklist
+
+ItemEvents.pickedUp(event => {
+  if (event.item.id == Item.of('soulsweapons:withered_wabbajack')) {
+      event.cancel()
+  }
+});

@@ -32,7 +32,12 @@ const SimplySwordsLootRemove = [
     "simplyswords:runic_tablet",
     "simplyswords:molten_edge",
     "simplyswords:livyatan",
-    "simplyswords:soulrender"
+    "simplyswords:soulrender",
+    "simplyswords:icewhisper",
+    "simplyswords:arcanethyst",
+    "simplyswords:thunderbrand",
+    "simplyswords:slumbering_lichblade",
+    "simplyswords:shadowsting"
 ]
 
 const TYPE_DISABLED_ITEMS = [
@@ -66,10 +71,27 @@ const TYPE_DISABLED_ITEMS = [
     "mcda:blue_mystery_armor_helmet",
     "mcda:blue_mystery_armor_leggings",
     "mcda:blue_mystery_armor_boots",
-    "mcda:blue_mystery_armor_chestplate"
+    "mcda:blue_mystery_armor_chestplate",
+    "farmersdelight:rope"
 ]
 
-const doomBossesLootJS = ['doom:motherdemon','doom:gladiator','doom:iconofsin','doom:arch_maykr', "adventurez:void_shadow", "soulsweapons:returning_knight", "soulsweapons:accursed_lord_boss", "soulsweapons:chaos_monarch", "soulsweapons:draugr_boss"];
+const doomBossesLootJS = [
+    'doom:motherdemon',
+    'doom:gladiator',
+    'doom:iconofsin',
+    'doom:arch_maykr', 
+    "adventurez:void_shadow", 
+    "soulsweapons:returning_knight", 
+    "soulsweapons:accursed_lord_boss", 
+    "soulsweapons:chaos_monarch", 
+    "soulsweapons:night_shade",
+    "soulsweapons:moonknight",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:gauntlet",
+    "bosses_of_mass_destruction:obsidilith"
+    ];
+
 const tagStacksWpns = Ingredient.of('aqm2:weapons/rare').stacks;
 const tagStacksMCDW = Ingredient.of('aqm2:mcdw').stacks;
 
@@ -102,7 +124,7 @@ LootJS.modifiers((event) => {
     event.addLootTypeModifier(LootType.CHEST).removeLoot("archon:glisteel_ingot")
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:withered_wabbajack")
-    event.addEntityLootModifier("soulsweapons:night_shade").removeLoot("soulsweapons:withered_wabbajack")
+    event.addEntityLootModifier("soulsweapons:chaos_monarch").removeLoot("soulsweapons:withered_wabbajack")
 
     event.addLootTypeModifier(LootType.ENTITY, LootType.CHEST).removeLoot("soulsweapons:soul_ingot")
 
@@ -137,7 +159,7 @@ LootJS.modifiers((event) => {
 
     event.addEntityLootModifier("soulsweapons:night_shade", "soulsweapons:chaos_monarch", "soulsweapons:draugr_boss", "soulsweapons:accursed_lord_boss", "soulsweapons:returning_knight").pool((p) => { 
         p.addLoot("soulsweapons:verglas");
-        p.limitCount([0, 1], [2, 3])
+        p.limitCount([1, 1], [2, 3])
     });
 
     event.addEntityLootModifier("adventurez:void_shadow").addLoot("friendsandfoes:wildfire_crown")
@@ -145,15 +167,19 @@ LootJS.modifiers((event) => {
 
     // Boss Drop Rare Wpns
     doomBossesLootJS.forEach(mob => {
+
+        // Unique Simply Swords
         event.addEntityLootModifier(mob)
           .apply(ctx => {
             let item = tagStacksWpns[Math.floor(Math.random() * tagStacksWpns.length)];
             ctx.addLoot(item);
           });
 
-          event.addEntityLootModifier(mob).randomChance(0.8).pool((p) => {
+        // Moonstones
+
+          event.addEntityLootModifier(mob).pool((p) => {
             p.addLoot("soulsweapons:moonstone"); 
-            p.limitCount([1, 4], [5, 7])
+            p.limitCount([2, 2], [3, 4])
         });
 
    });

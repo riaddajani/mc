@@ -6,7 +6,7 @@
         "wizards:staff_fire",
         "wizards:staff_frost"
       ],
-      "chance": 1.0,
+      "chance": 0.1,
       "weight": 1
     },
     "robes_tier_1": {
@@ -16,7 +16,7 @@
         "wizards:wizard_robe_legs",
         "wizards:wizard_robe_feet"
       ],
-      "chance": 1.0,
+      "chance": 0.2,
       "weight": 1
     },
     "wands_tier_1": {
@@ -25,14 +25,14 @@
         "wizards:wand_fire",
         "wizards:wand_frost"
       ],
-      "chance": 1.0,
+      "chance": 0.25,
       "weight": 1
     },
     "wands_tier_0": {
       "ids": [
         "wizards:wand_novice"
       ],
-      "chance": 1.0,
+      "chance": 0.75,
       "weight": 1
     }
   },

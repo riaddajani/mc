@@ -40,6 +40,20 @@ priority: 100
 		"modern_industrialization:quantum_circuit"
 	];
 
+	const soulsweaponsMatBosses = [
+		'doom:motherdemon',
+		'doom:gladiator',
+		'doom:iconofsin',
+		'doom:arch_maykr', 
+		"adventurez:void_shadow", 
+		"soulsweapons:returning_knight", 
+		"soulsweapons:accursed_lord_boss", 
+		"soulsweapons:chaos_monarch", 
+		"soulsweapons:night_shade",
+		"bosses_of_mass_destruction:void_blossom",
+		"bosses_of_mass_destruction:lich",
+	]
+
 	const SimplyRareSwords = [
 		"simplyswords:watcher_claymore",
 		"simplyswords:watching_warglaive",
@@ -61,7 +75,12 @@ priority: 100
 		"simplyswords:runic_tablet",
 		"simplyswords:molten_edge",
 		"simplyswords:livyatan",
-		"simplyswords:soulrender"
+		"simplyswords:soulrender",
+		"simplyswords:icewhisper",
+		"simplyswords:arcanethyst",
+		"simplyswords:thunderbrand",
+		"simplyswords:slumbering_lichblade",
+		"simplyswords:shadowsting"
 	]
 
 // Fish
@@ -243,6 +262,10 @@ ServerEvents.tags('item', event => {
 		event.add('minecraft:fishes', item)
 	})
 
+	// soulsweaponsMatBosses.forEach(item => {
+	// 	event.add('aqm:bosses/soulweapoons', item)
+	// })
+	
 // Misc
 	event.add('c:wrenches', 'advanced_reborn:config_wrench')
 	event.add('c:wrenches','techreborn:wrench')

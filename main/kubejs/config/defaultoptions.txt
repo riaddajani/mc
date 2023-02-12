@@ -15,7 +15,6 @@ key_key.buildinggadgets.fuzzy:key.keyboard.unknown
 key_key.buildinggadgets.connected_area:key.keyboard.unknown
 key_key.buildinggadgets.rotate_mirror:key.keyboard.unknown
 key_key.buildinggadgets.material_list:key.keyboard.m
-key_key.carry.desc:key.mouse.middle
 key_key.conjuring.toggle_tool_mode:key.keyboard.left.alt
 key_key.crawl:key.keyboard.z
 key_key.deathlog.death_screen:key.keyboard.end

@@ -367,7 +367,7 @@
 		{
 			x: -0.9903061224489917d
 			y: -2.1663265306122526d
-			subtitle: "The Guide Book"
+			subtitle: "The Guide Book (Similar to Storage Drawers)"
 			size: 1.25d
 			id: "4F9ED5C7F32D873C"
 			tasks: [{
@@ -747,7 +747,7 @@
 			tasks: [{
 				id: "33457BA849E12111"
 				type: "item"
-				title: "Any #expandedstorage:wooden_chests"
+				title: "Craft Chest"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1013,6 +1013,300 @@
 				}
 			}]
 		}
+		{
+			x: -10.5d
+			y: -1.0d
+			subtitle: "Largest Chest with 288 slots"
+			description: [
+				"Not at first though. You need to upgrade via Row and Column upgrades"
+				""
+				"You can get different colors by crafting the other colored variant. Look it up in REI @compactstorage"
+			]
+			optional: true
+			id: "46F94908D99B5384"
+			tasks: [{
+				id: "402E802691CC8D88"
+				type: "item"
+				item: "compact_storage:compact_chest_white"
+			}]
+			rewards: [{
+				id: "17E4A241098B33C7"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			subtitle: "Largest Backpack with 288 slots"
+			description: [
+				"Not at first though. You need to upgrade via Row and Column upgrades"
+				""
+				"You can get different colors by crafting the other colored variant. Look it up in REI @compactstorage"
+			]
+			optional: true
+			id: "3ACA9EF10A7682F1"
+			tasks: [{
+				id: "4B542BEC413117F1"
+				type: "item"
+				item: "compact_storage:backpack_white"
+			}]
+			rewards: [{
+				id: "6F74850E04F69E7A"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -8.5d
+			y: -1.0d
+			subtitle: "Largest Barrel with 288 slots"
+			description: [
+				"Not at first though. You need to upgrade via Row and Column upgrades"
+				""
+				"You can get different colors by crafting the other colored variant. Look it up in REI @compactstorage"
+			]
+			optional: true
+			id: "4724A905A568FB13"
+			tasks: [{
+				id: "61294EA5214C1AB4"
+				type: "item"
+				item: "compact_storage:compact_barrel_white"
+			}]
+			rewards: [{
+				id: "1293F85B2CCCA0D6"
+				type: "xp"
+				xp: 25
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			subtitle: "Used to upgrade row (1 row per column)"
+			description: ["Put your (Chest/Backpack/Barrel) in off hand, hold this upgrade out and right click to upgrade."]
+			dependencies: [
+				"4724A905A568FB13"
+				"3ACA9EF10A7682F1"
+				"46F94908D99B5384"
+			]
+			id: "06EE18BE74B57BCA"
+			tasks: [{
+				id: "27657E7C7A351C25"
+				type: "item"
+				item: "compact_storage:upgrade_row"
+			}]
+			rewards: [{
+				id: "6C0D4B17D96299E9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.0d
+			subtitle: "Used to upgrade column (1 column per upgrade)"
+			description: ["Put your (Chest/Backpack/Barrel) in off hand, hold this upgrade out and right click to upgrade."]
+			dependencies: [
+				"4724A905A568FB13"
+				"3ACA9EF10A7682F1"
+				"46F94908D99B5384"
+			]
+			id: "56897300ACC2729D"
+			tasks: [{
+				id: "1A0FFABBA3A18903"
+				type: "item"
+				item: "compact_storage:upgrade_column"
+			}]
+			rewards: [{
+				id: "5CABD214A5F6CA20"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 1140926682852401208L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 6.5d
+			dependencies: ["43E87948D1604211"]
+			id: "555E847F3B35D3F8"
+			tasks: [{
+				id: "3F9351045D1E5B5B"
+				type: "item"
+				item: "inmis:frayed_backpack"
+			}]
+			rewards: [
+				{
+					id: "18B10C8BF92F2BB7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "504C442FC89503E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 573515503278690972L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 6.5d
+			dependencies: ["555E847F3B35D3F8"]
+			id: "3CCE2CDC1122A5DA"
+			tasks: [{
+				id: "1BF4B3E346DD684F"
+				type: "item"
+				item: "inmis:plated_backpack"
+			}]
+			rewards: [
+				{
+					id: "4EDB0E164444D83A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "61CA949A2FF21509"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1140926682852401208L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 6.5d
+			dependencies: ["3CCE2CDC1122A5DA"]
+			id: "2965E4133C19DCEC"
+			tasks: [{
+				id: "59305D56C27869C3"
+				type: "item"
+				item: "inmis:gilded_backpack"
+			}]
+			rewards: [
+				{
+					id: "25A47E981E924C9B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4ACA73EEA1A92EB7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1140926682852401208L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 6.5d
+			dependencies: ["2965E4133C19DCEC"]
+			id: "3D36F8ECAC617D8A"
+			tasks: [{
+				id: "2E79BD0D4DB2E5E3"
+				type: "item"
+				item: "inmis:bejeweled_backpack"
+			}]
+			rewards: [{
+				id: "478F6CF5D8B207E5"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			x: -6.5d
+			y: 6.5d
+			dependencies: ["3D36F8ECAC617D8A"]
+			id: "54B37925A813DF2C"
+			tasks: [{
+				id: "5629EDA7B9FE75B5"
+				type: "item"
+				item: "inmis:blazing_backpack"
+			}]
+			rewards: [{
+				id: "0C76F23C7C52B3C8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			dependencies: ["54B37925A813DF2C"]
+			id: "3E7764420B345A41"
+			tasks: [{
+				id: "2DB8958C483F3CAC"
+				type: "item"
+				item: "inmis:withered_backpack"
+			}]
+			rewards: [
+				{
+					id: "3E177668A7436DBF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6963921FD9863C4B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1830006897849082013L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: ["3E7764420B345A41"]
+			id: "496C7AF7DC7D8686"
+			tasks: [{
+				id: "59096405C19C6FA6"
+				type: "item"
+				item: "inmis:endless_backpack"
+			}]
+			rewards: [
+				{
+					id: "46D0A6990868FED9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "573608522EACC968"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 28493754319576071L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 5.5d
+			dependencies: ["43E87948D1604211"]
+			optional: true
+			id: "10AFBE86363F64A4"
+			tasks: [{
+				id: "510EED9B49A8C8F5"
+				type: "item"
+				item: "inmis:ender_pouch"
+			}]
+			rewards: [
+				{
+					id: "1631F08F6B097354"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 1140926682852401208L
+				}
+				{
+					id: "1E8E80C5F68B88D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
 	]
-	quest_links: [ ]
+	quest_links: [{
+		linked_quest: "43E87948D1604211"
+		x: -11.5d
+		y: 6.5d
+		id: "1943B0B33A78B492"
+	}]
 }

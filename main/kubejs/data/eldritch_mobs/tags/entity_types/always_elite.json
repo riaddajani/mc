@@ -1,8 +1,6 @@
 {
   "values": [
-    "doom:motherdemon",
-    "doom:gladiator",
-    "doom:iconofsin",
+    "minecells:conjunctivius",
     "adventurez:stone_golem",
     "bosses_of_mass_destruction:void_blossom",
     "bosses_of_mass_destruction:lich",
@@ -17,6 +15,7 @@
     "bewitchment:baphomet",
     "bewitchment:lilith",
     "bewitchment:herne",
-    "minecraft:elder_guardian"
+    "minecraft:elder_guardian",
+    "soulsweapons:night_shade"
   ]
 }
